@@ -1,91 +1,97 @@
 {
-  "built": "2026-11-24T02:21:06",
+  "built": "2026-11-24T02:22:22",
   "tables": {
-    "sources": 1411,
-    "companies": 1076,
-    "investors": 1864,
-    "deals": 933,
-    "deal_investors": 3157,
-    "deal_sources": 948,
-    "financials": 379,
+    "sources": 1514,
+    "companies": 1145,
+    "investors": 1982,
+    "deals": 1013,
+    "deal_investors": 3429,
+    "deal_sources": 1028,
+    "financials": 402,
     "weekly_totals": 84,
-    "corrections": 24
+    "corrections": 25
   },
-  "deal_records_before_dedupe": 948,
+  "deal_records_before_dedupe": 1028,
   "duplicate_reports_merged": 15,
   "corrections_by_rule": {
-    "headline-wins": 22,
+    "headline-wins": 23,
     "implausible amount dropped": 2
   },
   "deals_by_type": {
-    "equity": "799",
-    "acquisition": "62",
-    "debt": "43",
-    "secondary": "22",
-    "ipo": "7"
+    "equity": "867",
+    "acquisition": "67",
+    "debt": "45",
+    "secondary": "23",
+    "ipo": "11"
   },
   "deals_by_year": {
     "2023": 638,
-    "2024": 274,
+    "2024": 354,
     "2025": 21
   },
-  "amount_disclosed_pct": 91.6,
-  "with_named_investor_pct": 90.4,
+  "amount_disclosed_pct": 91.7,
+  "with_named_investor_pct": 90.1,
   "multi_source_deals": 15,
   "top_investors": [
     {
       "name": "Inflection Point Ventures",
       "type": "Institutional",
-      "n_deals": 43,
-      "n_led": 34.0
+      "n_deals": 47,
+      "n_led": 37.0
     },
     {
       "name": "Venture Catalysts",
       "type": "Institutional",
-      "n_deals": 28,
-      "n_led": 14.0
+      "n_deals": 31,
+      "n_led": 15.0
     },
     {
       "name": "Blume Ventures",
       "type": "Institutional",
-      "n_deals": 27,
-      "n_led": 10.0
+      "n_deals": 29,
+      "n_led": 12.0
     },
     {
       "name": "Peak XV Partners",
       "type": "Institutional",
-      "n_deals": 25,
-      "n_led": 20.0
+      "n_deals": 28,
+      "n_led": 22.0
     },
     {
       "name": "Kunal Shah",
       "type": "Individual",
-      "n_deals": 24,
+      "n_deals": 27,
       "n_led": 0.0
     },
     {
       "name": "Lightspeed",
       "type": "Institutional",
-      "n_deals": 20,
-      "n_led": 13.0
+      "n_deals": 22,
+      "n_led": 14.0
     },
     {
       "name": "Alteria Capital",
       "type": "Debt / Bank",
-      "n_deals": 19,
+      "n_deals": 21,
       "n_led": 2.0
-    },
-    {
-      "name": "Stride Ventures",
-      "type": "Debt / Bank",
-      "n_deals": 18,
-      "n_led": 5.0
     },
     {
       "name": "Z47",
       "type": "Institutional",
+      "n_deals": 19,
+      "n_led": 12.0
+    },
+    {
+      "name": "Stride Ventures",
+      "type": "Debt / Bank",
+      "n_deals": 19,
+      "n_led": 5.0
+    },
+    {
+      "name": "Trifecta Capital",
+      "type": "Debt / Bank",
       "n_deals": 17,
-      "n_led": 11.0
+      "n_led": 6.0
     },
     {
       "name": "Anicut Capital",
@@ -100,8 +106,14 @@
       "n_led": 9.0
     },
     {
-      "name": "Trifecta Capital",
-      "type": "Debt / Bank",
+      "name": "We Founder Circle",
+      "type": "Individual",
+      "n_deals": 16,
+      "n_led": 2.0
+    },
+    {
+      "name": "Titan Capital",
+      "type": "Institutional",
       "n_deals": 16,
       "n_led": 5.0
     },
@@ -110,18 +122,6 @@
       "type": "Institutional",
       "n_deals": 15,
       "n_led": 7.0
-    },
-    {
-      "name": "We Founder Circle",
-      "type": "Individual",
-      "n_deals": 15,
-      "n_led": 2.0
-    },
-    {
-      "name": "Fireside Ventures",
-      "type": "Institutional",
-      "n_deals": 15,
-      "n_led": 9.0
     }
   ]
 }

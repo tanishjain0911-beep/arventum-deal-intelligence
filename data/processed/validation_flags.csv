@@ -9,6 +9,7 @@ stage_size,https://entrackr.com/2023/11/decoding-battery-smarts-latest-funding-r
 headline_amount,https://entrackr.com/2024/01/zbyte-raises-5-mn-from-cartography-capital-others/,"zbyte raises $5 Mn from Cartography Capital, others",4.0,,codex,5.0,
 company_in_title,https://entrackr.com/2024/01/byjus-posts-rs-5015-cr-revenue-and-rs-8245-cr-loss-in-fy22/,"Byju’s posts Rs 5,015 Cr revenue and Rs 8,245 Cr loss in FY22",,,codex,,Byju's
 company_in_title,https://entrackr.com/2024/01/byjus-to-raise-200-mn-through-right-issue/,Byju’s to raise $200 Mn through right issue,,,codex,,Byju's
+missing_core,https://entrackr.com/2024/03/mygate-announces-esop-buyback-for-over-50-employees/,MyGate announces ESOP buyback for over 50 employees,,,codex,,
 company_in_title,https://entrackr.com/2023/02/byjus-sacks-1000-employees-in-another-round-of-mass-layoff/,"Byju’s sacks 1,000 employees in another round of mass layoff",,,opencode,,Byju's
 stage_size,https://entrackr.com/2023/02/vj-group-backs-biotech-startup-crisprbits/,VJ Group backs biotech startup CrisprBits,250000.0,pre-seed,opencode,,
 stage_size,https://entrackr.com/2023/02/insurancedekho-raises-150-mn-in-series-a-round/,InsuranceDekho raises $150 Mn in Series A round,150.0,series-a,opencode,,
@@ -44,3 +45,13 @@ headline_amount,https://entrackr.com/2024/02/knalet-raises-400k-in-pre-seed-roun
 stage_size,https://entrackr.com/2024/02/knalet-raises-400k-in-pre-seed-round/,Kanlet raises $400K in pre-seed round,40.0,pre-seed,opencode,,
 headline_amount,https://entrackr.com/2024/02/t-hub-incubated-starbuzz-ai-secures-500k-in-seed-round/,T-Hub incubated Starbuzz.ai secures $500K in Seed round,50.0,,opencode,0.5,
 stage_size,https://entrackr.com/2024/02/t-hub-incubated-starbuzz-ai-secures-500k-in-seed-round/,T-Hub incubated Starbuzz.ai secures $500K in Seed round,50.0,seed,opencode,,
+headline_amount,https://entrackr.com/2024/03/climatetech-startup-bnz-green-secures-100k-in-pre-seed-round/,Climatetech startup BNZ Green secures $100K in pre-Seed round,100000.0,,opencode,0.1,
+stage_size,https://entrackr.com/2024/03/climatetech-startup-bnz-green-secures-100k-in-pre-seed-round/,Climatetech startup BNZ Green secures $100K in pre-Seed round,100000.0,pre-seed,opencode,,
+headline_amount,https://entrackr.com/2024/03/relso-raises-840k-in-pre-seed-round-led-by-venture-catalysts-ipv/,"Relso raises $840K in pre-Seed round led by Venture Catalysts, IPV",840000.0,,opencode,0.84,
+stage_size,https://entrackr.com/2024/03/relso-raises-840k-in-pre-seed-round-led-by-venture-catalysts-ipv/,"Relso raises $840K in pre-Seed round led by Venture Catalysts, IPV",840000.0,pre-seed,opencode,,
+headline_amount,https://entrackr.com/2024/03/agri-supply-chain-startup-bull-agritech-raises-100k/,Agri-supply chain startup Bull Agritech raises $100K,100000.0,,opencode,0.1,
+stage_size,https://entrackr.com/2024/03/agri-supply-chain-startup-bull-agritech-raises-100k/,Agri-supply chain startup Bull Agritech raises $100K,100000.0,pre-seed,opencode,,
+missing_core,https://entrackr.com/2024/04/xyxx-announces-esop-buyback-program/,XYXX announces ESOP buyback program,,,opencode,,
+stage_size,https://entrackr.com/2024/04/lyskraft-founded-by-mohit-gupta-and-mukesh-bansal-bags-26-mn-in-seed-round/,"Lyskraft, founded by Mohit Gupta and Mukesh Bansal, bags $26 Mn in seed round",26.0,seed,opencode,,
+headline_amount,https://entrackr.com/2024/05/50fin-raises-550k-led-by-arali-ventures-and-nitin-gupta/,50Fin raises $550K led by Arali Ventures and Nitin Gupta,55.0,,opencode,0.55,
+stage_size,https://inc42.com/buzz/agentic-ai-startup-quash-nets-funding-to-build-autonomous-qa-agents/,AI Startup Quash Nets Funding To Build Autonomous QA Agents,63.5,pre-seed,opencode,,

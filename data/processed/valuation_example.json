@@ -19,6 +19,13 @@
       "mid": 870.1535348597408,
       "high": 1583.2792144764144,
       "multiple": "7.7x implied EV/Revenue (R\u00b2 0.30, n=85)"
+    },
+    {
+      "method": "Indian private rounds (all sectors, n=19)",
+      "low": 530.381380048263,
+      "mid": 1059.656453110492,
+      "high": 2617.0912348812903,
+      "multiple": "3.5x - 17.4x valuation/revenue (median 7.1x)"
     }
   ],
   "regression": {
@@ -32,8 +39,7 @@
     "n": 85
   },
   "notes": [
-    "Gross margin not given; using the SaaS peer median of 69%.",
-    "Not enough Indian private rounds with both valuation and revenue disclosed."
+    "Gross margin not given; using the SaaS peer median of 69%."
   ],
-  "n_private_comps": 1
+  "n_private_comps": 19
 }

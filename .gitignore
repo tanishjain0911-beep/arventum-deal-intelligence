@@ -11,3 +11,4 @@ data/raw/articles/
 data/batches/
 pipeline/probe*.py
 *.log
+data/raw/sitemaps_inc42/
