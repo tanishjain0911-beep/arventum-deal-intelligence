@@ -36,6 +36,7 @@ PROMPT = (
 )
 BATCH_SIZE = 30
 OPENCODE_MODEL = "openai/gpt-5.6-terra"
+CODEX_MODEL = "gpt-5.6-terra"   # lighter model: plenty for extraction, saves ChatGPT Plus quota
 lock = threading.Lock()
 
 
@@ -44,21 +45,62 @@ def log(msg):
         print(msg, flush=True)
 
 
+def _articles_in_order():
+    """Successfully downloaded articles, in URL-list order, up to the first one not yet downloaded.
+    Lets extraction run while the downloader is still working."""
+    import csv
+    import hashlib
+    urls = URLS_FILE[0]
+    cache = ROOT / "data" / "raw" / "articles"
+    kinds = {"deal", "acquisition", "financials", "report"}
+    out = []
+    for row in csv.DictReader(urls.open(encoding="utf-8")):
+        if row["kind"] not in kinds:
+            continue
+        p = cache / (hashlib.md5(row["url"].encode()).hexdigest() + ".json")
+        if not p.exists():
+            break
+        a = json.loads(p.read_text(encoding="utf-8"))
+        if a.get("error"):
+            if PERMANENT.match(a["error"]):
+                continue  # page gone / forbidden: skip, never block the queue
+            break
+        if a.get("title") and a.get("kind") != "report":
+            out.append(a)
+    return out
+
+
 def make_batches():
     BATCH_DIR.mkdir(parents=True, exist_ok=True)
-    arts = [json.loads(l) for l in ARTICLES.open(encoding="utf-8")]
-    arts = [a for a in arts if not a.get("error") and a.get("title")]
+    arts = _articles_in_order()
     batches = []
     for i in range(0, len(arts), BATCH_SIZE):
-        path = BATCH_DIR / f"batch_{i // BATCH_SIZE:04d}.jsonl"
+        chunk = arts[i : i + BATCH_SIZE]
+        if len(chunk) < BATCH_SIZE and not FINAL[0]:
+            break  # wait until the batch is full (download still running)
+        path = BATCH_DIR / f"{TAG[0]}batch_{i // BATCH_SIZE:04d}.jsonl"
         if not path.exists():
             with path.open("w", encoding="utf-8") as f:
-                for a in arts[i : i + BATCH_SIZE]:
+                for a in chunk:
+                    if is_roundup(a["url"]):
+                        continue  # weekly/monthly round-ups are parsed by rules, not sent to the AI
                     slim = {k: a.get(k) for k in ("url", "date", "title", "description", "company_kw")}
-                    slim["body"] = " ".join(a.get("body") or [])[:1500]
+                    slim["body"] = " ".join(a.get("body") or [])[:1000]
                     f.write(json.dumps(slim, ensure_ascii=False) + "\n")
         batches.append(path)
     return batches
+
+
+FINAL = [False]
+
+
+def is_roundup(url: str) -> bool:
+    return bool(re.search(r"this-week|weekly-funding|monthly-funding|funding-galore", url))
+
+
+PERMANENT = re.compile(r"http (40[0-4]|410|451)")
+URLS_FILE = [ROOT / "data" / "raw" / "entrackr_urls.csv"]
+TAG = [""]   # batch-name prefix for additional URL lists, e.g. "hist_"
 
 
 def parse_json(text: str):
@@ -73,7 +115,7 @@ def run_codex(batch: Path, out: Path):
     prompt = PROMPT + "\n\nARTICLES (JSON lines):\n" + data
     cmd = [
         "codex", "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only",
-        "-c", 'model_reasoning_effort="low"',
+        "-m", CODEX_MODEL, "-c", 'model_reasoning_effort="low"',
         "--output-schema", str(SCHEMA), "-o", str(out), "-",
     ]
     p = subprocess.run(cmd, input=prompt, capture_output=True, text=True, encoding="utf-8",
@@ -102,11 +144,11 @@ def run_opencode(batch: Path, out: Path):
 AGENTS = {"codex": run_codex, "opencode": run_opencode}
 
 
-def job(agent: str, batch: Path):
+def job(agent: str, batch: Path, any_agent_ok: bool = True):
     out_dir = OUT_DIR / agent
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / (batch.stem + ".json")
-    if out.exists():
+    if out.exists() or (any_agent_ok and any((OUT_DIR / a / (batch.stem + ".json")).exists() for a in AGENTS)):
         return agent, batch.stem, "cached"
     for attempt in range(2):
         try:
@@ -127,18 +169,27 @@ def main():
     ap.add_argument("--crosscheck", type=int)
     ap.add_argument("--codex-workers", type=int, default=3)
     ap.add_argument("--opencode-workers", type=int, default=2)
+    ap.add_argument("--final", action="store_true", help="also process the last partial batch")
+    ap.add_argument("--urls", help="URL csv (default data/raw/entrackr_urls.csv)")
+    ap.add_argument("--tag", default="", help="batch name prefix for this URL list, e.g. hist")
     args = ap.parse_args()
+    FINAL[0] = args.final
+    if args.urls:
+        URLS_FILE[0] = ROOT / args.urls
+    TAG[0] = f"{args.tag}_" if args.tag else ""
 
     batches = make_batches()
     log(f"{len(batches)} batches of up to {BATCH_SIZE} articles")
     if args.crosscheck:
-        jobs = [(a, b) for b in batches[: args.crosscheck] for a in AGENTS]
+        # spread the cross-check sample across the whole time range
+        step = max(1, len(batches) // args.crosscheck)
+        jobs = [(a, b, False) for b in batches[::step][: args.crosscheck] for a in AGENTS]
     else:
         if args.limit:
             batches = batches[: args.limit]
         # weighted round-robin so faster agent gets proportionally more work
         pattern = ["codex"] * args.codex_workers + ["opencode"] * args.opencode_workers
-        jobs = [(pattern[i % len(pattern)], b) for i, b in enumerate(batches)]
+        jobs = [(pattern[i % len(pattern)], b, True) for i, b in enumerate(batches)]
 
     workers = args.codex_workers + args.opencode_workers
     with ThreadPoolExecutor(max_workers=workers) as ex:

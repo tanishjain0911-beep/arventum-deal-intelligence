@@ -6,6 +6,9 @@ Output: data/processed/crosscheck.json
 """
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import _records  # noqa: E402
 
 from rapidfuzz import fuzz
 
@@ -16,7 +19,7 @@ EX = ROOT / "data" / "extracted"
 def load(agent):
     out = {}
     for f in (EX / agent).glob("*.json"):
-        for r in json.loads(f.read_text(encoding="utf-8"))["records"]:
+        for r in _records(f):
             out[r["url"]] = r
     return out
 

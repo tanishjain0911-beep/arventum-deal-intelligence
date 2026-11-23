@@ -39,23 +39,35 @@ def classify(slug: str) -> str:
 def fetch_day(day: dt.date):
     path = CACHE / f"{day}.xml"
     if not path.exists():
-        for attempt in range(3):
+        for attempt in range(8):
             try:
                 r = requests.get(f"https://entrackr.com/sitemap_{day}.xml", headers=UA, timeout=30)
-                path.write_text(r.text if r.status_code == 200 else "", encoding="utf-8")
-                break
+                if r.status_code == 200:
+                    path.write_text(r.text, encoding="utf-8")
+                    break
+                if r.status_code == 404:
+                    path.write_text("", encoding="utf-8")  # genuinely no sitemap that day
+                    break
+                time.sleep(20 * (attempt + 1))  # 429 / 5xx: back off, never cache
             except requests.RequestException:
-                time.sleep(3 * (attempt + 1))
-        time.sleep(0.4)
+                time.sleep(5 * (attempt + 1))
+        time.sleep(1.0)
     text = path.read_text(encoding="utf-8") if path.exists() else ""
     return [(str(day), u) for u in re.findall(r"<loc>(.*?)</loc>", text)]
 
 
 def main():
+    """Usage: collect_sitemaps.py [START END OUTFILE]   e.g. 2019-01-01 2022-12-31 data/raw/entrackr_urls_hist.csv"""
+    import sys
+    global OUT
     CACHE.mkdir(parents=True, exist_ok=True)
-    days = [START + dt.timedelta(d) for d in range((dt.date.today() - START).days + 1)]
+    start, end = START, dt.date.today()
+    if len(sys.argv) == 4:
+        start, end = dt.date.fromisoformat(sys.argv[1]), dt.date.fromisoformat(sys.argv[2])
+        OUT = ROOT / sys.argv[3]
+    days = [start + dt.timedelta(d) for d in range((end - start).days + 1)]
     rows = []
-    with ThreadPoolExecutor(max_workers=3) as ex:
+    with ThreadPoolExecutor(max_workers=1) as ex:
         for i, res in enumerate(ex.map(fetch_day, days)):
             rows.extend(res)
             if i % 100 == 0:

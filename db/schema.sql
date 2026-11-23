@@ -70,6 +70,22 @@ CREATE TABLE IF NOT EXISTS weekly_totals (
     source_id     INTEGER REFERENCES sources(source_id)
 );
 
+-- Every article that reported a deal (a deal confirmed by several articles/sites has several rows)
+CREATE TABLE IF NOT EXISTS deal_sources (
+    deal_id       INTEGER NOT NULL REFERENCES deals(deal_id),
+    source_id     INTEGER NOT NULL REFERENCES sources(source_id),
+    PRIMARY KEY (deal_id, source_id)
+);
+
+-- Audit trail: every automatic correction applied to AI output
+CREATE TABLE IF NOT EXISTS corrections (
+    url           TEXT,
+    field         TEXT,
+    ai_value      TEXT,
+    corrected     TEXT,
+    rule          TEXT
+);
+
 CREATE INDEX IF NOT EXISTS idx_deals_date ON deals(deal_date);
 CREATE INDEX IF NOT EXISTS idx_deals_company ON deals(company_id);
 CREATE INDEX IF NOT EXISTS idx_di_investor ON deal_investors(investor_id);

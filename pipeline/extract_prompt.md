@@ -9,7 +9,7 @@ Rules:
 - `sector`: choose exactly one from this list: {SECTORS}
 - `city`: Indian city of HQ if stated, else null.
 - `stage`: one of {STAGES}, or null. Use "debt" for venture debt / NCD / loans. Use "acquisition" for acquisitions.
-- `amount_value` + `amount_currency` ("USD" or "INR") + `amount_unit` ("mn", "bn", "cr", "lakh"): the headline amount exactly as stated (e.g. "$11 Mn" -> 11, USD, mn; "Rs 70 crore" -> 70, INR, cr). null if undisclosed.
+- `amount_value` + `amount_currency` ("USD" or "INR") + `amount_unit` ("thousand", "mn", "bn", "cr", "lakh"): the headline amount exactly as stated (e.g. "$11 Mn" -> 11, USD, mn; "Rs 70 crore" -> 70, INR, cr; "$500K" -> 500, USD, thousand; "$250,000" -> 250, USD, thousand). null if undisclosed.
 - `valuation_value` / `valuation_currency` / `valuation_unit`: post-money valuation if stated, else null.
 - `lead_investors`: investors that "led" the round. `other_investors`: other named participants (funds, companies, and named individual angels). For a single-investor round, put that investor in lead_investors.
 - `acquirer`: buyer name for acquisitions, else null.
