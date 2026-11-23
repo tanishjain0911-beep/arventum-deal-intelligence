@@ -63,12 +63,43 @@ MANUAL_ALIASES = {
     "alteria": "Alteria Capital", "stride ventures": "Stride Ventures",
     "innoven": "InnoVen Capital", "innoven capital": "InnoVen Capital",
     "trifecta": "Trifecta Capital", "blacksoil": "BlackSoil",
+    "ipv": "Inflection Point Ventures", "inflection point": "Inflection Point Ventures",
+    "wfc": "We Founder Circle", "we founder circle": "We Founder Circle",
+    "mumbai angels network": "Mumbai Angels", "mumbai angels": "Mumbai Angels",
+    "peak xv partners surge": "Peak XV Partners", "surge by peak xv": "Peak XV Partners",
+    "piper serica angel fund": "Piper Serica", "piper serica": "Piper Serica",
+    "vertex ventures southeast asia and india": "Vertex Ventures SEA & India",
+    "vertex ventures sea and india": "Vertex Ventures SEA & India",
+    "rainmatter health": "Rainmatter", "rainmatter by zerodha": "Rainmatter",
+    "100x vc": "100X.VC", "100xvc": "100X.VC",
+    "dsp": "DSP Investment Managers", "iifl": "IIFL", "iifl fintech fund": "IIFL Fintech Fund",
+    "9unicorns": "9Unicorns", "9 unicorns": "9Unicorns",
+    "titan capital": "Titan Capital", "better capital": "Better Capital",
+    "devc": "DeVC", "devc india": "DeVC",
+    "vertex ventures": "Vertex Ventures SEA & India", "alpha wave": "Alpha Wave Global",
+    "alpha wave global": "Alpha Wave Global", "alpha wave ventures": "Alpha Wave Global",
+    "singularity growth opportunities fund i": "Singularity Growth", "singularity growth": "Singularity Growth",
+    "advantedge": "AdvantEdge Founders", "advantedge founders": "AdvantEdge Founders",
+    "general catalyst partners": "General Catalyst", "a91 partners": "A91 Partners",
+    "a91 emerging fund": "A91 Partners", "multiples alternate asset management": "Multiples PE",
+    "multiples": "Multiples PE", "chryscapital": "ChrysCapital", "chrys capital": "ChrysCapital",
+    "goldman sachs asset management": "Goldman Sachs", "jungle ventures": "Jungle Ventures",
+    "bertelsmann india investments": "Bertelsmann India Investments",
+    "bii": "British International Investment", "cdc group": "British International Investment",
+    "3one4": "3one4 Capital", "3one4 capital": "3one4 Capital",
 }
+# phrases the AI sometimes lists as investors that are not entities
+PLACEHOLDER = re.compile(
+    r"^(other |existing |several |some |a clutch of |a group of |prominent |marquee |strategic |new |few )?"
+    r"(angel investors?|angels|investors?|backers|hnis?|high net worth individuals|family offices?|"
+    r"founders?|undisclosed( investors?)?|others|existing shareholders|clients|employees|"
+    r"angel investors? and family offices|individual investors?)$", re.I)
 GENERIC = re.compile(
     r"\b(partners?|ventures?|capital|fund|funds|vc|llp|ltd|limited|pvt|private|advisors?|"
-    r"management|investments?|asset|holdings?|group|inc|the|india|co|and)\b")
-COMPANY_SUFFIX = re.compile(r"\b(pvt|private|ltd|limited|inc|technologies|technology|tech|labs|"
-                            r"solutions|india|software|services|the)\b\.?", re.I)
+    r"management|investments?|asset|holdings?|group|inc|the|india|co|and|technologies|technology|"
+    r"pte|corp|corporation)\b")
+COMPANY_SUFFIX = re.compile(r"\b(pvt|private|ltd|limited|inc|pte|llp|llc|corp|corporation|gmbh|"
+                            r"technologies|technology|tech|labs|solutions|india|software|services|the)\b\.?", re.I)
 DEBT_FUNDS = re.compile(r"alteria|stride|innoven|trifecta|blacksoil|northern arc|recur club|klub|"
                         r"getvantage|velocity|grip invest|\bbank\b|sidbi|nabard|lending|credit|debt", re.I)
 ACCEL_WORDS = re.compile(r"accelerator|incubator|cohort|program|y combinator|techstars|antler|"
@@ -215,8 +246,10 @@ def main():
                                if r.get("amount_value") is not None else None),
                 "valuation_usd_m": round(val, 2) if val else None,
                 "acquirer_key": investors.add(r["acquirer"]) if r.get("acquirer") else None,
-                "leads": [investors.add(x) for x in r.get("lead_investors") or [] if x and x.strip()],
-                "others": [investors.add(x) for x in r.get("other_investors") or [] if x and x.strip()],
+                "leads": [investors.add(x) for x in r.get("lead_investors") or []
+                          if x and x.strip() and not PLACEHOLDER.match(x.strip())],
+                "others": [investors.add(x) for x in r.get("other_investors") or []
+                           if x and x.strip() and not PLACEHOLDER.match(x.strip())],
                 "urls": [r["url"]], "title": a.get("title"), "kind": a.get("kind"),
                 "confidence": r.get("confidence"), "n_agents": r["n_agents"],
                 "sector": sector, "city": r.get("city"), "desc": r.get("company_description"),
@@ -238,7 +271,7 @@ def main():
                 continue
             gap = (date.fromisoformat(row["deal_date"]) - date.fromisoformat(k["deal_date"])).days
             a1, a2 = k["amount_usd_m"], row["amount_usd_m"]
-            same_amt = a1 is None or a2 is None or abs(a1 - a2) <= 0.2 * max(a1, a2)
+            same_amt = a1 is None or a2 is None or abs(a1 - a2) <= 0.3 * max(a1, a2)
             if gap <= 45 and same_amt:
                 dup = k
                 break

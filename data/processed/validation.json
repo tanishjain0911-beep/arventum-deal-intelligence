@@ -1,0 +1,25 @@
+{
+  "records": 1306,
+  "checks": {
+    "headline_amount": {
+      "passed": 553,
+      "checked": 571,
+      "pass_rate": 96.8
+    },
+    "stage_size": {
+      "passed": 438,
+      "checked": 457,
+      "pass_rate": 95.8
+    },
+    "missing_core": {
+      "passed": 784,
+      "checked": 788,
+      "pass_rate": 99.5
+    },
+    "company_in_title": {
+      "passed": 1247,
+      "checked": 1251,
+      "pass_rate": 99.7
+    }
+  }
+}

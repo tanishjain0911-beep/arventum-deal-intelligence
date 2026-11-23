@@ -1,0 +1,70 @@
+{
+  "n": 85,
+  "baseline_rmse_log": 1.061,
+  "specs": {
+    "growth + margin + india": {
+      "loo_rmse_log": 1.034,
+      "in_sample_r2": 0.148,
+      "coef": {
+        "intercept": 1.577,
+        "growth": 0.81,
+        "margin": 0.192,
+        "india": -0.58
+      }
+    },
+    "rule of 40 + india": {
+      "loo_rmse_log": 1.032,
+      "in_sample_r2": 0.133,
+      "coef": {
+        "intercept": 1.593,
+        "rule40": 0.627,
+        "india": -0.606
+      }
+    },
+    "rule of 40 + gross margin + india": {
+      "loo_rmse_log": 0.967,
+      "in_sample_r2": 0.265,
+      "coef": {
+        "intercept": 0.55,
+        "rule40": 0.453,
+        "gross": 1.846,
+        "india": -0.304
+      }
+    },
+    "growth + margin + gross margin + india": {
+      "loo_rmse_log": 0.955,
+      "in_sample_r2": 0.299,
+      "coef": {
+        "intercept": 0.437,
+        "growth": 0.719,
+        "margin": -0.228,
+        "gross": 2.003,
+        "india": -0.238
+      }
+    },
+    "rule of 40 + gross + software + india": {
+      "loo_rmse_log": 0.979,
+      "in_sample_r2": 0.265,
+      "coef": {
+        "intercept": 0.55,
+        "rule40": 0.454,
+        "gross": 1.813,
+        "software": 0.038,
+        "india": -0.298
+      }
+    },
+    "growth + margin + gross + software + india": {
+      "loo_rmse_log": 0.967,
+      "in_sample_r2": 0.299,
+      "coef": {
+        "intercept": 0.436,
+        "growth": 0.719,
+        "margin": -0.231,
+        "gross": 2.016,
+        "software": -0.015,
+        "india": -0.24
+      }
+    }
+  },
+  "best": "growth + margin + gross margin + india"
+}

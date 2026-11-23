@@ -1,0 +1,1077 @@
+company_id,name,sector,sub_sector,city,description
+1,Nimbbl,FinTech & Payments,,Mumbai,One-click payment checkout solution for merchants
+2,CheqUPI,FinTech & Payments,,,UPI wallet for foreign nationals
+3,Samarth Life,HealthTech,,Gurugram,Elder care services and subscription platform
+4,Ixigo,Travel & Hospitality,,,Online travel aggregator platform
+5,Omnivio,Logistics & Mobility,,Noida,Enterprise e-commerce and omni-logistics platform
+6,Zolve,Digital Banking,,,Cross-border neobank for immigrants
+7,BuyStars,Media & Gaming,,,Sports collectibles and gaming platform
+8,IndiQube,PropTech & Real Estate,,,Flexible workspace provider
+9,Rario,Media & Gaming,,,Cricket NFT and digital-collectibles platform
+10,Heads Up For Tails,E-commerce & D2C,,,Pet products retailer
+11,DailyRounds,EdTech,,Bengaluru,Medical learning platform for healthcare professionals
+12,Shy Tiger Brands,Travel & Hospitality,,Ahmedabad,Multi-brand cloud-kitchen operator
+13,Dil Foods,Travel & Hospitality,,Bengaluru,Virtual restaurant operator using independent restaurant kitchens
+14,BranchX,Digital Banking,,,AI-powered Indic neobank and financial utility platform
+15,Qdigi Services,Other,,,"Consumer-device installation, repair and maintenance provider"
+16,EtherealX,SpaceTech,,,Developer of fully reusable medium-lift launch vehicles
+17,ePayLater,FinTech & Payments,,,B2B buy-now-pay-later payments platform
+18,Newton School,EdTech,,,Technical training platform for software developers.
+19,Bijnis,E-commerce & D2C,,Delhi,B2B marketplace for the footwear industry
+20,Chiral,DeepTech,,,Automated machines integrating nanomaterials into devices
+21,Accio Robotics,Automation & Robotics,,Bengaluru,Warehouse automation robotics solutions provider
+22,BankSathi,FinTech & Payments,,Bengaluru,Financial-product recommendation platform for advisors
+23,Zypp Electric,EV & Auto,,Gurgaon,Electric vehicle fleet platform for deliveries
+24,Jeh Aerospace,DefenceTech,,,"Aerospace and defence manufacturing, engineering, and supply-chain solutions provider."
+25,Narrato,Artificial Intelligence,,,Generative AI content creation and collaboration platform
+26,Evolved Foods,E-commerce & D2C,,,Plant-based protein and meat producer
+27,HyugaLife,E-commerce & D2C,,,Health and wellness products platform
+28,Mswipe,FinTech & Payments,,Mumbai,Digital payment acceptance solutions provider
+29,Plutus,Consumer Internet,,,Creator-fan engagement platform with live games and payments
+30,SarvaGram,FinTech & Payments,,Mumbai,Rural lending and distribution platform
+31,Joy e-bike,EV & Auto,,,Electric two-wheeler manufacturer
+32,FinAGG,FinTech & Payments,,,Cash-flow-based supply-chain finance platform.
+33,The Good Glamm Group,E-commerce & D2C,,Delhi,Content-to-commerce company
+34,Portkey.ai,Artificial Intelligence,,Bengaluru,LLMOps platform for building and managing AI applications
+35,ControlZ,E-commerce & D2C,,,Renewed pre-owned smartphone brand
+36,Rupyz,SaaS,,Gurugram,B2B e-commerce distribution digitisation SaaS platform
+37,FabHotels,Travel & Hospitality,,Gurugram,Hospitality chain
+38,Unicommerce,SaaS,,Gurugram,E-commerce enablement SaaS provider
+39,Natch,E-commerce & D2C,,,Healthy snack brand
+40,Khyaal,Consumer Internet,,Mumbai,Senior-focused benefits and financial-services platform
+41,PingSafe,Cybersecurity,,Bengaluru,Cloud-native application protection platform
+42,Flipspaces,PropTech & Real Estate,,Mumbai,Commercial interior design and visualization platform
+43,EVIFY,EV & Auto,,Surat,Electric vehicle last-mile logistics platform
+44,MakeO,HealthTech,,,"Dental, skin and hair treatment platform"
+45,Yu,E-commerce & D2C,,,Instant food and natural beverage brand
+46,Aakash,EdTech,,,Test-preparation education company
+47,ZingHR,HR & Workforce,,,HR technology platform for payroll and talent management
+48,Upwards,FinTech & Payments,,,Personal loan and instant credit line provider
+49,Off Duty,E-commerce & D2C,,,D2C premium apparel and fashion brand
+50,CrisprBits,HealthTech,,,CRISPR diagnostics and gene editing healthcare startup
+51,Servify,Consumer Internet,,Mumbai,Brand-authorized after-sales support platform
+52,BillMe,FinTech & Payments,,Mumbai,Digital invoicing and customer engagement platform
+53,Disprz,HR & Workforce,,,Enterprise workforce skilling and career-mobility platform
+54,Gupshup,Enterprise Software,,,Conversational messaging API platform for businesses
+55,Healthians,HealthTech,,,At-home health-test services platform
+56,Miko,Automation & Robotics,,,Personal companion robots for children's education and entertainment
+57,AutoVRse,DeepTech,,,AR and VR technology platform for enterprise workflows
+58,Hack2Skill,Developer Tools,,,Hackathon-management platform for communities and corporations
+59,OneAssist,FinTech & Payments,,,Subscription assistance and protection platform
+60,EMO Energy,EV & Auto,,,Battery pack maker for light electric vehicles
+61,insideFPV,Automation & Robotics,,,Manufacturer of crash-resistant first-person-view drones
+62,Magma,Industrial Tech,,,B2B manufacturing platform for factories and suppliers
+63,Cusmat,EdTech,,Hyderabad,Immersive workforce skilling platform
+64,Atomicwork,HR & Workforce,,Bengaluru,Workflow automation software for enterprise business functions
+65,CASHe,FinTech & Payments,,Mumbai,Millennial-focused digital lending platform
+66,Clinikally,HealthTech,,Gurugram,Digital dermatology consultation and treatment platform
+67,Pro Football Network,Media & Gaming,,,US sports news and analysis website
+68,InSolare,Energy Transition,,,Renewable-energy EPC solutions provider
+69,ONWO,E-commerce & D2C,,Bengaluru,B2B cross-border food sourcing platform
+70,ErlySign,HealthTech,,,Early oral cancer diagnostic solutions developer
+71,Wootz.work,Industrial Tech,,,Custom engineering equipment sourcing platform
+72,Sploot,Consumer Internet,,Delhi,Digital community and services platform for dog parents
+73,Indrones,DeepTech,,,Drone-as-a-service provider and commercial drone manufacturer
+74,Keus,Automation & Robotics,,Hyderabad,Premium smart-home automation and lighting provider
+75,Crux,Artificial Intelligence,,,Embedded AI copilot platform for B2B SaaS teams
+76,Rupeek,FinTech & Payments,,,Online gold loan platform
+77,Amber,PropTech & Real Estate,,,Global student housing listings and booking platform
+78,BlissClub,E-commerce & D2C,,Bengaluru,Women's activewear and lifestyle apparel brand
+79,Uniphore,SaaS,,,Conversational automation software platform
+80,FlexiLoans,FinTech & Payments,,Mumbai,Digital collateral-free lender for MSMEs
+81,Stanza Living,PropTech & Real Estate,,Delhi,Managed co-living accommodation platform
+82,Blinkit,E-commerce & D2C,,,Quick-commerce grocery delivery platform
+83,Unacademy,EdTech,,,Online and offline learning and upskilling platform
+84,UNIREC,ClimateTech,,Mumbai,Recycled PET clothing manufacturer
+85,DMI Finance,FinTech & Payments,,,"Digital lender for consumer, personal and MSME loans"
+86,DecorTwist,E-commerce & D2C,,,Home decor and furnishing products brand
+87,Hudle,HealthTech,,,Sports venue discovery and activity-booking platform
+88,RePut.ai,SaaS,,Bengaluru,AI and blockchain B2B supply chain management platform
+89,Bidso,Industrial Tech,,,Technology-enabled contract-manufacturing sourcing platform
+90,Neurowyzr,HealthTech,,Chennai,Digital neuroscience assessment platform
+91,Planys,DeepTech,,Chennai,Underwater inspection solutions using marine robotics and analytics
+92,Segwise,Agentic AI,,,AI agents for mobile product and growth teams
+93,Slick,Consumer Internet,,,GenZ social networking platform
+94,Neodocs,HealthTech,,,Smartphone-based diagnostic test kits maker
+95,Battery Smart,EV & Auto,,Gurugram,Battery swapping network for electric two- and three-wheelers
+96,Amagi,SaaS,,,Cloud media SaaS technology company
+97,YOLO,FinTech & Payments,,Delhi NCR,Digital payments platform for teenagers and colleges
+98,Plus,FinTech & Payments,,Bengaluru,Jewellery savings platform connecting customers with jewellers
+99,Adcount Technologies,SaaS,,Delhi,Food business operations and supply chain software provider
+100,Bike Bazaar,FinTech & Payments,,Pune,"Two-wheeler financing, leasing and rental platform"
+101,Fold Health,HealthTech,,,Healthcare provider workflow automation software platform
+102,InPrime,FinTech & Payments,,Bengaluru,NBFC using data and field assessments for lending.
+103,Prozeal Infra,Energy Transition,,,Solar EPC and clean-energy solutions provider
+104,TaxNodes,FinTech & Payments,,,Crypto tax computation and ITR filing platform
+105,Thena,SaaS,,,Customer communications and intelligence platform
+106,Uravu Labs,ClimateTech,,,Produces drinking water from atmospheric moisture using renewable energy
+107,Arcatron,HealthTech,,Pune,Mobility assist devices and orthopaedic comfort products maker
+108,Breathe Well-being,HealthTech,,,Digital Type 2 diabetes prevention and reversal platform
+109,Digantara,SpaceTech,,,Space technology startup
+110,The State Plate,E-commerce & D2C,,,Regional packaged food and grocery delivery startup
+111,Veera,Consumer Internet,,,Rewards-focused mobile internet browser
+112,Inknibs,E-commerce & D2C,,,"Hyperlocal marketplace for books, stationery and toys"
+113,ConveGenius,EdTech,,Noida,K-12 adaptive learning and education technology platform
+114,Salty,E-commerce & D2C,,,Fashion jewellery and accessories brand
+115,OLX Autos India,EV & Auto,,,Automobile classifieds business
+116,Slurrp Farm,E-commerce & D2C,,Gurugram,Children-focused snacking and meal brand
+117,FuelBuddy,Logistics & Mobility,,New Delhi,App-based fuel delivery service
+118,FarEye,SaaS,,,SaaS logistics management platform
+119,MobiKwik,FinTech & Payments,,Gurugram,Digital payments solutions provider
+120,GIVA,E-commerce & D2C,,,Minimalist silver jewellery and affordable gifting brand
+121,RagaAI,Artificial Intelligence,,Bengaluru,AI testing tools provider
+122,Tricog Health,HealthTech,,Bengaluru,Remote chronic heart-disease management platform
+123,Kuvera,FinTech & Payments,,,Online wealth-management platform for investments
+124,Ripplr,Logistics & Mobility,,,Technology-enabled distribution and logistics platform
+125,New Street Technologies,Enterprise Software,,,"Enterprise blockchain, AI and IoT technology provider"
+126,Scrut,Cybersecurity,,,GRC and security-compliance SaaS platform
+127,MetaShot,Media & Gaming,,Bengaluru,Social immersive cricket gaming platform
+128,YouVah,EdTech,,Indore,Internship training and vocational learning platform
+129,Finhaat,FinTech & Payments,,Mumbai,Digital insurance distribution and servicing platform
+130,NimbusPost,Logistics & Mobility,,,Software-based logistics and shipping solutions provider
+131,InCruiter,HR & Workforce,,Bengaluru,Remote interview solutions provider
+132,EatClub,Travel & Hospitality,,Bengaluru,Multi-brand food delivery company
+133,CRED,FinTech & Payments,,,Credit card payments and financial services platform
+134,SimpliContract,SaaS,,,Contract lifecycle management platform for enterprise teams
+135,TrackWizz,SaaS,,,Financial-crime compliance software for financial institutions
+136,Adda247,EdTech,,Gurugram,Test-preparation platform for government and competitive exams.
+137,M1xchange,FinTech & Payments,,,Digital invoice discounting platform for working capital
+138,Larkai Healthcare,HealthTech,,Bhubaneswar,"Medtech diagnostics, smart inhaler and disinfection-device maker"
+139,Kandle,Media & Gaming,,,Crypto fantasy gaming platform
+140,Hypd,E-commerce & D2C,,,Creator-owned multibrand digital storefront platform
+141,THB,HealthTech,,,Enterprise healthcare data-management and software solutions provider
+142,Trainman,Travel & Hospitality,,Gurugram,Online train-ticket booking and information platform
+143,Fittr,HealthTech,,Pune,Community-based health and online fitness marketplace
+144,Medikabazaar,HealthTech,,Mumbai,B2B platform for hospital and medical supplies
+145,Mykare Health,HealthTech,,,Integrated patient-care coordination platform
+146,HaiVE.Tech,Artificial Intelligence,,,On-premises AI solutions provider for businesses
+147,Ather Energy,EV & Auto,,Bengaluru,Electric scooter manufacturer
+148,RailYatri,Travel & Hospitality,,Noida,Train ticketing platform
+149,Traya,HealthTech,,Mumbai,Direct-to-consumer hair-loss treatment and wellness brand
+150,India Index,Logistics & Mobility,,,B2B cloud supply-chain marketplace
+151,Table Space,PropTech & Real Estate,,Bengaluru,Provider of customized coworking spaces
+152,ReshaMandi,AgriTech,,,B2B natural-fiber supply-chain marketplace
+153,Blue Tokai,E-commerce & D2C,,,Specialty coffee brand and retailer
+154,Finayo,EV & Auto,,,EV financing and asset-management platform
+155,Third Wave Coffee,Travel & Hospitality,,Bengaluru,Specialty coffee chain with food offerings
+156,Pilgrim,E-commerce & D2C,,,Beauty and personal-care D2C brand
+157,Ambitio,EdTech,,,AI-powered global university admissions platform
+158,SoleSearch,E-commerce & D2C,,,"Streetwear, sneakers and collectibles marketplace"
+159,Dvara KGFS,FinTech & Payments,,,Rural NBFC serving individuals and micro-businesses
+160,altM,ClimateTech,,Bengaluru,Biomaterials manufacturer using agricultural residues
+161,Cars24,EV & Auto,,,Pre-owned vehicle marketplace and financial services platform
+162,Ola,Logistics & Mobility,,,Ride-hailing and mobility platform
+163,DigitalPaani,ClimateTech,,,IoT platform optimizing wastewater treatment plant operations
+164,CityMall,Consumer Internet,,Gurugram,Social-commerce platform for essentials through community resellers
+165,KiVi,AgriTech,,,Agriculture services and finance technology platform
+166,A23,Media & Gaming,,,Online real-money gaming platform
+167,Proost Beer,Other,,Delhi,Premium beer brewery and brand
+168,Akshayakalpa,E-commerce & D2C,,Bengaluru,Organic dairy products supplier
+169,Cogoport,Logistics & Mobility,,Mumbai,Online freight logistics marketplace
+170,mPokket,FinTech & Payments,,,"Digital lending, insurance and career-services platform"
+171,Cuemath,EdTech,,Bengaluru,K-12 mathematics learning and test-preparation platform
+172,DesignCafe,PropTech & Real Estate,,Bengaluru,Online customised interior design and decor service
+173,FreshToHome,E-commerce & D2C,,Bengaluru,"Online fresh meat, fish and seafood platform"
+174,Rentomojo,E-commerce & D2C,,Bengaluru,"Monthly furniture, appliance, and fitness equipment rental platform"
+175,Ola Electric,EV & Auto,,Bengaluru,Electric two-wheeler manufacturer
+176,Subko Coffee,E-commerce & D2C,,,Specialty coffee company
+177,WebileApps,Digital Engineering,,Hyderabad,Enterprise product development and design firm
+178,Glamplus,SaaS,,,SaaS-enabled B2B beauty marketplace
+179,Boingg,E-commerce & D2C,,,D2C children's furniture brand
+180,Soothe Healthcare,E-commerce & D2C,,Delhi,Personal hygiene and self-care consumer-products company
+181,Starbucks India,Travel & Hospitality,,,Coffee retail chain joint venture
+182,Millet Express,E-commerce & D2C,,Hyderabad,Millet-based South and North Indian food brand
+183,HomeLane,PropTech & Real Estate,,Bengaluru,Home interiors solutions provider
+184,Vahdam Teas,E-commerce & D2C,,,Direct-to-consumer tea and drinkware brand
+185,Yubi,FinTech & Payments,,,Debt platform connecting businesses with lenders
+186,peAR,Travel & Hospitality,,,Augmented-reality in-restaurant ordering app
+187,Kikibix,E-commerce & D2C,,Gurugram,Direct-to-consumer nutrition snacks brand
+188,SingleInterface,SaaS,,Gurugram,"Hyperlocal marketing, engagement and commerce software platform"
+189,Arch0,Cybersecurity,,,Identity-centred cloud-security automation platform
+190,Raaho,Logistics & Mobility,,Gurugram,On-demand intercity trucking marketplace
+191,Brick&Bolt,PropTech & Real Estate,,Bengaluru,Online construction marketplace
+192,Torus Robotics,EV & Auto,,Chennai,EV powertrain motors and controllers maker
+193,Otipy,AgriTech,,Gurugram,Farm-to-fork fresh-produce delivery platform
+194,Peepul Tree,E-commerce & D2C,,,Live-commerce platform for Indian artisans
+195,Buyofuel,ClimateTech,,,Biofuel and organic-waste marketplace
+196,Ecofy,ClimateTech,,,Climate-finance NBFC for EV and solar loans
+197,Exly,SaaS,,,Business tools platform for creators and solo entrepreneurs
+198,Moove,FinTech & Payments,,Gurugram,Mobility fintech using alternative credit scoring for vehicle finance
+199,Neo,FinTech & Payments,,,Wealth and asset management firm
+200,Unofin,FinTech & Payments,,,Healthcare-focused fintech startup
+201,Varaha,ClimateTech,,Gurugram,Agricultural carbon-credit platform
+202,Prodo,Industrial Tech,,Gurugram,B2B manufacturing and procurement marketplace
+203,Probus Smart Things,Industrial Tech,,,IoT grid-monitoring hardware and software provider
+204,InsuranceDekho,FinTech & Payments,,Gurugram,Insurance platform
+205,Indifi,FinTech & Payments,,Gurugram,Online lending platform for small businesses
+206,Seeds Fincap,FinTech & Payments,,,MSME-focused financial institution
+207,Aviom,FinTech & Payments,,Delhi,Micro-mortgage housing finance company
+208,Fello,FinTech & Payments,,Bengaluru,Gamified savings and investment platform
+209,Oziva,E-commerce & D2C,,,D2C plant-based nutrition and wellness products brand
+210,M2P Fintech,Digital Banking,,Chennai,Digital banking and embedded finance infrastructure provider
+211,High Street Essentials,E-commerce & D2C,,Noida,Parent of women's fashion brands FabAlley and Indya
+212,Metafin,ClimateTech,,Gurugram,Clean-tech NBFC providing rooftop solar loans
+213,Fasal,AgriTech,,Bengaluru,AI and IoT horticulture intelligence platform
+214,PhysicsWallah,EdTech,,Noida,Online and offline exam-preparation education platform
+215,Supertails,E-commerce & D2C,,,Full-stack pet care platform and healthcare services provider
+216,BASIC Home Loan,FinTech & Payments,,,Automated home-loan platform for underserved households
+217,Zoho,SaaS,,,Business cloud software suite provider
+218,Betterhalf,Consumer Internet,,,AI-enabled matrimony and wedding services platform
+219,Ace Turtle,SaaS,,Bengaluru,Omnichannel retail technology and licensed-brand platform
+220,Airblack,EdTech,,Gurugram,Online makeup and beauty learning platform
+221,Euler Motors,EV & Auto,,Delhi,Commercial three-wheeler electric vehicle manufacturer
+222,DealShare,E-commerce & D2C,,,E-commerce grocery platform
+223,Offline,HR & Workforce,,,Executive coaching and upskilling platform for startup leaders
+224,Agrizy,AgriTech,,Bengaluru,B2B agrifood processing and fulfilment platform
+225,Namdev Finvest,FinTech & Payments,,Jaipur,"NBFC offering vehicle, business and gold loans"
+226,Okulo Aerospace,DefenceTech,,,Aerial monitoring and analytics solutions provider
+227,Zepto,E-commerce & D2C,,Mumbai,Quick-commerce delivery platform
+228,Pidge,Logistics & Mobility,,,On-demand last-mile B2B logistics platform
+229,CarTrade,Consumer Internet,,,Online automotive marketplace
+230,Magenta Mobility,EV & Auto,,Pune,Electric mobility solutions and last-mile delivery fleet operator
+231,Awfis,PropTech & Real Estate,,Delhi,Co-working workspace solutions provider
+232,Newgen Gaming,Media & Gaming,,Gurugram,Esports company operating Penta Esports
+233,KaarTech,Digital Engineering,,,SAP enterprise-software consulting and implementation firm
+234,Reo.Dev,Artificial Intelligence,,Bengaluru,AI-powered revenue intelligence platform for tech companies
+235,What’s Up Wellness,HealthTech,,Gurugram,D2C gummy supplements brand
+236,Louisa AI,Enterprise Software,,,AI sales-enablement and deal-making platform
+237,Strata Geosystems,Industrial Tech,,,Geosynthetics provider for soil reinforcement and erosion prevention
+238,Wify,PropTech & Real Estate,,Mumbai,Construction and home-improvement platform
+239,TVF,Media & Gaming,,,Video production and streaming content company
+240,Aham Housing Finance,FinTech & Payments,,Chennai,Affordable housing finance company
+241,Navadhan,FinTech & Payments,,Mumbai,Rural fintech using alternative underwriting and distribution
+242,Dunzo,Logistics & Mobility,,,Quick-commerce platform
+243,EazyDiner,Travel & Hospitality,,,"Restaurant reservation, discovery and payment platform"
+244,BookMyShow,Media & Gaming,,,Online ticket booking and live events platform
+245,ProcMart,Enterprise Software,,,Business-to-business procurement marketplace
+246,LoanTap,FinTech & Payments,,Pune,Digital lending platform for consumers and MSMEs
+247,EMTECH,FinTech & Payments,,,Regulatory infrastructure tools for central banks and fintechs
+248,Vahdam,E-commerce & D2C,,Delhi,Direct-to-consumer tea brand
+249,Pocket Aces,Media & Gaming,,,Digital entertainment content creator and distributor
+250,Info Edge,Consumer Internet,,,Operator of recruitment and real-estate internet platforms
+251,FirstCry,E-commerce & D2C,,Pune,"Omnichannel retailer for baby, kids and mother products"
+252,Conscious Chemist,E-commerce & D2C,,Gurugram,Direct-to-consumer skincare products brand
+253,Ultrahuman,HealthTech,,,Health tracking platform offering smart rings and wearables
+254,Rozana,E-commerce & D2C,,,Rural e-commerce platform and logistics network
+255,NoBroker,PropTech & Real Estate,,Bengaluru,Broker-free real-estate platform
+256,Bira 91,E-commerce & D2C,,,Craft beer maker
+257,Fiona Diamonds,E-commerce & D2C,,,Lab-grown diamond jewellery brand
+258,Pine Labs,FinTech & Payments,,,Merchant commerce and point-of-sale platform
+259,1Bridge,E-commerce & D2C,,,Village commerce startup
+260,Mayhem Studios,Media & Gaming,,,Mobile game development studio
+261,HempStreet,HealthTech,,,Cannabis-based Ayurvedic medication provider
+262,Melvano,EdTech,,,AI learning platform for competitive exams and upskilling
+263,Papa Pawsome,E-commerce & D2C,,,Pet-care products and grooming-services brand
+264,Pepperfry,E-commerce & D2C,,Mumbai,Omnichannel furniture and home products retailer
+265,SquareX,Cybersecurity,,,Browser-based cybersecurity product developer
+266,WickedGud,E-commerce & D2C,,Mumbai,Direct-to-consumer healthy food products brand
+267,Infibeam Avenues,FinTech & Payments,,,Payment gateway and e-commerce infrastructure provider
+268,MyGate,Consumer Internet,,Bengaluru,Residential-community management app
+269,Frigate,Industrial Tech,,,B2B cloud manufacturing services platform
+270,Meolaa,E-commerce & D2C,,Mumbai,Sustainability-focused e-commerce platform
+271,Ullu,Media & Gaming,,,Membership-led OTT streaming platform
+272,Rooter,Media & Gaming,,Delhi,Gaming and esports content platform
+273,Cloudbankin,SaaS,,Chennai,Digital lending software platform
+274,Quikr,Consumer Internet,,Bengaluru,Online marketplace and classifieds platform
+275,GrayQuest,FinTech & Payments,,Mumbai,Education-institution payments platform
+276,Cookr,E-commerce & D2C,,Chennai,Marketplace for home-cooked food delivery
+277,Kitchens@,Travel & Hospitality,,Bengaluru,Cloud-kitchen infrastructure and operations provider
+278,LivSYT,SaaS,,,Construction management software provider
+279,Pikndel,Logistics & Mobility,,Delhi,Same-day delivery platform for D2C and ecommerce brands
+280,Moglix,E-commerce & D2C,,,B2B industrial supplies procurement platform
+281,RXIL,FinTech & Payments,,Mumbai,Digital invoice discounting platform for MSMEs and financiers
+282,Inito,HealthTech,,Bengaluru,Fertility hormone tracking and reproductive-health analytics platform
+283,Zluri,SaaS,,,Enterprise SaaS management and identity governance platform
+284,Ninjacart,AgriTech,,,B2B fresh produce sourcing platform
+285,PURE EV,EV & Auto,,Hyderabad,Electric two-wheeler manufacturer
+286,Chaitanya India,FinTech & Payments,,,Microfinance lending business
+287,Himshakti,AgriTech,,Dehradun,Organic Himalayan food and beverage brand
+288,CENTA,EdTech,,Bengaluru,Teacher accreditation and professional-development platform
+289,Uber India,Logistics & Mobility,,,Online ride-hailing and mobility platform
+290,Amama,E-commerce & D2C,,,Premium fashion jewellery designer and marketplace
+291,Go Zero,E-commerce & D2C,,,"Zero-sugar, high-protein and low-calorie ice-cream brand"
+292,Kale Logistics,SaaS,,,Cargo logistics software provider for airports and ports
+293,Herby Angel,E-commerce & D2C,,,Ayurvedic and organic personal care brand
+294,Stylework,PropTech & Real Estate,,Gurugram,B2B marketplace for flexible coworking workspaces
+295,Raising Superstars,EdTech,,Mumbai,Early childhood educational content platform
+296,Vama,Consumer Internet,,,"Virtual platform for e-pujas, e-darshans and astrology"
+297,ShopClues,E-commerce & D2C,,,E-commerce marketplace platform
+298,Growcoms,AgriTech,,,Digital traceable spice supply chain platform
+299,Flipkart,E-commerce & D2C,,Bengaluru,E-commerce marketplace
+300,Madmix,E-commerce & D2C,,,Millet-based ready-to-eat and ready-to-cook food brand
+301,Clinikk,HealthTech,,Bengaluru,Insurtech and healthtech startup
+302,Ati Motors,Automation & Robotics,,,Autonomous mobile robots maker for industrial operations
+303,LotusPay,FinTech & Payments,,,Cloud software for merchants and banks
+304,Vodex,Artificial Intelligence,,,Generative-AI outbound calling solution provider
+305,Vivifi,FinTech & Payments,,Hyderabad,Fintech NBFC offering small loans
+306,Landeed,PropTech & Real Estate,,Bengaluru,Property-title search and land-document platform
+307,Pickrr,Logistics & Mobility,,,Logistics solution provider for e-commerce sellers
+308,River,EV & Auto,,Bengaluru,Electric scooter manufacturer
+309,Leegality,Enterprise Software,,,"Document infrastructure, compliance and automation platform"
+310,Whatfix,SaaS,,,In-app guidance and performance support software
+311,Isprava Group,Travel & Hospitality,,,Luxury second homes and homestay rentals operator
+312,Scapia,FinTech & Payments,,,Travel rewards credit card platform
+313,Cashify,E-commerce & D2C,,,Re-commerce marketplace for used electronics
+314,Trackon,Logistics & Mobility,,,Logistics and supply-chain courier firm
+315,Lokal,Consumer Internet,,,Hyperlocal vernacular news and social media platform
+316,PrivaSapien,Cybersecurity,,,B2B privacy engineering and data privacy platform
+317,Shardeum,Data Infrastructure,,,EVM-based sharded layer-one blockchain
+318,Nykaa,E-commerce & D2C,,,Online fashion and beauty commerce platform
+319,Soptle,E-commerce & D2C,,,B2B marketplace for FMCG supply chains
+320,HiYo,E-commerce & D2C,,,Community-led D2C commerce startup
+321,Autocracy Machinery,Industrial Tech,,Hyderabad,"Manufacturer of trenching, turf and construction machinery"
+322,Calling Station and BatBall11,Media & Gaming,,,Online gaming and fantasy-sports platforms
+323,HireSure.ai,HR & Workforce,,Bengaluru,Compensation management platform for employers
+324,Medial,Consumer Internet,,,Professional social media and workplace community platform.
+325,SmartCoin,FinTech & Payments,,,App-based consumer lending platform
+326,GoBOLT,Logistics & Mobility,,,End-to-end logistics solutions provider
+327,CredAble,FinTech & Payments,,Mumbai,Working-capital financing platform for corporates
+328,GradRight,EdTech,,,Student college selection and financing platform
+329,BlackSoil NBFC,FinTech & Payments,,,Alternative credit platform for businesses and financial institutions
+330,Gan.ai,Artificial Intelligence,,New Delhi,Generative AI personalized video creation platform
+331,SmartDukaan,E-commerce & D2C,,,Smartphone retail chain and mobile retailer network
+332,Chai Point,Travel & Hospitality,,Bengaluru,"Tea, snacks and beverages retailer"
+333,Direct2U,E-commerce & D2C,,Bengaluru,Rural consumer-durables marketplace with financing and delivery
+334,Dubpro.ai,Artificial Intelligence,,,AI-powered video dubbing and localization platform
+335,Simsim,E-commerce & D2C,,Delhi,Vernacular social-commerce technology platform
+336,Enercomp,DeepTech,,Ahmedabad,AI-enabled drone technology company
+337,InspeCity,SpaceTech,,,In-orbit satellite servicing and debris-removal technology company
+338,Sorted,AgriTech,,,Fresh farm-produce supply-chain startup
+339,GlobalBees,E-commerce & D2C,,Delhi,E-commerce roll-up platform for D2C brands
+340,Turno,EV & Auto,,,Commercial EV distribution and financing platform
+341,Hitwicket,Media & Gaming,,Hyderabad,Strategy-driven cricket mobile gaming platform
+342,Digital Connect,Enterprise Software,,,Customer offers and engagement platform
+343,SocialBoat,HealthTech,,,Women's fitness and health app
+344,Smarter Dharma,PropTech & Real Estate,,,Sustainability resource planning platform for real estate
+345,Krutrim SI Designs,Artificial Intelligence,,,Artificial intelligence company
+346,Cashinvoice,FinTech & Payments,,Mumbai,Digital supply-chain invoice financing marketplace
+347,Frangipani,E-commerce & D2C,,Mumbai,Children's nightwear and loungewear brand
+348,2070 Health,HealthTech,,,Healthcare venture studio
+349,PlanetSpark,EdTech,,Gurugram,Edtech platform
+350,Country Delight,E-commerce & D2C,,Gurugram,Direct-to-consumer dairy and fresh-food brand
+351,Clear,FinTech & Payments,,Bengaluru,Tax filing and compliance platform for individuals and enterprises
+352,Inker Robotics,Automation & Robotics,,,Robotics education and training platform
+353,Jimmy's Cocktails,E-commerce & D2C,,Gurugram,Cocktail mixers and energy drinks brand
+354,Log9 Materials,EV & Auto,,Bengaluru,EV-focused advanced battery platform
+355,Trell,Consumer Internet,,,Lifestyle-focused short-video app
+356,Wingify,SaaS,,,Conversion-rate optimization SaaS provider
+357,1mg,HealthTech,,,Online pharmacy and healthcare services platform
+358,Pixxel,SpaceTech,,,Hyperspectral satellite and imagery analytics company
+359,Optimo Loan,FinTech & Payments,,,MSME lending technology and co-lending platform
+360,WheelsEye,Logistics & Mobility,,Gurugram,Fleet management platform for trucking operators
+361,Newme,E-commerce & D2C,,Bengaluru,Gen Z focused fast-fashion clothing brand
+362,Zoomcar India,Logistics & Mobility,,,Car-sharing platform
+363,Leverage Edu,EdTech,,Delhi,Study-abroad education platform
+364,Agnikul,SpaceTech,,Chennai,Small satellite rocket developer
+365,The Souled Store,E-commerce & D2C,,,Pop-culture apparel and lifestyle brand
+366,Zactor Tech,FinTech & Payments,,,Digital personal-finance and financial-wellness platform
+367,Magicpin,Consumer Internet,,Gurugram,Offline discovery and rewards platform
+368,Wishlink,E-commerce & D2C,,Bengaluru,Creator-focused social-commerce platform
+369,Serri,SaaS,,,AI community-marketing chatbots and cross-platform dashboard provider
+370,QuriousBit,Media & Gaming,,Bengaluru,Casual mobile puzzle gaming studio
+371,Minifeel,E-commerce & D2C,,Mumbai,D2C mini-pack skincare and cosmetics platform
+372,Yulu,EV & Auto,,,Electric bike mobility and battery swapping network
+373,IncNut Digital,E-commerce & D2C,,Hyderabad,Beauty-care media and e-commerce platform
+374,Akumentis Healthcare,HealthTech,,Thane,Pharmaceutical products company across multiple therapeutic areas
+375,Swiggy,Logistics & Mobility,,,Food and grocery delivery platform
+376,Practo,HealthTech,,,Digital healthcare and doctor consultation platform
+377,AstroTalk,Consumer Internet,,,Platform connecting consumers with astrologers and spiritual services
+378,FREED,FinTech & Payments,,,Debt relief platform helping individuals manage debt challenges
+379,InShorts,Media & Gaming,,,Mobile news aggregation app
+380,Stable Money,FinTech & Payments,,Bengaluru,Fintech startup
+381,Jumbotail,E-commerce & D2C,,Bengaluru,B2B marketplace serving kirana retailers
+382,SpeedForce,EV & Auto,,Vadodara,Multi-brand two-wheeler workshop chain
+383,eské,E-commerce & D2C,,Mumbai,Direct-to-consumer premium handbags and accessories brand
+384,Tredence,Artificial Intelligence,,,Data science and AI solutions company
+385,Fluid Analytics,ClimateTech,,,"Monitors water infrastructure, waterways, and water-borne diseases"
+386,MyRobin,HR & Workforce,,,Indonesian frontline workforce management platform
+387,CureBay,HealthTech,,Chennai,Technology-enabled primary healthcare network for small towns
+388,Newtral.io,ClimateTech,,Bengaluru,Enterprise carbon accounting and sustainability reporting software
+389,Age Care Labs,HealthTech,,,Elder-care services platform
+390,FactoryPlus,Enterprise Software,,,Digitisation operating system for MSME factories
+391,GoodGudi,E-commerce & D2C,,,Lifestyle retail chain for household and consumer goods
+392,Ivory,HealthTech,,,Cognitive-health platform for older adults
+393,Happy Nature,E-commerce & D2C,,,Subscription delivery brand for milk and breakfast products
+394,Innovist,E-commerce & D2C,,Gurugram,Personal care brands company
+395,Smytten,E-commerce & D2C,,,Consumer product-sampling and e-commerce platform
+396,Showroom B2B,E-commerce & D2C,,,Phygital fashion and apparel supply-chain platform
+397,Wow Skin Science,E-commerce & D2C,,,Omnichannel beauty and personal care brand
+398,Mintoak,FinTech & Payments,,Mumbai,Merchant services and omnichannel payments SaaS platform
+399,Auxilo,FinTech & Payments,,Mumbai,Education-focused NBFC providing student and institutional loans
+400,Ferns N Petals,E-commerce & D2C,,Delhi,"Online gifting, flowers and cakes platform"
+401,Vidyut,EV & Auto,,Bengaluru,EV financing and vehicle-lifecycle management platform
+402,Pee Safe,E-commerce & D2C,,Gurugram,Personal hygiene and FMCG brand
+403,Suind,AgriTech,,Bengaluru,AI-powered agricultural drone technology company
+404,Zingavita,HealthTech,,Chandigarh,Natural health and wellness supplements brand.
+405,Moonrider,EV & Auto,,Bengaluru,Electric tractor manufacturer with proprietary battery technology
+406,Leucine,SaaS,,,Pharmaceutical manufacturing operations software platform
+407,Porter,Logistics & Mobility,,Mumbai,Full-stack last-mile logistics platform
+408,BigHaat,AgriTech,,,Agritech startup
+409,InCred,FinTech & Payments,,,Business and consumer lending platform
+410,NestAway,PropTech & Real Estate,,Bengaluru,Home rental startup
+411,WeRize,FinTech & Payments,,,Fintech platform for loans and group insurance
+412,BRKZ,PropTech & Real Estate,,,B2B construction-materials procurement platform
+413,Hearzap,HealthTech,,Hyderabad,Audiology clinic chain and remote diagnostics platform
+414,13SQFT.com,Logistics & Mobility,,Gurugram,B2B warehousing and industrial infrastructure platform
+415,Hopscotch,E-commerce & D2C,,,Kids fashion and lifestyle products platform
+416,Brij Hotels,Travel & Hospitality,,Delhi,Sustainable boutique hotel collection offering hyperlocal experiences
+417,RENEE Cosmetics,E-commerce & D2C,,Ahmedabad,Cruelty-free beauty and cosmetics brand
+418,BNZ Green,ClimateTech,,Mumbai,Carbon footprint accounting and carbon credit marketplace platform
+419,Swirl,E-commerce & D2C,,,Video-commerce platform for brands
+420,Rivigo,Logistics & Mobility,,,B2B trucking and express logistics provider
+421,Lendingkart,FinTech & Payments,,,MSME-focused digital lending platform
+422,NeoGrowth,FinTech & Payments,,,MSME-focused digital lender
+423,Chingari,Media & Gaming,,,Private live-streaming app for users and creators
+424,ixamBee,EdTech,,,Online learning platform for competitive recruitment exams
+425,iSprout,PropTech & Real Estate,,,Managed office space provider
+426,SwitchOn,Artificial Intelligence,,,Vision-AI quality-control platform for manufacturers
+427,Clear Premium Water,E-commerce & D2C,,Ahmedabad,Bottled-water brand
+428,HiWi,FinTech & Payments,,Mumbai,Cross-border fintech platform for study-abroad agencies and students
+429,BharatPe,FinTech & Payments,,Delhi,Fintech company.
+430,GoMechanic,EV & Auto,,Gurugram,Car servicing startup
+431,Honasa Consumer,E-commerce & D2C,,,Parent of D2C beauty and personal-care brands
+432,Sarla Aviation,DeepTech,,,Flying taxi developer
+433,Easebuzz,FinTech & Payments,,Pune,API-driven B2B payment gateway and aggregator
+434,ZestMoney,FinTech & Payments,,,"Buy now, pay later platform"
+435,Solethreads,E-commerce & D2C,,Gurugram,"Casual footwear brand selling sneakers, flip-flops and slides"
+436,ReFit Global,E-commerce & D2C,,,D2C refurbished products marketplace
+437,Kuku FM,Media & Gaming,,Mumbai,Subscription audio content and audiobook platform
+438,Snapdeal,E-commerce & D2C,,Gurugram,E-commerce platform
+439,Purple Style Labs,E-commerce & D2C,,Mumbai,Omnichannel luxury Indian designer-wear platform
+440,CheckRewards,FinTech & Payments,,,Cashback rewards and receipt-scanning service
+441,AdOnMo,Media & Gaming,,Hyderabad,Digital out-of-home advertising technology company
+442,Nivara Home Finance,FinTech & Payments,,,Affordable housing-finance provider for micro-entrepreneurs and salaried customers
+443,SydeLabs,Cybersecurity,,,Enterprise AI security and risk management platform
+444,Mave Health,HealthTech,,,Mental-health programs and brain-stimulation wearable developer
+445,ClearTrust,Cybersecurity,,,Ad tracking and advertising-fraud detection platform
+446,Factors.ai,SaaS,,,B2B marketing analytics software for enterprise SaaS teams
+447,PlatinumRx,HealthTech,,Bengaluru,Chronic-medication substitute discovery and delivery platform
+448,Gynoveda,E-commerce & D2C,,Mumbai,Women-focused Ayurveda self-care brand
+449,Zyngo EV Mobility,Logistics & Mobility,,Gurugram,Electric-vehicle last-mile logistics provider
+450,Bharatsure,FinTech & Payments,,Mumbai,Insurance infrastructure-as-a-service provider for insurance distributors.
+451,Portea,HealthTech,,,Home healthcare services provider
+452,Hectar Global,AgriTech,,Chennai,Cross-border agri commodity procurement platform
+453,boAt,E-commerce & D2C,,,Audio and wearables consumer-electronics brand
+454,Paytm,FinTech & Payments,,,Digital payments and financial-services platform
+455,Vegrow,AgriTech,,Bengaluru,Tech-enabled B2B marketplace aggregating and selling farm produce
+456,Biryani By Kilo,Travel & Hospitality,,,Cloud kitchen and biryani delivery company
+457,Oro Money,FinTech & Payments,,Chennai,Gold loan platform
+458,Licious,E-commerce & D2C,,,"D2C meat, seafood and ready-to-cook retailer"
+459,WorkIndia,HR & Workforce,,Bengaluru,Blue- and grey-collar job portal
+460,BetterPlace,HR & Workforce,,,Frontline workforce management platform
+461,ThinkMetal,DeepTech,,Chennai,Compact metal 3D-printer manufacturer
+462,Hero Mindmine,EdTech,,,Sales training and learning platform
+463,PocketATM,FinTech & Payments,,Mumbai,QR-code cash withdrawal platform using kirana store liquidity
+464,Sentra.world,ClimateTech,,,ESG SaaS platform for Scope 3 emissions
+465,Gameskraft,Media & Gaming,,Bengaluru,Online real-money gaming platform operator
+466,Tork Motors,EV & Auto,,Pune,Electric two-wheeler manufacturer
+467,Quick Smart Wash,Other,,,Professional linen management and laundry services provider
+468,Cashvisory,FinTech & Payments,,Kolkata,Digital DIY financial-advisory platform
+469,Upswing,FinTech & Payments,,Pune,Banking-as-a-service platform for launching banking products.
+470,Bounce,EV & Auto,,,Electric scooter brand and bike rental platform
+471,Bandhoo,PropTech & Real Estate,,Bengaluru,Construction technology SaaS and marketplace platform
+472,International Battery Company,EV & Auto,,,Lithium-ion battery manufacturer for small-mobility and industrial equipment.
+473,Mylapay,FinTech & Payments,,,Payment processing platform for aggregators and banks
+474,Mylab,HealthTech,,,Diagnostic-kit developer and commercializer
+475,Lavelle Networks,Enterprise Software,,Bengaluru,Enterprise SD-WAN networking software provider
+476,Cube Club,HealthTech,,,Consumer fitness community and app operator
+477,QNu Labs,Cybersecurity,,,Quantum-safe cybersecurity and cryptography solutions provider
+478,iNurture,EdTech,,,Higher education-focused edtech solution provider
+479,Gullak,FinTech & Payments,,,Savings and investment app with gold leasing
+480,Answer Genomics,HealthTech,,,Personalized genomics-based wellness platform
+481,Ghost Kitchens India,Consumer Internet,,,Cloud kitchen brands and food delivery platform
+482,Digit Insurance,FinTech & Payments,,,General insurance provider
+483,Twyn,DeepTech,,Noida,Enterprise phygital digital twin platform
+484,LEAD,EdTech,,Mumbai,School education technology provider
+485,zbyte,Developer Tools,,,Web3 low-code blockchain development platform
+486,FreshBus,EV & Auto,,Bengaluru,Inter-city electric bus services platform
+487,Vegapay,FinTech & Payments,,,Digital lending and card-management platform
+488,Juspay,FinTech & Payments,,,Merchant end-to-end payments processing technology provider
+489,Hunch,Consumer Internet,,,Social polling platform for opinions and discussions
+490,Kusho,Agentic AI,,,AI agents for software reliability
+491,MeraTractor,AgriTech,,,Farm mechanization products marketplace
+492,Smallcase,FinTech & Payments,,,Wealth management and investment platform
+493,Eccentric,Enterprise Software,,Mumbai,Real-time 3D rendering platform for OEM retail
+494,Nestroots,E-commerce & D2C,,Gurugram,Home decor and furniture e-commerce brand
+495,Acko,FinTech & Payments,,,Digital insurance provider
+496,Kisankonnect,AgriTech,,Ahmednagar,Integrated fresh produce agritech platform
+497,Beautywise,E-commerce & D2C,,,Beauty and wellness supplements brand
+498,Elivaas,Travel & Hospitality,,Gurugram,Vacation villa and luxury apartment management platform
+499,Mystifly,Travel & Hospitality,,Bengaluru,Air retailing and payments API platform
+500,Aksum,Logistics & Mobility,,,B2B supply-chain automation and services platform
+501,Zerodha,FinTech & Payments,,Bengaluru,Stockbroking and investment platform
+502,Fashinza,Enterprise Software,,Gurugram,B2B marketplace and production software for fashion supply chains
+503,Freyr Energy,Energy Transition,,Hyderabad,Rooftop solar system design and installation company
+504,ParentLane,HealthTech,,,Maternity and child-health digital platform
+505,FireCompass,Cybersecurity,,Bengaluru,Automated ethical hacking platform for enterprises
+506,Pep,Consumer Internet,,,Mobile marketplace for creator content and consultations
+507,Menhood,E-commerce & D2C,,,Men's grooming and fashion lifestyle brand
+508,Skyroot Aerospace,SpaceTech,,Hyderabad,Space launch technology startup
+509,SayF,FinTech & Payments,,,Rewards-based savings and investing app
+510,DPDzero,FinTech & Payments,,Bengaluru,AI-powered collections and debt recovery platform
+511,SuperBottoms,E-commerce & D2C,,Mumbai,Eco-friendly reusable diaper brand
+512,UcliQ,AgriTech,,,B2B digital marketplace for meat and seafood supply chains
+513,XYXX,E-commerce & D2C,,,Men's premium innerwear and lifestyle brand
+514,Livspace,PropTech & Real Estate,,,Omnichannel home interior and renovation platform
+515,ShareChat,Consumer Internet,,Bengaluru,Vernacular social media and short-video platform
+516,Ustraa,E-commerce & D2C,,,D2C men's grooming products brand
+517,Aerem,ClimateTech,,Mumbai,Solar financing and rooftop-solar solutions platform
+518,Ellipsol,ClimateTech,,Gurugram,Solar panel energy-yield enhancement technology company
+519,Peping,HealthTech,,Bengaluru,Digital clinic for dietary and lifestyle care
+520,Bureau,Cybersecurity,,,Identity verification and fraud protection platform
+521,Ema,Artificial Intelligence,,,Enterprise AI workflow-automation platform
+522,Attentive,Artificial Intelligence,,,AI sales automation platform for construction businesses
+523,AllTrak,HealthTech,,Delhi,Healthcare diagnostic logistics and SaaS platform
+524,Satyukt,AgriTech,,Bengaluru,Satellite and machine-learning farm advisory SaaS
+525,Sprih,ClimateTech,,,Climate technology platform for corporate sustainability management
+526,Flash,Consumer Internet,,,Digital identity platform for frequent shoppers
+527,Yellow Metal,FinTech & Payments,,,Gold-loan platform for rural India
+528,Dusminute,E-commerce & D2C,,Bangalore,Hyperlocal grocery and managed-services platform for gated communities
+529,Liquidnitro Games,Media & Gaming,,,Gaming studio and live services provider
+530,Houseware,SaaS,,,Warehouse-native revenue engine for SaaS companies
+531,D'chica,E-commerce & D2C,,,D2C fashion brand for adolescents
+532,Garuda Aerospace,DeepTech,,Chennai,Drone-as-a-service company designing and manufacturing drones
+533,Coding Ninjas,EdTech,,Gurugram,Coding and software-development education platform
+534,WLDD,Media & Gaming,,,Meme marketing and digital communications firm
+535,Kapiva,E-commerce & D2C,,,D2C ayurvedic nutrition and personal-care products brand.
+536,Open,Digital Banking,,,Neo-banking platform
+537,StampThePassport,Travel & Hospitality,,Mumbai,Online visa application platform
+538,WishCare,E-commerce & D2C,,Kolkata,Beauty brand offering haircare and skincare products
+539,Niyo,Digital Banking,,Bengaluru,Travel banking and digital banking fintech platform
+540,MathCo,Artificial Intelligence,,Bengaluru,AI and machine learning data analytics firm
+541,GrowXCD Finance,FinTech & Payments,,Chennai,MSME-focused non-banking financial company
+542,Dressfolk,E-commerce & D2C,,Delhi,Handloom ethical clothing brand
+543,Scaler,EdTech,,Bangalore,Technology upskilling platform
+544,Rartogo,EV & Auto,,Gurugram,B2B sourcing and export platform for auto parts
+545,Zetwerk,Industrial Tech,,Bengaluru,B2B custom manufacturing e-commerce platform
+546,NPCI,FinTech & Payments,,,Operator of Indian digital payment systems including UPI
+547,Infurnia,SaaS,,Bengaluru,Cloud-based architecture and interior design software
+548,Flatheads,E-commerce & D2C,,Bengaluru,D2C casual sneaker brand
+549,BluSmart,EV & Auto,,Gurugram,Electric ride-hailing service and EV charging infrastructure operator
+550,Rebel Foods,Travel & Hospitality,,Bengaluru,Cloud-kitchen and internet restaurant operator
+551,WazirX,FinTech & Payments,,,Cryptocurrency exchange
+552,AdmitKard,EdTech,,,Global university admissions guidance platform
+553,Travel Boutique Online,Travel & Hospitality,,Gurugram,Online B2B travel distribution platform
+554,InCore Semiconductors,Semiconductors,,,Fabless RISC-V processor IP developer
+555,Wow! Momo,Consumer Internet,,Kolkata,Quick-service restaurant chain
+556,Vogo,Logistics & Mobility,,Bengaluru,Two-wheeler shared mobility rental platform
+557,Eruditus,EdTech,,,Executive education programs with business schools
+558,Jar,FinTech & Payments,,,Digital gold savings platform
+559,Fetcch,FinTech & Payments,,,Web3 payments and digital rewards infrastructure platform.
+560,Boxs,Industrial Tech,,,B2B manufacturing platform for interior designers
+561,Noise,E-commerce & D2C,,Gurugram,Smart wearables and audio-products brand
+562,Blackbuck,Logistics & Mobility,,Bengaluru,B2B long-haul trucking and logistics platform
+563,OlaMoney,FinTech & Payments,,,Digital wallet and payments platform
+564,Neeman's,E-commerce & D2C,,,Sustainable footwear brand
+565,Groyyo,Industrial Tech,,Gurugram,Supply-chain platform digitising manufacturing small and medium businesses.
+566,Mainstreet Marketplace,E-commerce & D2C,,,Sneaker reselling marketplace
+567,NxtWave,EdTech,,Hyderabad,Online employability platform for technology careers
+568,Black Opal Group,PropTech & Real Estate,,,Asset manager operating a proptech platform
+569,SimYog,DeepTech,,Bengaluru,EMI and EMC simulation tools for automotive electronics
+570,Bright Money,FinTech & Payments,,Bengaluru,Consumer debt management and financial planning platform
+571,Toddle,EdTech,,,Teaching and learning platform for schools
+572,WeWork India,PropTech & Real Estate,,Bengaluru,Coworking and flexible office space provider
+573,Allen Career Institute,EdTech,,,Test preparation education provider
+574,Purplle,E-commerce & D2C,,Mumbai,Omnichannel beauty and grooming products marketplace
+575,Nurturev,SaaS,,Pune,AI-powered B2B revenue intelligence platform
+576,Pirimid Fintech,FinTech & Payments,,,"Capital-markets, digital-lending and account-aggregation software provider"
+577,Lenskart,E-commerce & D2C,,,Omnichannel eyewear retailer and manufacturer
+578,Stashfin,FinTech & Payments,,,Digital lending and financial-services platform
+579,Bharat Housing Network,FinTech & Payments,,,Co-lending platform for affordable housing
+580,All Is Well,HealthTech,,Bengaluru,"AI-driven personalised fitness, nutrition and mental-training platform"
+581,Offee,EdTech,,Mumbai,Digital examination platform for education institutes
+582,Ayekart,AgriTech,,,Agrifood fintech and supply-chain platform for traditional businesses
+583,Celcius,Logistics & Mobility,,Navi Mumbai,"Cold-chain transport, warehousing and delivery marketplace"
+584,AutoNxt Automation,Automation & Robotics,,,Electric autonomous tractor and mobility technology developer
+585,StockGro,FinTech & Payments,,,Social investment platform for stock-market learning and participation.
+586,The Sleep Company,E-commerce & D2C,,,"Mattresses, bedding, cushions and office-chair brand"
+587,Aurassure,ClimateTech,,Bhubaneswar,"IoT climate data, weather and disaster forecasting platform"
+588,CarDekho,EV & Auto,,,New and used car buying platform
+589,Great Learning,EdTech,,,Professional education and upskilling platform
+590,Pristyn Care,HealthTech,,,Surgery-focused hospital and clinic chain
+591,DevX,PropTech & Real Estate,,Ahmedabad,Managed office-space and coworking provider
+592,AuthPay,FinTech & Payments,,,AI-enabled payment wallet and secure payments platform
+593,Sugar Cosmetics,E-commerce & D2C,,,Omnichannel cosmetics and beauty products brand
+594,Done Deal,Enterprise Software,,,Startup acquisition discovery platform
+595,CometChat,SaaS,,,"In-app messaging, voice and video communications platform"
+596,Xoxoday,FinTech & Payments,,,"Business rewards, incentives, and payouts infrastructure"
+597,Testbook,EdTech,,Mumbai,Government-exam preparation platform
+598,AutomationFactory.AI,Digital Engineering,,Noida,Digital transformation and product development firm
+599,Pratech Brands,E-commerce & D2C,,,Digital-first retailer and parent of HyugaLife
+600,Agilitas Sports,E-commerce & D2C,,,Sportswear and athleisure solutions platform
+601,Veranda Learning,EdTech,,,Edtech company offering learning and education services
+602,Contiinex,Artificial Intelligence,,,Speech-to-text and voice analytics platform
+603,BuyEazzy,E-commerce & D2C,,Mysore,Online beauty and wellness shopping platform for tier-II cities.
+604,Duroflex,E-commerce & D2C,,Bengaluru,Sleep solutions and mattress company
+605,Probo,FinTech & Payments,,,Event-based trading platform for future-event opinions
+606,TheKredible,Data Infrastructure,,,Startup intelligence and private-company data platform
+607,XpressBees,Logistics & Mobility,,Pune,End-to-end logistics and supply-chain provider
+608,Aarogya Tech,HealthTech,,,Personalized data-based health-management platform
+609,JustDeliveries,Logistics & Mobility,,,Cold-chain logistics provider for perishables
+610,Cognecto,Artificial Intelligence,,Bengaluru,IoT and AI analytics platform for mining construction
+611,Bummer,E-commerce & D2C,,,Direct-to-consumer innerwear and comfortwear brand
+612,QuickReply.ai,SaaS,,,WhatsApp marketing and customer automation platform
+613,The Quorum Club,Travel & Hospitality,,Gurugram,Lifestyle hospitality and co-working platform
+614,mCaffeine,E-commerce & D2C,,,Caffeinated personal care and beauty brand
+615,Safegold,FinTech & Payments,,Delhi,"Digital platform for buying, selling, and vaulting gold"
+616,Square Yards,PropTech & Real Estate,,Gurugram,Real estate consultancy platform
+617,RapiPay,FinTech & Payments,,Noida,"Business banking, payments and lending solutions provider"
+618,Metamorphosis Edu,EdTech,,Hyderabad,School-focused next-generation life-skills education provider
+619,PhonePe,FinTech & Payments,,Bengaluru,Digital payments and financial services platform
+620,Kutumb,Consumer Internet,,,Multilingual community social networking app
+621,Foxtale,E-commerce & D2C,,Mumbai,D2C skincare brand
+622,Shadowfax,Logistics & Mobility,,,Logistics and delivery services company
+623,Zyod,E-commerce & D2C,,,B2B apparel sourcing and manufacturing platform
+624,EaseMyAI,Automation & Robotics,,Mumbai,AI-powered robotic process automation provider
+625,Healspan,FinTech & Payments,,Bengaluru,Insurance-claims platform for healthcare institutions.
+626,Delhivery,Logistics & Mobility,,,Logistics company
+627,Illumine-i,Energy Transition,,,Sustainable power-plant design and engineering firm
+628,MyMandi,Logistics & Mobility,,Gwalior,B2B supply-chain network for local retailers
+629,Shipturtle,SaaS,,,SaaS platform for marketplace operations
+630,Pepper Content,SaaS,,,Marketplace connecting content creators and brands
+631,Oneistox,EdTech,,Gurugram,"Upskilling platform for architecture, engineering and construction professionals"
+632,BharatAgri,AgriTech,,,AI-based farm advisory and agricultural e-commerce platform
+633,GreenFortune,PropTech & Real Estate,,,Technology-driven window and door systems brand
+634,TradingLeagues,Media & Gaming,,Bengaluru,Fantasy stock and crypto gaming app
+635,LYNK,Logistics & Mobility,,,FMCG retail distribution and logistics platform
+636,FIITJEE,EdTech,,Delhi,Offline IIT-JEE test-preparation platform
+637,Kratos Studios,Media & Gaming,,,Web3 gaming DAO and distribution platform
+638,Neuron Energy,EV & Auto,,Mumbai,Manufacturer of smart batteries for electric vehicles
+639,Jellybean,HR & Workforce,,,Personalized employee benefits and rewards management platform
+640,Mokobara,E-commerce & D2C,,Bengaluru,Direct-to-consumer luggage brand
+641,Livpure,E-commerce & D2C,,Gurugram,Water purifier and consumer appliances brand
+642,Bluelearn,EdTech,,,"Social learning, internships and freelancing platform"
+643,Leumas,Industrial Tech,,,Digital manufacturing platform for consumer brands
+644,Zeron,Cybersecurity,,,Cyber risk posture management platform
+645,Jaro Education,EdTech,,Mumbai,Higher-education course provider partnered with universities
+646,Captain Fresh,E-commerce & D2C,,Bengaluru,Farm-to-retail animal protein and seafood platform
+647,Classplus,SaaS,,Delhi,SaaS platform for creators to monetize online businesses
+648,BattRE,EV & Auto,,,Electric two-wheeler scooter manufacturer
+649,Dr. Meat,E-commerce & D2C,,Bengaluru,Sustainable chicken and meat provider
+650,Myelin Foundry,Artificial Intelligence,,,"Edge AI algorithms for video, voice and sensors"
+651,Hogr,Consumer Internet,,Bengaluru,Social restaurant and food-discovery platform
+652,EMotorad,EV & Auto,,,Manufacturer of electric bicycles
+653,Ticket 9,SaaS,,Coimbatore,Event-management and ticketing SaaS platform
+654,Certa,Enterprise Software,,Bengaluru,Third-party compliance and risk management platform
+655,Spice Lounge,Travel & Hospitality,,,Buffalo Wild Wings master franchisee
+656,Doceree,HealthTech,,,Physician-only programmatic messaging platform for life-sciences companies
+657,Bluwheelz,EV & Auto,,,Electric-vehicle fleet-as-a-service platform for commercial mobility
+658,FreightFox,Logistics & Mobility,,Pune,Enterprise transportation procurement and management platform
+659,ReDesyn,E-commerce & D2C,,Mumbai,"Creator monetisation platform for stores, merchandise, and services"
+660,Zecpe,FinTech & Payments,,,One-click e-commerce checkout platform
+661,SportVot,Media & Gaming,,Mumbai,Sports broadcasting and talent-discovery platform
+662,DGV,FinTech & Payments,,Bengaluru,Dairy-fintech platform for farmer credit and payments
+663,KREO,E-commerce & D2C,,Bengaluru,Consumer electronics brand for creators and gamers
+664,Bloom Hotels,Travel & Hospitality,,,Mid-segment hotel chain and hospitality brand
+665,Doppelio,Developer Tools,,,IoT application testing and device virtualization platform
+666,DeHaat,AgriTech,,,Full-stack agritech marketplace
+667,BGauss,EV & Auto,,Pune,Electric scooter manufacturer
+668,NIC,E-commerce & D2C,,Pune,Ice cream and quick-service restaurant brand
+669,ApnaKlub,E-commerce & D2C,,,B2B wholesale platform for kirana stores
+670,Fi,Digital Banking,,,Consumer-focused neobanking platform
+671,DevDham,Consumer Internet,,,"Devotional platform for online darshan, pujas and donations"
+672,Revfin,FinTech & Payments,,Delhi,Digital EV financing platform
+673,ToolJet,Developer Tools,,,Open-source low-code application development platform
+674,CrickPe,Media & Gaming,,,
+675,GigaML,Artificial Intelligence,,Bengaluru,Enterprise platform to customize and deploy secure LLMs
+676,Quickwork,Automation & Robotics,,Mumbai,No-code automation and API integration platform
+677,Pumpumpum,EV & Auto,,,Pre-owned car leasing subscription platform
+678,Zeta,Digital Banking,,,Banking technology infrastructure provider
+679,WebEngage,SaaS,,Mumbai,Customer engagement and marketing automation platform
+680,Fixerra,FinTech & Payments,,Mumbai,Embedded-finance and banking-as-a-service provider
+681,Phases,E-commerce & D2C,,,Natural skincare brand for tweens and teens
+682,Frendy,E-commerce & D2C,,Ahmedabad,Digitally connected convenience store network for smaller towns
+683,Atlys,Travel & Hospitality,,,Online visa application platform for travellers
+684,Blubirch,SaaS,,,AI-driven reverse supply-chain management platform
+685,Trezi,PropTech & Real Estate,,,Immersive AEC design collaboration platform
+686,Fibmold,ClimateTech,,,Sustainable molded fiber packaging manufacturer
+687,Minimalist,E-commerce & D2C,,Jaipur,Direct-to-consumer skincare and haircare brand
+688,Mesa School of Business,EdTech,,,Startup-leadership postgraduate education program
+689,Arya.ag,AgriTech,,,"Grain commerce, warehousing and agricultural finance platform"
+690,HealthPlix,HealthTech,,Bengaluru,Doctor productivity and electronic medical records platform
+691,Moms Home,E-commerce & D2C,,Jaipur,Sustainable baby essentials and apparel brands
+692,Unstop,HR & Workforce,,,Student community engagement and hiring platform
+693,UrbanMatrix,DefenceTech,,,Industrial drone and drone-software company
+694,TapOnn,Consumer Internet,,Indore,Smart networking platform offering digital business cards
+695,ProBano,EdTech,,New Delhi,Career-guidance platform for high-school students
+696,BIVA Analytics,Data Infrastructure,,Hyderabad,E-commerce data aggregation and analytics platform
+697,Settl,PropTech & Real Estate,,,Co-living and furnished rental platform
+698,OneCard,FinTech & Payments,,Pune,Mobile-first co-branded credit card and credit-management platform
+699,Trillion Loans,FinTech & Payments,,Mumbai,NBFC offering secured and unsecured SME and consumer loans
+700,Cashfree,FinTech & Payments,,Bengaluru,Online payments processor and aggregator
+701,FroGo,E-commerce & D2C,,Gurugram,Frozen-food distribution and retail technology platform
+702,Chara,DeepTech,,Bengaluru,Electric motor design and deployment platform
+703,Karkhana.io,Industrial Tech,,Mumbai,Custom manufacturing platform for MSMEs
+704,MyMuse,E-commerce & D2C,,Mumbai,Gender-neutral sexual wellness products brand
+705,Hike,Media & Gaming,,,Skill-based casual gaming platform
+706,Mosaic Wellness,HealthTech,,,Digital-first consumer health clinic
+707,GroClub,E-commerce & D2C,,Bengaluru,Kids bicycle subscription platform
+708,XFlow,FinTech & Payments,,,Cross-border payments infrastructure platform
+709,Upliance.ai,Artificial Intelligence,,,AI-powered home appliance maker
+710,IDfy,Cybersecurity,,Mumbai,Identity-verification and fraud-prevention platform
+711,Atomberg,E-commerce & D2C,,Mumbai,Consumer appliances brand
+712,Chronicle,SaaS,,,Presentation creation software provider
+713,Cannarma,HealthTech,,Delhi,Medicinal cannabis and Ayurvedic goods manufacturer
+714,Amaha,HealthTech,,Mumbai,Mental health platform
+715,Melooha,SaaS,,Bengaluru,Personalized astrology guidance SaaS platform
+716,Doubtnut,EdTech,,Bengaluru,Doubt-clearing education technology platform
+717,ShipEase,Logistics & Mobility,,,SaaS logistics provider for D2C brands and SMEs
+718,Aampe,Agentic AI,,,AI-native user engagement platform
+719,WayCool,AgriTech,,Chennai,Agritech supply chain startup
+720,Bull Agritech,AgriTech,,,Technology-enabled agricultural commodity supply chain platform
+721,PadCare Labs,ClimateTech,,,Used menstrual pad recycling technology company
+722,Noccarc,HealthTech,,,Critical-care medical equipment maker and remote device-data platform
+723,Beatoven.ai,Artificial Intelligence,,,AI music generation platform for content creators
+724,Park+,EV & Auto,,Gurugram,"Parking, car services and security platform"
+725,PolicyBazaar,FinTech & Payments,,,Online insurance aggregation and brokerage platform
+726,KreditBee,FinTech & Payments,,,Digital lending platform
+727,SalarySe,FinTech & Payments,,Gurgaon,Credit-on-UPI app for salaried employees
+728,Chaayos,Travel & Hospitality,,,"Tea cafe chain serving teas, snacks and beverages"
+729,Koo,Consumer Internet,,Bengaluru,Vernacular microblogging and community platform
+730,Freakins,E-commerce & D2C,,Mumbai,Gen Z women's denim fashion brand
+731,Razorpay,FinTech & Payments,,,Business payments gateway and neobanking platform
+732,Newtrace,ClimateTech,,,Green-hydrogen electrolyzer technology developer
+733,Furlenco,E-commerce & D2C,,Bengaluru,Subscription-based furniture and home decor rental platform
+734,Nazara Technologies,Media & Gaming,,,Digital gaming and esports company
+735,RAS,E-commerce & D2C,,Raipur,Luxury natural skincare and personal care brand
+736,Progcap,FinTech & Payments,,,Collateral-free lender to small and medium businesses
+737,Adya.ai,Cybersecurity,,Bengaluru,SaaS data-security and ransomware-protection solution.
+738,Flytant,Media & Gaming,,,Commission-free marketplace connecting brands with influencers
+739,Cirkla,ClimateTech,,,"Sustainable packaging design, sourcing and fulfillment platform"
+740,Corrit Electric,EV & Auto,,,Electric vehicle manufacturer producing electric bikes and scooters
+741,STAN,Media & Gaming,,Bengaluru,Gaming creator community platform
+742,Hatica,Developer Tools,,,Engineering analytics and developer productivity platform
+743,TROOPERS,HR & Workforce,,,Flexi-talent technology platform for frontline gig workers
+744,AgroStar,AgriTech,,,Farm advisory and agricultural inputs platform
+745,GreyOrange,Automation & Robotics,,,AI robotic fulfillment and inventory-optimization software
+746,Offside,Media & Gaming,,,Social app for cricket enthusiasts
+747,QubeHealth,HealthTech,,,Employee healthcare payments and credit-line platform
+748,Blitz,Logistics & Mobility,,,Same-day delivery platform for omnichannel sellers
+749,Wiz Freight,Logistics & Mobility,,Chennai,Supply-chain and freight technology startup
+750,Innoviti,FinTech & Payments,,,Payment gateway and point-of-sale provider
+751,Mindgrove,Semiconductors,,,Power-efficient system-on-chip designer
+752,O’2 Nails,E-commerce & D2C,,,Nail care products and services brand
+753,Raptee,EV & Auto,,,Full-stack electric motorcycle manufacturer
+754,Mithi Software,SaaS,,,Enterprise data archival and assurance software provider
+755,LoanKuber,FinTech & Payments,,,Mortgage lending platform for underserved MSMEs
+756,Uzhavarbumi,AgriTech,,,Direct-to-consumer farm-fresh milk delivery startup
+757,Lohum Cleantech,Energy Transition,,,Battery recycling and repurposing materials producer
+758,Weekday,HR & Workforce,,,Reference-based tech talent hiring platform
+759,Wakefit,E-commerce & D2C,,Bengaluru,D2C sleep and home solutions brand
+760,RAS Luxury Skincare,E-commerce & D2C,,Delhi NCR,Natural skincare and body care products brand
+761,Oyela,E-commerce & D2C,,,Collaborative commerce platform for social businesses
+762,MoneyView,FinTech & Payments,,,"Online platform for loans, cards and personal finance"
+763,LetsTransport,Logistics & Mobility,,Bengaluru,Enterprise trucking aggregation and logistics platform
+764,Smartworks,PropTech & Real Estate,,Delhi,Managed office and co-working space provider
+765,Basil,E-commerce & D2C,,,D2C housewares brand selling water bottles and Bento boxes
+766,Funstop Games,Media & Gaming,,Gurugram,Casual mobile game developer and publisher
+767,Freightify,SaaS,,,Freight rate management SaaS platform
+768,Entropik,Artificial Intelligence,,,Emotion AI consumer research platform
+769,Sugar.fit,HealthTech,,Bengaluru,Diabetes care and management platform
+770,Dhaksha,Automation & Robotics,,,Manufacturer of petrol engine-based agricultural spraying drones
+771,FlexifyMe,HealthTech,,Pune,AI-powered physiotherapy and wellness platform
+772,Yumlane,E-commerce & D2C,,,"Pizza technology, cloud kitchen and B2B food business"
+773,abCoffee,E-commerce & D2C,,,Tech-enabled specialty coffee quick-service chain
+774,Indic Wisdom,AgriTech,,Mumbai,Manufacturer of food staples and wood-pressed oils
+775,Intrcity,Travel & Hospitality,,,Intercity bus and train travel platform
+776,Comic Con India,Media & Gaming,,,Organizer of pop-culture festivals
+777,OfficeBanao,PropTech & Real Estate,,Gurugram,Workspace interiors design and execution platform
+778,Attron Automotive,EV & Auto,,,Electric-vehicle motor and controller solutions provider
+779,Snax Games,Media & Gaming,,,Mobile gaming startup
+780,upGrad,EdTech,,Mumbai,Online higher education and upskilling platform
+781,ACT,Other,,,"Fiber-optic broadband, television and internet-services provider"
+782,Altitude,FinTech & Payments,,,Alternative investment tools and financial services platform
+783,Chalo,Logistics & Mobility,,Bengaluru,Bus tracking and ticketing platform
+784,Kanlet,Artificial Intelligence,,,AI-driven sales execution and outreach automation platform
+785,Loadshare,Logistics & Mobility,,Bengaluru,Last-mile delivery and logistics platform
+786,Happie Curves,E-commerce & D2C,,Gurugram,Plus-size innerwear and comfort clothing brand
+787,SuperCluster Pi,E-commerce & D2C,,,Acquirer and scaler of D2C brands
+788,Kidbea,E-commerce & D2C,,,Bamboo-based plant-based children's apparel brand
+789,ElectricPe,EV & Auto,,,EV charging aggregation platform
+790,Vijya Fintech,FinTech & Payments,,,Wealth-management platform for financial intermediaries
+791,PharmEasy,HealthTech,,Mumbai,Online drug dispenser and health-services platform
+792,The Math Company,Artificial Intelligence,,Chennai,"AI, data analytics and engineering services firm"
+793,StepChange,ClimateTech,,,Corporate sustainability and ESG management platform
+794,Varco Leg Care,HealthTech,,Delhi,Leg disorder treatment products company
+795,MediBuddy,HealthTech,,,"Digital healthcare consultation, medicine and diagnostics platform"
+796,CoinSwitch,FinTech & Payments,,,Cryptocurrency exchange and trading platform
+797,Freight Tiger,Logistics & Mobility,,,Digital logistics value-chain solutions platform
+798,NimbleS2P,SaaS,,,Procure-to-pay process digitization SaaS platform
+799,Scrut Automation,Cybersecurity,,,Risk-focused compliance automation platform
+800,BeatO,HealthTech,,,Full-stack diabetes management platform
+801,FamPay,Digital Banking,,Bengaluru,Neobank enabling teen prepaid payments
+802,FreeStand,Enterprise Software,,New Delhi,B2B product-sampling marketing platform for FMCG brands
+803,HealthifyMe,HealthTech,,Bengaluru,Digital health and fitness platform
+804,TagZ Foods,E-commerce & D2C,,,Popped chips and snack food brand
+805,Mestastop,HealthTech,,,Cancer metastasis drug discovery platform
+806,Reveal HealthTech,HealthTech,,,Healthcare engineering and strategy SaaS platform
+807,Aakash Institute,EdTech,,,Test preparation courses for engineering and medical aspirants.
+808,Kabaddi Adda,Media & Gaming,,,Kabaddi media content platform
+809,Kites Senior Care,HealthTech,,Bengaluru,Geriatric care provider offering rehabilitation and dementia services
+810,Lentra,SaaS,,,Cloud lending software platform for banks
+811,Slice,FinTech & Payments,,,Consumer lending and payments startup
+812,Spartan Poker,Media & Gaming,,,Online poker platform
+813,Lohum,Energy Transition,,,"Battery recycling, refining and repurposing company"
+814,Upstox,FinTech & Payments,,,Online investment and brokerage platform
+815,INI Farms,AgriTech,,,Fruit and vegetable exporter with agricultural supply-chain operations
+816,LivNSense,ClimateTech,,Bengaluru,AI-driven industrial decarbonisation platform
+817,The Ayurveda Experience,E-commerce & D2C,,,Direct-to-consumer ayurvedic skincare and nutrition brand
+818,PhiCommerce,FinTech & Payments,,Pune,Omnichannel digital payments platform
+819,Inkle,SaaS,,Bengaluru,Tax accounting and compliance software for US companies
+820,RTIwala,Enterprise Software,,Seoni Malwa,Platform helping users obtain government information and records
+821,MrMed,HealthTech,,,Online pharmacy for specialty medicines
+822,Walko Food,E-commerce & D2C,,,Ice cream and quick-service restaurant company
+823,Oorjaa,Logistics & Mobility,,Bengaluru,B2B technology-driven logistics solutions platform
+824,Onedios,Enterprise Software,,Noida,Consumer electronics customer-care service platform
+825,Arzooo,E-commerce & D2C,,,Retailer inventory platform for consumer durables
+826,Dozer,Data Infrastructure,,,Open-source platform for building APIs from data sources
+827,BillDesk,FinTech & Payments,,,Electronic transaction processing and settlement platform
+828,Efficient Capital Labs,FinTech & Payments,,,Non-dilutive upfront capital provider for B2B SaaS companies
+829,ClearFeed,Enterprise Software,,,AI conversational support platform for enterprise teams
+830,LS Digital,IT Services,,,Digital marketing and martech services firm
+831,GetWork,SaaS,,Gurugram,B2B SaaS campus recruitment platform
+832,Nourish You,E-commerce & D2C,,,Superfood brand selling quinoa and chia products
+833,VerSe Innovation,Media & Gaming,,Bengaluru,Parent of vernacular news app Dailyhunt
+834,50Fin,FinTech & Payments,,,Loans against mutual funds and shares platform
+835,Ossus Biorenewables,Energy Transition,,,Green hydrogen producer using industrial wastewater carbon
+836,Eloelo,Media & Gaming,,,Social gaming and live-streaming platform
+837,Fractal,Artificial Intelligence,,,Artificial intelligence analytics and consulting company
+838,Atlan,Data Infrastructure,,,Enterprise data collaboration and governance software
+839,SustVest,ClimateTech,,Gurugram,Fractional renewable-energy project investment platform
+840,Teleport,Travel & Hospitality,,Bengaluru,Travel visa application platform
+841,GenWorks Health,HealthTech,,,Medical device distribution company
+842,Rincell Corporation,Energy Transition,,,"Silicon-graphite, LMFP and sodium-ion battery cell manufacturer"
+843,Barcelona,E-commerce & D2C,,Ahmedabad,Premium men's apparel brand and retailer platform
+844,Unnati Agri,AgriTech,,,Agriculture supply-chain and financial-services platform
+845,Aquaconnect,AgriTech,,,Aquaculture management SaaS and marketplace
+846,EasyEcom,SaaS,,,E-commerce inventory and warehouse management SaaS platform
+847,Proklean,ClimateTech,,Chennai,Green industrial solutions technology company
+848,Infinity Fincorp Solutions,FinTech & Payments,,Mumbai,NBFC providing loans to MSMEs
+849,Educational Initiatives,EdTech,,Bengaluru,School assessment and adaptive-learning software provider
+850,Smartstaff,HR & Workforce,,,Blue-collar staffing platform for manufacturing enterprises
+851,T.A.C - The Ayurveda Co,E-commerce & D2C,,,Omnichannel Ayurvedic lifestyle brand
+852,IDC Kitchen,Travel & Hospitality,,Bengaluru,Vegetarian South Indian quick-service restaurant chain
+853,Solar Ladder,ClimateTech,,,Supply-chain and SaaS platform for solar installers
+854,DaMENSCH,E-commerce & D2C,,Mumbai,D2C men's lifestyle brand
+855,Dream11,Media & Gaming,,,Fantasy sports gaming platform
+856,PatilKaki,E-commerce & D2C,,Mumbai,Homemade snacks and sweets brand
+857,Togai,SaaS,,,B2B SaaS metering and pricing platform
+858,Kazam,EV & Auto,,,E-mobility software for EV charging and swapping operators
+859,Everest Fleet,Logistics & Mobility,,Mumbai,Shared-mobility fleet operator
+860,Simple Energy,EV & Auto,,Bengaluru,Electric scooter and clean energy startup
+861,Figr,Artificial Intelligence,,,AI-powered digital product design platform
+862,Byju's,EdTech,,Bengaluru,Education technology company
+863,AuditCue,SaaS,,Chennai,Audit and risk management SaaS platform
+864,Castler,FinTech & Payments,,,Global escrow banking platform
+865,OneStack,Digital Banking,,Gurugram,Core banking platform for cooperative banks and societies
+866,Oxyzen Express,Logistics & Mobility,,Chennai,Express logistics and supply-chain solutions provider
+867,Oyo,Travel & Hospitality,,,Accommodation and travel-booking platform
+868,Paper Boat,E-commerce & D2C,,,"Packaged beverages, snacks, and dry-fruits brand"
+869,VilCart,E-commerce & D2C,,Bengaluru,Rural commerce startup
+870,Nutrizoe,HealthTech,,,"Women's pregnancy, postpartum, and lactation nutrition brand"
+871,Doqfy,SaaS,,Bengaluru,Contract execution SaaS platform
+872,Innovaccer,HealthTech,,,Healthcare data platform with AI and cloud capabilities
+873,Kiwi,FinTech & Payments,,Mumbai,Credit-on-UPI app issuing RuPay cards through bank partners
+874,oorja,EV & Auto,,,Battery predictive modelling and design platform
+875,Safexpay,FinTech & Payments,,Gurgaon,White-label payment aggregation platform
+876,AquaExchange,AgriTech,,Vijayawada,IoT and automation solutions provider for aquaculture farmers.
+877,Jodaro,E-commerce & D2C,,,Global commerce platform connecting manufacturers directly with buyers
+878,Vedantu,EdTech,,Bengaluru,Online tutoring platform for students
+879,Tummoc,Logistics & Mobility,,,Multi-modal transit technology and unified ticketing platform
+880,Infinite Uptime,Industrial Tech,,,Predictive maintenance platform for industrial machinery
+881,Rigi,Consumer Internet,,,Creator community monetisation and management platform
+882,Meesho,E-commerce & D2C,,Bengaluru,E-commerce platform for small businesses and entrepreneurs
+883,Urja Sathi,Energy Transition,,Lucknow,Solar and clean-energy e-commerce marketplace
+884,Varthana Finance,FinTech & Payments,,Bengaluru,NBFC financing private schools and higher-education students
+885,RootFi,SaaS,,Bengaluru,Unified API for consented business financial data
+886,Welcome Cure,HealthTech,,Mumbai,Homeopathy technology platform for doctors and patients
+887,Agraga,Logistics & Mobility,,,Cross-border end-to-end logistics platform
+888,Daalchini,Consumer Internet,,,IoT-enabled instant-meal vending machine operator
+889,Pando,SaaS,,,"Supply-chain management software for manufacturers, retailers and 3PLs"
+890,Bolt.Earth,EV & Auto,,Bengaluru,EV charging infrastructure and software company
+891,Aaritya,Other,,Bengaluru,
+892,Boundless Brands,E-commerce & D2C,,,Digital beverage brand and full-stack F&B e-commerce platform
+893,Kombai,Developer Tools,,Pune,AI models that generate user interface code
+894,Gushwork.ai,Agentic AI,,,AI-trained human-task-force marketplace for business operations
+895,Grapevine,Consumer Internet,,Bengaluru,Anonymous social media platform
+896,WinZO,Media & Gaming,,Delhi,Online multiplayer gaming platform
+897,Baazi Games,Media & Gaming,,,Operator of real-money skill gaming platforms
+898,HealthXCapital,HealthTech,,,Healthcare-focused venture capital fund
+899,ScrapUncle,ClimateTech,,Delhi,Online scrap collection and recycling service
+900,Paytring,FinTech & Payments,,,No-code global payment-orchestration platform for Indian businesses
+901,Shiprocket,Logistics & Mobility,,Delhi,Logistics and supply chain platform for retailers
+902,Advantage Club,HR & Workforce,,,Employee engagement and experience solutions platform
+903,Udaan,E-commerce & D2C,,,B2B ecommerce platform
+904,Tractor Junction,AgriTech,,,"Marketplace for tractors, farm equipment, and rural vehicles"
+905,The Fuel Delivery,Logistics & Mobility,,,B2B doorstep diesel delivery firm
+906,ZunRoof,ClimateTech,,,"Rooftop solar design, installation and financing company"
+907,Relso,Industrial Tech,,Bengaluru,Cloud factory supplying furniture to brands and retailers
+908,Tap Invest,FinTech & Payments,,,Fixed-income asset renting investment platform
+909,LightMetrics,Logistics & Mobility,,,Video telematics platform for commercial vehicle fleets
+910,BrainSightAI,HealthTech,,Bengaluru,AI-based brain care solutions provider
+911,Fantasy Akhada,Media & Gaming,,Gurugram,Fantasy sports gaming platform
+912,HighXP,Media & Gaming,,Bengaluru,Social-casual games studio
+913,KarmaLife,FinTech & Payments,,,Earnings-linked financial solutions for gig workers
+914,TangoEye,Artificial Intelligence,,Chennai,AI computer vision analytics for retail stores
+915,Shaktimaan.ai,Artificial Intelligence,,,AI-powered educational platform for UPSC aspirants
+916,Paytm Money,FinTech & Payments,,,Online investment and trading platform
+917,LISSUN,HealthTech,,,Technology-enabled mental healthcare platform
+918,CapGrid,Industrial Tech,,Gurugram,AI-powered B2B cloud manufacturing platform
+919,Capillary,Enterprise Software,,,Customer loyalty and engagement technology platform
+920,Simplilearn,EdTech,,Bengaluru,Digital professional upskilling platform
+921,Roopya,FinTech & Payments,,,Lending analytics and infrastructure-as-a-service platform
+922,OTO,FinTech & Payments,,,"Two-wheeler purchasing, finance, and resale platform"
+923,BankBazaar,FinTech & Payments,,Chennai,Credit-card and third-party financial-products platform
+924,Spalba,SaaS,,,SaaS-enabled event planning marketplace for enterprises
+925,AlgoBio,DeepTech,,,AI platform improving molecular-testing efficiency and scale
+926,Studio Sirah,Media & Gaming,,Bengaluru,Mobile and PC mid-core games studio
+927,Entuple E-Mobility,EV & Auto,,Bengaluru,EV powertrain technology developer
+928,Chumbak,E-commerce & D2C,,,Omnichannel home and lifestyle brand
+929,Finsire,FinTech & Payments,,Chennai,Digital-asset collateral lending enablement platform
+930,Animall,AgriTech,,Bengaluru,Platform for buying and selling cattle
+931,Giga Fun Studios,Media & Gaming,,Bengaluru,Casual games developer
+932,Lifelong,E-commerce & D2C,,Gurugram,Consumer durable products company
+933,Ergos,AgriTech,,Bengaluru,"Farm-gate grain storage, credit and supply-chain platform"
+934,Pocket FM,Media & Gaming,,Bengaluru,"Platform for long-form audio shows, stories, novels and podcasts"
+935,Vobble,Media & Gaming,,Bengaluru,Children's audio content platform for stories and podcasts
+936,VRO Hospitality,Travel & Hospitality,,,"Operator of restaurants, cafes, lounges and F&B brands"
+937,Infra.Market,Industrial Tech,,Mumbai,Construction materials and infrastructure-goods platform
+938,CYFIRMA,Cybersecurity,,,External threat landscape management and cyber-intelligence platform
+939,Difenz,Cybersecurity,,Bengaluru,Financial fraud risk management platform
+940,RenewBuy,FinTech & Payments,,,"Insurance distribution platform for health, life and motor products"
+941,PierSight,SpaceTech,,,Maritime surveillance satellite constellation operator
+942,P-TAL,E-commerce & D2C,,Panchkula,Traditional metal kitchenware and home decor brand
+943,Sprinto,SaaS,,Bengaluru,Compliance automation platform for SaaS companies
+944,Farmtheory,AgriTech,,Bengaluru,B2B agri-food sourcing platform
+945,PYOR,Data Infrastructure,,,Digital asset data and analytics platform
+946,EquityList,SaaS,,,Equity and shareholder management platform
+947,Le Petit Lunetier,E-commerce & D2C,,,Omnichannel eyewear brand
+948,Hypergro.ai,SaaS,,Bengaluru,AI-driven marketing platform for brands
+949,HeyoPhone,SaaS,,Delhi,Unified business calls and WhatsApp communication platform
+950,Metalbook,Industrial Tech,,Delhi,Global metals supply-chain and procurement platform
+951,Electrifi Mobility,EV & Auto,,,EV asset management and leasing provider
+952,Heliware,DeepTech,,,Geospatial mapping and real-time analytics technology platform
+953,Apptile,SaaS,,,No-code mobile app development platform
+954,Growpital,AgriTech,,,Commercial agriculture investment platform for retail investors
+955,PagarBook,HR & Workforce,,,"Staff salary, work and attendance management app"
+956,BabyOrgano,HealthTech,,,D2C ayurvedic babycare and kids healthcare brand
+957,Mad Street Den,Artificial Intelligence,,,AI automation and inventory management solutions provider
+958,ONO,AgriTech,,,Crop-price and mandi-discovery platform for farmers
+959,Sindhuja Microcredit,FinTech & Payments,,Noida,Microfinance provider for women entrepreneurs and businesses
+960,Urban Company,Consumer Internet,,,On-demand home-services marketplace
+961,Sukino Healthcare Solutions,HealthTech,,Bengaluru,Long-term healthcare management provider
+962,Core Integra,HR & Workforce,,,"HR compliance, payroll and manpower solutions provider"
+963,Oopar Club,Consumer Internet,,Bengaluru,Community-based social networking platform for adults
+964,Piscium,HealthTech,,,Dental and medical device manufacturer
+965,True Balance,FinTech & Payments,,Gurugram,Digital payments and cash lending platform
+966,Cardiotrack,HealthTech,,,At-home diagnostic screening technology provider
+967,Rezolve.ai,Artificial Intelligence,,,AI-powered employee service SaaS platform
+968,Ecozen,ClimateTech,,Pune,Solar-powered systems provider for small farmers
+969,BrowserStack,Developer Tools,,,Software testing platform
+970,Beardo,E-commerce & D2C,,Ahmedabad,Men's grooming products brand
+971,Credgenics,SaaS,,Noida,Debt-recovery and legal-automation SaaS platform
+972,GENLEAP,HR & Workforce,,Gurugram,DNA-based self-discovery and career management platform
+973,The Good Bug,HealthTech,,,Direct-to-consumer gut health and wellness brand
+974,Vridhi Home Finance,FinTech & Payments,,,Tech-enabled housing finance company
+975,One Impression,Media & Gaming,,,Influencer marketing platform for brands
+976,The Baker's Dozen,E-commerce & D2C,,Mumbai,Direct-to-consumer bakery products brand
+977,Scimplifi,Industrial Tech,,,B2B specialty-chemical sourcing and manufacturing platform
+978,Bluestone,E-commerce & D2C,,,Omnichannel gold and diamond jewellery retailer
+979,OpiGo,FinTech & Payments,,Mumbai,Community-driven stock decision-making platform
+980,P0,Cybersecurity,,,AI software-security assistant for developers
+981,Eupheus Learning,EdTech,,Delhi,School-focused curriculum distribution platform
+982,mFine,HealthTech,,,"Doctor consultation, diagnostics and medicine-ordering platform"
+983,GobbleCube,SaaS,,,E-commerce brand analytics and decision automation platform
+984,Darwinbox,HR & Workforce,,Hyderabad,HR technology platform
+985,Quash,Agentic AI,,Bengaluru,Autonomous AI agents for mobile app testing
+986,Rapido,Logistics & Mobility,,,"On-demand bike, auto and delivery platform"
+987,BonV Aero,DefenceTech,,Bengaluru,Aerial logistics vehicles for goods and passenger transportation.
+988,Brierley+Partners,SaaS,,,"Customer loyalty technology, strategy and execution firm"
+989,Alt Mobility,EV & Auto,,,EV leasing and lifecycle management platform
+990,CureSkin,HealthTech,,Bengaluru,AI-powered personalized skin and hair treatment platform
+991,Impact Analytics,SaaS,,Bengaluru,Enterprise AI SaaS for retail and supply chains
+992,Koparo,E-commerce & D2C,,,D2C home cleaning products brand
+993,CashKaro,Consumer Internet,,,"Cashback, coupons and price comparison platform"
+994,MindPeers,HealthTech,,,Mental fitness platform
+995,CHEP India,Logistics & Mobility,,,Pallet and container pooling supply chain provider
+996,Miraggio,E-commerce & D2C,,Delhi,Premium handbags and fashion accessories brand
+997,Jiraaf,FinTech & Payments,,,Digital platform for fixed-income investment opportunities
+998,MyCaptain,EdTech,,,Career-skills learning platform offering cohort-based courses
+999,Starbuzz.ai,Artificial Intelligence,,Hyderabad,AI-powered influencer marketing platform
+1000,Zomato,Consumer Internet,,,"Food delivery, B2B supplies and quick-commerce platform"
+1001,Ampere,EV & Auto,,,Electric two-wheeler manufacturer
+1002,Bizongo,Enterprise Software,,Mumbai,"B2B packaging procurement, automation and financing platform"
+1003,Knocksense,Consumer Internet,,Lucknow,Hyperlocal content-driven commerce platform
+1004,Niro,FinTech & Payments,,Bengaluru,Embedded personal-credit platform for consumer internet companies
+1005,Pepcoding,EdTech,,Delhi,Edtech platform for programming education
+1006,SatSure,SpaceTech,,Bengaluru,Satellite Earth observation data and analytics provider
+1007,Inc.5 Shoes,E-commerce & D2C,,,Designer footwear brand
+1008,TripCrafters,Travel & Hospitality,,Mumbai,Travel marketplace connecting travelers with travel agents
+1009,Mintifi,FinTech & Payments,,Mumbai,B2B supply-chain financing platform
+1010,Happilo,E-commerce & D2C,,,Direct-to-consumer healthy snacks brand
+1011,Breathe ESG,ClimateTech,,,Enterprise sustainability management SaaS platform
+1012,Mufin Green Finance,FinTech & Payments,,,EV financing platform
+1013,Absolute Brands,E-commerce & D2C,,,Fashion and lifestyle platform building in-house apparel brands
+1014,Slash,FinTech & Payments,,Delhi,Fintech startup
+1015,Perfios,FinTech & Payments,,Bengaluru,B2B financial-data analytics SaaS provider
+1016,Gameberry,Media & Gaming,,,Mobile gaming publisher operating Ludo and Parchisi games
+1017,Brainsight Technology,HealthTech,,,Healthtech platform for neuroscience clinicians and patients
+1018,Expertrons,EdTech,,Mumbai,AI videobot career-guidance and skilling platform
+1019,Vitraya Technologies,HealthTech,,Mohali,Technology platform automating real-time insurance claims
+1020,French Crown,E-commerce & D2C,,,Premium fast-fashion apparel brand
+1021,Barcode,Media & Gaming,,,Content and influencer marketing agency
+1022,SuperK,E-commerce & D2C,,Hyderabad,Branded franchise grocery retail chain
+1023,Sunstone,EdTech,,,Higher education employability platform
+1024,Saluto Wellness,HR & Workforce,,Bengaluru,Enterprise engagement and wellness services provider
+1025,Travel Boutique,Travel & Hospitality,,Gurugram,B2B travel distribution platform
+1026,Onsurity,HealthTech,,Bengaluru,Employee healthcare subscription platform
+1027,Clover Ventures,AgriTech,,,Fresh produce agronomy supply-chain platform
+1028,SigNoz,Cloud Infrastructure,,,Open-source observability platform for application telemetry
+1029,Tan90,Industrial Tech,,Chennai,Thermal-management and cold-chain solutions provider
+1030,Perfora,E-commerce & D2C,,,Oral-care consumer products brand
+1031,Prozo,Logistics & Mobility,,Gurugram,Full-stack supply chain and warehousing platform
+1032,BeepKart,EV & Auto,,,Full-stack retailer of used two-wheelers
+1033,CredRight,FinTech & Payments,,Hyderabad,Data-driven MSME lending platform
+1034,Bewakoof,E-commerce & D2C,,,Direct-to-consumer fashion and accessories brand
+1035,Enrico Eyewear,E-commerce & D2C,,Mumbai,Eyewear brand
+1036,RDC Concrete,Industrial Tech,,,Ready-mix concrete manufacturer and supplier
+1037,Cult.fit,HealthTech,,Bengaluru,Health and wellness platform
+1038,ZestIoT,DeepTech,,Hyderabad,IoT and AI aviation ground-operations platform
+1039,Sarvam AI,Artificial Intelligence,,,Generative AI model and enterprise deployment platform
+1040,Virohan,EdTech,,Gurugram,Healthcare skills education platform
+1041,GenWise,Consumer Internet,,Delhi,Online community and services platform for Indian seniors
+1042,Datoms,Industrial Tech,,Bhubaneswar,Connected operations cloud for industrial OEMs
+1043,ZappFresh,E-commerce & D2C,,Gurugram,"Fresh meat, seafood and ready-to-cook delivery platform"
+1044,Recykal,ClimateTech,,Hyderabad,Digital waste management marketplace and EPR platform
+1045,Baaz Bikes,EV & Auto,,,Electric scooter subscription and battery swapping for gig workers
+1046,Indra,ClimateTech,,,Smart industrial and sewage water-treatment systems provider.
+1047,CapitalSetu,FinTech & Payments,,,Supply-chain financing aggregator for small manufacturers
+1048,Covrzy,FinTech & Payments,,,Business liability insurance platform for MSMEs
+1049,Ronin Wines,E-commerce & D2C,,Pune,Maker of Moonshine Meadery honey-based alcoholic beverages
+1050,Curefoods,E-commerce & D2C,,,Cloud kitchen operator with multiple food brands
+1051,Game Theory,Consumer Internet,,,Technology-enabled sports facilities and player platform
+1052,uFaber,EdTech,,,Online learning and specialized training platform
+1053,VoiceClub,Consumer Internet,,Bengaluru,On-demand audio consultancy platform
+1054,Rocksport,Travel & Hospitality,,,Provider of in-school adventure programs
+1055,Mensa Brands,E-commerce & D2C,,Bengaluru,E-commerce brand roll-up company
+1056,OnEMi Technologies,FinTech & Payments,,Mumbai,Parent of consumer lending platform Kissht and RING
+1057,Turns,SaaS,,,Laundry operations software and hardware platform
+1058,DIAL 4242,HealthTech,,Mumbai,Online emergency ambulance booking platform
+1059,K12 Techno,EdTech,,,"K-12 education, content and technology services provider"
+1060,AvatarLife,Media & Gaming,,,Metaverse platform offering skill-based virtual-world games
+1061,eFeed,AgriTech,,Pune,Animal nutrition supplements manufacturer
+1062,Stack Identity,Cybersecurity,,,Cloud IAM governance and shadow-access security platform
+1063,BharatNXT,FinTech & Payments,,,B2B credit-card payments platform for businesses
+1064,Louis Stitch,E-commerce & D2C,,,Men's luxury footwear and leather accessories brand
+1065,HerKey,HR & Workforce,,,Women's career engagement and workplace diversity platform
+1066,Boba Bhai,E-commerce & D2C,,Bengaluru,Quick-service bubble tea and Korean food brand
+1067,Clensta,E-commerce & D2C,,,D2C personal care and home care brand
+1068,Balwaan,AgriTech,,,Affordable farm-machinery provider for small farms
+1069,Ulipsu,EdTech,,,Multi-skill learning infrastructure platform for schools
+1070,Entitled Solutions,HR & Workforce,,,Health and financial-inclusion platform for workers
+1071,Bambrew,ClimateTech,,Bengaluru,Sustainable packaging company using bamboo and sugarcane
+1072,Scandalous Foods,E-commerce & D2C,,,B2B preservative-free sweets supplier for restaurants
+1073,Exponent Energy,EV & Auto,,Bengaluru,Rapid-charging technology provider for electric vehicles
+1074,LeadSquared,SaaS,,,"Sales, marketing, and onboarding automation software"
+1075,Zupee,Media & Gaming,,Gurugram,Real-money casual gaming platform
+1076,ASL,EdTech,,,Study-abroad platform managing the student lifecycle

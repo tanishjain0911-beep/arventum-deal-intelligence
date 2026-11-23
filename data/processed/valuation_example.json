@@ -1,0 +1,39 @@
+{
+  "input": {
+    "sector": "SaaS",
+    "revenue_inr_cr": 150,
+    "growth": 0.5,
+    "ebitda_margin": 0.1
+  },
+  "ranges": [
+    {
+      "method": "Listed sector peers (25th-75th pct, after 25% private discount)",
+      "low": 205.4064513374445,
+      "mid": 282.181734334161,
+      "high": 333.4351056625414,
+      "multiple": "1.8x - 3.0x EV/Revenue (median 2.5x)"
+    },
+    {
+      "method": "Growth, margin & gross-margin adjusted (regression on listed comps)",
+      "low": 478.22719284500624,
+      "mid": 870.1535348597408,
+      "high": 1583.2792144764144,
+      "multiple": "7.7x implied EV/Revenue (R\u00b2 0.30, n=85)"
+    }
+  ],
+  "regression": {
+    "intercept": 0.43680944046959735,
+    "growth": 0.7185685707621723,
+    "margin": -0.22761213736536443,
+    "gross": 2.0026065170711775,
+    "india": -0.23787390319541757,
+    "r2": 0.29928732018061854,
+    "resid_sd": 0.8881064607077627,
+    "n": 85
+  },
+  "notes": [
+    "Gross margin not given; using the SaaS peer median of 69%.",
+    "Not enough Indian private rounds with both valuation and revenue disclosed."
+  ],
+  "n_private_comps": 1
+}
