@@ -53,7 +53,9 @@ def fetch_day(day: dt.date):
                 time.sleep(5 * (attempt + 1))
         time.sleep(1.0)
     text = path.read_text(encoding="utf-8") if path.exists() else ""
-    return [(str(day), u) for u in re.findall(r"<loc>(.*?)</loc>", text)]
+    # some sitemaps leak the CMS host (entrackr-prod.publive.io); the same path is live on entrackr.com
+    return [(str(day), u.replace("://entrackr-prod.publive.io/", "://entrackr.com/"))
+            for u in re.findall(r"<loc>(.*?)</loc>", text)]
 
 
 def main():

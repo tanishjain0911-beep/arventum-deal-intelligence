@@ -92,7 +92,8 @@ class AdaptiveRate:
         with self.lock:
             self.gap = min(self.max_gap, self.gap * 1.6)
             if retry_after:
-                self.next_slot = max(self.next_slot, time.time() + retry_after)
+                # honour Retry-After, but cap it: one stale header must not freeze the crawler for an hour
+                self.next_slot = max(self.next_slot, time.time() + min(retry_after, 60))
 
 
 RATE = AdaptiveRate()
@@ -119,11 +120,16 @@ def fetch(row):
                 break
             rec["error"] = f"http {r.status_code}"
             if r.status_code in (429, 503):
-                RATE.throttled(float(r.headers.get("Retry-After") or 0) or None)
+                ra = float(r.headers.get("Retry-After") or 0) or None
+                RATE.throttled(ra)
+                print(f"  throttled {r.status_code} retry-after={ra} gap now {RATE.gap:.1f}s", flush=True)
                 continue
             break
         except requests.RequestException as e:
             rec["error"] = str(e)[:120]
+            if "NameResolutionError" in str(e) or "getaddrinfo failed" in str(e):
+                rec["error"] = "http 404 (host does not resolve)"  # permanent: retrying cannot help
+                break
             time.sleep(3 * (attempt + 1))
     path.write_text(json.dumps(rec, ensure_ascii=False), encoding="utf-8")
     return rec
@@ -142,7 +148,7 @@ def main():
         for i, rec in enumerate(ex.map(fetch, rows)):
             done.append(rec)
             errors += bool(rec.get("error"))
-            if i % 250 == 0:
+            if i % 50 == 0:
                 print(f"{i}/{len(rows)} fetched, {errors} errors, request gap {RATE.gap:.2f}s", flush=True)
     with OUT.open("w", encoding="utf-8") as f:
         for rec in done:
