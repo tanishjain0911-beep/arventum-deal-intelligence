@@ -20,6 +20,9 @@ def main():
     d = pd.read_sql("SELECT deal_date, amount_usd_m FROM deals WHERE deal_type IN ('equity','debt')", con,
                     parse_dates=["deal_date"])
     con.close()
+    # only weeks fully inside the extracted date range (avoid counting not-yet-processed weeks as misses)
+    wk = wk[(wk.week_end >= d.deal_date.min() + pd.Timedelta(days=6)) &
+            (wk.week_end <= d.deal_date.max() - pd.Timedelta(days=7))]
     rows = []
     for _, w in wk.iterrows():
         start = w.week_end - pd.Timedelta(days=6)

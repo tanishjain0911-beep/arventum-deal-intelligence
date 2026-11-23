@@ -31,9 +31,18 @@ def _history(asof: pd.Timestamp):
 
 
 def rank(sector: str, stage: str, amount_usd_m: float | None, asof: pd.Timestamp | None = None,
-         need_lead: bool = False, top: int = 50, history: pd.DataFrame | None = None) -> pd.DataFrame:
+         need_lead: bool = False, top: int = 50, history: pd.DataFrame | None = None,
+         foreign_only: bool = False, investor_types: list | None = None) -> pd.DataFrame:
+    """Rank investors for a deal profile. Optional filters: foreign_only (HQ outside India) and
+    investor_types (AI-classified types, e.g. ["Private Equity / Growth", "Corporate / CVC"])."""
     asof = asof or funding_deals().deal_date.max() + pd.Timedelta(days=1)
     h = history if history is not None else _history(asof)
+    if h.empty:
+        return pd.DataFrame()
+    if foreign_only and "is_foreign" in h:
+        h = h[h.is_foreign == 1]
+    if investor_types and "ai_type" in h:
+        h = h[h.ai_type.isin(investor_types)]
     if h.empty:
         return pd.DataFrame()
     srank = STAGE_RANK.get(stage)

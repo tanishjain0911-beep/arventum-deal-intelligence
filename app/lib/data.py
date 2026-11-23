@@ -33,7 +33,8 @@ def deal_investors() -> pd.DataFrame:
     """Long table: one row per (deal, investor)."""
     with _con() as con:
         df = pd.read_sql("""
-            SELECT di.deal_id, di.is_lead, i.investor_id, i.name AS investor, i.type AS investor_type
+            SELECT di.deal_id, di.is_lead, i.investor_id, i.name AS investor, i.type AS investor_type,
+                   i.ai_type, i.hq_country, i.is_foreign
             FROM deal_investors di JOIN investors i USING(investor_id)""", con)
     return df
 

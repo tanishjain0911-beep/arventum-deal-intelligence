@@ -21,8 +21,12 @@ CREATE TABLE IF NOT EXISTS companies (
 CREATE TABLE IF NOT EXISTS investors (
     investor_id   INTEGER PRIMARY KEY,
     name          TEXT UNIQUE NOT NULL,     -- canonical name
-    type          TEXT,                     -- VC / PE / CVC / Corporate / Angel / Debt / Govt / Family office / Other
-    country       TEXT
+    type          TEXT,                     -- rule-based: Institutional / Individual / Angel network / Accelerator / Debt / ...
+    country       TEXT,
+    ai_type       TEXT,                     -- AI-classified (pipeline/enrich_investors.py), labelled as such
+    hq_country    TEXT,
+    is_foreign    INTEGER,
+    ai_confidence REAL
 );
 
 CREATE TABLE IF NOT EXISTS investor_aliases (

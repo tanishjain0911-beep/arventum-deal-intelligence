@@ -34,15 +34,29 @@ def to_usd_m(value, currency, unit, year: int = 2025):
 
 
 AMT = re.compile(
-    r"(?P<cur>\$|usd|rs\.?|inr|₹)\s?(?P<num>\d+(?:[.,]\d+)*)\s?"
-    r"(?P<unit>mn|million|m\b|bn|billion|b\b|cr|crore|lakh|lakhs|k\b|thousand)?",
+    r"(?P<cur>\$|₹|\b(?:usd|rs\.?|inr)(?=\s?\d))\s?(?P<num>\d+(?:[.,]\d+)*)\s?"
+    r"(?P<unit>mn\b|million\b|m\b|bn\b|billion\b|b\b|cr\b|crore\b|lakh\b|lakhs\b|k\b|thousand\b)?",
     re.I)
+# an amount next to these words is not the round size
+NOT_ROUND_BEFORE = re.compile(r"(valuation|valued|valuing|worth|revenue|loss|losses|profit|gmv|arr|turnover|"
+                              r"income|sales|fund\s+of|corpus|aum|ebitda|tanks\s+to|drops\s+to|jumps\s+to)"
+                              r"[^$₹\d]{0,25}$", re.I)
+NOT_ROUND_AFTER = re.compile(r"^\s*(?:mn|million|bn|billion|cr|crore)?\s*(?:for\s+(?:its\s+)?(?:\w+\s+){0,2})?"
+                             r"(valuation|revenue|loss|profit|gmv|arr|turnover|fund\b|corpus|aum)", re.I)
 
 
 def headline_amount_usd(text: str, year: int = 2025):
     """Deterministic amount parser for headlines like '$11 Mn', 'Rs 70 Cr', '₹115 Cr', '$250,000', '$500K'.
+    Skips amounts that describe a valuation, revenue, loss, fund size etc.
     Returns USD millions or None when no confident match."""
-    m = AMT.search(text or "")
+    text = text or ""
+    m = None
+    for cand in AMT.finditer(text):
+        before, after = text[:cand.start()], text[cand.end():cand.end() + 20]
+        if NOT_ROUND_BEFORE.search(before) or NOT_ROUND_AFTER.search(after):
+            continue
+        m = cand
+        break
     if not m:
         return None
     raw = m.group("num")

@@ -308,6 +308,12 @@ def main():
         inv_ids[mk] = cur.execute("SELECT investor_id FROM investors WHERE name=?", (name,)).fetchone()[0]
     for nk, mk in investors.alias_to_key.items():
         cur.execute("INSERT OR IGNORE INTO investor_aliases VALUES (?,?)", (nk, inv_ids[mk]))
+    enr_path = PROCESSED / "investor_enrichment.json"
+    if enr_path.exists():
+        enr = json.loads(enr_path.read_text(encoding="utf-8"))
+        for name, e in enr.items():
+            cur.execute("UPDATE investors SET ai_type=?, hq_country=?, is_foreign=?, ai_confidence=? WHERE name=?",
+                        (e["investor_type"], e["hq_country"], int(e["is_foreign"]), e["confidence"], name))
 
     for row in kept:
         cur.execute("""INSERT INTO deals(company_id, deal_date, deal_type, stage, amount_usd_m, amount_inr_cr,
