@@ -6,4 +6,8 @@ venv/
 *.env
 .DS_Store
 data/raw/html/
+data/raw/sitemaps/
+data/raw/articles/
+data/batches/
+pipeline/probe*.py
 *.log

@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["records"],
+  "properties": {
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "url", "record_type", "company", "company_description", "sector", "city", "stage",
+          "amount_value", "amount_currency", "amount_unit",
+          "valuation_value", "valuation_currency", "valuation_unit",
+          "lead_investors", "other_investors", "acquirer",
+          "fiscal_year", "revenue_inr_cr", "profit_inr_cr", "confidence"
+        ],
+        "properties": {
+          "url": {"type": "string"},
+          "record_type": {"type": "string", "enum": ["funding", "acquisition", "secondary", "ipo", "financials", "not_a_deal"]},
+          "company": {"type": ["string", "null"]},
+          "company_description": {"type": ["string", "null"]},
+          "sector": {"type": ["string", "null"]},
+          "city": {"type": ["string", "null"]},
+          "stage": {"type": ["string", "null"]},
+          "amount_value": {"type": ["number", "null"]},
+          "amount_currency": {"type": ["string", "null"], "enum": ["USD", "INR", null]},
+          "amount_unit": {"type": ["string", "null"], "enum": ["mn", "bn", "cr", "lakh", null]},
+          "valuation_value": {"type": ["number", "null"]},
+          "valuation_currency": {"type": ["string", "null"], "enum": ["USD", "INR", null]},
+          "valuation_unit": {"type": ["string", "null"], "enum": ["mn", "bn", "cr", "lakh", null]},
+          "lead_investors": {"type": "array", "items": {"type": "string"}},
+          "other_investors": {"type": "array", "items": {"type": "string"}},
+          "acquirer": {"type": ["string", "null"]},
+          "fiscal_year": {"type": ["string", "null"]},
+          "revenue_inr_cr": {"type": ["number", "null"]},
+          "profit_inr_cr": {"type": ["number", "null"]},
+          "confidence": {"type": "number"}
+        }
+      }
+    }
+  }
+}
