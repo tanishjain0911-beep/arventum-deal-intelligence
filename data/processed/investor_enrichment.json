@@ -1,0 +1,2102 @@
+{
+ "Inflection Point Ventures": {
+  "name": "Inflection Point Ventures",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Venture Catalysts": {
+  "name": "Venture Catalysts",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Blume Ventures": {
+  "name": "Blume Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Peak XV Partners": {
+  "name": "Peak XV Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.94
+ },
+ "Kunal Shah": {
+  "name": "Kunal Shah",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Lightspeed": {
+  "name": "Lightspeed",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Alteria Capital": {
+  "name": "Alteria Capital",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Stride Ventures": {
+  "name": "Stride Ventures",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Z47": {
+  "name": "Z47",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Anicut Capital": {
+  "name": "Anicut Capital",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Trifecta Capital": {
+  "name": "Trifecta Capital",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Titan Capital": {
+  "name": "Titan Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "We Founder Circle": {
+  "name": "We Founder Circle",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Accel": {
+  "name": "Accel",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Fireside Ventures": {
+  "name": "Fireside Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Elevation Capital": {
+  "name": "Elevation Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "9Unicorns": {
+  "name": "9Unicorns",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "LetsVenture": {
+  "name": "LetsVenture",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Omnivore": {
+  "name": "Omnivore",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Mumbai Angels": {
+  "name": "Mumbai Angels",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Nexus Venture Partners": {
+  "name": "Nexus Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.95
+ },
+ "Rainmatter": {
+  "name": "Rainmatter",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "IvyCap Ventures": {
+  "name": "IvyCap Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Capital A": {
+  "name": "Capital A",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Chiratae Ventures": {
+  "name": "Chiratae Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Tanglin Venture Partners": {
+  "name": "Tanglin Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.92
+ },
+ "British International Investment": {
+  "name": "British International Investment",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "United Kingdom",
+  "is_foreign": true,
+  "confidence": 1.0
+ },
+ "Y Combinator": {
+  "name": "Y Combinator",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 1.0
+ },
+ "100X.VC": {
+  "name": "100X.VC",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Omidyar Network India": {
+  "name": "Omidyar Network India",
+  "investor_type": "Other",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "All In Capital": {
+  "name": "All In Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Better Capital": {
+  "name": "Better Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Info Edge Ventures": {
+  "name": "Info Edge Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Gruhas": {
+  "name": "Gruhas",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Saama Capital": {
+  "name": "Saama Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "DeVC": {
+  "name": "DeVC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Endiya Partners": {
+  "name": "Endiya Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Kalaari Capital": {
+  "name": "Kalaari Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Piper Serica": {
+  "name": "Piper Serica",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Kae Capital": {
+  "name": "Kae Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Prime Venture Partners": {
+  "name": "Prime Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Antler India": {
+  "name": "Antler India",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.95
+ },
+ "InnoVen Capital": {
+  "name": "InnoVen Capital",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.97
+ },
+ "Blume Founders Fund": {
+  "name": "Blume Founders Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.9
+ },
+ "Abhishek Goyal": {
+  "name": "Abhishek Goyal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Sauce VC": {
+  "name": "Sauce VC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Pravega Ventures": {
+  "name": "Pravega Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Axilor Ventures": {
+  "name": "Axilor Ventures",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Stellaris Venture Partners": {
+  "name": "Stellaris Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "3one4 Capital": {
+  "name": "3one4 Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Alpha Wave Global": {
+  "name": "Alpha Wave Global",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "United Arab Emirates",
+  "is_foreign": true,
+  "confidence": 0.93
+ },
+ "Indian Angel Network": {
+  "name": "Indian Angel Network",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 1.0
+ },
+ "Temasek": {
+  "name": "Temasek",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 1.0
+ },
+ "Arjun Vaidya": {
+  "name": "Arjun Vaidya",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Ashish Kacholia": {
+  "name": "Ashish Kacholia",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Jungle Ventures": {
+  "name": "Jungle Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Vertex Ventures SEA & India": {
+  "name": "Vertex Ventures SEA & India",
+  "investor_type": "Venture Capital",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "India Quotient": {
+  "name": "India Quotient",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Speciale Invest": {
+  "name": "Speciale Invest",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Tiger Global": {
+  "name": "Tiger Global",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "FAAD Network": {
+  "name": "FAAD Network",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Lumikai": {
+  "name": "Lumikai",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "SBI Investment": {
+  "name": "SBI Investment",
+  "investor_type": "Venture Capital",
+  "hq_country": "Japan",
+  "is_foreign": true,
+  "confidence": 0.9
+ },
+ "BEENEXT": {
+  "name": "BEENEXT",
+  "investor_type": "Venture Capital",
+  "hq_country": "Japan",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "Upsparks": {
+  "name": "Upsparks",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.72
+ },
+ "Arkam Ventures": {
+  "name": "Arkam Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "SIDBI": {
+  "name": "SIDBI",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Saison Capital": {
+  "name": "Saison Capital",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.9
+ },
+ "Soonicorn Ventures": {
+  "name": "Soonicorn Ventures",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.73
+ },
+ "Ramakant Sharma": {
+  "name": "Ramakant Sharma",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "TDV Partners": {
+  "name": "TDV Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.8
+ },
+ "WestBridge Capital": {
+  "name": "WestBridge Capital",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.94
+ },
+ "Ah! Ventures": {
+  "name": "Ah! Ventures",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Gemba Capital": {
+  "name": "Gemba Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.91
+ },
+ "DSG Consumer Partners": {
+  "name": "DSG Consumer Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "Varun Alagh": {
+  "name": "Varun Alagh",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Singularity Growth": {
+  "name": "Singularity Growth",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Java Capital": {
+  "name": "Java Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Sujeet Kumar": {
+  "name": "Sujeet Kumar",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Prosus Ventures": {
+  "name": "Prosus Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "Netherlands",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Artha Venture Fund": {
+  "name": "Artha Venture Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "General Catalyst": {
+  "name": "General Catalyst",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Real Time Angel Fund": {
+  "name": "Real Time Angel Fund",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Whiteboard Capital": {
+  "name": "Whiteboard Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Riverwalk Holdings": {
+  "name": "Riverwalk Holdings",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.49
+ },
+ "MassMutual Ventures": {
+  "name": "MassMutual Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Recur Club": {
+  "name": "Recur Club",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "NB Ventures": {
+  "name": "NB Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.61
+ },
+ "Avataar Ventures": {
+  "name": "Avataar Ventures",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "BlackSoil": {
+  "name": "BlackSoil",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "WEH Ventures": {
+  "name": "WEH Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Force Ventures": {
+  "name": "Force Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.88
+ },
+ "Northern Arc": {
+  "name": "Northern Arc",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Venture Highway": {
+  "name": "Venture Highway",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Baring Private Equity": {
+  "name": "Baring Private Equity",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "Hong Kong",
+  "is_foreign": true,
+  "confidence": 0.9
+ },
+ "Arali Ventures": {
+  "name": "Arali Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Goldman Sachs": {
+  "name": "Goldman Sachs",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Three State Capital": {
+  "name": "Three State Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.64
+ },
+ "Accion Venture Lab": {
+  "name": "Accion Venture Lab",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.93
+ },
+ "HEM Angels": {
+  "name": "HEM Angels",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.91
+ },
+ "KRS Jamwal": {
+  "name": "KRS Jamwal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Sharrp Ventures": {
+  "name": "Sharrp Ventures",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "B Capital": {
+  "name": "B Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "First Cheque": {
+  "name": "First Cheque",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.9
+ },
+ "Quona Capital": {
+  "name": "Quona Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Athera Venture Partners": {
+  "name": "Athera Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "GetVantage": {
+  "name": "GetVantage",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.89
+ },
+ "Silverneedle Ventures": {
+  "name": "Silverneedle Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.83
+ },
+ "Leo Capital": {
+  "name": "Leo Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.92
+ },
+ "International Finance Corporation": {
+  "name": "International Finance Corporation",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Unicorn India Ventures": {
+  "name": "Unicorn India Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Revant Bhate": {
+  "name": "Revant Bhate",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Huddle": {
+  "name": "Huddle",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.91
+ },
+ "Exfinity Venture Partners": {
+  "name": "Exfinity Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Blue Ashva Capital": {
+  "name": "Blue Ashva Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "YourNest Venture Capital": {
+  "name": "YourNest Venture Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "HDFC Bank": {
+  "name": "HDFC Bank",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Goodwater Capital": {
+  "name": "Goodwater Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Nabventures Fund": {
+  "name": "Nabventures Fund",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.91
+ },
+ "Supermorpheus": {
+  "name": "Supermorpheus",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.84
+ },
+ "Green Frontier Capital": {
+  "name": "Green Frontier Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "TVS Capital": {
+  "name": "TVS Capital",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Bestvantage": {
+  "name": "Bestvantage",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.68
+ },
+ "Panthera Growth Partners": {
+  "name": "Panthera Growth Partners",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.85
+ },
+ "Mirabilis Investment Trust": {
+  "name": "Mirabilis Investment Trust",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.75
+ },
+ "RTP Global": {
+  "name": "RTP Global",
+  "investor_type": "Venture Capital",
+  "hq_country": "United Kingdom",
+  "is_foreign": true,
+  "confidence": 0.91
+ },
+ "Zephyr Peacock": {
+  "name": "Zephyr Peacock",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Bharat Innovation Fund": {
+  "name": "Bharat Innovation Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "SucSEED Indovation Fund": {
+  "name": "SucSEED Indovation Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "AngelList India": {
+  "name": "AngelList India",
+  "investor_type": "Angel network / platform",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.92
+ },
+ "Creaegis": {
+  "name": "Creaegis",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.92
+ },
+ "EvolveX": {
+  "name": "EvolveX",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Shantanu Deshpande": {
+  "name": "Shantanu Deshpande",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Caret Capital": {
+  "name": "Caret Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.91
+ },
+ "Unilever Ventures": {
+  "name": "Unilever Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "United Kingdom",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Khosla Ventures": {
+  "name": "Khosla Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Climber Capital": {
+  "name": "Climber Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.82
+ },
+ "Fluid Ventures": {
+  "name": "Fluid Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.78
+ },
+ "Keiretsu Forum": {
+  "name": "Keiretsu Forum",
+  "investor_type": "Angel network / platform",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.97
+ },
+ "Steadview Capital": {
+  "name": "Steadview Capital",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "Hong Kong",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "Anthill Ventures": {
+  "name": "Anthill Ventures",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "GSF": {
+  "name": "GSF",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Rebright Partners": {
+  "name": "Rebright Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "Japan",
+  "is_foreign": true,
+  "confidence": 0.97
+ },
+ "Veda VC": {
+  "name": "Veda VC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.92
+ },
+ "Vidit Aatrey": {
+  "name": "Vidit Aatrey",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Emergent Ventures": {
+  "name": "Emergent Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.91
+ },
+ "Aavishkaar Capital": {
+  "name": "Aavishkaar Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Turbostart": {
+  "name": "Turbostart",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "WaterBridge Ventures": {
+  "name": "WaterBridge Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "iSeed": {
+  "name": "iSeed",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.79
+ },
+ "Sixth Sense Ventures": {
+  "name": "Sixth Sense Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Premji Invest": {
+  "name": "Premji Invest",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Nitin Gupta": {
+  "name": "Nitin Gupta",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "ZNL Growth Fund": {
+  "name": "ZNL Growth Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.78
+ },
+ "Orios Venture Partners": {
+  "name": "Orios Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Amazon Smbhav Venture Fund": {
+  "name": "Amazon Smbhav Venture Fund",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Velocity": {
+  "name": "Velocity",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "A91 Partners": {
+  "name": "A91 Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Cornerstone Ventures": {
+  "name": "Cornerstone Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "SIG Venture Capital": {
+  "name": "SIG Venture Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.95
+ },
+ "Hyderabad Angels": {
+  "name": "Hyderabad Angels",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "PointOne Capital": {
+  "name": "PointOne Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Kettleborough VC": {
+  "name": "Kettleborough VC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.92
+ },
+ "Auxano Capital": {
+  "name": "Auxano Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Cactus Partners": {
+  "name": "Cactus Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Kube VC": {
+  "name": "Kube VC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.88
+ },
+ "Elevar Equity": {
+  "name": "Elevar Equity",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "NKSquared": {
+  "name": "NKSquared",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.78
+ },
+ "Chona Family Office": {
+  "name": "Chona Family Office",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Capital 2B": {
+  "name": "Capital 2B",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.91
+ },
+ "Vivriti Asset Management": {
+  "name": "Vivriti Asset Management",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Bessemer Venture Partners": {
+  "name": "Bessemer Venture Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Lighthouse Canton": {
+  "name": "Lighthouse Canton",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "021 Capital": {
+  "name": "021 Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.87
+ },
+ "Nikhil Kamath": {
+  "name": "Nikhil Kamath",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "IIMA Ventures": {
+  "name": "IIMA Ventures",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Abhinav Sinha": {
+  "name": "Abhinav Sinha",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.82
+ },
+ "Dexter Ventures": {
+  "name": "Dexter Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.92
+ },
+ "Deepinder Goyal": {
+  "name": "Deepinder Goyal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Capria Ventures": {
+  "name": "Capria Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "Bertelsmann India Investments": {
+  "name": "Bertelsmann India Investments",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "Germany",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "EvolutionX": {
+  "name": "EvolutionX",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.9
+ },
+ "Mayfield India": {
+  "name": "Mayfield India",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "AC Ventures": {
+  "name": "AC Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "Indonesia",
+  "is_foreign": true,
+  "confidence": 0.62
+ },
+ "Neon Fund": {
+  "name": "Neon Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.86
+ },
+ "Merak Ventures": {
+  "name": "Merak Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Klub": {
+  "name": "Klub",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Ideaspring Capital": {
+  "name": "Ideaspring Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Mela Ventures": {
+  "name": "Mela Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Peer Cheque": {
+  "name": "Peer Cheque",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Michael & Susan Dell Foundation": {
+  "name": "Michael & Susan Dell Foundation",
+  "investor_type": "Other",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Anay Ventures": {
+  "name": "Anay Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.69
+ },
+ "Aparna Thyagarajan": {
+  "name": "Aparna Thyagarajan",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Negen Capital": {
+  "name": "Negen Capital",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Cure.fit": {
+  "name": "Cure.fit",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "SAN Angels": {
+  "name": "SAN Angels",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Techstars": {
+  "name": "Techstars",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Eight Roads Ventures": {
+  "name": "Eight Roads Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "United Kingdom",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Bluehill Capital": {
+  "name": "Bluehill Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.7
+ },
+ "Flipkart Ventures": {
+  "name": "Flipkart Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Bharat Jaisinghani": {
+  "name": "Bharat Jaisinghani",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.84
+ },
+ "Lok Capital": {
+  "name": "Lok Capital",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Sanjiv Rangrass": {
+  "name": "Sanjiv Rangrass",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "AdvantEdge Founders": {
+  "name": "AdvantEdge Founders",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "DSP family office": {
+  "name": "DSP family office",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Dholakia Ventures": {
+  "name": "Dholakia Ventures",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Superb Capital": {
+  "name": "Superb Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.67
+ },
+ "Appreciate Capital": {
+  "name": "Appreciate Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.72
+ },
+ "Capri Global": {
+  "name": "Capri Global",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Bharat Founders Fund": {
+  "name": "Bharat Founders Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Mohit Sadaani": {
+  "name": "Mohit Sadaani",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "PedalStart": {
+  "name": "PedalStart",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.93
+ },
+ "Gaurav Agarwal": {
+  "name": "Gaurav Agarwal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.74
+ },
+ "Yash Kotak": {
+  "name": "Yash Kotak",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "Aprameya Radhakrishna": {
+  "name": "Aprameya Radhakrishna",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Rajesh Sawhney": {
+  "name": "Rajesh Sawhney",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Panthera Peak Capital": {
+  "name": "Panthera Peak Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.89
+ },
+ "GrowX Ventures": {
+  "name": "GrowX Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Moore Strategic": {
+  "name": "Moore Strategic",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Gray Matters Capital": {
+  "name": "Gray Matters Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.95
+ },
+ "Healthquad": {
+  "name": "Healthquad",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Iron Pillar": {
+  "name": "Iron Pillar",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Dinesh Agarwal": {
+  "name": "Dinesh Agarwal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Ranjan Pai": {
+  "name": "Ranjan Pai",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "360 ONE Asset": {
+  "name": "360 ONE Asset",
+  "investor_type": "Hedge fund / Crossover / Asset manager",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ },
+ "Inventus Capital": {
+  "name": "Inventus Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "Pi Ventures": {
+  "name": "Pi Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Powerhouse Ventures": {
+  "name": "Powerhouse Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.82
+ },
+ "Picus Capital": {
+  "name": "Picus Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "Germany",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Lead Angels": {
+  "name": "Lead Angels",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Pentathlon Ventures": {
+  "name": "Pentathlon Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Avaana Capital": {
+  "name": "Avaana Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "JSW Ventures": {
+  "name": "JSW Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "RPG Ventures": {
+  "name": "RPG Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "MUFG Bank": {
+  "name": "MUFG Bank",
+  "investor_type": "Venture debt / NBFC / Bank",
+  "hq_country": "Japan",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Anupam Mittal": {
+  "name": "Anupam Mittal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "RPSG Capital Ventures": {
+  "name": "RPSG Capital Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Mount Judi Ventures": {
+  "name": "Mount Judi Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.83
+ },
+ "Chakradhar Gade": {
+  "name": "Chakradhar Gade",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Big Capital": {
+  "name": "Big Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.78
+ },
+ "Sunn91 Ventures": {
+  "name": "Sunn91 Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.96
+ },
+ "She Capital": {
+  "name": "She Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Celesta Capital": {
+  "name": "Celesta Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.96
+ },
+ "Micelio Fund": {
+  "name": "Micelio Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Lalit Keshre": {
+  "name": "Lalit Keshre",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Courtside Ventures": {
+  "name": "Courtside Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "responsAbility Investments AG": {
+  "name": "responsAbility Investments AG",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "Switzerland",
+  "is_foreign": true,
+  "confidence": 0.94
+ },
+ "Binny Bansal": {
+  "name": "Binny Bansal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "GVFL": {
+  "name": "GVFL",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Magnetic": {
+  "name": "Magnetic",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.64
+ },
+ "Untitled VC": {
+  "name": "Untitled VC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.78
+ },
+ "Sandeep Aggarwal": {
+  "name": "Sandeep Aggarwal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Sridhar Subramanian": {
+  "name": "Sridhar Subramanian",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.82
+ },
+ "Maninder Gulati": {
+  "name": "Maninder Gulati",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "GIC": {
+  "name": "GIC",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 1.0
+ },
+ "Kamath Associates": {
+  "name": "Kamath Associates",
+  "investor_type": "Family office",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.92
+ },
+ "RevX Capital": {
+  "name": "RevX Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.78
+ },
+ "BEEJ Network": {
+  "name": "BEEJ Network",
+  "investor_type": "Angel network / platform",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "xto10X": {
+  "name": "xto10X",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.85
+ },
+ "M12": {
+  "name": "M12",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 1.0
+ },
+ "QED Investors": {
+  "name": "QED Investors",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Equanimity Investments": {
+  "name": "Equanimity Investments",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Redstart Labs": {
+  "name": "Redstart Labs",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Aditya Birla Ventures": {
+  "name": "Aditya Birla Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Grip Invest": {
+  "name": "Grip Invest",
+  "investor_type": "Other",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.85
+ },
+ "Bala Sarda": {
+  "name": "Bala Sarda",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Lightrock India": {
+  "name": "Lightrock India",
+  "investor_type": "Private Equity / Growth",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.83
+ },
+ "Agility Ventures": {
+  "name": "Agility Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.77
+ },
+ "IIFL Fintech Fund": {
+  "name": "IIFL Fintech Fund",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "bp Ventures": {
+  "name": "bp Ventures",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "United Kingdom",
+  "is_foreign": true,
+  "confidence": 1.0
+ },
+ "TheFund": {
+  "name": "TheFund",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.78
+ },
+ "FJ Labs": {
+  "name": "FJ Labs",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Mitsubishi UFJ Financial Group": {
+  "name": "Mitsubishi UFJ Financial Group",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "Japan",
+  "is_foreign": true,
+  "confidence": 1.0
+ },
+ "Keyur Joshi": {
+  "name": "Keyur Joshi",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Ruchi Kalra": {
+  "name": "Ruchi Kalra",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Asish Mohapatra": {
+  "name": "Asish Mohapatra",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Prashant Pitti": {
+  "name": "Prashant Pitti",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Global Founders Capital": {
+  "name": "Global Founders Capital",
+  "investor_type": "Venture Capital",
+  "hq_country": "Germany",
+  "is_foreign": true,
+  "confidence": 0.97
+ },
+ "Rocketship.vc": {
+  "name": "Rocketship.vc",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Pioneer Fund": {
+  "name": "Pioneer Fund",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.91
+ },
+ "Spectrum Impact": {
+  "name": "Spectrum Impact",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.74
+ },
+ "Social Alpha": {
+  "name": "Social Alpha",
+  "investor_type": "Accelerator / Incubator",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.97
+ },
+ "Sanjeev Barnwal": {
+  "name": "Sanjeev Barnwal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Ivy Growth": {
+  "name": "Ivy Growth",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.73
+ },
+ "Ice VC": {
+  "name": "Ice VC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.72
+ },
+ "MapMyIndia": {
+  "name": "MapMyIndia",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "TradeCred": {
+  "name": "TradeCred",
+  "investor_type": "Other",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.58
+ },
+ "Multiply Ventures": {
+  "name": "Multiply Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.85
+ },
+ "SOSV": {
+  "name": "SOSV",
+  "investor_type": "Venture Capital",
+  "hq_country": "United States",
+  "is_foreign": true,
+  "confidence": 0.99
+ },
+ "Ushodaya Enterprises": {
+  "name": "Ushodaya Enterprises",
+  "investor_type": "Corporate / CVC",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.94
+ },
+ "Motion Ventures": {
+  "name": "Motion Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "Singapore",
+  "is_foreign": true,
+  "confidence": 0.98
+ },
+ "Atul Gupta": {
+  "name": "Atul Gupta",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.8
+ },
+ "FinFirst": {
+  "name": "FinFirst",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.65
+ },
+ "Marsshot VC": {
+  "name": "Marsshot VC",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.81
+ },
+ "Technology Development Board": {
+  "name": "Technology Development Board",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 1.0
+ },
+ "Incubate Fund Asia": {
+  "name": "Incubate Fund Asia",
+  "investor_type": "Venture Capital",
+  "hq_country": "Japan",
+  "is_foreign": true,
+  "confidence": 0.95
+ },
+ "Oikocredit": {
+  "name": "Oikocredit",
+  "investor_type": "Sovereign / Pension / DFI / Government",
+  "hq_country": "Netherlands",
+  "is_foreign": true,
+  "confidence": 0.89
+ },
+ "Z3Partners": {
+  "name": "Z3Partners",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.98
+ },
+ "Gaurav Munjal": {
+  "name": "Gaurav Munjal",
+  "investor_type": "Angel investor (individual)",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.99
+ },
+ "Paramark Ventures": {
+  "name": "Paramark Ventures",
+  "investor_type": "Venture Capital",
+  "hq_country": "India",
+  "is_foreign": false,
+  "confidence": 0.95
+ }
+}

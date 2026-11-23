@@ -133,6 +133,15 @@ def _build(cutoffs, fd, inv, fin, labelled=True):
     return pd.concat(frames) if frames else pd.DataFrame()
 
 
+def _X(df: pd.DataFrame) -> pd.DataFrame:
+    """Feature matrix. A feature that is entirely missing (e.g. no financials published yet) becomes a
+    constant, because histogram binning cannot handle an all-NaN column."""
+    X = df[FEATURES].astype(float).copy()
+    for c in X.columns[X.isna().all()]:
+        X[c] = 0.0
+    return X
+
+
 def _model():
     return HistGradientBoostingClassifier(max_iter=300, learning_rate=0.05, max_leaf_nodes=15,
                                           min_samples_leaf=40, l2_regularization=1.0, random_state=7)
@@ -145,33 +154,49 @@ def run(today: pd.Timestamp | None = None) -> RadarResult:
     today = today or fd.deal_date.max().normalize()
     latest_labelled = today - pd.DateOffset(months=HORIZON_M)
 
-    # ---- walk-forward backtest: train on cut-offs whose label window closed before the test cut-off
-    test_cut = latest_labelled.to_period("M").to_timestamp()
-    train_end = test_cut - pd.DateOffset(months=HORIZON_M)
+    # ---- rolling walk-forward backtest: several test dates, each model trained ONLY on cut-offs whose
+    #      12-month outcome window closed before that test date. Compared with a simple banker heuristic.
     first = fd.deal_date.min() + pd.DateOffset(months=9)
-    train_cuts = pd.date_range(first, train_end, freq="MS")
-    backtest = {}
-    if len(train_cuts) >= 3:
+    last_test = latest_labelled.to_period("M").to_timestamp()
+    test_cuts = [last_test - pd.DateOffset(months=3 * i) for i in range(4)][::-1]
+    folds = []
+    for test_cut in test_cuts:
+        train_cuts = pd.date_range(first, test_cut - pd.DateOffset(months=HORIZON_M), freq="MS")
+        if len(train_cuts) < 3:
+            continue
         tr = _build(train_cuts, fd, inv, fin)
         te = _build([test_cut], fd, inv, fin)
-        m = _model().fit(tr[FEATURES], tr.y)
-        p = m.predict_proba(te[FEATURES])[:, 1]
-        te = te.assign(p=p).sort_values("p", ascending=False)
+        if tr.empty or te.empty or tr.y.nunique() < 2 or te.y.nunique() < 2:
+            continue
+        m = _model().fit(tr.pipe(_X), tr.y)
+        te = te.assign(p=m.predict_proba(te.pipe(_X))[:, 1])
+        # heuristic baseline: closeness to an 18-24 month fundraising cycle
+        te["h"] = -np.abs(te.months_since_last - 21)
         base = te.y.mean()
-        k = 100
-        backtest = {
-            "test_cutoff": str(test_cut.date()),
-            "horizon_months": HORIZON_M,
-            "train_snapshots": int(len(tr)),
-            "test_companies": int(len(te)),
-            "auc": round(float(roc_auc_score(te.y, te.p)), 3),
+        top = te.sort_values("p", ascending=False)
+        toph = te.sort_values("h", ascending=False)
+        folds.append({
+            "test_cutoff": str(test_cut.date()), "train_snapshots": int(len(tr)), "test_companies": int(len(te)),
             "base_rate": round(float(base), 3),
-            f"precision_top{k}": round(float(te.y.head(k).mean()), 3),
-            f"lift_top{k}": round(float(te.y.head(k).mean() / base), 2) if base else None,
-            "precision_top50": round(float(te.y.head(50).mean()), 3),
-            "deciles": te.assign(decile=pd.qcut(te.p.rank(method="first", ascending=False), 10,
-                                                labels=range(1, 11)))
-                        .groupby("decile", observed=True).y.mean().round(3).tolist(),
+            "auc": round(float(roc_auc_score(te.y, te.p)), 3),
+            "auc_heuristic": round(float(roc_auc_score(te.y, te.h)), 3),
+            "precision_top50": round(float(top.y.head(50).mean()), 3),
+            "precision_top100": round(float(top.y.head(100).mean()), 3),
+            "precision_top100_heuristic": round(float(toph.y.head(100).mean()), 3),
+            "lift_top100": round(float(top.y.head(100).mean() / base), 2) if base else None,
+            "deciles": top.assign(decile=pd.qcut(np.arange(len(top)), 10, labels=range(1, 11)))
+                          .groupby("decile", observed=True).y.mean().round(3).tolist(),
+        })
+    backtest = {"horizon_months": HORIZON_M, "folds": folds}
+    if folds:
+        f = pd.DataFrame(folds)
+        backtest["summary"] = {
+            "mean_auc": round(float(f.auc.mean()), 3), "sd_auc": round(float(f.auc.std(ddof=0)), 3),
+            "mean_auc_heuristic": round(float(f.auc_heuristic.mean()), 3),
+            "mean_precision_top100": round(float(f.precision_top100.mean()), 3),
+            "mean_precision_top100_heuristic": round(float(f.precision_top100_heuristic.mean()), 3),
+            "mean_base_rate": round(float(f.base_rate.mean()), 3),
+            "mean_lift_top100": round(float(f.lift_top100.mean()), 2),
         }
 
     # ---- final model: every cut-off whose label window has closed
@@ -180,18 +205,18 @@ def run(today: pd.Timestamp | None = None) -> RadarResult:
     if full.empty or full.y.nunique() < 2:
         raise ValueError(f"Not enough history to train the Radar: data spans {fd.deal_date.min().date()} to "
                          f"{today.date()}, need > {HORIZON_M + 9} months.")
-    model = _model().fit(full[FEATURES], full.y)
+    model = _model().fit(full.pipe(_X), full.y)
 
     now = _build([today], fd, inv, fin, labelled=False)
-    now["probability"] = model.predict_proba(now[FEATURES])[:, 1]
+    now["probability"] = model.predict_proba(now.pipe(_X))[:, 1]
 
     # importance via permutation on the training data (cheap version: AUC drop)
     rng = np.random.default_rng(0)
     sample = full.sample(min(len(full), 20000), random_state=0)
-    base_auc = roc_auc_score(sample.y, model.predict_proba(sample[FEATURES])[:, 1])
+    base_auc = roc_auc_score(sample.y, model.predict_proba(sample.pipe(_X))[:, 1])
     imp = {}
     for f in FEATURES:
-        x = sample[FEATURES].copy()
+        x = sample.pipe(_X).copy()
         x[f] = rng.permutation(x[f].values)
         imp[FEATURE_LABELS[f]] = base_auc - roc_auc_score(sample.y, model.predict_proba(x)[:, 1])
     importances = pd.Series(imp).sort_values(ascending=False)

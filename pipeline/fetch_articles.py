@@ -86,7 +86,7 @@ class AdaptiveRate:
 
     def ok(self):
         with self.lock:
-            self.gap = max(self.min_gap, self.gap * 0.97)
+            self.gap = max(self.min_gap, self.gap * 0.85)
 
     def throttled(self, retry_after=None):
         with self.lock:

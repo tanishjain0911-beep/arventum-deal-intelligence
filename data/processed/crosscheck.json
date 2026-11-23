@@ -1,12 +1,253 @@
 {
-  "articles_compared": 0,
+  "articles_compared": 177,
   "agreement_pct": {
-    "record_type": null,
-    "company": null,
-    "stage": null,
-    "amount": null,
-    "lead_investors": null,
-    "sector": null
+    "record_type": 98.9,
+    "company": 99.4,
+    "stage": 96.6,
+    "amount": 94.4,
+    "lead_investors": 96.6,
+    "sector": 93.2
   },
-  "disagreements": []
+  "disagreements": [
+    {
+      "url": "https://entrackr.com/2023/01/exclusive-accel-and-celesta-capital-invest-in-surge-backed-brickbolt/",
+      "field": "lead_investors",
+      "codex": [],
+      "opencode": [
+        "Accel India",
+        "Celesta Capital"
+      ]
+    },
+    {
+      "url": "https://entrackr.com/2023/01/exclusive-ex-mobikwiks-coo-startup-vitraya-raises-rs-34-cr/",
+      "field": "sector",
+      "codex": "HealthTech",
+      "opencode": "FinTech & Payments"
+    },
+    {
+      "url": "https://entrackr.com/2023/01/funding-and-acquisitions-in-indian-startups-this-week-02-07-jan/",
+      "field": "sector",
+      "codex": null,
+      "opencode": "Other"
+    },
+    {
+      "url": "https://entrackr.com/2023/01/indian-startups-raised-over-25-bn-in-2022-entrackr-report/",
+      "field": "sector",
+      "codex": null,
+      "opencode": "Other"
+    },
+    {
+      "url": "https://entrackr.com/2023/05/community-marketing-saas-startup-serri-raises-pre-seed-round/",
+      "field": "lead_investors",
+      "codex": [],
+      "opencode": [
+        "Shiru Startups"
+      ]
+    },
+    {
+      "url": "https://entrackr.com/2023/05/solar-ladder-raises-seed-funding-from-axilor-titan-capital-and-others/",
+      "field": "sector",
+      "codex": "ClimateTech",
+      "opencode": "Energy Transition"
+    },
+    {
+      "url": "https://entrackr.com/2023/05/street-culture-brand-solesearch-raises-maiden-fund/",
+      "field": "lead_investors",
+      "codex": [],
+      "opencode": [
+        "Venture Catalyst"
+      ]
+    },
+    {
+      "url": "https://entrackr.com/2023/09/ather-energy-bags-rs-550-cr-from-hero-motocorp/",
+      "field": "record_type",
+      "codex": "funding",
+      "opencode": "not_a_deal"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/ather-energy-bags-rs-550-cr-from-hero-motocorp/",
+      "field": "stage",
+      "codex": "series-e+",
+      "opencode": null
+    },
+    {
+      "url": "https://entrackr.com/2023/09/ather-energy-bags-rs-550-cr-from-hero-motocorp/",
+      "field": "amount",
+      "codex": 550,
+      "opencode": null
+    },
+    {
+      "url": "https://entrackr.com/2023/09/ather-energy-bags-rs-550-cr-from-hero-motocorp/",
+      "field": "lead_investors",
+      "codex": [
+        "Hero MotoCorp"
+      ],
+      "opencode": []
+    },
+    {
+      "url": "https://entrackr.com/2023/09/ather-energy-raises-rs-900-crore-from-gic-and-hero-motocorp/",
+      "field": "stage",
+      "codex": "series-e+",
+      "opencode": "undisclosed"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/ather-energy-raises-rs-900-crore-from-gic-and-hero-motocorp/",
+      "field": "lead_investors",
+      "codex": [
+        "GIC",
+        "Hero MotoCorp"
+      ],
+      "opencode": []
+    },
+    {
+      "url": "https://entrackr.com/2023/09/atomicwork-raises-11-mn-seed-round-led-by-blume-and-matrix/",
+      "field": "sector",
+      "codex": "Enterprise Software",
+      "opencode": "HR & Workforce"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/captain-fresh-secures-20-mn-in-extended-series-c-round/",
+      "field": "sector",
+      "codex": "AgriTech",
+      "opencode": "E-commerce & D2C"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/entrackr-report-startup-funding-remained-below-500-mn-in-august-despite-one-unicorn/",
+      "field": "sector",
+      "codex": null,
+      "opencode": "Other"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/exclusive-swiggy-aims-to-turn-instamart-profitable-by-march/",
+      "field": "sector",
+      "codex": "Consumer Internet",
+      "opencode": "Logistics & Mobility"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/funding-and-acquisitions-in-indian-startups-this-week-28-aug-02-sep/",
+      "field": "sector",
+      "codex": null,
+      "opencode": "Other"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/interior-design-startup-flipspaces-raises-4-mn-in-pre-series-b-round/",
+      "field": "stage",
+      "codex": "pre-series-a",
+      "opencode": "pre-series-b"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/launching-startup-intelligence-platform-thekredible-closes-500k-seed-round/",
+      "field": "amount",
+      "codex": 500,
+      "opencode": 0.5
+    },
+    {
+      "url": "https://entrackr.com/2023/09/madmix-raises-rs-1-76-cr-in-pre-seed-round-led-by-prime-securities/",
+      "field": "lead_investors",
+      "codex": [
+        "Prime Securities",
+        "Authum Investments",
+        "Team India Managers"
+      ],
+      "opencode": [
+        "Prime Securities"
+      ]
+    },
+    {
+      "url": "https://entrackr.com/2023/09/more-astro-spiritual-tech-startups-set-to-raise-fresh-funds-this-festive-season/",
+      "field": "company",
+      "codex": null,
+      "opencode": "Vama"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/more-astro-spiritual-tech-startups-set-to-raise-fresh-funds-this-festive-season/",
+      "field": "sector",
+      "codex": null,
+      "opencode": "Consumer Internet"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/nazara-technologies-bags-rs-410-cr-from-sbi-mutual-fund/",
+      "field": "stage",
+      "codex": "undisclosed",
+      "opencode": "growth"
+    },
+    {
+      "url": "https://entrackr.com/2023/09/sploot-raises-800k-in-seed-round-from-info-edge-and-others/",
+      "field": "amount",
+      "codex": 800,
+      "opencode": 0.8
+    },
+    {
+      "url": "https://entrackr.com/2023/09/zerodhas-kamath-brothers-to-invest-rs-100-cr-in-nazara-technologies/",
+      "field": "stage",
+      "codex": "undisclosed",
+      "opencode": "growth"
+    },
+    {
+      "url": "https://entrackr.com/2024/03/agri-supply-chain-startup-bull-agritech-raises-100k/",
+      "field": "amount",
+      "codex": 100,
+      "opencode": 100000
+    },
+    {
+      "url": "https://entrackr.com/2024/03/binny-bansals-three-state-ventures-invests-25-mn-in-curefoods/",
+      "field": "sector",
+      "codex": "Travel & Hospitality",
+      "opencode": "E-commerce & D2C"
+    },
+    {
+      "url": "https://entrackr.com/2024/03/climatetech-startup-bnz-green-secures-100k-in-pre-seed-round/",
+      "field": "amount",
+      "codex": 100,
+      "opencode": 100000
+    },
+    {
+      "url": "https://entrackr.com/2024/03/mobility-startup-pumpumpum-raises-rs-2-cr-led-by-ipv/",
+      "field": "sector",
+      "codex": "Logistics & Mobility",
+      "opencode": "EV & Auto"
+    },
+    {
+      "url": "https://entrackr.com/2024/03/relso-raises-840k-in-pre-seed-round-led-by-venture-catalysts-ipv/",
+      "field": "amount",
+      "codex": 840,
+      "opencode": 840000
+    },
+    {
+      "url": "https://entrackr.com/2024/06/beauty-brand-asaya-raises-1-5-mn-from-otp-ventures-and-others/",
+      "field": "amount",
+      "codex": 1.5,
+      "opencode": 12
+    },
+    {
+      "url": "https://entrackr.com/2024/06/ecom-express-set-to-raise-over-170-mn-via-right-issue/",
+      "field": "record_type",
+      "codex": "not_a_deal",
+      "opencode": "funding"
+    },
+    {
+      "url": "https://entrackr.com/2024/06/ecom-express-set-to-raise-over-170-mn-via-right-issue/",
+      "field": "stage",
+      "codex": null,
+      "opencode": "undisclosed"
+    },
+    {
+      "url": "https://entrackr.com/2024/06/ecom-express-set-to-raise-over-170-mn-via-right-issue/",
+      "field": "amount",
+      "codex": null,
+      "opencode": 1424
+    },
+    {
+      "url": "https://entrackr.com/2024/06/exclusive-fintech-startup-cheq-closes-new-round-at-6-7-mn/",
+      "field": "amount",
+      "codex": 6.7,
+      "opencode": 18.5
+    },
+    {
+      "url": "https://entrackr.com/2024/06/social-networking-app-o-hi-bags-1-mn-in-pre-series-a-round/",
+      "field": "amount",
+      "codex": 1,
+      "opencode": 8
+    }
+  ]
 }
