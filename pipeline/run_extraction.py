@@ -85,7 +85,10 @@ def make_batches():
                     if is_roundup(a["url"]):
                         continue  # weekly/monthly round-ups are parsed by rules, not sent to the AI
                     slim = {k: a.get(k) for k in ("url", "date", "title", "description", "company_kw")}
-                    slim["body"] = " ".join(a.get("body") or [])[:1000]
+                    # financial stories mention the loss/profit later in the text -> send more of it
+                    limit = 2000 if a.get("kind") == "financials" or re.search(r"revenue|loss|profit|fy\d\d",
+                                                                                 (a.get("title") or "").lower()) else 1000
+                    slim["body"] = " ".join(a.get("body") or [])[:limit]
                     f.write(json.dumps(slim, ensure_ascii=False) + "\n")
         batches.append(path)
     return batches

@@ -67,7 +67,35 @@ def parse(html: str, url: str = ""):
     }
 
 
-_backoff_until = [0.0]  # shared pause when the site says "429 Too Many Requests"
+class AdaptiveRate:
+    """Polite AIMD rate limiter shared by all worker threads of this process.
+    Every request waits for its slot; a 429 multiplies the gap (x1.6), a success shrinks it (x0.97)."""
+
+    def __init__(self, gap=1.0, min_gap=0.6, max_gap=30.0):
+        import threading
+        self.gap, self.min_gap, self.max_gap = gap, min_gap, max_gap
+        self.next_slot = 0.0
+        self.lock = threading.Lock()
+
+    def wait(self):
+        with self.lock:
+            now = time.time()
+            slot = max(now, self.next_slot)
+            self.next_slot = slot + self.gap
+        time.sleep(max(0.0, slot - time.time()))
+
+    def ok(self):
+        with self.lock:
+            self.gap = max(self.min_gap, self.gap * 0.97)
+
+    def throttled(self, retry_after=None):
+        with self.lock:
+            self.gap = min(self.max_gap, self.gap * 1.6)
+            if retry_after:
+                self.next_slot = max(self.next_slot, time.time() + retry_after)
+
+
+RATE = AdaptiveRate()
 
 
 def fetch(row):
@@ -78,29 +106,26 @@ def fetch(row):
         if not cached.get("error"):
             return cached
     rec = {"url": row["url"], "date": row.get("date") or row.get("lastmod"), "kind": row["kind"], "error": None}
-    for attempt in range(6):
-        wait = _backoff_until[0] - time.time()
-        if wait > 0:
-            time.sleep(wait)
+    for attempt in range(10):
+        RATE.wait()
         try:
             r = requests.get(row["url"], headers=UA, timeout=30)
             if r.status_code == 200:
+                RATE.ok()
                 rec.update(parse(r.text, row["url"]))
                 if rec.get("published"):
                     rec["date"] = rec["published"][:10]   # true publish date beats sitemap date
                 rec["error"] = None
                 break
             rec["error"] = f"http {r.status_code}"
-            if r.status_code == 429:
-                pause = float(r.headers.get("Retry-After") or 0) or 20 * (attempt + 1)
-                _backoff_until[0] = max(_backoff_until[0], time.time() + pause)
+            if r.status_code in (429, 503):
+                RATE.throttled(float(r.headers.get("Retry-After") or 0) or None)
                 continue
             break
         except requests.RequestException as e:
             rec["error"] = str(e)[:120]
             time.sleep(3 * (attempt + 1))
     path.write_text(json.dumps(rec, ensure_ascii=False), encoding="utf-8")
-    time.sleep(1.0)
     return rec
 
 
@@ -118,7 +143,7 @@ def main():
             done.append(rec)
             errors += bool(rec.get("error"))
             if i % 250 == 0:
-                print(f"{i}/{len(rows)} fetched, {errors} errors", flush=True)
+                print(f"{i}/{len(rows)} fetched, {errors} errors, request gap {RATE.gap:.2f}s", flush=True)
     with OUT.open("w", encoding="utf-8") as f:
         for rec in done:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
