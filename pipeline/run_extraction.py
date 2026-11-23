@@ -128,7 +128,7 @@ def run_codex(batch: Path, out: Path):
     parse_json(out.read_text(encoding="utf-8"))  # validate
 
 
-def run_opencode(batch: Path, out: Path):
+def run_opencode(batch: Path, out: Path, model: str = None):
     # Newlines can't pass safely through cmd.exe arguments, so the long
     # instructions travel as an attached file and the message stays one line.
     instr = BATCH_DIR / "_instructions.md"
@@ -137,14 +137,24 @@ def run_opencode(batch: Path, out: Path):
     msg = ("Follow the instructions in _instructions.md exactly for the articles in the other attached "
            "file (JSON lines). Do not use any tools and do not edit files. Reply with the JSON object only.")
     # message must come BEFORE -f: the -f option is greedy and would swallow it as a file name
-    cmd = ["opencode", "run", "-m", OPENCODE_MODEL, f'"{msg}"', "-f", str(instr), "-f", str(batch)]
+    cmd = ["opencode", "run", "-m", model or OPENCODE_MODEL, f'"{msg}"', "-f", str(instr), "-f", str(batch)]
     p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", timeout=900,
                        shell=True, cwd=str(BATCH_DIR))
     obj = parse_json(p.stdout)
     out.write_text(json.dumps(obj, ensure_ascii=False), encoding="utf-8")
 
 
-AGENTS = {"codex": run_codex, "opencode": run_opencode}
+from functools import partial  # noqa: E402
+
+# free OpenCode-hosted models (used when the ChatGPT Plus quota is exhausted)
+FREE_MODELS = {
+    "pickle": "opencode/big-pickle",
+    "deepseek": "opencode/deepseek-v4.1-flash-free",
+    "nemotron": "opencode/nemotron-3.5-super-vl-free",
+    "mimo": "opencode/mimo-v2.6-flash-free",
+}
+AGENTS = {"codex": run_codex, "opencode": run_opencode,
+          **{k: partial(run_opencode, model=v) for k, v in FREE_MODELS.items()}}
 
 
 def job(agent: str, batch: Path, any_agent_ok: bool = True):
@@ -173,6 +183,8 @@ def main():
     ap.add_argument("--codex-workers", type=int, default=3)
     ap.add_argument("--opencode-workers", type=int, default=2)
     ap.add_argument("--final", action="store_true", help="also process the last partial batch")
+    ap.add_argument("--agents", help="override worker pool, e.g. 'pickle:2,deepseek:2'")
+    ap.add_argument("--only", help="comma list of batch stems to (re)run with --agents (quality tests)")
     ap.add_argument("--urls", help="URL csv (default data/raw/entrackr_urls.csv)")
     ap.add_argument("--tag", default="", help="batch name prefix for this URL list, e.g. hist")
     args = ap.parse_args()
@@ -183,6 +195,29 @@ def main():
 
     batches = make_batches()
     log(f"{len(batches)} batches of up to {BATCH_SIZE} articles")
+    if args.only:
+        wanted = set(args.only.split(","))
+        names = [a.split(":")[0] for a in args.agents.split(",")]
+        jobs = [(a, b, False) for b in batches if b.stem in wanted for a in names]
+        workers = max(1, len(jobs))
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            results = list(ex.map(lambda j: job(*j), jobs))
+        log(f"done: {results}")
+        return
+    if args.agents:
+        pattern = []
+        for spec in args.agents.split(","):
+            name, n = (spec.split(":") + ["1"])[:2]
+            pattern += [name] * int(n)
+        jobs = [(pattern[i % len(pattern)], b, True) for i, b in enumerate(batches[: args.limit] if args.limit
+                                                                           else batches)]
+        with ThreadPoolExecutor(max_workers=len(pattern)) as ex:
+            results = list(ex.map(lambda j: job(*j), jobs))
+        failed = [r for r in results if r[2] == "failed"]
+        log(f"done: {len(results) - len(failed)} ok, {len(failed)} failed")
+        for f in failed:
+            log(f"  failed: {f}")
+        return
     if args.crosscheck:
         # spread the cross-check sample across the whole time range
         step = max(1, len(batches) // args.crosscheck)

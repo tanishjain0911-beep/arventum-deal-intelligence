@@ -1,0 +1,52 @@
+{
+  "deepseek": {
+    "articles": 59,
+    "record_type": 100.0,
+    "company": 98.3,
+    "stage": 89.8,
+    "amount": 91.5,
+    "lead_investors": 94.9,
+    "sector": 83.1,
+    "mean": 92.9
+  },
+  "mimo": {
+    "articles": 29,
+    "record_type": 100.0,
+    "company": 96.6,
+    "stage": 65.5,
+    "amount": 96.6,
+    "lead_investors": 93.1,
+    "sector": 82.8,
+    "mean": 89.1
+  },
+  "nemotron": {
+    "articles": 59,
+    "record_type": 100.0,
+    "company": 96.6,
+    "stage": 86.4,
+    "amount": 91.5,
+    "lead_investors": 94.9,
+    "sector": 76.3,
+    "mean": 91.0
+  },
+  "opencode": {
+    "articles": 177,
+    "record_type": 98.9,
+    "company": 99.4,
+    "stage": 96.6,
+    "amount": 94.4,
+    "lead_investors": 96.6,
+    "sector": 93.2,
+    "mean": 96.5
+  },
+  "pickle": {
+    "articles": 59,
+    "record_type": 98.3,
+    "company": 96.6,
+    "stage": 93.2,
+    "amount": 91.5,
+    "lead_investors": 96.6,
+    "sector": 81.4,
+    "mean": 92.9
+  }
+}

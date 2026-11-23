@@ -189,8 +189,10 @@ def load_records(arts, corrections):
                     r["agent"] = agent_dir.name
                     by_url[r["url"]].append(r)
     merged = []
+    # agents ranked by measured agreement with the reference (analysis/model_eval.py); confidence breaks ties
+    priority = {"codex": 0, "opencode": 0, "deepseek": 1, "pickle": 1, "nemotron": 2, "mimo": 3}
     for url, rs in by_url.items():
-        rs = sorted(rs, key=lambda r: r.get("confidence") or 0, reverse=True)
+        rs = sorted(rs, key=lambda r: (priority.get(r["agent"], 5), -(r.get("confidence") or 0)))
         best = dict(rs[0])
         for other in rs[1:]:
             if other["record_type"] != best["record_type"]:
@@ -251,7 +253,7 @@ def main():
                 "others": [investors.add(x) for x in r.get("other_investors") or []
                            if x and x.strip() and not PLACEHOLDER.match(x.strip())],
                 "urls": [r["url"]], "title": a.get("title"), "kind": a.get("kind"),
-                "confidence": r.get("confidence"), "n_agents": r["n_agents"],
+                "confidence": r.get("confidence"), "n_agents": r["n_agents"], "agent": r["agent"],
                 "sector": sector, "city": r.get("city"), "desc": r.get("company_description"),
             })
         elif r["record_type"] == "financials" and r.get("revenue_inr_cr") is not None:
@@ -350,11 +352,12 @@ def main():
 
     for row in kept:
         cur.execute("""INSERT INTO deals(company_id, deal_date, deal_type, stage, amount_usd_m, amount_inr_cr,
-                       amount_raw, valuation_usd_m, acquirer_id, source_id, confidence)
-                       VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                       amount_raw, valuation_usd_m, acquirer_id, source_id, confidence, agent)
+                       VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
                     (comp_ids[row["company_key"]], row["deal_date"], row["deal_type"], row["stage"],
                      row["amount_usd_m"], row["amount_inr_cr"], row["amount_raw"], row["valuation_usd_m"],
-                     inv_ids.get(row["acquirer_key"]), source_id(row["urls"][0]), row["confidence"]))
+                     inv_ids.get(row["acquirer_key"]), source_id(row["urls"][0]), row["confidence"],
+                     row.get("agent")))
         did = cur.lastrowid
         for u in dict.fromkeys(row["urls"]):
             cur.execute("INSERT OR IGNORE INTO deal_sources VALUES (?,?)", (did, source_id(u)))

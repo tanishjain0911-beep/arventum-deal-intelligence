@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS deals (
     valuation_usd_m REAL,                   -- post-money if disclosed
     acquirer_id   INTEGER REFERENCES investors(investor_id),  -- for acquisitions
     source_id     INTEGER REFERENCES sources(source_id),
-    confidence    REAL                      -- extraction confidence 0..1
+    confidence    REAL,                     -- extraction confidence 0..1
+    agent         TEXT                      -- which AI extracted it (codex / opencode / deepseek / pickle / ...)
 );
 
 CREATE TABLE IF NOT EXISTS deal_investors (
