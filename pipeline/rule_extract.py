@@ -18,6 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import _records, headline_amount_usd  # noqa: E402
+from sector_rules import classify as classify_sector  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "extracted" / "rules"
@@ -130,6 +131,8 @@ def extract(a: dict) -> dict:
     lm = LEADS.match(title)
     if lm or RAISE.search(title):
         rec["record_type"] = "funding"
+        # sector from headline descriptors only (80% agreement with Codex; descriptions are noisier)
+        rec["sector"] = classify_sector(title)
         text = f"{title}. {desc}"
         rec["stage"] = stage_of(title) or stage_of(desc)
         usd = headline_amount_usd(title)

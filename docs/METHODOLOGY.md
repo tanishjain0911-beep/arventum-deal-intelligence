@@ -30,6 +30,15 @@ Each article becomes one structured record: company, what it does, sector, city,
 - The instructions forbid guessing ("use only facts stated in the article, null otherwise") and fix the vocabularies (32 sectors including Arventum's 20 focus sectors, and 16 stages).
 - **Weekly and monthly round-ups are not sent to the AI.** They are parsed by deterministic rules (see QA).
 
+### Fallback extractors (used only when no AI agent was available)
+| Extractor | Accuracy vs Codex | Used for |
+|---|---|---|
+| Free OpenCode models (DeepSeek, Big Pickle, …) | ~93% mean field agreement | all record types |
+| Rule-based headline parser (`pipeline/rule_extract.py`) | deal precision 97.5%, company 91%, amount 88%, stage 91%, lead investor precision 84% | funding rounds and financials only (acquisition targets are unreliable from headlines) |
+| Keyword sector classifier (`pipeline/sector_rules.py`) | 80% sector agreement on headline descriptors (29% of headlines have one) | sector for rule-extracted records; otherwise "Unclassified" |
+
+Every record stores which extractor produced it. The merge prefers more accurate extractors, and `pipeline/auto_resume.py` re-queues fallback-extracted articles for the AI as soon as it is available.
+
 ## 3. Cleaning, reconciliation and de-duplication (`pipeline/build_db.py`)
 
 | Step | Rule |

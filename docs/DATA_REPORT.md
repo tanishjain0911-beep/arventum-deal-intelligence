@@ -1,6 +1,6 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T07:54:55._
+_Generated from `db/deals.db` at 2026-11-24T08:01:20._
 
 ## Contents
 
@@ -42,21 +42,21 @@ Articles used, by source:
 
 | sector | deals | usd_m |
 |---|---|---|
-| E-commerce & D2C | 824 | 19,752.4 |
-| FinTech & Payments | 602 | 15,018.6 |
-| Unclassified | 616 | 10,226.4 |
-| EV & Auto | 208 | 4,964.9 |
-| Logistics & Mobility | 143 | 4,470.9 |
-| HealthTech | 354 | 4,438.6 |
-| Consumer Internet | 127 | 3,370.4 |
-| EdTech | 148 | 3,342.1 |
-| Media & Gaming | 132 | 2,693.5 |
-| SaaS | 149 | 2,306.9 |
-| Artificial Intelligence | 191 | 2,122.6 |
-| Industrial Tech | 125 | 2,041.2 |
-| AgriTech | 152 | 1,698.3 |
-| Travel & Hospitality | 103 | 1,687.3 |
-| Cloud Infrastructure | 21 | 1,440.8 |
+| E-commerce & D2C | 862 | 20,180.0 |
+| FinTech & Payments | 632 | 15,710.3 |
+| Unclassified | 401 | 6,079.6 |
+| EV & Auto | 213 | 4,996.9 |
+| EdTech | 169 | 4,918.4 |
+| HealthTech | 371 | 4,519.8 |
+| Logistics & Mobility | 144 | 4,484.9 |
+| Consumer Internet | 129 | 3,375.1 |
+| Media & Gaming | 147 | 2,829.9 |
+| SaaS | 175 | 2,541.2 |
+| Artificial Intelligence | 206 | 2,347.3 |
+| Industrial Tech | 126 | 2,041.2 |
+| AgriTech | 162 | 1,793.2 |
+| Travel & Hospitality | 106 | 1,650.3 |
+| Cloud Infrastructure | 24 | 1,511.4 |
 
 ## Most active institutional investors
 
