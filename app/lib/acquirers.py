@@ -16,7 +16,11 @@ KEYS = ["acquirer"]
 
 def acquisitions() -> pd.DataFrame:
     d = deals()
-    return d[(d.deal_type == "acquisition") & d.acquirer.notna()].copy()
+    a = d[(d.deal_type == "acquisition") & d.acquirer.notna()].sort_values("deal_date").copy()
+    # Announcement, completion and regulator approval of one acquisition arrive as separate articles:
+    # count each buyer-target pair once, dated at announcement, with any disclosed price.
+    a["amount_usd_m"] = a.groupby(["company_id", "acquirer"]).amount_usd_m.transform("max")
+    return a.drop_duplicates(["company_id", "acquirer"], keep="first")
 
 
 def rank_buyers(sector: str, asof: pd.Timestamp | None = None, top: int = 30) -> pd.DataFrame:
