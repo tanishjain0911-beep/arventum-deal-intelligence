@@ -28,7 +28,8 @@ export const month = s => s ? new Date(s + "T00:00:00").toLocaleDateString("en-G
 export const stageLabel = s => ({ "pre-seed": "Pre-seed", "seed": "Seed", "pre-series-a": "Pre-Series A", "series-a": "Series A",
   "series-b": "Series B", "series-c": "Series C", "series-d": "Series D", "series-e+": "Series E+", "growth": "Growth",
   "pre-ipo": "Pre-IPO", "debt": "Debt", "acquisition": "Acquisition", "undisclosed": "Undisclosed", "secondary": "Secondary",
-  "bridge": "Bridge", "ipo": "IPO" }[s] || s || "—");
+  "bridge": "Bridge", "ipo": "IPO", "ipo-listed": "IPO: listed", "ipo-launch": "IPO: issue opens", "ipo-filed": "IPO: papers filed",
+  "ipo-approved": "IPO: SEBI approval", "ipo-board": "IPO: board approval", "ipo-news": "IPO: news" }[s] || s || "—");
 
 export function quantile(arr, q) {
   const a = arr.filter(v => v != null && !isNaN(v)).sort((x, y) => x - y);

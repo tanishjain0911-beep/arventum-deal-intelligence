@@ -1,21 +1,22 @@
 {
-  "built": "2026-11-24T12:51:05",
+  "built": "2026-11-24T13:57:34",
   "tables": {
-    "sources": 10367,
-    "companies": 4481,
+    "sources": 10366,
+    "companies": 4480,
     "investors": 7879,
-    "deals": 6656,
+    "deals": 6655,
     "deal_investors": 21079,
-    "deal_sources": 8592,
+    "deal_sources": 8591,
     "financials": 1476,
     "weekly_totals": 299,
-    "corrections": 1377
+    "corrections": 1378
   },
-  "deal_records_before_dedupe": 8592,
+  "deal_records_before_dedupe": 8591,
   "duplicate_reports_merged": 1936,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 136,
     "public-market raise": 110,
+    "not an Indian company dropped": 1,
     "headline-wins": 121,
     "partial / unfinished fiscal year dropped": 851,
     "self-acquisition dropped (role swap)": 20,
@@ -31,7 +32,7 @@
     "acquisition": "663",
     "debt": "278",
     "secondary": "252",
-    "ipo": "149",
+    "ipo": "148",
     "public_market": "99"
   },
   "deals_by_year": {
@@ -40,10 +41,10 @@
     "2023": 1013,
     "2024": 1237,
     "2025": 1518,
-    "2026": 1272
+    "2026": 1271
   },
   "amount_disclosed_pct": 88.7,
-  "with_named_investor_pct": 84.3,
+  "with_named_investor_pct": 84.4,
   "multi_source_deals": 1833,
   "top_investors": [
     {

@@ -119,6 +119,19 @@ FUND_WORDS = re.compile(r"capital|ventures?|partners|fund|vc|investments?|holdin
 NON_STARTUP = re.compile(r"^(makemytrip|hypervault|foxconn|reliance retail|reliance jio|bharti airtel|vinfast|"
                          r"tata (motors|steel|electronics|sons)|adani|infosys|wipro|hcl|tcs\b)", re.I)
 STUDY_START = date(2021, 1, 1)
+FOREIGN = re.compile(r"^(anthropic|openai|nvidia|xai|spacex)\b", re.I)
+IPO_STEPS = [("ipo-approved", r"sebi.{0,20}(nod|approval|green light|go-ahead|clear)|(nod|approval|green light).{0,10}from sebi"),
+             ("ipo-listed", r"\b(lists?|listing|listed|debut|debuts)\b"),
+             ("ipo-launch", r"price band|opens?\b|subscri|anchor|issue opens"),
+             ("ipo-filed", r"\b(U?DRHP|RHP|files?|filed|papers|confidential)\b"),
+             ("ipo-board", r"board (nod|approval|approves)|shareholders? approv")]
+
+
+def ipo_milestone(title: str) -> str:
+    for step, pat in IPO_STEPS:
+        if re.search(pat, title, re.I):
+            return step
+    return "ipo-news"
 
 
 def norm_key(name: str) -> str:
@@ -277,6 +290,12 @@ def main():
                 # listed-company capital raises are not private startup rounds (published market totals exclude them)
                 corrections.append((r["url"], "deal_type", dtype, "public_market", "public-market raise"))
                 dtype = "public_market"
+            if FOREIGN.search(r["company"]):
+                corrections.append((r["url"], "company", r["company"], None, "not an Indian company dropped"))
+                continue
+            if dtype == "ipo":
+                # "IPO" headlines are mostly milestones (filing, SEBI nod, price band), not completed listings
+                stage = ipo_milestone(a.get("title") or "")
             if dtype in ("equity", "debt") and stage == "ipo":
                 corrections.append((r["url"], "deal_type", dtype, "public_market", "IPO is a public-market event"))
                 dtype = "public_market"

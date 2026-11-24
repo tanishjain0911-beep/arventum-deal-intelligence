@@ -1,31 +1,31 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T12:51:05._
+_Generated from `db/deals.db` at 2026-11-24T13:56:12._
 
 ## Contents
 
 | table | rows |
 |---|---|
-| sources | 10367 |
-| companies | 4481 |
+| sources | 10366 |
+| companies | 4480 |
 | investors | 7879 |
-| deals | 6656 |
+| deals | 6655 |
 | deal_investors | 21079 |
-| deal_sources | 8592 |
+| deal_sources | 8591 |
 | financials | 1476 |
 | weekly_totals | 299 |
-| corrections | 1377 |
+| corrections | 1378 |
 
 Articles used, by source:
 
 | site | articles |
 |---|---|
 | entrackr | 7459 |
-| inc42 | 2908 |
+| inc42 | 2907 |
 
-- Deal records before de-duplication: **8592**; duplicate reports merged: **1936**; deals confirmed by 2+ articles: **1833**
-- Amount disclosed: **88.7%** of deals; at least one named investor: **84.3%**
-- Automatic corrections applied: {'two-agent merge: filled gap': 136, 'public-market raise': 110, 'headline-wins': 121, 'partial / unfinished fiscal year dropped': 851, 'self-acquisition dropped (role swap)': 20, 'before study period dropped': 28, 'multi-company record dropped': 13, 'valuation below round size': 8, 'implausible amount dropped': 5, 'corporate / listed-company deal': 8, 'company name variant merged': 77}
+- Deal records before de-duplication: **8591**; duplicate reports merged: **1936**; deals confirmed by 2+ articles: **1833**
+- Amount disclosed: **88.7%** of deals; at least one named investor: **84.4%**
+- Automatic corrections applied: {'two-agent merge: filled gap': 136, 'public-market raise': 110, 'not an Indian company dropped': 1, 'headline-wins': 121, 'partial / unfinished fiscal year dropped': 851, 'self-acquisition dropped (role swap)': 20, 'before study period dropped': 28, 'multi-company record dropped': 13, 'valuation below round size': 8, 'implausible amount dropped': 5, 'corporate / listed-company deal': 8, 'company name variant merged': 77}
 
 ## Primary rounds by year
 

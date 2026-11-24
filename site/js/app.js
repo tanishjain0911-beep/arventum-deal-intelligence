@@ -157,7 +157,7 @@ async function viewRadar() {
           <label class="f">Last round<select id="r-stage"><option value="any">Any stage</option>${STAGES.concat(["debt", "undisclosed"]).map(x => `<option value="${x}" ${x === st.stage ? "selected" : ""}>${stageLabel(x)}</option>`).join("")}</select></label>
           <label class="f">Last round at least<select id="r-min">${[0, 1, 5, 10, 25, 50].map(v => `<option value="${v}" ${v === st.min ? "selected" : ""}>${v ? "$" + v + "M" : "Any size"}</option>`).join("")}</select></label></div>
           <div id="r-detail"></div><div id="r-table"></div>`,
-        source: sourceLine("listed companies excluded. Likelihood is the model's probability of a new primary round within 12 months.") })}
+        source: sourceLine("listed companies and companies already in the IPO process excluded. Likelihood is the model's probability of a new primary round within 12 months.") })}
     </div>`;
   return { html, after: () => {
     const set = (k, v) => { st[k] = v; st.sel = null; route(); };
@@ -380,7 +380,7 @@ async function viewCompany(cidArg) {
     const f = document.getElementById("c-find");
     f.onchange = () => { const hit = C.list.find(x => x[1].toLowerCase() === f.value.trim().toLowerCase()); if (hit) location.hash = `#/company/${hit[0]}`; };
     table(document.getElementById("c-deals"), cd, [{ key: "date", label: "Date", fmt: r => date(r.date), sort: r => r.date },
-      { key: "type", label: "Type", fmt: r => stageLabel(r.type === "equity" || r.type === "debt" ? r.stage : r.type) },
+      { key: "type", label: "Type", fmt: r => stageLabel(["equity", "debt", "ipo"].includes(r.type) ? r.stage : r.type) },
       { key: "usd_m", label: "Amount", n: true, fmt: r => usd(r.usd_m) }, { key: "leads", label: "Led by / buyer", wide: true, fmt: r => esc(r.acquirer || r.leads.join(", ") || "—") },
       { key: "url", label: "", fmt: r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">Article</a>` : "" }], { sortKey: "date", empty: "No deals on record." });
     table(document.getElementById("c-backers"), Object.entries(backers).map(([n, v]) => ({ name: n, ...v })), [{ key: "name", label: "Investor" },
