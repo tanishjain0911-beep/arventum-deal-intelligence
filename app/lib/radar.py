@@ -232,7 +232,7 @@ def explain_row(r: pd.Series) -> list[str]:
     m = r.months_since_last
     if 14 <= m <= 30:
         out.append(f"Last raised {m:.0f} months ago — inside the typical 15-30 month fundraising window")
-    elif m >= 9:
+    elif 9 <= m < 14:
         out.append(f"Last raised {m:.0f} months ago, approaching the typical 15-30 month fundraising window")
     elif m < 14:
         out.append(f"Raised only {m:.0f} months ago, which is early, but fast follow-ons happen in hot sectors")
