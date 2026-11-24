@@ -101,7 +101,9 @@ with c1:
                 name="middle 50% of rounds", hovertemplate="%{y}: $%{base:.1f}M – $%{x:.1f}M wide<extra></extra>")
     fig.add_scatter(y=sb.index, x=sb["50%"], mode="markers", name="median", marker=dict(color=ui.NAVY, size=10),
                     hovertemplate="%{y} median: $%{x:.1f}M<extra></extra>")
-    fig.update_layout(title="Round size by stage, last 2 years ($M, log scale)", xaxis_type="log", height=380,
+    ticks = [0.1, 0.3, 1, 3, 10, 30, 100, 300]
+    fig.update_layout(title="Round size by stage, last 2 years ($M, log scale)", height=400,
+                      xaxis=dict(type="log", tickvals=ticks, ticktext=[f"${t:g}M" for t in ticks]),
                       yaxis=dict(autorange="reversed"))
     st.plotly_chart(fig, use_container_width=True)
 with c2:
@@ -123,7 +125,7 @@ with c2:
     st.subheader("Latest deals")
     dd = pick(d_all).sort_values("deal_date", ascending=False).head(40)
     leads = inv_all[inv_all.is_lead == 1].groupby("deal_id").investor.apply(lambda s: ", ".join(s))
-    dd = dd.assign(lead=dd.deal_id.map(leads))
+    dd = dd.assign(lead=dd.deal_id.map(leads).fillna(""), acquirer=dd.acquirer.fillna(""))
     show = dd[["deal_date", "company", "sector", "stage", "amount_usd_m", "lead", "acquirer", "source_url"]]
     st.dataframe(show, use_container_width=True, hide_index=True, column_config={
         "deal_date": st.column_config.DateColumn("date", format="DD MMM YYYY"),

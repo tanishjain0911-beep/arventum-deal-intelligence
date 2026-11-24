@@ -22,8 +22,9 @@ pio.templates["arventum"] = go.layout.Template(layout=go.Layout(
     xaxis=dict(gridcolor=GRID, linecolor=AXIS, zeroline=False, tickfont=dict(color=MUTED)),
     yaxis=dict(gridcolor=GRID, linecolor=AXIS, zeroline=False, tickfont=dict(color=MUTED)),
     hoverlabel=dict(bgcolor="white", font=dict(color=INK)),
-    margin=dict(l=10, r=10, t=36, b=10), bargap=0.25,
-    legend=dict(orientation="h", y=1.08, x=0, font=dict(color=INK2)),
+    margin=dict(l=10, r=10, t=64, b=10), bargap=0.25,
+    title=dict(x=0, xanchor="left", y=0.98, yanchor="top", font=dict(color=INK, size=15)),
+    legend=dict(orientation="h", y=1.0, yanchor="bottom", x=1, xanchor="right", font=dict(color=INK2)),
 ))
 pio.templates.default = "arventum"
 

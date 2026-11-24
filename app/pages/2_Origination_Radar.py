@@ -92,13 +92,14 @@ s["last_round_usd_m"] = np.expm1(s.log_last_amount)
 if min_raise:
     s = s[s.last_round_usd_m.fillna(0) >= min_raise]
 s = s.sort_values("probability", ascending=False).head(top_n)
+s["likelihood_pct"] = 100 * s.probability
 st.dataframe(
     s[["company", "sector", "last_stage", "last_date", "months_since_last", "last_round_usd_m", "n_prior_rounds",
-       "probability"]],
+       "likelihood_pct"]],
     hide_index=True, use_container_width=True,
     column_config={
-        "probability": st.column_config.ProgressColumn("likelihood (12m)", format="%.0f%%", min_value=0,
-                                                       max_value=1),
+        "likelihood_pct": st.column_config.ProgressColumn("likelihood (12m)", format="%.0f%%", min_value=0,
+                                                          max_value=100),
         "last_date": st.column_config.DateColumn("last round", format="MMM YYYY"),
         "months_since_last": st.column_config.NumberColumn("months since", format="%.0f"),
         "last_round_usd_m": st.column_config.NumberColumn("last round ($M)", format="%.1f"),

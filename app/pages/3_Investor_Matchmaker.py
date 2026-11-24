@@ -61,7 +61,8 @@ h = matching._history(data.funding_deals().deal_date.max() + pd.Timedelta(days=1
 row = res[res.investor == who].iloc[0]
 summary, ex = matching.reasons(row, sector, h)
 st.markdown(f"**{who}**: {summary}")
-allx = h[h.investor_id == row.investor_id].sort_values("deal_date", ascending=False)
+allx = h[h.investor_id == row.investor_id].assign(_same=lambda x: x.sector == sector) \
+    .sort_values(["_same", "deal_date"], ascending=[False, False])  # same-sector deals first
 deals_df = data.deals()[["deal_id", "source_url"]]
 allx = allx.merge(deals_df, on="deal_id", how="left")
 st.dataframe(allx[["deal_date", "company", "sector", "stage", "amount_usd_m", "is_lead", "source_url"]].head(25),

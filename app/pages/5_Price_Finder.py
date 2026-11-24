@@ -59,8 +59,10 @@ fig.add_scatter(y=[r["method"] for r in rng], x=[r["mid"] for r in rng], mode="m
 fig.add_vrect(x0=blend[0], x1=blend[2], fillcolor=ui.SERIES[2], opacity=0.10, line_width=0,
               annotation_text="indicative range", annotation_position="top left",
               annotation_font_color=ui.INK2)
-fig.update_layout(title="Football field: enterprise value (₹ crore)", height=120 + 70 * len(rng),
-                  showlegend=False, xaxis_title="₹ crore")
+x_max = max(r["high"] for r in rng) * 1.08
+fig.update_layout(title="Football field: enterprise value (₹ crore)", height=140 + 70 * len(rng),
+                  showlegend=False, xaxis=dict(title="₹ crore", range=[0, x_max], tickformat=",.0f"),
+                  margin=dict(l=10, r=20, t=64, b=10))
 st.plotly_chart(fig, use_container_width=True)
 for n in v.notes:
     st.caption(f"ℹ️ {n}")

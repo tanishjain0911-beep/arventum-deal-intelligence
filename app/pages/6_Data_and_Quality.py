@@ -26,7 +26,9 @@ ui.tiles([
 ])
 
 st.subheader("1 · Do two independent AI agents agree?")
-ag = cc.get("agreement_pct", {})
+nice = {"record_type": "Deal type", "company": "Company", "stage": "Stage", "amount": "Amount",
+        "lead_investors": "Lead investors", "sector": "Sector"}
+ag = {nice.get(k, k): v for k, v in cc.get("agreement_pct", {}).items()}
 if ag:
     fig = go.Figure(go.Bar(x=list(ag.values()), y=list(ag.keys()), orientation="h", marker_color=ui.SERIES[0],
                            text=[f"{v}%" for v in ag.values()], textposition="outside",
