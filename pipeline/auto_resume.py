@@ -55,6 +55,9 @@ def main():
             subprocess.run([PY, "pipeline/run_extraction.py", "--urls", "data/raw/remaining_urls.csv", "--tag", tag,
                             "--agents", agents, "--final"], cwd=ROOT)
             subprocess.run([PY, "pipeline/run_all.py"], cwd=ROOT)
+            if "codex" in ok:  # investor type/HQ enrichment (cached; only new investors are sent)
+                subprocess.run([PY, "pipeline/enrich_investors.py", "800"], cwd=ROOT)
+                subprocess.run([PY, "pipeline/run_all.py"], cwd=ROOT)
             continue
         time.sleep(600)
 
