@@ -13,3 +13,8 @@ pipeline/probe*.py
 *.log
 data/raw/sitemaps_inc42/
 data/processed/_gpt_quota_exhausted
+
+# locally installed agent skills and tool state
+.claude/skills/
+skills-lock.json
+.freebuff/
