@@ -1,21 +1,22 @@
 {
-  "built": "2026-11-24T08:01:20",
+  "built": "2026-11-24T08:13:37",
   "tables": {
-    "sources": 7291,
-    "companies": 3908,
+    "sources": 7170,
+    "companies": 3900,
     "investors": 5590,
     "deals": 5357,
     "deal_investors": 13823,
     "deal_sources": 5619,
-    "financials": 1373,
+    "financials": 1252,
     "weekly_totals": 299,
-    "corrections": 204
+    "corrections": 542
   },
   "deal_records_before_dedupe": 5619,
   "duplicate_reports_merged": 262,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
     "headline-wins": 124,
+    "partial / unfinished fiscal year dropped": 338,
     "public-market raise": 54,
     "implausible amount dropped": 4
   },

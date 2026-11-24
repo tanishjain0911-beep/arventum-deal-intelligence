@@ -265,6 +265,14 @@ def main():
                 "sector": sector, "city": r.get("city"), "desc": r.get("company_description"),
             })
         elif r["record_type"] == "financials" and r.get("revenue_inr_cr") is not None:
+            fy = re.search(r"(\d{2})", r.get("fiscal_year") or "")
+            fy_end = 2000 + int(fy.group(1)) if fy else None  # Indian FY ends 31 March of this year
+            partial = re.search(r"\b(H1|H2|Q[1-4]|quarter|half[- ]year|9M|nine months|first half)\b",
+                                a.get("title") or "", re.I)
+            if fy_end and (d.year < fy_end or (d.year == fy_end and d.month < 4) or partial):
+                corrections.append((r["url"], "fiscal_year", r.get("fiscal_year"), None,
+                                    "partial / unfinished fiscal year dropped"))
+                continue
             fin_rows.append({"company_key": ck, "published": d.isoformat(),
                              "fiscal_year": re.sub(r"\s", "", (r.get("fiscal_year") or "")).upper(),
                              "revenue_inr_cr": r.get("revenue_inr_cr"), "profit_inr_cr": r.get("profit_inr_cr"),

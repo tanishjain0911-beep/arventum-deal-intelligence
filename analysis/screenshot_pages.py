@@ -16,7 +16,8 @@ import websocket
 
 EDGE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 PAGES = {"home": "", "pulse": "Market_Pulse", "radar": "Origination_Radar", "match": "Investor_Matchmaker",
-         "buyers": "Buyer_Mapping", "price": "Price_Finder", "quality": "Data_and_Quality",
+         "buyers": "Buyer_Mapping", "price": "Price_Finder", "lookup": "Company_Lookup",
+         "quality": "Data_and_Quality",
          "built": "How_It_Was_Built"}
 PORT = 9333
 

@@ -1,31 +1,31 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T08:01:20._
+_Generated from `db/deals.db` at 2026-11-24T08:13:37._
 
 ## Contents
 
 | table | rows |
 |---|---|
-| sources | 7291 |
-| companies | 3908 |
+| sources | 7170 |
+| companies | 3900 |
 | investors | 5590 |
 | deals | 5357 |
 | deal_investors | 13823 |
 | deal_sources | 5619 |
-| financials | 1373 |
+| financials | 1252 |
 | weekly_totals | 299 |
-| corrections | 204 |
+| corrections | 542 |
 
 Articles used, by source:
 
 | site | articles |
 |---|---|
-| entrackr | 7065 |
+| entrackr | 6944 |
 | inc42 | 226 |
 
 - Deal records before de-duplication: **5619**; duplicate reports merged: **262**; deals confirmed by 2+ articles: **251**
 - Amount disclosed: **90.7%** of deals; at least one named investor: **78.1%**
-- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 124, 'public-market raise': 54, 'implausible amount dropped': 4}
+- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 124, 'partial / unfinished fiscal year dropped': 338, 'public-market raise': 54, 'implausible amount dropped': 4}
 
 ## Primary rounds by year
 

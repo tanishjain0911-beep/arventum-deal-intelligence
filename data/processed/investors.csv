@@ -71,7 +71,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1260,Arkam Ventures,Institutional,,Venture Capital,India,0.0,0.98,24,12.0
 159,Endiya Partners,Institutional,,Venture Capital,India,0.0,0.99,23,10.0
 676,Ramakant Sharma,Individual,,Angel investor (individual),India,0.0,0.99,23,2.0
-1162,SIDBI,Debt / Bank,,Sovereign / Pension / DFI / Government,India,0.0,0.99,23,10.0
+1162,SIDBI Venture Capital,Debt / Bank,,,,,,23,10.0
 1512,BlackSoil,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,23,15.0
 131,A91 Partners,Institutional,,Venture Capital,India,0.0,0.97,22,11.0
 463,Saama Capital,Institutional,,Venture Capital,India,0.0,0.97,22,16.0

@@ -39,4 +39,6 @@ Real-world data is messy. Each entry below was **detected by a check built into 
 
 | 28 | Several weeks still captured 3–20× the published total | **Listed-company raises** (Zomato's ₹8,500 Cr QIP, Nazara's preferential issue, Swiggy's IPO anchor book) were counted as startup rounds; published startup totals exclude them | New `public_market` deal type for QIP, preferential issue, anchor book, rights issue, block deal and OFS (54 reclassified), kept out of private-funding analytics. Capital coverage fell from 84.8% to **79.6%**: lower, but now measured like-for-like |
 
+| 29 | Company Lookup showed Zetwerk's revenue "falling 71%" to ₹4,600 Cr in FY27 | FY27 hadn't ended: the figure was **half-year revenue** stored as annual. 338 such records existed (quarterly results, 9-month figures, guidance) and could distort revenue growth in the Radar and the Price Finder | A financial record is kept only if its fiscal year had ended (31 March) before the article was published and the headline doesn't mention quarter/H1/9M results; every drop is logged. Found through the new Company Lookup page |
+
 **Takeaway:** every fix is enforced by a check that runs on each rebuild (`python pipeline/run_all.py`): validation, the coverage audit, two-agent agreement, and regression tests.

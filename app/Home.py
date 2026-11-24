@@ -78,7 +78,7 @@ with right:
         (f"{cov.get('usd_recall_pct', '—')}%", "of reported $ captured", "vs published weekly totals"),
         (f"{q.get('company_in_title', {}).get('pass_rate', '—')}%", "company names grounded", "found in the source text"),
     ])
-    st.page_link("pages/6_Data_and_Quality.py", label="See the full data-quality report →")
+    st.page_link("pages/7_Data_and_Quality.py", label="See the full data-quality report →")
 
 st.divider()
 ui.source_note()
