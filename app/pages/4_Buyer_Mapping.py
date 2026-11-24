@@ -35,7 +35,7 @@ sector = c1.selectbox("Target's sector", sectors,
                       index=sectors.index("FinTech & Payments") if "FinTech & Payments" in sectors else 0)
 res = acquirers.rank_buyers(sector, top=30)
 c1.markdown("**Acquisitions by sector**")
-top_sec = acq.sector.value_counts().head(10).sort_values()
+top_sec = acq[acq.sector != "Unclassified"].sector.value_counts().head(10).sort_values()
 fig = go.Figure(go.Bar(y=top_sec.index, x=top_sec.values, orientation="h", marker_color=ui.SERIES[0],
                        hovertemplate="%{y}: %{x} acquisitions<extra></extra>"))
 fig.update_layout(height=360, margin=dict(l=10, r=10, t=10, b=10))

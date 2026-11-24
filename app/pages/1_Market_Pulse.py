@@ -74,7 +74,7 @@ st.caption("The most recent month may be incomplete while new articles are being
 # ---- sector heat
 st.subheader("Where the money is moving")
 h = market.sector_heat(window_m=6).reset_index().rename(columns={"index": "sector"})
-h = h[h.deals + h.deals_prev >= 3]
+h = h[(h.deals + h.deals_prev >= 3) & (h.sector != "Unclassified")]
 h["group"] = h.arventum_focus.map({True: "Arventum focus sector", False: "Other sector"})
 h = h.sort_values("usd_m")
 fig = go.Figure()

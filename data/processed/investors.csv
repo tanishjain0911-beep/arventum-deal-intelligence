@@ -71,7 +71,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1260,Arkam Ventures,Institutional,,Venture Capital,India,0.0,0.98,24,12.0
 159,Endiya Partners,Institutional,,Venture Capital,India,0.0,0.99,23,10.0
 676,Ramakant Sharma,Individual,,Angel investor (individual),India,0.0,0.99,23,2.0
-1162,SIDBI Venture Capital,Debt / Bank,,,,,,23,10.0
+1162,SIDBI,Debt / Bank,,Sovereign / Pension / DFI / Government,India,0.0,0.99,23,10.0
 1512,BlackSoil,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,23,15.0
 131,A91 Partners,Institutional,,Venture Capital,India,0.0,0.97,22,11.0
 463,Saama Capital,Institutional,,Venture Capital,India,0.0,0.97,22,16.0
@@ -837,7 +837,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 2467,500 Global,Institutional,,,,,,3,1.0
 2472,Plutus Wealth Management,Institutional,,,,,,3,1.0
 2479,Biswa Kalyan Rath,Individual,,,,,,3,0.0
-2484,Coinbase,Institutional,,,,,,3,1.0
+2484,Coinbase Ventures,Institutional,,,,,,3,1.0
 2554,M&G Investments,Institutional,,,,,,3,2.0
 2587,Zerodha,Institutional,,,,,,3,1.0
 2630,Nikhil Bhandarkar,Individual,,,,,,3,0.0
@@ -905,7 +905,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 4570,Notion Capital,Institutional,,,,,,3,1.0
 4958,NTTVC,Institutional,,,,,,3,3.0
 5033,Mirova,Institutional,,,,,,3,2.0
-5631,Exclusive: Tiger Global,Individual,,,,,,3,3.0
+5581,Exclusive: Tiger Global,Individual,,,,,,3,3.0
 20,Charlie Songhurst,Individual,,,,,,2,0.0
 31,J&A Partners,Institutional,,,,,,2,0.0
 45,Magic Fund,Institutional,,,,,,2,0.0
@@ -1471,7 +1471,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 4236,Villgro Innovation Foundation,Institutional,,,,,,2,1.0
 4264,TR Capital,Institutional,,,,,,2,1.0
 4271,Ashoka India,Individual,,,,,,2,0.0
-4272,Tata Digital,Individual,,,,,,2,1.0
+4272,Tata Digital Fund,Institutional,,,,,,2,1.0
 4278,Apurva Salapuria,Individual,,,,,,2,0.0
 4317,Narendra Rathi,Individual,,,,,,2,0.0
 4319,Mohit Goyal,Individual,,,,,,2,0.0
@@ -1525,9 +1525,9 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 5357,The DotIn Network,Angel network,,,,,,2,1.0
 5434,Novo Holdings,Institutional,,,,,,2,1.0
 5449,Hashed,Institutional,,,,,,2,2.0
-5505,AJ VC,Institutional,,,,,,2,2.0
-5601,SoftBank at $1.4 Bn valuation,Institutional,,,,,,2,2.0
-5625,AWI,Institutional,,,,,,2,2.0
+5504,AJ VC,Institutional,,,,,,2,2.0
+5561,SoftBank at $1.4 Bn valuation,Institutional,,,,,,2,2.0
+5577,AWI,Institutional,,,,,,2,2.0
 6,West Street Global,Individual,,,,,,1,1.0
 7,Investcorp Private Equity,Institutional,,,,,,1,0.0
 9,Alstroemeria Investments,Institutional,,,,,,1,0.0
@@ -5322,92 +5322,92 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 5498,Angel One,Angel network,,,,,,1,1.0
 5499,Gresham House Ventures,Institutional,,,,,,1,1.0
 5500,Narahari Investments,Institutional,,,,,,1,1.0
-5502,Nippon India Digital,Individual,,,,,,1,1.0
-5503,NBCUniversal,Institutional,,,,,,1,1.0
-5504,Crane Venture Partners,Institutional,,,,,,1,1.0
-5507,Wellbeing Nutrition founders,Institutional,,,,,,1,1.0
-5509,CoinFund,Institutional,,,,,,1,1.0
-5510,Zero W,Individual,,,,,,1,1.0
-5511,Zacua Ventures,Institutional,,,,,,1,1.0
-5512,Prax Impex,Individual,,,,,,1,1.0
-5513,Sandeep Jain,Individual,,,,,,1,1.0
-5514,Group,Corporate,,,,,,1,1.0
-5515,Vector Line Capital,Institutional,,,,,,1,1.0
-5516,Axiom Asia,Individual,,,,,,1,1.0
-5517,Agrasar Ventures,Institutional,,,,,,1,0.0
-5518,Michael,Institutional,,,,,,1,1.0
-5519,Susan Dell Foundation,Institutional,,,,,,1,1.0
-5520,Central Bank,Debt / Bank,,,,,,1,1.0
-5522,Exar North Group,Corporate,,,,,,1,1.0
-5523,FPV Ventures,Institutional,,,,,,1,1.0
-5525,Seraphim,Institutional,,,,,,1,1.0
-5526,Trivest Partners,Institutional,,,,,,1,1.0
-5527,Prudent Investment,Institutional,,,,,,1,1.0
-5528,ABP Education,Individual,,,,,,1,1.0
-5529,Giraffe Studios,Individual,,,,,,1,1.0
-5531,Vivek Oberoi Family Office,Family office,,,,,,1,1.0
-5532,DoorDash,Institutional,,,,,,1,0.0
-5534,Sportskeeda founder Porush Jain,Institutional,,,,,,1,1.0
-5535,United Plywood directors,Institutional,,,,,,1,1.0
-5537,Inflexor Ventures in pre-Series A,Institutional,,,,,,1,1.0
-5538,HighLeaf,Institutional,,,,,,1,1.0
-5540,Rajan pai's Claypond Capital,Institutional,,,,,,1,1.0
-5541,Aramco Ventures,Institutional,,,,,,1,1.0
-5543,Sedna HoReCa,Individual,,,,,,1,1.0
-5544,Sanmar Group,Corporate,,,,,,1,1.0
-5545,Edelweiss’s EAAA,Individual,,,,,,1,1.0
-5547,Skegen Asset Management,Institutional,,,,,,1,1.0
-5548,Activate,Institutional,,,,,,1,1.0
-5550,BluVenture,Institutional,,,,,,1,1.0
-5558,Nisaba Godrej,Individual,,,,,,1,0.0
-5559,Anand Piramal,Individual,,,,,,1,0.0
-5561,Infinity Ventures,Institutional,,,,,,1,1.0
-5566,Zerodha-backed Rainmatter,Individual,,,,,,1,1.0
-5567,RMB Capitalworks,Institutional,,,,,,1,1.0
-5568,MSIVC,Institutional,,,,,,1,1.0
-5569,JM Financial PE,Individual,,,,,,1,1.0
-5573,B Cap,Individual,,,,,,1,1.0
-5576,NIIF's SOF,Individual,,,,,,1,1.0
-5577,Ivor Brangnaza,Individual,,,,,,1,0.0
-5578,Rajesh Sud,Individual,,,,,,1,0.0
-5579,United Spirits,Individual,,,,,,1,1.0
-5583,Facebook,Institutional,,,,,,1,1.0
-5584,Google executives,Institutional,,,,,,1,1.0
-5586,Klaviyo investors,Institutional,,,,,,1,1.0
-5589,CPPIB,Institutional,,,,,,1,1.0
-5590,Mastercard at $1.5 Bn,Institutional,,,,,,1,1.0
-5592,Anthos Capital,Institutional,,,,,,1,1.0
-5593,Naver,Institutional,,,,,,1,0.0
-5595,MOPE,Institutional,,,,,,1,1.0
-5596,Exclusive: Binny Bansal’s 021 Capital,Institutional,,,,,,1,1.0
-5597,Circulate Capital,Institutional,,,,,,1,1.0
-5602,Tiger,Institutional,,,,,,1,1.0
-5603,Sequoia at $3.5 Bn valuation,Institutional,,,,,,1,1.0
-5605,Exclusive: Doordash’s Gokul Rajaram,Individual,,,,,,1,1.0
-5606,Group Meeran,Corporate,,,,,,1,1.0
-5608,SternAegis Ventures,Institutional,,,,,,1,1.0
-5609,Exclusive: B Capital,Institutional,,,,,,1,1.0
-5610,Vulcan Capital,Institutional,,,,,,1,1.0
-5612,Kora Capital,Institutional,,,,,,1,0.0
-5613,NRI techies,Institutional,,,,,,1,1.0
-5616,Falcon,Institutional,,,,,,1,1.0
-5617,SoftBank at $3 Bn valuation,Institutional,,,,,,1,1.0
-5618,Lee Fixel’s Addition,Individual,,,,,,1,1.0
-5620,Stellaris VP,Individual,,,,,,1,1.0
-5621,Ameba Capital,Institutional,,,,,,1,1.0
-5622,Asmaan Ventures,Institutional,,,,,,1,1.0
-5627,Nubank,Institutional,,,,,,1,1.0
-5628,Automattic,Institutional,,,,,,1,1.0
-5630,Maitri Edtech,Individual,,,,,,1,1.0
-5633,TCV,Institutional,,,,,,1,1.0
-5634,Learn Capital,Institutional,,,,,,1,1.0
-5635,Prosus at $2 Bn valuation,Institutional,,,,,,1,1.0
-5636,TPG; enters unicorn club,Institutional,,,,,,1,1.0
-5637,MC Global Edtech Investment,Institutional,,,,,,1,1.0
-5639,Ascent Capital,Institutional,,,,,,1,1.0
-5640,Purplle; valuation soars 10X,Institutional,,,,,,1,0.0
-5644,Alpine,Institutional,,,,,,1,0.0
-5645,Euler Fund,Institutional,,,,,,1,1.0
+5501,Nippon India Digital,Individual,,,,,,1,1.0
+5502,NBCUniversal,Institutional,,,,,,1,1.0
+5503,Crane Venture Partners,Institutional,,,,,,1,1.0
+5505,Wellbeing Nutrition founders,Institutional,,,,,,1,1.0
+5506,CoinFund,Institutional,,,,,,1,1.0
+5507,Zero W,Individual,,,,,,1,1.0
+5508,Zacua Ventures,Institutional,,,,,,1,1.0
+5509,Prax Impex,Individual,,,,,,1,1.0
+5510,Sandeep Jain,Individual,,,,,,1,1.0
+5511,Group,Corporate,,,,,,1,1.0
+5512,Vector Line Capital,Institutional,,,,,,1,1.0
+5513,Axiom Asia,Individual,,,,,,1,1.0
+5514,Agrasar Ventures,Institutional,,,,,,1,0.0
+5515,Michael,Institutional,,,,,,1,1.0
+5516,Susan Dell Foundation,Institutional,,,,,,1,1.0
+5517,Central Bank,Debt / Bank,,,,,,1,1.0
+5518,Exar North Group,Corporate,,,,,,1,1.0
+5519,FPV Ventures,Institutional,,,,,,1,1.0
+5520,Seraphim,Institutional,,,,,,1,1.0
+5521,Trivest Partners,Institutional,,,,,,1,1.0
+5522,Prudent Investment,Institutional,,,,,,1,1.0
+5523,ABP Education,Individual,,,,,,1,1.0
+5524,Giraffe Studios,Individual,,,,,,1,1.0
+5525,Vivek Oberoi Family Office,Family office,,,,,,1,1.0
+5526,DoorDash,Institutional,,,,,,1,0.0
+5527,Sportskeeda founder Porush Jain,Institutional,,,,,,1,1.0
+5528,United Plywood directors,Institutional,,,,,,1,1.0
+5529,Inflexor Ventures in pre-Series A,Institutional,,,,,,1,1.0
+5530,HighLeaf,Institutional,,,,,,1,1.0
+5531,Rajan pai's Claypond Capital,Institutional,,,,,,1,1.0
+5532,Aramco Ventures,Institutional,,,,,,1,1.0
+5533,Sedna HoReCa,Individual,,,,,,1,1.0
+5534,Sanmar Group,Corporate,,,,,,1,1.0
+5535,Edelweiss’s EAAA,Individual,,,,,,1,1.0
+5536,Skegen Asset Management,Institutional,,,,,,1,1.0
+5537,Activate,Institutional,,,,,,1,1.0
+5538,BluVenture,Institutional,,,,,,1,1.0
+5539,Nisaba Godrej,Individual,,,,,,1,0.0
+5540,Anand Piramal,Individual,,,,,,1,0.0
+5541,Infinity Ventures,Institutional,,,,,,1,1.0
+5542,Zerodha-backed Rainmatter,Individual,,,,,,1,1.0
+5543,RMB Capitalworks,Institutional,,,,,,1,1.0
+5544,MSIVC,Institutional,,,,,,1,1.0
+5545,JM Financial PE,Individual,,,,,,1,1.0
+5546,B Cap,Individual,,,,,,1,1.0
+5547,NIIF's SOF,Individual,,,,,,1,1.0
+5548,Ivor Brangnaza,Individual,,,,,,1,0.0
+5549,Rajesh Sud,Individual,,,,,,1,0.0
+5550,United Spirits,Individual,,,,,,1,1.0
+5551,Facebook,Institutional,,,,,,1,1.0
+5552,Google executives,Institutional,,,,,,1,1.0
+5553,Klaviyo investors,Institutional,,,,,,1,1.0
+5554,CPPIB,Institutional,,,,,,1,1.0
+5555,Mastercard at $1.5 Bn,Institutional,,,,,,1,1.0
+5556,Anthos Capital,Institutional,,,,,,1,1.0
+5557,Naver,Institutional,,,,,,1,0.0
+5558,MOPE,Institutional,,,,,,1,1.0
+5559,Exclusive: Binny Bansal’s 021 Capital,Institutional,,,,,,1,1.0
+5560,Circulate Capital,Institutional,,,,,,1,1.0
+5562,Tiger,Institutional,,,,,,1,1.0
+5563,Sequoia at $3.5 Bn valuation,Institutional,,,,,,1,1.0
+5564,Exclusive: Doordash’s Gokul Rajaram,Individual,,,,,,1,1.0
+5565,Group Meeran,Corporate,,,,,,1,1.0
+5566,SternAegis Ventures,Institutional,,,,,,1,1.0
+5567,Exclusive: B Capital,Institutional,,,,,,1,1.0
+5568,Vulcan Capital,Institutional,,,,,,1,1.0
+5569,Kora Capital,Institutional,,,,,,1,0.0
+5570,NRI techies,Institutional,,,,,,1,1.0
+5571,Falcon,Institutional,,,,,,1,1.0
+5572,SoftBank at $3 Bn valuation,Institutional,,,,,,1,1.0
+5573,Lee Fixel’s Addition,Individual,,,,,,1,1.0
+5574,Stellaris VP,Individual,,,,,,1,1.0
+5575,Ameba Capital,Institutional,,,,,,1,1.0
+5576,Asmaan Ventures,Institutional,,,,,,1,1.0
+5578,Nubank,Institutional,,,,,,1,1.0
+5579,Automattic,Institutional,,,,,,1,1.0
+5580,Maitri Edtech,Individual,,,,,,1,1.0
+5582,TCV,Institutional,,,,,,1,1.0
+5583,Learn Capital,Institutional,,,,,,1,1.0
+5584,Prosus at $2 Bn valuation,Institutional,,,,,,1,1.0
+5585,TPG; enters unicorn club,Institutional,,,,,,1,1.0
+5586,MC Global Edtech Investment,Institutional,,,,,,1,1.0
+5587,Ascent Capital,Institutional,,,,,,1,1.0
+5588,Purplle; valuation soars 10X,Institutional,,,,,,1,0.0
+5589,Alpine,Institutional,,,,,,1,0.0
+5590,Euler Fund,Institutional,,,,,,1,1.0
 99,G.O.A.T Brand Labs,Institutional,,,,,,0,
 148,Pine Labs,Institutional,,,,,,0,
 227,Cashfree Payments,Individual,,,,,,0,
@@ -5505,7 +5505,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 3272,Fashinza,Institutional,,,,,,0,
 3298,Emversity,Institutional,,,,,,0,
 3338,Meesho,Institutional,,,,,,0,
-3376,Byju’s,Institutional,,,,,,0,
+3376,Byju's,Institutional,,,,,,0,
 3387,YouTube,Institutional,,,,,,0,
 3400,Vedantu,Institutional,,,,,,0,
 3436,Clear,Institutional,,,,,,0,
@@ -5589,58 +5589,3 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 5330,V-Mart Retail,Individual,,,,,,0,
 5338,Miko,Institutional,,,,,,0,
 5360,Mahindra Logistics,Individual,,,,,,0,
-5501,Bodhi Tree,Individual,,,,,,0,
-5506,Freshworks,Institutional,,,,,,0,
-5508,Practo co-founder Shashank ND’s startup Cent raises $15 Mn led by Blume,Institutional,,,,,,0,
-5521,Samara Capital,Institutional,,,,,,0,
-5524,Bajaj Finance,Individual,,,,,,0,
-5530,Temple,Institutional,,,,,,0,
-5533,Fleetx.ai,Institutional,,,,,,0,
-5536,DSP Finance,Individual,,,,,,0,
-5539,GalaxEye,Institutional,,,,,,0,
-5542,Nykaa’s profits jump 3.3X to Rs 80 Cr in Q1 FY27,Institutional,,,,,,0,
-5546,Snitch,Institutional,,,,,,0,
-5549,Recode Studios,Individual,,,,,,0,
-5551,Mukesh Bansal’s Nurix AI,Individual,,,,,,0,
-5552,ekincare,Institutional,,,,,,0,
-5553,Nikhil Kamath’s WTF,Individual,,,,,,0,
-5554,AscentHR,Institutional,,,,,,0,
-5555,M1xchange’s Mynd Fintech,Individual,,,,,,0,
-5556,Property management platform Crib App,Institutional,,,,,,0,
-5557,Ananta Capital,Institutional,,,,,,0,
-5560,Smartworks,Institutional,,,,,,0,
-5562,MoEngage,Institutional,,,,,,0,
-5563,Mamaearth parent Honasa,Institutional,,,,,,0,
-5564,Student mobility platform Crizac,Institutional,,,,,,0,
-5565,L’Oréal,Institutional,,,,,,0,
-5570,Pristyn Care,Individual,,,,,,0,
-5571,Gupshup,Institutional,,,,,,0,
-5572,Agritech startup Arya.ag,Institutional,,,,,,0,
-5574,Endurance Tech,Individual,,,,,,0,
-5575,MamaEarth’s parent,Institutional,,,,,,0,
-5580,Profitable unicorn Amagi,Institutional,,,,,,0,
-5581,Talentedge's owner,Institutional,,,,,,0,
-5582,Ola,Institutional,,,,,,0,
-5585,Tax filing platform Clear,Institutional,,,,,,0,
-5587,Ninjacart,Institutional,,,,,,0,
-5588,PeopleStrong,Institutional,,,,,,0,
-5591,Tech upskilling startup Scaler,Institutional,,,,,,0,
-5594,WayCool,Institutional,,,,,,0,
-5598,CollegeDekho,Institutional,,,,,,0,
-5599,Tata Digital-backed Cult.fit,Individual,,,,,,0,
-5600,Spinny,Institutional,,,,,,0,
-5604,Zomato-backed Shiprocket,Individual,,,,,,0,
-5607,Prosus-backed Good Glamm Group,Corporate,,,,,,0,
-5611,Thrasio-style Evenflow,Individual,,,,,,0,
-5614,Unacademy’s Graphy,Individual,,,,,,0,
-5615,"After POPxo and BabyChakra, Good Glamm Group",Corporate,,,,,,0,
-5619,NODWIN,Institutional,,,,,,0,
-5623,"In a mega deal, Prosus-owned PayU",Institutional,,,,,,0,
-5624,Edtech startup Scaler Academy,Institutional,,,,,,0,
-5626,Pravin Jadhav’s Raise Financial,Individual,,,,,,0,
-5629,Jitendra Gupta’s neobank Jupiter,Institutional,,,,,,0,
-5632,Abuzz,Institutional,,,,,,0,
-5638,Khatabook,Institutional,,,,,,0,
-5641,Tata Digital files application at CCI,Institutional,,,,,,0,
-5642,Lightspeed-backed Foxy,Individual,,,,,,0,
-5643,Unacademy,Institutional,,,,,,0,

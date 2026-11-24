@@ -2,8 +2,8 @@
   "records": 9555,
   "checks": {
     "headline_amount": {
-      "passed": 4435,
-      "checked": 4503,
+      "passed": 4416,
+      "checked": 4484,
       "pass_rate": 98.5
     },
     "stage_size": {
@@ -12,13 +12,13 @@
       "pass_rate": 97.6
     },
     "missing_core": {
-      "passed": 5847,
-      "checked": 5978,
+      "passed": 5746,
+      "checked": 5877,
       "pass_rate": 97.8
     },
     "company_in_title": {
-      "passed": 8287,
-      "checked": 8300,
+      "passed": 8188,
+      "checked": 8201,
       "pass_rate": 99.8
     }
   }

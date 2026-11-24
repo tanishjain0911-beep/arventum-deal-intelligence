@@ -333,7 +333,7 @@ def main():
         at = attrs[ck]
         name = companies.canonical(ck)
         cur.execute("INSERT OR IGNORE INTO companies(name, sector, city, description) VALUES (?,?,?,?)",
-                    (name, at["sector"].most_common(1)[0][0] if at["sector"] else "Other",
+                    (name, at["sector"].most_common(1)[0][0] if at["sector"] else "Unclassified",
                      at["city"].most_common(1)[0][0] if at["city"] else None, at["desc"]))
         comp_ids[ck] = cur.execute("SELECT company_id FROM companies WHERE name=?", (name,)).fetchone()[0]
 

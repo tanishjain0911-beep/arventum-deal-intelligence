@@ -1,31 +1,31 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T07:24:55._
+_Generated from `db/deals.db` at 2026-11-24T07:31:57._
 
 ## Contents
 
 | table | rows |
 |---|---|
-| sources | 7180 |
-| companies | 3947 |
-| investors | 5645 |
-| deals | 5459 |
+| sources | 7079 |
+| companies | 3870 |
+| investors | 5590 |
+| deals | 5359 |
 | deal_investors | 13819 |
-| deal_sources | 5724 |
+| deal_sources | 5623 |
 | financials | 1157 |
 | weekly_totals | 299 |
-| corrections | 153 |
+| corrections | 151 |
 
 Articles used, by source:
 
 | site | articles |
 |---|---|
-| entrackr | 6954 |
+| entrackr | 6853 |
 | inc42 | 226 |
 
-- Deal records before de-duplication: **5724**; duplicate reports merged: **265**; deals confirmed by 2+ articles: **253**
-- Amount disclosed: **89.4%** of deals; at least one named investor: **76.7%**
-- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 127, 'implausible amount dropped': 4}
+- Deal records before de-duplication: **5623**; duplicate reports merged: **264**; deals confirmed by 2+ articles: **252**
+- Amount disclosed: **90.7%** of deals; at least one named investor: **78.1%**
+- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 125, 'implausible amount dropped': 4}
 
 ## Primary rounds by year
 
@@ -44,7 +44,7 @@ Articles used, by source:
 |---|---|---|
 | E-commerce & D2C | 830 | 19,763.5 |
 | FinTech & Payments | 610 | 15,552.1 |
-| Other | 658 | 10,332.0 |
+| Unclassified | 605 | 10,010.6 |
 | EdTech | 149 | 6,344.6 |
 | EV & Auto | 210 | 5,088.6 |
 | Consumer Internet | 130 | 5,011.9 |
@@ -87,21 +87,21 @@ Articles used, by source:
 
 | deal_date | target | acquirer | amount_usd_m |
 |---|---|---|---|
-| 2026-11-12 | A2B | Bodhi Tree | 180.0 |
-| 2026-11-06 | quick ride | MakeMyTrip |  |
-| 2026-10-29 | platform | Freshworks |  |
-| 2026-10-27 | Medsee | Practo co-founder Shashank ND’s startup Cent raises $15 Mn led by Blume | 15.0 |
-| 2026-10-05 | Plix | Marico | 116.9 |
-| 2026-09-21 | Calyx | Samara Capital |  |
-| 2026-09-17 | Wheels | PB Fintech | 1.2 |
-| 2026-09-08 | TrueFan AI | Bajaj Finance |  |
-| 2026-09-07 | Swiggy | Udaan | 57.7 |
-| 2026-09-01 | business | Niyo |  |
-| 2026-08-27 | Longevous | Temple |  |
-| 2026-08-20 | Pando.ai | Fleetx.ai |  |
-| 2026-08-19 | BookMyShow | KKR |  |
-| 2026-08-18 | platform | DSP Finance |  |
-| 2026-08-11 | Diagnostics | Redcliffe Labs | 4.6 |
+| 2026-06-12 | Kirana Club | Meesho | 23.0 |
+| 2026-06-08 | iKeva | Incuspaze |  |
+| 2026-06-05 | Brevistay | ixigo | 7.5 |
+| 2026-06-01 | Bluechip Capital | Scripbox |  |
+| 2026-05-25 | HelloTravel | Ziptrrip |  |
+| 2026-05-19 | GoldenPi | Oxyzo |  |
+| 2026-05-13 | GreenLife | Raise Financial Services |  |
+| 2026-05-12 | S Cube Capital | InCred Capital |  |
+| 2026-05-07 | MobileAction | InMobi |  |
+| 2026-05-07 | IndiaLends | Freo |  |
+| 2026-05-07 | IncNut Digital | Emami | 36.5 |
+| 2026-05-05 | Moove Connected Mobility | Netradyne |  |
+| 2026-04-25 | Shopflo | Pine Labs | 10.0 |
+| 2026-04-22 | Lanstitut | Emversity | 4.2 |
+| 2026-04-21 | Stratzy | Raise Financial Services |  |
 
 ## Quality checks
 
@@ -123,8 +123,8 @@ Articles used, by source:
 ```json
 {
   "headline_amount": {
-    "passed": 4435,
-    "checked": 4503,
+    "passed": 4416,
+    "checked": 4484,
     "pass_rate": 98.5
   },
   "stage_size": {
@@ -133,13 +133,13 @@ Articles used, by source:
     "pass_rate": 97.6
   },
   "missing_core": {
-    "passed": 5847,
-    "checked": 5978,
+    "passed": 5746,
+    "checked": 5877,
     "pass_rate": 97.8
   },
   "company_in_title": {
-    "passed": 8287,
-    "checked": 8300,
+    "passed": 8188,
+    "checked": 8201,
     "pass_rate": 99.8
   }
 }

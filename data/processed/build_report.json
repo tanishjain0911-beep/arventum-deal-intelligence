@@ -1,41 +1,41 @@
 {
-  "built": "2026-11-24T07:24:55",
+  "built": "2026-11-24T07:31:57",
   "tables": {
-    "sources": 7180,
-    "companies": 3947,
-    "investors": 5645,
-    "deals": 5459,
+    "sources": 7079,
+    "companies": 3870,
+    "investors": 5590,
+    "deals": 5359,
     "deal_investors": 13819,
-    "deal_sources": 5724,
+    "deal_sources": 5623,
     "financials": 1157,
     "weekly_totals": 299,
-    "corrections": 153
+    "corrections": 151
   },
-  "deal_records_before_dedupe": 5724,
-  "duplicate_reports_merged": 265,
+  "deal_records_before_dedupe": 5623,
+  "duplicate_reports_merged": 264,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
-    "headline-wins": 127,
+    "headline-wins": 125,
     "implausible amount dropped": 4
   },
   "deals_by_type": {
     "equity": "4562",
-    "acquisition": "431",
+    "acquisition": "331",
     "debt": "216",
     "secondary": "135",
     "ipo": "115"
   },
   "deals_by_year": {
-    "2021": 501,
-    "2022": 851,
+    "2021": 472,
+    "2022": 817,
     "2023": 700,
     "2024": 1046,
     "2025": 1361,
-    "2026": 1000
+    "2026": 963
   },
-  "amount_disclosed_pct": 89.4,
-  "with_named_investor_pct": 76.7,
-  "multi_source_deals": 253,
+  "amount_disclosed_pct": 90.7,
+  "with_named_investor_pct": 78.1,
+  "multi_source_deals": 252,
   "top_investors": [
     {
       "name": "Inflection Point Ventures",

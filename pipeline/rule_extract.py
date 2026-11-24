@@ -110,14 +110,8 @@ def extract(a: dict) -> dict:
         return rec
     m = ACQ.match(title)
     if m:
-        target = m.group("target").strip()
-        tk = next((k for k in kws if not GENERIC_KW.match(k) and re.search(re.escape(k), target, re.I)), None)
-        acq = re.sub(r"^(exclusive|update)\s*:\s*", "", m.group("acq").strip(), flags=re.I)
-        rec.update(record_type="acquisition", acquirer=acq, stage="acquisition",
-                   company=tk or target.split(" for ")[0].split()[-1])
-        usd = headline_amount_usd(title)
-        if usd:
-            rec.update(amount_value=round(usd, 4), amount_currency="USD", amount_unit="mn")
+        # Target names can't be parsed reliably from headlines ("acquires quick ride platform..."), so leave
+        # acquisitions to the AI extractors rather than publish wrong buyer/target pairs.
         return rec
     fy = FY.search(title)
     if fy and FIN.search(title) and not RAISE.search(title):
