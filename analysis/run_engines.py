@@ -19,6 +19,9 @@ from lib import matching, radar, valuation  # noqa: E402
 OUT = ROOT / "data" / "processed"
 
 
+FAILED = []
+
+
 def section(name):
     def deco(fn):
         def run():
@@ -28,6 +31,7 @@ def section(name):
                 fn()
             except Exception:  # noqa: BLE001
                 traceback.print_exc(limit=3)
+                FAILED.append(name)  # keep running the other engines, but never report success
             print(f"   ({time.time() - t:.0f}s)")
         return run
     return deco
@@ -74,3 +78,5 @@ if __name__ == "__main__":
     which = sys.argv[1:] or ["radar", "matching", "valuation"]
     for w in which:
         {"radar": do_radar, "matching": do_matching, "valuation": do_valuation}[w]()
+    print("ENGINES FAILED: " + ", ".join(FAILED) if FAILED else "all engines OK")
+    sys.exit(1 if FAILED else 0)

@@ -191,7 +191,7 @@ def load_records(arts, corrections):
     merged = []
     # agents ranked by measured agreement with the reference (analysis/model_eval.py); confidence breaks ties
     priority = {"codex": 0, "opencode": 0, "deepseek": 1, "pickle": 1, "nemotron": 2, "mimo": 3,
-                "beam": 3, "hy4": 3, "flint": 3, "lightning": 3}
+                "beam": 3, "hy4": 3, "flint": 3, "lightning": 3, "rules": 9}
     for url, rs in by_url.items():
         rs = sorted(rs, key=lambda r: (priority.get(r["agent"], 5), -(r.get("confidence") or 0)))
         best = dict(rs[0])

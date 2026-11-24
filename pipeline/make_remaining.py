@@ -16,7 +16,9 @@ from run_extraction import is_roundup  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 KINDS = {"deal", "acquisition", "financials"}
-done = {r["url"] for f in (ROOT / "data" / "extracted").glob("*/*.json") for r in _records(f)}
+# rule-based records don't count as "done": the AI should still re-extract those articles when available
+done = {r["url"] for f in (ROOT / "data" / "extracted").glob("*/*.json") if f.parent.name != "rules"
+        for r in _records(f)}
 lists = ["entrackr_urls.csv", "entrackr_urls_extra.csv"]
 rows, seen = [], set()
 for name in lists:

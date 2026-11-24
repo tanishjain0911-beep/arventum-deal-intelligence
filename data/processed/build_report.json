@@ -1,131 +1,131 @@
 {
-  "built": "2026-11-24T06:55:55",
+  "built": "2026-11-24T07:22:09",
   "tables": {
-    "sources": 5911,
-    "companies": 3280,
-    "investors": 5486,
-    "deals": 4204,
-    "deal_investors": 13156,
-    "deal_sources": 4460,
-    "financials": 1155,
-    "weekly_totals": 296,
-    "corrections": 95
+    "sources": 7180,
+    "companies": 3947,
+    "investors": 6077,
+    "deals": 5459,
+    "deal_investors": 14771,
+    "deal_sources": 5724,
+    "financials": 1157,
+    "weekly_totals": 299,
+    "corrections": 153
   },
-  "deal_records_before_dedupe": 4460,
-  "duplicate_reports_merged": 256,
+  "deal_records_before_dedupe": 5724,
+  "duplicate_reports_merged": 265,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
-    "headline-wins": 70,
-    "implausible amount dropped": 3
+    "headline-wins": 127,
+    "implausible amount dropped": 4
   },
   "deals_by_type": {
-    "equity": "3443",
-    "acquisition": "329",
-    "debt": "184",
-    "secondary": "133",
+    "equity": "4562",
+    "acquisition": "431",
+    "debt": "216",
+    "secondary": "135",
     "ipo": "115"
   },
   "deals_by_year": {
-    "2021": 73,
-    "2022": 479,
+    "2021": 501,
+    "2022": 851,
     "2023": 700,
-    "2024": 1044,
-    "2025": 1359,
-    "2026": 549
+    "2024": 1046,
+    "2025": 1361,
+    "2026": 1000
   },
-  "amount_disclosed_pct": 90.8,
-  "with_named_investor_pct": 87.2,
-  "multi_source_deals": 244,
+  "amount_disclosed_pct": 89.4,
+  "with_named_investor_pct": 85.6,
+  "multi_source_deals": 253,
   "top_investors": [
     {
       "name": "Inflection Point Ventures",
       "type": "Institutional",
-      "n_deals": 135,
-      "n_led": 106.0
+      "n_deals": 169,
+      "n_led": 140.0
     },
     {
       "name": "Peak XV Partners",
       "type": "Institutional",
-      "n_deals": 135,
-      "n_led": 77.0
+      "n_deals": 154,
+      "n_led": 93.0
     },
     {
       "name": "Accel",
       "type": "Institutional",
-      "n_deals": 113,
-      "n_led": 72.0
+      "n_deals": 136,
+      "n_led": 88.0
     },
     {
       "name": "Venture Catalysts",
       "type": "Institutional",
-      "n_deals": 109,
-      "n_led": 43.0
+      "n_deals": 123,
+      "n_led": 56.0
     },
     {
       "name": "Blume Ventures",
       "type": "Institutional",
-      "n_deals": 108,
-      "n_led": 36.0
+      "n_deals": 112,
+      "n_led": 39.0
     },
     {
       "name": "Elevation Capital",
       "type": "Institutional",
-      "n_deals": 84,
-      "n_led": 39.0
-    },
-    {
-      "name": "Z47",
-      "type": "Institutional",
-      "n_deals": 81,
-      "n_led": 36.0
+      "n_deals": 103,
+      "n_led": 57.0
     },
     {
       "name": "Lightspeed",
       "type": "Institutional",
-      "n_deals": 80,
-      "n_led": 40.0
+      "n_deals": 88,
+      "n_led": 46.0
+    },
+    {
+      "name": "Z47",
+      "type": "Institutional",
+      "n_deals": 87,
+      "n_led": 42.0
     },
     {
       "name": "Kunal Shah",
       "type": "Individual",
-      "n_deals": 71,
-      "n_led": 0.0
-    },
-    {
-      "name": "Alteria Capital",
-      "type": "Debt / Bank",
-      "n_deals": 64,
-      "n_led": 18.0
-    },
-    {
-      "name": "Fireside Ventures",
-      "type": "Institutional",
-      "n_deals": 59,
-      "n_led": 36.0
+      "n_deals": 75,
+      "n_led": 2.0
     },
     {
       "name": "Info Edge Ventures",
       "type": "Institutional",
-      "n_deals": 58,
-      "n_led": 29.0
+      "n_deals": 73,
+      "n_led": 41.0
     },
     {
-      "name": "Titan Capital",
-      "type": "Institutional",
-      "n_deals": 56,
+      "name": "Alteria Capital",
+      "type": "Debt / Bank",
+      "n_deals": 69,
       "n_led": 22.0
     },
     {
       "name": "Nexus Venture Partners",
       "type": "Institutional",
-      "n_deals": 54,
-      "n_led": 29.0
+      "n_deals": 65,
+      "n_led": 36.0
+    },
+    {
+      "name": "Fireside Ventures",
+      "type": "Institutional",
+      "n_deals": 64,
+      "n_led": 41.0
+    },
+    {
+      "name": "Titan Capital",
+      "type": "Institutional",
+      "n_deals": 63,
+      "n_led": 27.0
     },
     {
       "name": "Rainmatter",
       "type": "Institutional",
-      "n_deals": 53,
-      "n_led": 30.0
+      "n_deals": 62,
+      "n_led": 37.0
     }
   ]
 }
