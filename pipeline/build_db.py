@@ -239,6 +239,11 @@ def main():
             if val is not None and usd is not None and val < usd:
                 corrections.append((r["url"], "valuation_usd_m", val, None, "valuation below round size"))
                 val = None
+            if r["record_type"] == "acquisition" and r.get("acquirer") and \
+                    match_key(r["acquirer"]) == match_key(r["company"]):
+                # buyer recorded as its own target ("Captain Fresh acquires CenSea" -> Captain Fresh/Captain Fresh)
+                corrections.append((r["url"], "company", r["company"], None, "self-acquisition dropped (role swap)"))
+                continue
             stage = r.get("stage") if r.get("stage") in STAGES else None
             dtype = DEAL_TYPES[r["record_type"]]
             if PUBLIC_MARKET.search(a.get("title") or ""):

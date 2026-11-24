@@ -1,31 +1,31 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T08:13:37._
+_Generated from `db/deals.db` at 2026-11-24T08:22:06._
 
 ## Contents
 
 | table | rows |
 |---|---|
-| sources | 7170 |
-| companies | 3900 |
-| investors | 5590 |
-| deals | 5357 |
+| sources | 7161 |
+| companies | 3898 |
+| investors | 5587 |
+| deals | 5348 |
 | deal_investors | 13823 |
-| deal_sources | 5619 |
+| deal_sources | 5610 |
 | financials | 1252 |
 | weekly_totals | 299 |
-| corrections | 542 |
+| corrections | 551 |
 
 Articles used, by source:
 
 | site | articles |
 |---|---|
-| entrackr | 6944 |
-| inc42 | 226 |
+| entrackr | 6937 |
+| inc42 | 224 |
 
-- Deal records before de-duplication: **5619**; duplicate reports merged: **262**; deals confirmed by 2+ articles: **251**
-- Amount disclosed: **90.7%** of deals; at least one named investor: **78.1%**
-- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 124, 'partial / unfinished fiscal year dropped': 338, 'public-market raise': 54, 'implausible amount dropped': 4}
+- Deal records before de-duplication: **5610**; duplicate reports merged: **262**; deals confirmed by 2+ articles: **251**
+- Amount disclosed: **90.9%** of deals; at least one named investor: **78.3%**
+- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 124, 'partial / unfinished fiscal year dropped': 338, 'self-acquisition dropped (role swap)': 9, 'public-market raise': 54, 'implausible amount dropped': 4}
 
 ## Primary rounds by year
 

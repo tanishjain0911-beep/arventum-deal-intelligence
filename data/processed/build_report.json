@@ -1,28 +1,29 @@
 {
-  "built": "2026-11-24T08:13:37",
+  "built": "2026-11-24T08:22:06",
   "tables": {
-    "sources": 7170,
-    "companies": 3900,
-    "investors": 5590,
-    "deals": 5357,
+    "sources": 7161,
+    "companies": 3898,
+    "investors": 5587,
+    "deals": 5348,
     "deal_investors": 13823,
-    "deal_sources": 5619,
+    "deal_sources": 5610,
     "financials": 1252,
     "weekly_totals": 299,
-    "corrections": 542
+    "corrections": 551
   },
-  "deal_records_before_dedupe": 5619,
+  "deal_records_before_dedupe": 5610,
   "duplicate_reports_merged": 262,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
     "headline-wins": 124,
     "partial / unfinished fiscal year dropped": 338,
+    "self-acquisition dropped (role swap)": 9,
     "public-market raise": 54,
     "implausible amount dropped": 4
   },
   "deals_by_type": {
     "equity": "4544",
-    "acquisition": "331",
+    "acquisition": "322",
     "debt": "216",
     "secondary": "127",
     "ipo": "88",
@@ -31,13 +32,13 @@
   "deals_by_year": {
     "2021": 466,
     "2022": 817,
-    "2023": 700,
-    "2024": 1048,
-    "2025": 1364,
-    "2026": 962
+    "2023": 699,
+    "2024": 1046,
+    "2025": 1359,
+    "2026": 961
   },
-  "amount_disclosed_pct": 90.7,
-  "with_named_investor_pct": 78.1,
+  "amount_disclosed_pct": 90.9,
+  "with_named_investor_pct": 78.3,
   "multi_source_deals": 251,
   "top_investors": [
     {
