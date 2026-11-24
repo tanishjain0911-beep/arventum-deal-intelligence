@@ -1,6 +1,6 @@
 investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deals,n_led
 51,Inflection Point Ventures,Institutional,,Angel network / platform,India,0.0,0.98,156,127.0
-60,Peak XV Partners,Institutional,,Venture Capital,Singapore,1.0,0.94,145,86.0
+60,Peak XV Partners,Institutional,,Venture Capital,Singapore,1.0,0.94,144,85.0
 41,Accel,Institutional,,Venture Capital,United States,1.0,0.98,129,84.0
 43,Venture Catalysts,Institutional,,Angel network / platform,India,0.0,0.96,114,48.0
 24,Blume Ventures,Institutional,,Venture Capital,India,0.0,0.99,110,37.0
@@ -15,7 +15,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 524,Rainmatter,Institutional,,Corporate / CVC,India,0.0,0.98,62,37.0
 110,Titan Capital,Institutional,,Venture Capital,India,0.0,0.97,59,24.0
 184,Anicut Capital,Institutional,,Private Equity / Growth,India,0.0,0.94,53,19.0
-105,Tiger Global,Individual,,Hedge fund / Crossover / Asset manager,United States,1.0,0.99,52,30.0
+105,Tiger Global,Individual,,Hedge fund / Crossover / Asset manager,United States,1.0,0.99,51,30.0
 391,IvyCap Ventures,Institutional,,Venture Capital,India,0.0,0.99,51,31.0
 67,Stride Ventures,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,50,16.0
 137,3one4 Capital,Institutional,,Venture Capital,India,0.0,0.99,50,20.0
@@ -71,7 +71,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1258,Arkam Ventures,Institutional,,Venture Capital,India,0.0,0.98,24,12.0
 159,Endiya Partners,Institutional,,Venture Capital,India,0.0,0.99,23,10.0
 676,Ramakant Sharma,Individual,,Angel investor (individual),India,0.0,0.99,23,2.0
-1161,SIDBI,Debt / Bank,,Sovereign / Pension / DFI / Government,India,0.0,0.99,23,10.0
+1161,SIDBI Venture Capital,Debt / Bank,,,,,,23,10.0
 1510,BlackSoil,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,23,15.0
 131,A91 Partners,Institutional,,Venture Capital,India,0.0,0.97,22,11.0
 463,Saama Capital,Institutional,,Venture Capital,India,0.0,0.97,22,16.0
@@ -103,7 +103,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 323,Finvolve,Institutional,,,,,,17,10.0
 435,Athera Venture Partners,Institutional,,Venture Capital,India,0.0,0.98,17,7.0
 459,Together Fund,Institutional,,,,,,17,8.0
-2360,AJVC,Institutional,,,,,,17,15.0
+2359,AJVC,Institutional,,,,,,17,15.0
 134,8i Ventures,Institutional,,,,,,16,5.0
 278,Leo Capital,Institutional,,Venture Capital,Singapore,1.0,0.92,16,10.0
 285,1Crowd,Institutional,,,,,,16,5.0
@@ -113,8 +113,8 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 646,Eximius Ventures,Institutional,,,,,,16,6.0
 848,India Accelerator,Accelerator,,,,,,16,8.0
 1048,Ankur Capital,Institutional,,,,,,16,5.0
-1965,Titan Capital Winners Fund,Institutional,,,,,,16,0.0
-1995,Zeropearl VC,Institutional,,,,,,16,12.0
+1964,Titan Capital Winners Fund,Institutional,,,,,,16,0.0
+1994,Zeropearl VC,Institutional,,,,,,16,12.0
 39,NABVENTURES,Institutional,,,,,,15,10.0
 215,RPSG Capital Ventures,Institutional,,Corporate / CVC,India,0.0,0.98,15,11.0
 238,Sujeet Kumar,Individual,,Angel investor (individual),India,0.0,0.99,15,1.0
@@ -125,7 +125,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 878,Arali Ventures,Institutional,,Venture Capital,India,0.0,0.97,15,9.0
 947,Mela Ventures,Institutional,,Venture Capital,India,0.0,0.95,15,11.0
 1464,Nikhil Kamath,Individual,,Angel investor (individual),India,0.0,0.99,15,6.0
-2223,GVFL,Institutional,,Venture Capital,India,0.0,0.99,15,9.0
+2222,GVFL,Institutional,,Venture Capital,India,0.0,0.99,15,9.0
 1,Elevar Equity,Institutional,,Venture Capital,United States,1.0,0.96,14,8.0
 28,Supermorpheus,Institutional,,Venture Capital,India,0.0,0.84,14,0.0
 32,Cactus Partners,Institutional,,Venture Capital,India,0.0,0.93,14,9.0
@@ -158,8 +158,8 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1291,Northern Arc,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.94,13,4.0
 1463,Navam Capital,Institutional,,,,,,13,2.0
 1545,Atrium Angels,Angel network,,,,,,13,0.0
-1958,Binny Bansal,Individual,,Angel investor (individual),India,0.0,0.99,13,1.0
-2005,WEH Ventures,Institutional,,Venture Capital,India,0.0,0.97,13,4.0
+1957,Binny Bansal,Individual,,Angel investor (individual),India,0.0,0.99,13,1.0
+2004,WEH Ventures,Institutional,,Venture Capital,India,0.0,0.97,13,4.0
 8,Avataar Ventures,Institutional,,Private Equity / Growth,India,0.0,0.98,12,7.0
 19,Lalit Keshre,Individual,,Angel investor (individual),India,0.0,0.99,12,0.0
 91,FAAD Network,Angel network,,Angel network / platform,India,0.0,0.96,12,3.0
@@ -176,7 +176,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1278,Capria Ventures,Institutional,,Venture Capital,United States,1.0,0.96,12,6.0
 1324,Paramark Ventures,Institutional,,Venture Capital,India,0.0,0.95,12,0.0
 1879,Sofina,Institutional,,,,,,12,7.0
-2878,Lightrock,Institutional,,,,,,12,7.0
+2877,Lightrock,Institutional,,,,,,12,7.0
 52,Recur Club,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.96,11,10.0
 102,Flourish Ventures,Institutional,,,,,,11,5.0
 250,Norwest,Institutional,,,,,,11,8.0
@@ -197,8 +197,8 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1327,Gaurav Munjal,Individual,,Angel investor (individual),India,0.0,0.99,11,0.0
 1607,Morgan Stanley,Individual,,,,,,11,1.0
 1677,Think Investments,Institutional,,,,,,11,3.0
-2589,Equanimity Ventures,Institutional,,,,,,11,8.0
-2629,Singularity AMC,Individual,,,,,,11,6.0
+2588,Equanimity Ventures,Institutional,,,,,,11,8.0
+2628,Singularity AMC,Individual,,,,,,11,6.0
 59,MassMutual Ventures,Institutional,,Corporate / CVC,United States,1.0,0.99,10,5.0
 69,HDFC Bank,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,10,3.0
 77,Auxano Capital,Institutional,,Venture Capital,India,0.0,0.95,10,3.0
@@ -229,9 +229,9 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1562,Aditya Birla Ventures,Institutional,,Corporate / CVC,India,0.0,0.99,10,0.0
 1620,Susquehanna Asia Venture Capital,Institutional,,,,,,10,6.0
 1697,Bestvantage Investments,Institutional,,,,,,10,7.0
-2001,Atomic Capital,Institutional,,,,,,10,10.0
-2128,StartupXseed Ventures,Institutional,,,,,,10,4.0
-2741,Gokul Rajaram,Individual,,,,,,10,3.0
+2000,Atomic Capital,Institutional,,,,,,10,10.0
+2127,StartupXseed Ventures,Institutional,,,,,,10,4.0
+2740,Gokul Rajaram,Individual,,,,,,10,3.0
 17,Upsparks,Institutional,,Venture Capital,India,0.0,0.72,9,1.0
 97,Blue Ashva Capital,Institutional,,Venture Capital,India,0.0,0.94,9,5.0
 114,Real Time Angel Fund,Angel network,,Angel network / platform,India,0.0,0.94,9,7.0
@@ -262,8 +262,8 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1618,Sunicon Ventures,Institutional,,,,,,9,1.0
 1729,2am VC,Institutional,,,,,,9,1.0
 1832,JITO Incubation and Innovation Foundation,Institutional,,,,,,9,4.0
-1982,100Unicorns,Institutional,,,,,,9,4.0
-3465,Agility Ventures,Institutional,,Venture Capital,India,0.0,0.77,9,3.0
+1981,100Unicorns,Institutional,,,,,,9,4.0
+3464,Agility Ventures,Institutional,,Venture Capital,India,0.0,0.77,9,3.0
 61,Tenacity Ventures,Institutional,,,,,,8,2.0
 81,Rockstud Capital,Institutional,,,,,,8,5.0
 86,Kettleborough VC,Institutional,,Venture Capital,India,0.0,0.92,8,1.0
@@ -300,12 +300,12 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1682,Untitled Ventures,Institutional,,,,,,8,0.0
 1755,IAN Angel Fund,Angel network,,,,,,8,6.0
 1769,SenseAI Ventures,Institutional,,,,,,8,7.0
-1933,D2C Insider Super Angels,Angel network,,,,,,8,8.0
-2037,Veltis Capital,Institutional,,,,,,8,1.0
-2091,Enrission India Capital,Institutional,,,,,,8,6.0
-2738,Claypond Capital,Institutional,,,,,,8,3.0
-2852,Unitus Ventures,Institutional,,,,,,8,2.0
-3521,Sandeep Aggarwal,Individual,,Angel investor (individual),India,0.0,0.98,8,0.0
+1932,D2C Insider Super Angels,Angel network,,,,,,8,8.0
+2036,Veltis Capital,Institutional,,,,,,8,1.0
+2090,Enrission India Capital,Institutional,,,,,,8,6.0
+2737,Claypond Capital,Institutional,,,,,,8,3.0
+2851,Unitus Ventures,Institutional,,,,,,8,2.0
+3520,Sandeep Aggarwal,Individual,,Angel investor (individual),India,0.0,0.98,8,0.0
 25,Micelio Fund,Institutional,,Venture Capital,India,0.0,0.97,7,4.0
 27,Anchorage Capital,Institutional,,,,,,7,1.0
 108,Verlinvest,Institutional,,,,,,7,2.0
@@ -342,15 +342,15 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1690,Colossa Ventures,Institutional,,,,,,7,5.0
 1760,Pioneer Fund,Institutional,,Venture Capital,United States,1.0,0.91,7,1.0
 1773,gradCapital,Institutional,,,,,,7,0.0
-2059,Societe Generale,Individual,,,,,,7,0.0
-2185,Epiq Capital,Institutional,,,,,,7,4.0
-2259,Ronnie Screwvala,Individual,,,,,,7,2.0
-2265,Tremis Capital,Institutional,,,,,,7,1.0
-2320,UNLEASH Capital Partners,Institutional,,,,,,7,4.0
-2354,Roman Saini,Individual,,,,,,7,0.0
-2383,Amazon,Institutional,,,,,,7,3.0
-2466,Sadev Ventures,Institutional,,,,,,7,0.0
-2830,Global Founders Capital,Institutional,,Venture Capital,Germany,1.0,0.97,7,3.0
+2058,Societe Generale,Individual,,,,,,7,0.0
+2184,Epiq Capital,Institutional,,,,,,7,4.0
+2258,Ronnie Screwvala,Individual,,,,,,7,2.0
+2264,Tremis Capital,Institutional,,,,,,7,1.0
+2319,UNLEASH Capital Partners,Institutional,,,,,,7,4.0
+2353,Roman Saini,Individual,,,,,,7,0.0
+2382,Amazon,Institutional,,,,,,7,3.0
+2465,Sadev Ventures,Institutional,,,,,,7,0.0
+2829,Global Founders Capital,Institutional,,Venture Capital,Germany,1.0,0.97,7,3.0
 14,Entrepreneur First,Individual,,,,,,6,3.0
 23,Green Frontier Capital,Institutional,,Venture Capital,India,0.0,0.94,6,4.0
 29,Climate Angels,Angel network,,,,,,6,2.0
@@ -409,27 +409,27 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1739,Sanjeev Barnwal,Individual,,Angel investor (individual),India,0.0,0.99,6,0.0
 1798,Owl Ventures,Institutional,,,,,,6,5.0
 1862,BeyondSeed,Institutional,,,,,,6,5.0
-1950,PayU,Institutional,,,,,,6,3.0
-1953,Physis Capital,Institutional,,,,,,6,3.0
-1962,Vivriti Capital,Institutional,,,,,,6,4.0
-2008,Vinners,Institutional,,,,,,6,1.0
-2013,Inflection Point Ventures (IPV),Institutional,,,,,,6,5.0
-2087,8X Ventures,Institutional,,,,,,6,1.0
-2106,ITI Growth Opportunities Fund,Institutional,,,,,,6,1.0
-2120,Chona Family Office,Family office,,Family office,India,0.0,0.99,6,3.0
-2143,GrowthCap Ventures,Institutional,,,,,,6,2.0
-2182,Aakash Anand,Individual,,,,,,6,1.0
-2184,Lashit Sanghvi,Individual,,,,,,6,2.0
-2312,021 Capital,Institutional,,Venture Capital,India,0.0,0.87,6,2.0
-2435,AUM Ventures,Institutional,,,,,,6,2.0
-2474,Equirus InnovateX Fund,Institutional,,,,,,6,6.0
-2485,IIFL Fintech Fund,Institutional,,Corporate / CVC,India,0.0,0.97,6,4.0
-2526,Nomura,Institutional,,,,,,6,1.0
-2527,Amundi Funds,Institutional,,,,,,6,0.0
-2664,CDM Capital,Institutional,,,,,,6,1.0
-2930,Ankur Agarwal,Individual,,,,,,6,1.0
-3181,Gaja Capital,Institutional,,,,,,6,3.0
-3584,Creation Investments,Institutional,,,,,,6,4.0
+1949,PayU,Institutional,,,,,,6,3.0
+1952,Physis Capital,Institutional,,,,,,6,3.0
+1961,Vivriti Capital,Institutional,,,,,,6,4.0
+2007,Vinners,Institutional,,,,,,6,1.0
+2012,Inflection Point Ventures (IPV),Institutional,,,,,,6,5.0
+2086,8X Ventures,Institutional,,,,,,6,1.0
+2105,ITI Growth Opportunities Fund,Institutional,,,,,,6,1.0
+2119,Chona Family Office,Family office,,Family office,India,0.0,0.99,6,3.0
+2142,GrowthCap Ventures,Institutional,,,,,,6,2.0
+2181,Aakash Anand,Individual,,,,,,6,1.0
+2183,Lashit Sanghvi,Individual,,,,,,6,2.0
+2311,021 Capital,Institutional,,Venture Capital,India,0.0,0.87,6,2.0
+2434,AUM Ventures,Institutional,,,,,,6,2.0
+2473,Equirus InnovateX Fund,Institutional,,,,,,6,6.0
+2484,IIFL Fintech Fund,Institutional,,Corporate / CVC,India,0.0,0.97,6,4.0
+2525,Nomura,Institutional,,,,,,6,1.0
+2526,Amundi Funds,Institutional,,,,,,6,0.0
+2663,CDM Capital,Institutional,,,,,,6,1.0
+2929,Ankur Agarwal,Individual,,,,,,6,1.0
+3180,Gaja Capital,Institutional,,,,,,6,3.0
+3583,Creation Investments,Institutional,,,,,,6,4.0
 3861,Lighthouse Canton,Individual,,Hedge fund / Crossover / Asset manager,Singapore,1.0,0.96,6,3.0
 16,Kube VC,Institutional,,Venture Capital,India,0.0,0.88,5,2.0
 42,Celesta Capital,Institutional,,Venture Capital,United States,1.0,0.96,5,2.0
@@ -484,38 +484,38 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1785,Eaglewings Ventures,Institutional,,,,,,5,1.0
 1830,Xeed Ventures,Institutional,,,,,,5,1.0
 1849,Atrium Ventures,Institutional,,,,,,5,2.0
-1895,Deep Bajaj,Individual,,,,,,5,1.0
-1935,Akash Gupta,Individual,,,,,,5,0.0
-1940,Vertex Growth Fund,Institutional,,,,,,5,3.0
-1980,SWC Global,Individual,,,,,,5,4.0
-1990,Faering Capital,Institutional,,,,,,5,1.0
-1992,Unitary Fund,Institutional,,,,,,5,1.0
-2004,Avinya Ventures,Institutional,,,,,,5,1.0
-2034,Sumit Jalan,Individual,,,,,,5,0.0
-2038,Sattva Ventures,Institutional,,,,,,5,1.0
-2121,Neo Group,Corporate,,,,,,5,4.0
-2131,BITKRAFT Ventures,Institutional,,,,,,5,2.0
-2215,Growth Sense,Individual,,,,,,5,1.0
-2217,Mekin Maheshwari,Individual,,,,,,5,0.0
-2218,Symbiotics,Institutional,,,,,,5,4.0
-2256,LVX,Institutional,,,,,,5,1.0
-2272,Boundless Ventures,Institutional,,,,,,5,1.0
-2297,Inuka Capital,Institutional,,,,,,5,3.0
-2340,Zoho Corporation,Corporate,,,,,,5,2.0
-2365,12 Flags,Institutional,,,,,,5,4.0
-2378,Bain Capital Ventures,Institutional,,,,,,5,2.0
-2403,Schroder Investment Management,Institutional,,,,,,5,0.0
-2419,IndiaQuotient,Institutional,,,,,,5,5.0
-2428,Bajaj Finserv Group,Corporate,,,,,,5,5.0
-2444,Momentum Capital,Institutional,,,,,,5,3.0
-2500,HDFC Mutual Fund,Institutional,,,,,,5,0.0
-2544,Sangeet Agrawal,Individual,,,,,,5,0.0
-2545,Navin Parwal,Individual,,,,,,5,0.0
-2639,FirstPort Capital,Institutional,,,,,,5,2.0
-2654,IIFL,Institutional,,,,,,5,3.0
-2675,Rajesh Yabaji,Individual,,,,,,5,0.0
-2846,Pankaj Chaddah,Individual,,,,,,5,1.0
-2977,Version One Ventures,Institutional,,,,,,5,4.0
+1894,Deep Bajaj,Individual,,,,,,5,1.0
+1934,Akash Gupta,Individual,,,,,,5,0.0
+1939,Vertex Growth Fund,Institutional,,,,,,5,3.0
+1979,SWC Global,Individual,,,,,,5,4.0
+1989,Faering Capital,Institutional,,,,,,5,1.0
+1991,Unitary Fund,Institutional,,,,,,5,1.0
+2003,Avinya Ventures,Institutional,,,,,,5,1.0
+2033,Sumit Jalan,Individual,,,,,,5,0.0
+2037,Sattva Ventures,Institutional,,,,,,5,1.0
+2120,Neo Group,Corporate,,,,,,5,4.0
+2130,BITKRAFT Ventures,Institutional,,,,,,5,2.0
+2214,Growth Sense,Individual,,,,,,5,1.0
+2216,Mekin Maheshwari,Individual,,,,,,5,0.0
+2217,Symbiotics,Institutional,,,,,,5,4.0
+2255,LVX,Institutional,,,,,,5,1.0
+2271,Boundless Ventures,Institutional,,,,,,5,1.0
+2296,Inuka Capital,Institutional,,,,,,5,3.0
+2339,Zoho Corporation,Corporate,,,,,,5,2.0
+2364,12 Flags,Institutional,,,,,,5,4.0
+2377,Bain Capital Ventures,Institutional,,,,,,5,2.0
+2402,Schroder Investment Management,Institutional,,,,,,5,0.0
+2418,IndiaQuotient,Institutional,,,,,,5,5.0
+2427,Bajaj Finserv Group,Corporate,,,,,,5,5.0
+2443,Momentum Capital,Institutional,,,,,,5,3.0
+2499,HDFC Mutual Fund,Institutional,,,,,,5,0.0
+2543,Sangeet Agrawal,Individual,,,,,,5,0.0
+2544,Navin Parwal,Individual,,,,,,5,0.0
+2638,FirstPort Capital,Institutional,,,,,,5,2.0
+2653,IIFL,Institutional,,,,,,5,3.0
+2674,Rajesh Yabaji,Individual,,,,,,5,0.0
+2845,Pankaj Chaddah,Individual,,,,,,5,1.0
+2976,Version One Ventures,Institutional,,,,,,5,4.0
 5,State Bank of India,Debt / Bank,,,,,,4,2.0
 13,Courtside Ventures,Institutional,,Venture Capital,United States,1.0,0.98,4,2.0
 22,Alan Rutledge,Individual,,,,,,4,1.0
@@ -591,57 +591,57 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1706,MARS Growth Capital,Institutional,,,,,,4,4.0
 1716,Social Alpha,Individual,,Accelerator / Incubator,India,0.0,0.97,4,2.0
 1791,Sanchi Connect,Individual,,,,,,4,0.0
-1896,Mohit Bajaj,Individual,,,,,,4,1.0
-1898,UC Impower,Individual,,,,,,4,2.0
-1939,Sattva Family Office,Family office,,,,,,4,0.0
-1951,Singularity Growth Opportunities Fund,Institutional,,,,,,4,2.0
-1999,Rajiv Dadlani Group,Corporate,,,,,,4,3.0
-2011,Infinyte Club,Individual,,,,,,4,0.0
-2070,Synergy Capital Partners,Institutional,,,,,,4,0.0
-2148,Rahul Garg,Individual,,,,,,4,2.0
-2153,Nishchay AG,Individual,,,,,,4,0.0
-2154,Ashutosh Valani,Individual,,,,,,4,0.0
-2160,Genesia Ventures,Institutional,,,,,,4,2.0
-2161,Stargazer Ventures,Institutional,,,,,,4,1.0
-2194,Vinod Dugar,Individual,,,,,,4,0.0
-2214,Rebalance,Institutional,,,,,,4,3.0
-2245,Rohit Chennamaneni,Individual,,,,,,4,0.0
-2250,Abhiraj Singh Bhal,Individual,,,,,,4,0.0
-2251,Varun Khaitan,Individual,,,,,,4,0.0
-2261,Salesforce Ventures,Institutional,,,,,,4,2.0
-2274,JM Financial,Individual,,,,,,4,2.0
-2289,T-Accelerate Capital,Institutional,,,,,,4,1.0
-2305,MAS Financial Services,Individual,,,,,,4,0.0
-2325,Fondation Botnar,Individual,,,,,,4,0.0
-2328,Playbook Partners,Institutional,,,,,,4,3.0
-2384,Sprout Venture Partners,Institutional,,,,,,4,4.0
-2497,ICICI Prudential Mutual Fund,Institutional,,,,,,4,1.0
-2512,Bhavesh Gupta,Individual,,,,,,4,2.0
-2536,Edelweiss MF,Individual,,,,,,4,0.0
-2543,Yogesh Kabra,Individual,,,,,,4,0.0
-2565,Motilal Oswal Mutual Fund,Institutional,,,,,,4,1.0
-2576,EvolutionX Debt Capital,Debt / Bank,,,,,,4,2.0
-2580,Equentis Angel Fund,Angel network,,,,,,4,3.0
-2631,Aroa Venture Partners,Institutional,,,,,,4,3.0
-2666,Arihant Patni,Individual,,,,,,4,0.0
-2667,Consumer Collective by Atrium,Institutional,,,,,,4,1.0
-2747,Operators Studio,Individual,,,,,,4,0.0
-2762,IndiaMART,Institutional,,,,,,4,1.0
-2843,QED Innovations,Individual,,,,,,4,0.0
-2891,NewQuest Capital,Institutional,,,,,,4,2.0
-2931,Saurabh Aggarwal,Individual,,,,,,4,0.0
-2956,Malabar Investments,Institutional,,,,,,4,1.0
-3024,Bharat Value Fund,Institutional,,,,,,4,4.0
-3080,Dragon Fund,Institutional,,,,,,4,3.0
-3245,Lightbox,Institutional,,,,,,4,2.0
-3264,Volrado Venture Partners,Institutional,,,,,,4,0.0
-3281,Hornbill Capital,Institutional,,,,,,4,4.0
-3353,OrbiMed,Institutional,,,,,,4,4.0
-3382,Falcon Edge,Individual,,,,,,4,2.0
-3388,Jitendra Gupta,Individual,,,,,,4,0.0
-3390,Ruchi Kalra,Individual,,Angel investor (individual),India,0.0,0.99,4,0.0
-3392,Amrish Rau,Individual,,,,,,4,0.0
-3719,HSBC,Institutional,,,,,,4,2.0
+1895,Mohit Bajaj,Individual,,,,,,4,1.0
+1897,UC Impower,Individual,,,,,,4,2.0
+1938,Sattva Family Office,Family office,,,,,,4,0.0
+1950,Singularity Growth Opportunities Fund,Institutional,,,,,,4,2.0
+1998,Rajiv Dadlani Group,Corporate,,,,,,4,3.0
+2010,Infinyte Club,Individual,,,,,,4,0.0
+2069,Synergy Capital Partners,Institutional,,,,,,4,0.0
+2147,Rahul Garg,Individual,,,,,,4,2.0
+2152,Nishchay AG,Individual,,,,,,4,0.0
+2153,Ashutosh Valani,Individual,,,,,,4,0.0
+2159,Genesia Ventures,Institutional,,,,,,4,2.0
+2160,Stargazer Ventures,Institutional,,,,,,4,1.0
+2193,Vinod Dugar,Individual,,,,,,4,0.0
+2213,Rebalance,Institutional,,,,,,4,3.0
+2244,Rohit Chennamaneni,Individual,,,,,,4,0.0
+2249,Abhiraj Singh Bhal,Individual,,,,,,4,0.0
+2250,Varun Khaitan,Individual,,,,,,4,0.0
+2260,Salesforce Ventures,Institutional,,,,,,4,2.0
+2273,JM Financial,Individual,,,,,,4,2.0
+2288,T-Accelerate Capital,Institutional,,,,,,4,1.0
+2304,MAS Financial Services,Individual,,,,,,4,0.0
+2324,Fondation Botnar,Individual,,,,,,4,0.0
+2327,Playbook Partners,Institutional,,,,,,4,3.0
+2383,Sprout Venture Partners,Institutional,,,,,,4,4.0
+2496,ICICI Prudential Mutual Fund,Institutional,,,,,,4,1.0
+2511,Bhavesh Gupta,Individual,,,,,,4,2.0
+2535,Edelweiss MF,Individual,,,,,,4,0.0
+2542,Yogesh Kabra,Individual,,,,,,4,0.0
+2564,Motilal Oswal Mutual Fund,Institutional,,,,,,4,1.0
+2575,EvolutionX Debt Capital,Debt / Bank,,,,,,4,2.0
+2579,Equentis Angel Fund,Angel network,,,,,,4,3.0
+2630,Aroa Venture Partners,Institutional,,,,,,4,3.0
+2665,Arihant Patni,Individual,,,,,,4,0.0
+2666,Consumer Collective by Atrium,Institutional,,,,,,4,1.0
+2746,Operators Studio,Individual,,,,,,4,0.0
+2761,IndiaMART,Institutional,,,,,,4,1.0
+2842,QED Innovations,Individual,,,,,,4,0.0
+2890,NewQuest Capital,Institutional,,,,,,4,2.0
+2930,Saurabh Aggarwal,Individual,,,,,,4,0.0
+2955,Malabar Investments,Institutional,,,,,,4,1.0
+3023,Bharat Value Fund,Institutional,,,,,,4,4.0
+3079,Dragon Fund,Institutional,,,,,,4,3.0
+3244,Lightbox,Institutional,,,,,,4,2.0
+3263,Volrado Venture Partners,Institutional,,,,,,4,0.0
+3280,Hornbill Capital,Institutional,,,,,,4,4.0
+3352,OrbiMed,Institutional,,,,,,4,4.0
+3381,Falcon Edge,Individual,,,,,,4,2.0
+3387,Jitendra Gupta,Individual,,,,,,4,0.0
+3389,Ruchi Kalra,Individual,,Angel investor (individual),India,0.0,0.99,4,0.0
+3391,Amrish Rau,Individual,,,,,,4,0.0
+3718,HSBC,Institutional,,,,,,4,2.0
 3821,JAFCO Asia,Individual,,,,,,4,0.0
 33,Season Two Venture,Institutional,,,,,,3,0.0
 37,Advent International,Individual,,,,,,3,1.0
@@ -789,104 +789,104 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1847,Founders Fund,Institutional,,,,,,3,0.0
 1868,promoters,Institutional,,,,,,3,0.0
 1880,Multiples PE,Individual,,,,,,3,3.0
-1883,Mile Deep Capital,Institutional,,,,,,3,2.0
-1948,Niveshaay Sambhav Fund,Institutional,,,,,,3,1.0
-1954,Chimera VC,Institutional,,,,,,3,3.0
-1959,ABC Impact,Individual,,,,,,3,3.0
-1960,2 AM Ventures,Institutional,,,,,,3,0.0
-2014,Bala Sarda,Individual,,Angel investor (individual),India,0.0,0.98,3,0.0
-2017,ThinKuvate,Institutional,,,,,,3,0.0
-2028,Juhi Bhatnagar,Individual,,,,,,3,0.0
-2033,Ajay Aggarwal,Individual,,,,,,3,0.0
-2036,Qatar Investment Authority,Institutional,,,,,,3,1.0
-2052,S Ramadorai,Individual,,,,,,3,0.0
-2057,Sameer Brij Verma,Individual,,,,,,3,0.0
-2058,Franklin Templeton,Individual,,,,,,3,0.0
-2069,Prudent Investment Managers,Institutional,,,,,,3,1.0
-2073,MGF Kavachh,Individual,,,,,,3,2.0
-2074,Wellington Management,Institutional,,,,,,3,1.0
-2085,Jamwant Ventures,Institutional,,,,,,3,2.0
-2086,Valour Capital,Institutional,,,,,,3,2.0
-2095,Antares Ventures,Institutional,,,,,,3,1.0
-2117,Gulf Islamic Investments,Institutional,,,,,,3,2.0
-2151,Vivekananda Hallekere,Individual,,,,,,3,0.0
-2152,Suhasini Sampath,Individual,,,,,,3,0.0
-2158,Pratham Mittal,Individual,,,,,,3,1.0
-2164,Ankit Agarwal,Individual,,,,,,3,0.0
-2169,Prateek Maheshwari,Individual,,,,,,3,0.0
-2178,QED Innovation Labs,Institutional,,,,,,3,0.0
-2180,British International Investment (BII),Institutional,,,,,,3,0.0
-2183,Wolfpack Labs,Institutional,,,,,,3,1.0
-2201,Ayyappan R,Individual,,,,,,3,0.0
-2235,Tata Mutual Fund,Institutional,,,,,,3,0.0
-2240,IndiGo Ventures,Institutional,,,,,,3,2.0
-2241,Blue Earth Capital,Institutional,,,,,,3,2.0
-2260,Sandeep Singhal,Individual,,,,,,3,0.0
-2263,BioAngels,Angel network,,,,,,3,1.0
-2304,InCred Capital,Institutional,,,,,,3,0.0
-2323,Raveen Sastry,Individual,,,,,,3,0.0
-2336,Saka Ventures,Institutional,,,,,,3,0.0
-2352,Samved Ventures,Institutional,,,,,,3,2.0
-2353,Capitar Ventures,Institutional,,,,,,3,0.0
-2369,Pawan Gupta,Individual,,,,,,3,0.0
-2380,select HNIs,Institutional,,,,,,3,1.0
-2404,BYT Capital,Institutional,,,,,,3,0.0
-2417,Equentis,Institutional,,,,,,3,2.0
-2418,Lead Invest,Individual,,,,,,3,0.0
-2432,Uday Chatterjee,Individual,,,,,,3,1.0
-2465,500 Global,Institutional,,,,,,3,1.0
-2470,Plutus Wealth Management,Institutional,,,,,,3,1.0
-2477,Biswa Kalyan Rath,Individual,,,,,,3,0.0
-2482,Coinbase Ventures,Institutional,,,,,,3,1.0
-2552,M&G Investments,Institutional,,,,,,3,2.0
-2585,Zerodha,Institutional,,,,,,3,1.0
-2628,Nikhil Bhandarkar,Individual,,,,,,3,0.0
-2648,ValueQuest Scale Fund,Institutional,,,,,,3,2.0
-2688,Suashish Group,Corporate,,,,,,3,1.0
-2743,Converge,Institutional,,,,,,3,0.0
-2755,Avnish Anand,Individual,,,,,,3,0.0
-2781,Earth Fund,Institutional,,,,,,3,3.0
-2787,Mankind Pharma family office,Family office,,,,,,3,0.0
-2795,Sachin Tendulkar,Individual,,,,,,3,0.0
-2801,Singularity Early Opportunities Fund,Institutional,,,,,,3,2.0
-2806,Motilal Oswal Alternates,Individual,,,,,,3,3.0
-2842,AL Trust,Institutional,,,,,,3,0.0
-2848,Apis Partners,Institutional,,,,,,3,1.0
-2849,Winter Capital,Institutional,,,,,,3,0.0
-2869,Alpha Wave Partners,Institutional,,,,,,3,3.0
-2957,xto10x,Institutional,,,,,,3,0.0
-2978,Union Square Ventures,Institutional,,,,,,3,1.0
-2990,Krish Subramanian,Individual,,,,,,3,0.0
-2991,Rajaraman Santhanam,Individual,,,,,,3,0.0
-3009,Gaurav Kapur,Individual,,,,,,3,0.0
-3059,Dhruv Vohra,Individual,,,,,,3,0.0
-3072,Priyank Shah,Individual,,,,,,3,0.0
-3099,Brew Opportunities Fund,Institutional,,,,,,3,0.0
-3100,bp Ventures,Institutional,,Corporate / CVC,United Kingdom,1.0,1.0,3,2.0
-3227,Industrial47,Institutional,,,,,,3,0.0
-3230,Insight Partners,Institutional,,,,,,3,3.0
-3247,MS Dhoni,Individual,,,,,,3,1.0
-3251,Smile Group,Corporate,,,,,,3,2.0
-3269,Manish Gandhi,Individual,,,,,,3,0.0
-3284,Greenoaks Capital,Institutional,,,,,,3,1.0
-3302,Gauri Khan Family Trust,Family office,,,,,,3,0.0
-3310,Susquehanna Venture Capital,Institutional,,,,,,3,2.0
-3329,Campus Angels Network,Angel network,,,,,,3,2.0
-3357,BCCL,Institutional,,,,,,3,1.0
-3387,Incubate Fund,Institutional,,,,,,3,2.0
-3389,Asish Mohapatra,Individual,,Angel investor (individual),India,0.0,0.99,3,0.0
-3407,Taurus Ventures,Institutional,,,,,,3,0.0
-3409,Dhruv Dhanraj Bahl,Individual,,,,,,3,0.0
-3416,Indian Angel Network (IAN),Angel network,,,,,,3,3.0
-3419,Tencent,Institutional,,,,,,3,1.0
-3475,FortyTwo.VC,Institutional,,,,,,3,2.0
-3530,Lavni Ventures,Institutional,,,,,,3,0.0
-3536,Shashvat Nakrani,Individual,,,,,,3,0.0
-3548,The Rise Fund,Institutional,,,,,,3,2.0
-3557,Grip Invest,Debt / Bank,,Other,India,0.0,0.85,3,1.0
-3571,Dream Capital,Institutional,,,,,,3,3.0
-3603,Aneesh Reddy,Individual,,,,,,3,0.0
-3746,Let's Venture,Institutional,,,,,,3,1.0
+1882,Mile Deep Capital,Institutional,,,,,,3,2.0
+1947,Niveshaay Sambhav Fund,Institutional,,,,,,3,1.0
+1953,Chimera VC,Institutional,,,,,,3,3.0
+1958,ABC Impact,Individual,,,,,,3,3.0
+1959,2 AM Ventures,Institutional,,,,,,3,0.0
+2013,Bala Sarda,Individual,,Angel investor (individual),India,0.0,0.98,3,0.0
+2016,ThinKuvate,Institutional,,,,,,3,0.0
+2027,Juhi Bhatnagar,Individual,,,,,,3,0.0
+2032,Ajay Aggarwal,Individual,,,,,,3,0.0
+2035,Qatar Investment Authority,Institutional,,,,,,3,1.0
+2051,S Ramadorai,Individual,,,,,,3,0.0
+2056,Sameer Brij Verma,Individual,,,,,,3,0.0
+2057,Franklin Templeton,Individual,,,,,,3,0.0
+2068,Prudent Investment Managers,Institutional,,,,,,3,1.0
+2072,MGF Kavachh,Individual,,,,,,3,2.0
+2073,Wellington Management,Institutional,,,,,,3,1.0
+2084,Jamwant Ventures,Institutional,,,,,,3,2.0
+2085,Valour Capital,Institutional,,,,,,3,2.0
+2094,Antares Ventures,Institutional,,,,,,3,1.0
+2116,Gulf Islamic Investments,Institutional,,,,,,3,2.0
+2150,Vivekananda Hallekere,Individual,,,,,,3,0.0
+2151,Suhasini Sampath,Individual,,,,,,3,0.0
+2157,Pratham Mittal,Individual,,,,,,3,1.0
+2163,Ankit Agarwal,Individual,,,,,,3,0.0
+2168,Prateek Maheshwari,Individual,,,,,,3,0.0
+2177,QED Innovation Labs,Institutional,,,,,,3,0.0
+2179,British International Investment (BII),Institutional,,,,,,3,0.0
+2182,Wolfpack Labs,Institutional,,,,,,3,1.0
+2200,Ayyappan R,Individual,,,,,,3,0.0
+2234,Tata Mutual Fund,Institutional,,,,,,3,0.0
+2239,IndiGo Ventures,Institutional,,,,,,3,2.0
+2240,Blue Earth Capital,Institutional,,,,,,3,2.0
+2259,Sandeep Singhal,Individual,,,,,,3,0.0
+2262,BioAngels,Angel network,,,,,,3,1.0
+2303,InCred Capital,Institutional,,,,,,3,0.0
+2322,Raveen Sastry,Individual,,,,,,3,0.0
+2335,Saka Ventures,Institutional,,,,,,3,0.0
+2351,Samved Ventures,Institutional,,,,,,3,2.0
+2352,Capitar Ventures,Institutional,,,,,,3,0.0
+2368,Pawan Gupta,Individual,,,,,,3,0.0
+2379,select HNIs,Institutional,,,,,,3,1.0
+2403,BYT Capital,Institutional,,,,,,3,0.0
+2416,Equentis,Institutional,,,,,,3,2.0
+2417,Lead Invest,Individual,,,,,,3,0.0
+2431,Uday Chatterjee,Individual,,,,,,3,1.0
+2464,500 Global,Institutional,,,,,,3,1.0
+2469,Plutus Wealth Management,Institutional,,,,,,3,1.0
+2476,Biswa Kalyan Rath,Individual,,,,,,3,0.0
+2481,Coinbase Ventures,Institutional,,,,,,3,1.0
+2551,M&G Investments,Institutional,,,,,,3,2.0
+2584,Zerodha,Institutional,,,,,,3,1.0
+2627,Nikhil Bhandarkar,Individual,,,,,,3,0.0
+2647,ValueQuest Scale Fund,Institutional,,,,,,3,2.0
+2687,Suashish Group,Corporate,,,,,,3,1.0
+2742,Converge,Institutional,,,,,,3,0.0
+2754,Avnish Anand,Individual,,,,,,3,0.0
+2780,Earth Fund,Institutional,,,,,,3,3.0
+2786,Mankind Pharma family office,Family office,,,,,,3,0.0
+2794,Sachin Tendulkar,Individual,,,,,,3,0.0
+2800,Singularity Early Opportunities Fund,Institutional,,,,,,3,2.0
+2805,Motilal Oswal Alternates,Individual,,,,,,3,3.0
+2841,AL Trust,Institutional,,,,,,3,0.0
+2847,Apis Partners,Institutional,,,,,,3,1.0
+2848,Winter Capital,Institutional,,,,,,3,0.0
+2868,Alpha Wave Partners,Institutional,,,,,,3,3.0
+2956,xto10x,Institutional,,,,,,3,0.0
+2977,Union Square Ventures,Institutional,,,,,,3,1.0
+2989,Krish Subramanian,Individual,,,,,,3,0.0
+2990,Rajaraman Santhanam,Individual,,,,,,3,0.0
+3008,Gaurav Kapur,Individual,,,,,,3,0.0
+3058,Dhruv Vohra,Individual,,,,,,3,0.0
+3071,Priyank Shah,Individual,,,,,,3,0.0
+3098,Brew Opportunities Fund,Institutional,,,,,,3,0.0
+3099,bp Ventures,Institutional,,Corporate / CVC,United Kingdom,1.0,1.0,3,2.0
+3226,Industrial47,Institutional,,,,,,3,0.0
+3229,Insight Partners,Institutional,,,,,,3,3.0
+3246,MS Dhoni,Individual,,,,,,3,1.0
+3250,Smile Group,Corporate,,,,,,3,2.0
+3268,Manish Gandhi,Individual,,,,,,3,0.0
+3283,Greenoaks Capital,Institutional,,,,,,3,1.0
+3301,Gauri Khan Family Trust,Family office,,,,,,3,0.0
+3309,Susquehanna Venture Capital,Institutional,,,,,,3,2.0
+3328,Campus Angels Network,Angel network,,,,,,3,2.0
+3356,BCCL,Institutional,,,,,,3,1.0
+3386,Incubate Fund,Institutional,,,,,,3,2.0
+3388,Asish Mohapatra,Individual,,Angel investor (individual),India,0.0,0.99,3,0.0
+3406,Taurus Ventures,Institutional,,,,,,3,0.0
+3408,Dhruv Dhanraj Bahl,Individual,,,,,,3,0.0
+3415,Indian Angel Network (IAN),Angel network,,,,,,3,3.0
+3418,Tencent,Institutional,,,,,,3,1.0
+3474,FortyTwo.VC,Institutional,,,,,,3,2.0
+3529,Lavni Ventures,Institutional,,,,,,3,0.0
+3535,Shashvat Nakrani,Individual,,,,,,3,0.0
+3547,The Rise Fund,Institutional,,,,,,3,2.0
+3556,Grip Invest,Debt / Bank,,Other,India,0.0,0.85,3,1.0
+3570,Dream Capital,Institutional,,,,,,3,3.0
+3602,Aneesh Reddy,Individual,,,,,,3,0.0
+3745,Let's Venture,Institutional,,,,,,3,1.0
 3858,TradeCred,Institutional,,Other,India,0.0,0.58,3,2.0
 3874,SphitiCap,Institutional,,,,,,3,3.0
 3879,Rocketship.vc,Institutional,,Venture Capital,United States,1.0,0.98,3,2.0
@@ -1147,294 +1147,294 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1873,Singapore-based family office,Family office,,,,,,2,1.0
 1874,Sunil Kumar Singhvi,Individual,,,,,,2,0.0
 1875,Swiggy,Institutional,,,,,,2,1.0
-1884,Raymond Russell,Individual,,,,,,2,0.0
-1890,Mitesh Shah,Individual,,,,,,2,0.0
-1897,Srinivasan Namala,Individual,,,,,,2,2.0
-1899,Trifecta Venture Debt Fund,Debt / Bank,,,,,,2,1.0
-1900,IA Growth Opportunities Fund II,Institutional,,,,,,2,1.0
-1906,SageOne Flagship Growth OE Fund,Institutional,,,,,,2,2.0
-1908,Bajaj Holdings & Investment,Institutional,,,,,,2,1.0
-1909,Minerva Ventures Fund,Institutional,,,,,,2,1.0
-1910,Sopariwala Exports,Individual,,,,,,2,0.0
-1912,Cordelia Family Trust,Family office,,,,,,2,0.0
-1918,Pidilite Family Office,Family office,,,,,,2,0.0
-1936,Vikram Ahuja,Individual,,,,,,2,0.0
-1945,Saurabh Gupta,Individual,,,,,,2,0.0
-1946,Anand Mahindra,Individual,,,,,,2,1.0
-1961,Disruptors Capital,Institutional,,,,,,2,0.0
-1968,Times Internet,Individual,,,,,,2,1.0
-1977,Arjun Pillai,Individual,,,,,,2,0.0
-1981,Wipro Consumer,Individual,,,,,,2,0.0
-1987,Gameskraft Technologies,Individual,,,,,,2,0.0
-1996,Shripad Nadkarni,Individual,,,,,,2,0.0
-2000,Jasprit Bumrah,Individual,,,,,,2,1.0
-2016,Kirti Jangra,Individual,,,,,,2,0.0
-2018,Kose Corporation,Corporate,,,,,,2,2.0
-2021,Oncology Ventures,Institutional,,,,,,2,0.0
-2039,Dominor Investment Holdings,Institutional,,,,,,2,0.0
-2050,Reazon Capital,Institutional,,,,,,2,1.0
-2061,Ajay Upadhyaya,Individual,,,,,,2,1.0
-2062,Deepak Bhagnani Family Office,Family office,,,,,,2,1.0
-2063,MeitY Startup Hub,Individual,,,,,,2,0.0
-2064,Aamara Capital,Institutional,,,,,,2,0.0
-2068,Vivek Mathur,Individual,,,,,,2,0.0
-2075,Vitruvian Partners,Institutional,,,,,,2,1.0
-2076,Aevitas Capital Private Limited,Institutional,,,,,,2,1.0
-2077,Weekend Fund,Institutional,,,,,,2,0.0
-2079,PB Fintech,Individual,,,,,,2,0.0
-2080,Indigram Labs Foundation,Institutional,,,,,,2,0.0
-2081,Kotak Lifesciences Fund I,Institutional,,,,,,2,1.0
-2082,L Catterton,Individual,,,,,,2,2.0
-2094,Granite Asia,Individual,,,,,,2,2.0
-2103,Haresh Chawla,Individual,,,,,,2,0.0
-2108,Caspian Impact Investments,Institutional,,,,,,2,0.0
-2122,Caladium Investment,Institutional,,,,,,2,1.0
-2124,Client Associates Alternate Fund,Institutional,,,,,,2,2.0
-2136,Pravin Jain,Individual,,,,,,2,0.0
-2149,Careernet,Institutional,,,,,,2,0.0
-2150,Ajay Kumar Aggarwal,Individual,,,,,,2,0.0
-2156,Rahul Seth,Individual,,,,,,2,0.0
-2159,Malika Sadani,Individual,,,,,,2,1.0
-2170,Two UK family offices,Family office,,,,,,2,1.0
-2171,Unbound,Institutional,,,,,,2,1.0
-2172,Valar Ventures,Institutional,,,,,,2,1.0
-2179,Ecosystem Integrity Fund (EIF),Institutional,,,,,,2,2.0
-2197,ICONIQ Capital,Institutional,,,,,,2,1.0
-2205,Canada Pension Plan Investment Board,Institutional,,,,,,2,1.0
-2206,NextEquity,Institutional,,,,,,2,0.0
-2229,Vijay Taparia,Individual,,,,,,2,0.0
-2233,Samir Sood,Individual,,,,,,2,0.0
-2236,SBI General Insurance,Individual,,,,,,2,0.0
-2243,Rana Daggubati,Individual,,,,,,2,0.0
-2244,Phanindra Sama,Individual,,,,,,2,0.0
-2246,Alakh Pandey,Individual,,,,,,2,0.0
-2255,Partners Group,Corporate,,,,,,2,1.0
-2258,TiE Angels,Angel network,,,,,,2,0.0
-2281,Arc Ventures,Institutional,,,,,,2,1.0
-2284,Rakuten Capital,Institutional,,,,,,2,0.0
-2288,Google's AI Futures Fund,Institutional,,,,,,2,1.0
-2292,Sorenson Capital,Institutional,,,,,,2,1.0
-2301,Franklin Templeton AIF,Individual,,,,,,2,0.0
-2307,Chanakya Opportunities Fund I,Institutional,,,,,,2,1.0
-2318,Anant Sarda,Individual,,,,,,2,0.0
-2319,SMBC Asia,Individual,,,,,,2,0.0
-2321,Amal Parikh,Individual,,,,,,2,1.0
-2330,360 One Large Value Fund,Institutional,,,,,,2,1.0
-2335,Sandeep Singh,Individual,,,,,,2,1.0
-2339,Motilal Oswal Financial Services Limited,Corporate,,,,,,2,2.0
-2341,Lingotto,Institutional,,,,,,2,0.0
-2343,Gujarat Venture Finance Limited,Corporate,,,,,,2,0.0
-2346,Carnelian Asset Management LLP,Institutional,,,,,,2,2.0
-2355,Aditya Vuchi,Individual,,,,,,2,2.0
-2357,Authum Investment & Infrastructure,Institutional,,,,,,2,0.0
-2359,BNP Paribas Financial Markets,Individual,,,,,,2,0.0
-2361,Snow Leopard Technology Ventures,Institutional,,,,,,2,1.0
-2362,Impact Investment Exchange,Institutional,,,,,,2,2.0
-2363,Maithan Alloys,Individual,,,,,,2,0.0
-2366,Citius,Institutional,,,,,,2,0.0
-2368,TPG,Institutional,,,,,,2,1.0
-2375,MG Investments,Institutional,,,,,,2,1.0
-2376,MapMyIndia,Institutional,,Corporate / CVC,India,0.0,0.98,2,1.0
-2390,Ankit Gupta,Individual,,,,,,2,0.0
-2392,Bajaj Financial Securities,Institutional,,,,,,2,2.0
-2393,PadUp Ventures,Institutional,,,,,,2,0.0
-2394,PhysicsWallah,Institutional,,,,,,2,2.0
-2406,Groww Founders' Fund,Institutional,,,,,,2,0.0
-2408,Sangam Ventures,Institutional,,,,,,2,1.0
-2413,Amit Sinha,Individual,,,,,,2,0.0
-2415,MIH Investments One B.V,Institutional,,,,,,2,0.0
-2427,Connecticut Innovations,Individual,,,,,,2,0.0
-2430,Dhanuka Agritech,Individual,,,,,,2,0.0
-2431,Action Tessa Family Office,Family office,,,,,,2,0.0
-2433,Romesh Sobti,Individual,,,,,,2,1.0
-2443,Haran family office,Family office,,,,,,2,0.0
-2463,Fundamental VC,Institutional,,,,,,2,2.0
-2464,SSV Fund,Institutional,,,,,,2,0.0
-2468,Goldman Sachs Bank Europe SE,Debt / Bank,,,,,,2,0.0
-2469,Girish Mathrubootham,Individual,,,,,,2,1.0
-2475,Bhavik Dholakia,Individual,,,,,,2,0.0
-2479,Carya Venture Partners,Institutional,,,,,,2,0.0
-2488,NVIDIA,Institutional,,,,,,2,1.0
-2493,March Capital,Institutional,,,,,,2,1.0
-2494,Asha Ventures,Institutional,,,,,,2,1.0
-2504,Subhkam Ventures,Institutional,,,,,,2,2.0
-2509,Sierra Ventures,Institutional,,,,,,2,2.0
-2511,Groww,Institutional,,,,,,2,0.0
-2518,Kindred Ventures,Institutional,,,,,,2,1.0
-2519,GitHub Fund,Institutional,,,,,,2,1.0
-2523,Advenza Global Ltd,Corporate,,,,,,2,0.0
-2524,Atharva Green Ecotech Pvt Ltd,Corporate,,,,,,2,0.0
-2525,Nippon Life India,Individual,,,,,,2,0.0
-2529,ICICI Prudential MF,Individual,,,,,,2,0.0
-2530,Kotak MF,Individual,,,,,,2,0.0
-2534,Tata MF,Individual,,,,,,2,0.0
-2540,UTI International Wealth Creator,Individual,,,,,,2,1.0
-2547,Rahul Dravid,Individual,,,,,,2,0.0
-2550,India EXIM Bank,Debt / Bank,,,,,,2,0.0
-2555,Axis MF,Individual,,,,,,2,0.0
-2562,Kleiner Perkins,Individual,,,,,,2,1.0
-2569,Ashoka WhiteOak ICAV,Individual,,,,,,2,0.0
-2571,Ghisallo Master Fund LP,Institutional,,,,,,2,0.0
-2577,Gaurav Kumar,Individual,,,,,,2,1.0
-2578,Wyser Capital,Institutional,,,,,,2,0.0
-2590,Thackersay Family Office,Family office,,,,,,2,1.0
-2591,HNI investors,Institutional,,,,,,2,0.0
-2592,Protons Corporate,Institutional,,,,,,2,2.0
-2593,Noblevast Advisory,Individual,,,,,,2,0.0
-2604,Sojitz Corporation,Corporate,,,,,,2,0.0
-2614,Advantage Technology Fund,Institutional,,,,,,2,0.0
-2619,Hero,Institutional,,,,,,2,2.0
-2622,Srinath,Institutional,,,,,,2,0.0
-2624,Neotribe,Institutional,,,,,,2,0.0
-2627,Madhu Kela,Individual,,,,,,2,1.0
-2632,HDFC MF,Individual,,,,,,2,0.0
-2638,Rishabh Goel,Individual,,,,,,2,0.0
-2642,Neev II Fund,Institutional,,,,,,2,2.0
-2653,GEF Capital Partners,Institutional,,,,,,2,2.0
-2655,Commerce VC,Institutional,,,,,,2,0.0
-2674,91Ventures,Institutional,,,,,,2,1.0
-2697,Rohan Bopanna,Individual,,,,,,2,0.0
-2699,Analog Partners,Institutional,,,,,,2,1.0
-2709,Ideabaaz,Institutional,,,,,,2,1.0
-2710,UTEC,Institutional,,,,,,2,1.0
-2711,SE Ventures,Institutional,,,,,,2,0.0
-2729,Afore Capital,Institutional,,,,,,2,0.0
-2742,Base10,Institutional,,,,,,2,1.0
-2749,Bidra Innovation Ventures,Institutional,,,,,,2,2.0
-2753,Startup Sherpas,Individual,,,,,,2,0.0
-2757,Tejas Paresh Lodaya,Individual,,,,,,2,2.0
-2759,Vimson Group,Corporate,,,,,,2,0.0
-2767,Amit Gupta,Individual,,,,,,2,0.0
-2768,Mohit Aron,Individual,,,,,,2,0.0
-2769,Yali Deeptech,Individual,,,,,,2,0.0
-2784,Motilal Oswal Private Wealth,Individual,,,,,,2,2.0
-2789,Cello Family Office,Family office,,,,,,2,1.0
-2808,Viney Equity Markets LLP,Institutional,,,,,,2,0.0
-2810,Peak Sustainability Ventures,Institutional,,,,,,2,1.0
-2814,Micelio Mobility,Individual,,,,,,2,0.0
-2815,Naval Ravikant,Individual,,,,,,2,0.0
-2816,Redstart,Institutional,,,,,,2,0.0
-2817,Tomorrow Capital,Institutional,,,,,,2,2.0
-2825,Ankush Sachdeva,Individual,,,,,,2,0.0
-2831,Apoletto,Institutional,,,,,,2,0.0
-2832,Ganapathy Subramaniam,Individual,,,,,,2,0.0
-2834,T2D3 Capital,Institutional,,,,,,2,0.0
-2845,Dexter Angels,Angel network,,,,,,2,1.0
-2851,Juvo Ventures,Institutional,,,,,,2,1.0
-2857,Innoport,Institutional,,,,,,2,1.0
-2866,Kirin Holdings,Institutional,,,,,,2,2.0
-2870,Nithin Kamath,Individual,,,,,,2,1.0
-2893,Peer Capital,Institutional,,,,,,2,1.0
-2894,Arpan Seth,Individual,,,,,,2,1.0
-2898,Nitin Saluja,Individual,,,,,,2,0.0
-2915,DisruptAD,Institutional,,,,,,2,0.0
-2921,Wami Capital,Institutional,,,,,,2,2.0
-2925,Dream Incubator,Accelerator,,,,,,2,1.0
-2935,Satish Shetty,Individual,,,,,,2,0.0
-2943,Nir Eyal,Individual,,,,,,2,0.0
-2951,Omar Bin Brek,Individual,,,,,,2,1.0
-2958,Merisis Venture Partners,Institutional,,,,,,2,0.0
-2959,Sequoia Capital India and Southeast Asia,Institutional,,,,,,2,1.0
-2964,The Marwari Angels,Angel network,,,,,,2,0.0
-2975,Pradeep Dadha,Individual,,,,,,2,2.0
-2995,Sunjay Kapur,Individual,,,,,,2,0.0
-3008,Dinesh Gulati,Individual,,,,,,2,0.0
-3012,Mufin Green Finance,Individual,,,,,,2,2.0
-3021,Ivyleague Ventures,Institutional,,,,,,2,0.0
-3027,Varun Mayya,Individual,,,,,,2,0.0
-3028,Nakuul Mehta,Individual,,,,,,2,0.0
-3030,Vimal Shah,Individual,,,,,,2,0.0
-3031,Sparsh Jain,Individual,,,,,,2,0.0
-3048,Tomales Bay Capital,Institutional,,,,,,2,2.0
-3053,D2C Insider Angels,Angel network,,,,,,2,0.0
-3066,Karthik Gurumurthy,Individual,,,,,,2,0.0
-3071,Better Tomorrow Ventures,Institutional,,,,,,2,0.0
-3074,Anmol Jain,Individual,,,,,,2,0.0
-3076,Eastspring Investments,Institutional,,,,,,2,0.0
-3078,Brigade REAP,Individual,,,,,,2,0.0
-3082,IDH Farmfit Fund,Institutional,,,,,,2,1.0
-3083,NRJN Family Trust,Family office,,,,,,2,0.0
-3084,Rabo Partnerships,Institutional,,,,,,2,1.0
-3087,Quiet Capital,Institutional,,,,,,2,0.0
-3095,Pegasus Fininvest,Individual,,,,,,2,0.0
-3098,TSM Ventures,Institutional,,,,,,2,0.0
-3114,KKR,Institutional,,,,,,2,2.0
-3119,Stripe,Institutional,,,,,,2,0.0
-3122,A99,Institutional,,,,,,2,2.0
-3123,Lotus Herbal Group,Corporate,,,,,,2,1.0
-3124,SteerX,Institutional,,,,,,2,1.0
-3153,Spyre VC,Institutional,,,,,,2,1.0
-3165,Global Growth Capital,Institutional,,,,,,2,0.0
-3168,Kairon Capital,Institutional,,,,,,2,2.0
-3176,Jindagi Live Angel Fund,Angel network,,,,,,2,0.0
-3179,MountTech Growth Fund-Kavachh,Institutional,,,,,,2,1.0
-3189,Negen Undiscovered Value Fund,Institutional,,,,,,2,1.0
-3196,Aneesh Sheth,Individual,,,,,,2,0.0
-3207,Mankind Pharma Promoter's Family Office,Family office,,,,,,2,1.0
-3220,FE Securities,Institutional,,,,,,2,0.0
-3226,Hara Global,Individual,,,,,,2,2.0
-3241,S Gupta Family Investments,Institutional,,,,,,2,0.0
-3243,Founders Collective,Individual,,,,,,2,0.0
-3250,Cedar Hill Capital,Institutional,,,,,,2,2.0
-3261,Real Ispat Group,Corporate,,,,,,2,0.0
-3271,Devesh Sachdev,Individual,,,,,,2,1.0
-3273,Asad Khan,Individual,,,,,,2,0.0
-3275,Twenty-Nine Capital Partners Ventures,Institutional,,,,,,2,1.0
-3297,Ajinkya Rahane,Individual,,,,,,2,0.0
-3328,Hitachi Ventures,Institutional,,,,,,2,1.0
-3338,Haldiram Family Office,Family office,,,,,,2,1.0
-3354,Chirag Taneja,Individual,,,,,,2,0.0
-3358,Ajai Chowdhry,Individual,,,,,,2,0.0
-3365,Locus Ventures,Institutional,,,,,,2,1.0
-3368,Ankur Nagpal,Individual,,,,,,2,0.0
-3372,Taru Kapoor,Individual,,,,,,2,0.0
-3393,FirstCry,Institutional,,,,,,2,2.0
-3400,Ashish Dave,Individual,,,,,,2,0.0
-3402,Anand Ladsariya,Individual,,,,,,2,1.0
-3403,Alok Agarwal,Individual,,,,,,2,1.0
-3410,Vijay Arisetty,Individual,,,,,,2,0.0
-3412,JP Morgan Funds,Institutional,,,,,,2,0.0
-3423,LB Investments,Institutional,,,,,,2,1.0
-3427,Avenir Growth,Individual,,,,,,2,1.0
-3429,Bhavish Aggarwal,Individual,,,,,,2,1.0
-3430,Chandigarh Angels,Angel network,,,,,,2,0.0
-3449,Eagle Investments,Institutional,,,,,,2,1.0
-3453,Sarath Sura,Individual,,,,,,2,0.0
-3460,Rahul Chaudhary,Individual,,,,,,2,0.0
-3472,Deepak Anchala,Individual,,,,,,2,0.0
-3476,Burman family office,Family office,,,,,,2,1.0
-3477,Shantanu Agarwal,Individual,,,,,,2,1.0
-3499,Betatron,Institutional,,,,,,2,1.0
-3502,Magna International,Individual,,,,,,2,2.0
-3516,Caspian Debt,Debt / Bank,,,,,,2,1.0
-3527,Vertex,Institutional,,,,,,2,1.0
-3577,Sri Prakash,Individual,,,,,,2,1.0
-3579,Amplify,Institutional,,,,,,2,0.0
-3590,Naveen Kukreja,Individual,,,,,,2,1.0
-3606,Aravind Sanka,Individual,,,,,,2,0.0
-3612,YCombinator,Institutional,,,,,,2,1.0
-3615,Lets ventures,Institutional,,,,,,2,0.0
-3619,KCT Family Office,Family office,,,,,,2,1.0
-3636,Shiprocket,Institutional,,,,,,2,1.0
-3639,Bikky Khosla,Individual,,,,,,2,0.0
-3651,QED Holdings,Institutional,,,,,,2,0.0
-3678,Rahul Jain,Individual,,,,,,2,0.0
-3684,SC Ventures,Institutional,,,,,,2,1.0
-3697,CredAvenue,Institutional,,,,,,2,0.0
-3700,ANBG Enterprise LLP,Institutional,,,,,,2,2.0
-3716,BNP Paribas Cardif,Individual,,,,,,2,1.0
-3720,DG Daiwa Ventures,Institutional,,,,,,2,0.0
-3723,CredAvenue Securities,Institutional,,,,,,2,0.0
-3724,Shraddha Kapoor,Individual,,,,,,2,0.0
-3725,Salman Khan,Individual,,,,,,2,0.0
-3726,Surya Kumar Yadav,Individual,,,,,,2,0.0
-3727,True North,Individual,,,,,,2,2.0
-3737,Caspian,Institutional,,,,,,2,0.0
-3744,Rigel Capital,Institutional,,,,,,2,2.0
-3751,Sucseed Ventures,Institutional,,,,,,2,0.0
-3779,M12,Institutional,,Corporate / CVC,United States,1.0,1.0,2,1.0
-3792,responsAbility Investments AG,Institutional,,Private Equity / Growth,Switzerland,1.0,0.94,2,2.0
-3809,Callapina Capital,Institutional,,,,,,2,2.0
+1883,Raymond Russell,Individual,,,,,,2,0.0
+1889,Mitesh Shah,Individual,,,,,,2,0.0
+1896,Srinivasan Namala,Individual,,,,,,2,2.0
+1898,Trifecta Venture Debt Fund,Debt / Bank,,,,,,2,1.0
+1899,IA Growth Opportunities Fund II,Institutional,,,,,,2,1.0
+1905,SageOne Flagship Growth OE Fund,Institutional,,,,,,2,2.0
+1907,Bajaj Holdings & Investment,Institutional,,,,,,2,1.0
+1908,Minerva Ventures Fund,Institutional,,,,,,2,1.0
+1909,Sopariwala Exports,Individual,,,,,,2,0.0
+1911,Cordelia Family Trust,Family office,,,,,,2,0.0
+1917,Pidilite Family Office,Family office,,,,,,2,0.0
+1935,Vikram Ahuja,Individual,,,,,,2,0.0
+1944,Saurabh Gupta,Individual,,,,,,2,0.0
+1945,Anand Mahindra,Individual,,,,,,2,1.0
+1960,Disruptors Capital,Institutional,,,,,,2,0.0
+1967,Times Internet,Individual,,,,,,2,1.0
+1976,Arjun Pillai,Individual,,,,,,2,0.0
+1980,Wipro Consumer,Individual,,,,,,2,0.0
+1986,Gameskraft Technologies,Individual,,,,,,2,0.0
+1995,Shripad Nadkarni,Individual,,,,,,2,0.0
+1999,Jasprit Bumrah,Individual,,,,,,2,1.0
+2015,Kirti Jangra,Individual,,,,,,2,0.0
+2017,Kose Corporation,Corporate,,,,,,2,2.0
+2020,Oncology Ventures,Institutional,,,,,,2,0.0
+2038,Dominor Investment Holdings,Institutional,,,,,,2,0.0
+2049,Reazon Capital,Institutional,,,,,,2,1.0
+2060,Ajay Upadhyaya,Individual,,,,,,2,1.0
+2061,Deepak Bhagnani Family Office,Family office,,,,,,2,1.0
+2062,MeitY Startup Hub,Individual,,,,,,2,0.0
+2063,Aamara Capital,Institutional,,,,,,2,0.0
+2067,Vivek Mathur,Individual,,,,,,2,0.0
+2074,Vitruvian Partners,Institutional,,,,,,2,1.0
+2075,Aevitas Capital Private Limited,Institutional,,,,,,2,1.0
+2076,Weekend Fund,Institutional,,,,,,2,0.0
+2078,PB Fintech,Individual,,,,,,2,0.0
+2079,Indigram Labs Foundation,Institutional,,,,,,2,0.0
+2080,Kotak Lifesciences Fund I,Institutional,,,,,,2,1.0
+2081,L Catterton,Individual,,,,,,2,2.0
+2093,Granite Asia,Individual,,,,,,2,2.0
+2102,Haresh Chawla,Individual,,,,,,2,0.0
+2107,Caspian Impact Investments,Institutional,,,,,,2,0.0
+2121,Caladium Investment,Institutional,,,,,,2,1.0
+2123,Client Associates Alternate Fund,Institutional,,,,,,2,2.0
+2135,Pravin Jain,Individual,,,,,,2,0.0
+2148,Careernet,Institutional,,,,,,2,0.0
+2149,Ajay Kumar Aggarwal,Individual,,,,,,2,0.0
+2155,Rahul Seth,Individual,,,,,,2,0.0
+2158,Malika Sadani,Individual,,,,,,2,1.0
+2169,Two UK family offices,Family office,,,,,,2,1.0
+2170,Unbound,Institutional,,,,,,2,1.0
+2171,Valar Ventures,Institutional,,,,,,2,1.0
+2178,Ecosystem Integrity Fund (EIF),Institutional,,,,,,2,2.0
+2196,ICONIQ Capital,Institutional,,,,,,2,1.0
+2204,Canada Pension Plan Investment Board,Institutional,,,,,,2,1.0
+2205,NextEquity,Institutional,,,,,,2,0.0
+2228,Vijay Taparia,Individual,,,,,,2,0.0
+2232,Samir Sood,Individual,,,,,,2,0.0
+2235,SBI General Insurance,Individual,,,,,,2,0.0
+2242,Rana Daggubati,Individual,,,,,,2,0.0
+2243,Phanindra Sama,Individual,,,,,,2,0.0
+2245,Alakh Pandey,Individual,,,,,,2,0.0
+2254,Partners Group,Corporate,,,,,,2,1.0
+2257,TiE Angels,Angel network,,,,,,2,0.0
+2280,Arc Ventures,Institutional,,,,,,2,1.0
+2283,Rakuten Capital,Institutional,,,,,,2,0.0
+2287,Google's AI Futures Fund,Institutional,,,,,,2,1.0
+2291,Sorenson Capital,Institutional,,,,,,2,1.0
+2300,Franklin Templeton AIF,Individual,,,,,,2,0.0
+2306,Chanakya Opportunities Fund I,Institutional,,,,,,2,1.0
+2317,Anant Sarda,Individual,,,,,,2,0.0
+2318,SMBC Asia,Individual,,,,,,2,0.0
+2320,Amal Parikh,Individual,,,,,,2,1.0
+2329,360 One Large Value Fund,Institutional,,,,,,2,1.0
+2334,Sandeep Singh,Individual,,,,,,2,1.0
+2338,Motilal Oswal Financial Services Limited,Corporate,,,,,,2,2.0
+2340,Lingotto,Institutional,,,,,,2,0.0
+2342,Gujarat Venture Finance Limited,Corporate,,,,,,2,0.0
+2345,Carnelian Asset Management LLP,Institutional,,,,,,2,2.0
+2354,Aditya Vuchi,Individual,,,,,,2,2.0
+2356,Authum Investment & Infrastructure,Institutional,,,,,,2,0.0
+2358,BNP Paribas Financial Markets,Individual,,,,,,2,0.0
+2360,Snow Leopard Technology Ventures,Institutional,,,,,,2,1.0
+2361,Impact Investment Exchange,Institutional,,,,,,2,2.0
+2362,Maithan Alloys,Individual,,,,,,2,0.0
+2365,Citius,Institutional,,,,,,2,0.0
+2367,TPG,Institutional,,,,,,2,1.0
+2374,MG Investments,Institutional,,,,,,2,1.0
+2375,MapMyIndia,Institutional,,Corporate / CVC,India,0.0,0.98,2,1.0
+2389,Ankit Gupta,Individual,,,,,,2,0.0
+2391,Bajaj Financial Securities,Institutional,,,,,,2,2.0
+2392,PadUp Ventures,Institutional,,,,,,2,0.0
+2393,PhysicsWallah,Institutional,,,,,,2,2.0
+2405,Groww Founders' Fund,Institutional,,,,,,2,0.0
+2407,Sangam Ventures,Institutional,,,,,,2,1.0
+2412,Amit Sinha,Individual,,,,,,2,0.0
+2414,MIH Investments One B.V,Institutional,,,,,,2,0.0
+2426,Connecticut Innovations,Individual,,,,,,2,0.0
+2429,Dhanuka Agritech,Individual,,,,,,2,0.0
+2430,Action Tessa Family Office,Family office,,,,,,2,0.0
+2432,Romesh Sobti,Individual,,,,,,2,1.0
+2442,Haran family office,Family office,,,,,,2,0.0
+2462,Fundamental VC,Institutional,,,,,,2,2.0
+2463,SSV Fund,Institutional,,,,,,2,0.0
+2467,Goldman Sachs Bank Europe SE,Debt / Bank,,,,,,2,0.0
+2468,Girish Mathrubootham,Individual,,,,,,2,1.0
+2474,Bhavik Dholakia,Individual,,,,,,2,0.0
+2478,Carya Venture Partners,Institutional,,,,,,2,0.0
+2487,NVIDIA,Institutional,,,,,,2,1.0
+2492,March Capital,Institutional,,,,,,2,1.0
+2493,Asha Ventures,Institutional,,,,,,2,1.0
+2503,Subhkam Ventures,Institutional,,,,,,2,2.0
+2508,Sierra Ventures,Institutional,,,,,,2,2.0
+2510,Groww,Institutional,,,,,,2,0.0
+2517,Kindred Ventures,Institutional,,,,,,2,1.0
+2518,GitHub Fund,Institutional,,,,,,2,1.0
+2522,Advenza Global Ltd,Corporate,,,,,,2,0.0
+2523,Atharva Green Ecotech Pvt Ltd,Corporate,,,,,,2,0.0
+2524,Nippon Life India,Individual,,,,,,2,0.0
+2528,ICICI Prudential MF,Individual,,,,,,2,0.0
+2529,Kotak MF,Individual,,,,,,2,0.0
+2533,Tata MF,Individual,,,,,,2,0.0
+2539,UTI International Wealth Creator,Individual,,,,,,2,1.0
+2546,Rahul Dravid,Individual,,,,,,2,0.0
+2549,India EXIM Bank,Debt / Bank,,,,,,2,0.0
+2554,Axis MF,Individual,,,,,,2,0.0
+2561,Kleiner Perkins,Individual,,,,,,2,1.0
+2568,Ashoka WhiteOak ICAV,Individual,,,,,,2,0.0
+2570,Ghisallo Master Fund LP,Institutional,,,,,,2,0.0
+2576,Gaurav Kumar,Individual,,,,,,2,1.0
+2577,Wyser Capital,Institutional,,,,,,2,0.0
+2589,Thackersay Family Office,Family office,,,,,,2,1.0
+2590,HNI investors,Institutional,,,,,,2,0.0
+2591,Protons Corporate,Institutional,,,,,,2,2.0
+2592,Noblevast Advisory,Individual,,,,,,2,0.0
+2603,Sojitz Corporation,Corporate,,,,,,2,0.0
+2613,Advantage Technology Fund,Institutional,,,,,,2,0.0
+2618,Hero,Institutional,,,,,,2,2.0
+2621,Srinath,Institutional,,,,,,2,0.0
+2623,Neotribe,Institutional,,,,,,2,0.0
+2626,Madhu Kela,Individual,,,,,,2,1.0
+2631,HDFC MF,Individual,,,,,,2,0.0
+2637,Rishabh Goel,Individual,,,,,,2,0.0
+2641,Neev II Fund,Institutional,,,,,,2,2.0
+2652,GEF Capital Partners,Institutional,,,,,,2,2.0
+2654,Commerce VC,Institutional,,,,,,2,0.0
+2673,91Ventures,Institutional,,,,,,2,1.0
+2696,Rohan Bopanna,Individual,,,,,,2,0.0
+2698,Analog Partners,Institutional,,,,,,2,1.0
+2708,Ideabaaz,Institutional,,,,,,2,1.0
+2709,UTEC,Institutional,,,,,,2,1.0
+2710,SE Ventures,Institutional,,,,,,2,0.0
+2728,Afore Capital,Institutional,,,,,,2,0.0
+2741,Base10,Institutional,,,,,,2,1.0
+2748,Bidra Innovation Ventures,Institutional,,,,,,2,2.0
+2752,Startup Sherpas,Individual,,,,,,2,0.0
+2756,Tejas Paresh Lodaya,Individual,,,,,,2,2.0
+2758,Vimson Group,Corporate,,,,,,2,0.0
+2766,Amit Gupta,Individual,,,,,,2,0.0
+2767,Mohit Aron,Individual,,,,,,2,0.0
+2768,Yali Deeptech,Individual,,,,,,2,0.0
+2783,Motilal Oswal Private Wealth,Individual,,,,,,2,2.0
+2788,Cello Family Office,Family office,,,,,,2,1.0
+2807,Viney Equity Markets LLP,Institutional,,,,,,2,0.0
+2809,Peak Sustainability Ventures,Institutional,,,,,,2,1.0
+2813,Micelio Mobility,Individual,,,,,,2,0.0
+2814,Naval Ravikant,Individual,,,,,,2,0.0
+2815,Redstart,Institutional,,,,,,2,0.0
+2816,Tomorrow Capital,Institutional,,,,,,2,2.0
+2824,Ankush Sachdeva,Individual,,,,,,2,0.0
+2830,Apoletto,Institutional,,,,,,2,0.0
+2831,Ganapathy Subramaniam,Individual,,,,,,2,0.0
+2833,T2D3 Capital,Institutional,,,,,,2,0.0
+2844,Dexter Angels,Angel network,,,,,,2,1.0
+2850,Juvo Ventures,Institutional,,,,,,2,1.0
+2856,Innoport,Institutional,,,,,,2,1.0
+2865,Kirin Holdings,Institutional,,,,,,2,2.0
+2869,Nithin Kamath,Individual,,,,,,2,1.0
+2892,Peer Capital,Institutional,,,,,,2,1.0
+2893,Arpan Seth,Individual,,,,,,2,1.0
+2897,Nitin Saluja,Individual,,,,,,2,0.0
+2914,DisruptAD,Institutional,,,,,,2,0.0
+2920,Wami Capital,Institutional,,,,,,2,2.0
+2924,Dream Incubator,Accelerator,,,,,,2,1.0
+2934,Satish Shetty,Individual,,,,,,2,0.0
+2942,Nir Eyal,Individual,,,,,,2,0.0
+2950,Omar Bin Brek,Individual,,,,,,2,1.0
+2957,Merisis Venture Partners,Institutional,,,,,,2,0.0
+2958,Sequoia Capital India and Southeast Asia,Institutional,,,,,,2,1.0
+2963,The Marwari Angels,Angel network,,,,,,2,0.0
+2974,Pradeep Dadha,Individual,,,,,,2,2.0
+2994,Sunjay Kapur,Individual,,,,,,2,0.0
+3007,Dinesh Gulati,Individual,,,,,,2,0.0
+3011,Mufin Green Finance,Individual,,,,,,2,2.0
+3020,Ivyleague Ventures,Institutional,,,,,,2,0.0
+3026,Varun Mayya,Individual,,,,,,2,0.0
+3027,Nakuul Mehta,Individual,,,,,,2,0.0
+3029,Vimal Shah,Individual,,,,,,2,0.0
+3030,Sparsh Jain,Individual,,,,,,2,0.0
+3047,Tomales Bay Capital,Institutional,,,,,,2,2.0
+3052,D2C Insider Angels,Angel network,,,,,,2,0.0
+3065,Karthik Gurumurthy,Individual,,,,,,2,0.0
+3070,Better Tomorrow Ventures,Institutional,,,,,,2,0.0
+3073,Anmol Jain,Individual,,,,,,2,0.0
+3075,Eastspring Investments,Institutional,,,,,,2,0.0
+3077,Brigade REAP,Individual,,,,,,2,0.0
+3081,IDH Farmfit Fund,Institutional,,,,,,2,1.0
+3082,NRJN Family Trust,Family office,,,,,,2,0.0
+3083,Rabo Partnerships,Institutional,,,,,,2,1.0
+3086,Quiet Capital,Institutional,,,,,,2,0.0
+3094,Pegasus Fininvest,Individual,,,,,,2,0.0
+3097,TSM Ventures,Institutional,,,,,,2,0.0
+3113,KKR,Institutional,,,,,,2,2.0
+3118,Stripe,Institutional,,,,,,2,0.0
+3121,A99,Institutional,,,,,,2,2.0
+3122,Lotus Herbal Group,Corporate,,,,,,2,1.0
+3123,SteerX,Institutional,,,,,,2,1.0
+3152,Spyre VC,Institutional,,,,,,2,1.0
+3164,Global Growth Capital,Institutional,,,,,,2,0.0
+3167,Kairon Capital,Institutional,,,,,,2,2.0
+3175,Jindagi Live Angel Fund,Angel network,,,,,,2,0.0
+3178,MountTech Growth Fund-Kavachh,Institutional,,,,,,2,1.0
+3188,Negen Undiscovered Value Fund,Institutional,,,,,,2,1.0
+3195,Aneesh Sheth,Individual,,,,,,2,0.0
+3206,Mankind Pharma Promoter's Family Office,Family office,,,,,,2,1.0
+3219,FE Securities,Institutional,,,,,,2,0.0
+3225,Hara Global,Individual,,,,,,2,2.0
+3240,S Gupta Family Investments,Institutional,,,,,,2,0.0
+3242,Founders Collective,Individual,,,,,,2,0.0
+3249,Cedar Hill Capital,Institutional,,,,,,2,2.0
+3260,Real Ispat Group,Corporate,,,,,,2,0.0
+3270,Devesh Sachdev,Individual,,,,,,2,1.0
+3272,Asad Khan,Individual,,,,,,2,0.0
+3274,Twenty-Nine Capital Partners Ventures,Institutional,,,,,,2,1.0
+3296,Ajinkya Rahane,Individual,,,,,,2,0.0
+3327,Hitachi Ventures,Institutional,,,,,,2,1.0
+3337,Haldiram Family Office,Family office,,,,,,2,1.0
+3353,Chirag Taneja,Individual,,,,,,2,0.0
+3357,Ajai Chowdhry,Individual,,,,,,2,0.0
+3364,Locus Ventures,Institutional,,,,,,2,1.0
+3367,Ankur Nagpal,Individual,,,,,,2,0.0
+3371,Taru Kapoor,Individual,,,,,,2,0.0
+3392,FirstCry,Institutional,,,,,,2,2.0
+3399,Ashish Dave,Individual,,,,,,2,0.0
+3401,Anand Ladsariya,Individual,,,,,,2,1.0
+3402,Alok Agarwal,Individual,,,,,,2,1.0
+3409,Vijay Arisetty,Individual,,,,,,2,0.0
+3411,JP Morgan Funds,Institutional,,,,,,2,0.0
+3422,LB Investments,Institutional,,,,,,2,1.0
+3426,Avenir Growth,Individual,,,,,,2,1.0
+3428,Bhavish Aggarwal,Individual,,,,,,2,1.0
+3429,Chandigarh Angels,Angel network,,,,,,2,0.0
+3448,Eagle Investments,Institutional,,,,,,2,1.0
+3452,Sarath Sura,Individual,,,,,,2,0.0
+3459,Rahul Chaudhary,Individual,,,,,,2,0.0
+3471,Deepak Anchala,Individual,,,,,,2,0.0
+3475,Burman family office,Family office,,,,,,2,1.0
+3476,Shantanu Agarwal,Individual,,,,,,2,1.0
+3498,Betatron,Institutional,,,,,,2,1.0
+3501,Magna International,Individual,,,,,,2,2.0
+3515,Caspian Debt,Debt / Bank,,,,,,2,1.0
+3526,Vertex,Institutional,,,,,,2,1.0
+3576,Sri Prakash,Individual,,,,,,2,1.0
+3578,Amplify,Institutional,,,,,,2,0.0
+3589,Naveen Kukreja,Individual,,,,,,2,1.0
+3605,Aravind Sanka,Individual,,,,,,2,0.0
+3611,YCombinator,Institutional,,,,,,2,1.0
+3614,Lets ventures,Institutional,,,,,,2,0.0
+3618,KCT Family Office,Family office,,,,,,2,1.0
+3635,Shiprocket,Institutional,,,,,,2,1.0
+3638,Bikky Khosla,Individual,,,,,,2,0.0
+3650,QED Holdings,Institutional,,,,,,2,0.0
+3677,Rahul Jain,Individual,,,,,,2,0.0
+3683,SC Ventures,Institutional,,,,,,2,1.0
+3696,CredAvenue,Institutional,,,,,,2,0.0
+3699,ANBG Enterprise LLP,Institutional,,,,,,2,2.0
+3715,BNP Paribas Cardif,Individual,,,,,,2,1.0
+3719,DG Daiwa Ventures,Institutional,,,,,,2,0.0
+3722,CredAvenue Securities,Institutional,,,,,,2,0.0
+3723,Shraddha Kapoor,Individual,,,,,,2,0.0
+3724,Salman Khan,Individual,,,,,,2,0.0
+3725,Surya Kumar Yadav,Individual,,,,,,2,0.0
+3726,True North,Individual,,,,,,2,2.0
+3736,Caspian,Institutional,,,,,,2,0.0
+3743,Rigel Capital,Institutional,,,,,,2,2.0
+3750,Sucseed Ventures,Institutional,,,,,,2,0.0
+3778,M12,Institutional,,Corporate / CVC,United States,1.0,1.0,2,1.0
+3791,responsAbility Investments AG,Institutional,,Private Equity / Growth,Switzerland,1.0,0.94,2,2.0
+3808,Callapina Capital,Institutional,,,,,,2,2.0
 3824,Intel Capital,Institutional,,,,,,2,1.0
 3826,Gravity Holdings,Institutional,,,,,,2,0.0
 3831,GSR Ventures,Institutional,,,,,,2,0.0
@@ -2468,1353 +2468,1353 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1867,Ektha.com,Institutional,,,,,,1,1.0
 1869,Shivanssh Holdings,Institutional,,,,,,1,0.0
 1870,Poddar Family Office,Family office,,,,,,1,0.0
-1882,Mile Deep Works,Individual,,,,,,1,1.0
-1885,Preethi Kasireddy,Individual,,,,,,1,0.0
-1886,Nishant Verman,Individual,,,,,,1,0.0
-1888,Dewang Neralla's family office,Family office,,,,,,1,0.0
-1889,Jupiter Metaverse LLP,Institutional,,,,,,1,0.0
-1891,Nilesh Doshi,Individual,,,,,,1,0.0
-1892,Mysten Labs,Institutional,,,,,,1,1.0
-1893,Cypher Capital,Institutional,,,,,,1,0.0
-1894,Illuminati Capital,Institutional,,,,,,1,0.0
-1901,Rameshchandra Shah,Individual,,,,,,1,1.0
-1902,Shirish Patel,Individual,,,,,,1,0.0
-1903,Rajkumar Sorathi,Individual,,,,,,1,0.0
-1904,Hardik Kothiya,Individual,,,,,,1,0.0
-1905,MIT SBXI,Individual,,,,,,1,0.0
-1907,Alchemy Long Term Ventures Fund,Institutional,,,,,,1,1.0
-1911,Kemfin Family Office,Family office,,,,,,1,0.0
-1913,Weikfield Family Office,Family office,,,,,,1,0.0
-1914,Salil Taneja Family Office,Family office,,,,,,1,0.0
-1915,PKM Capital,Institutional,,,,,,1,0.0
-1916,Satyen Kanoria,Individual,,,,,,1,0.0
-1917,Ritesh Kamani,Individual,,,,,,1,0.0
-1919,Signet Family Office,Family office,,,,,,1,0.0
-1920,Rupa Family Office,Family office,,,,,,1,0.0
-1921,Kiran Gems Family Office,Family office,,,,,,1,0.0
-1922,Nuvama Asset Management Limited,Corporate,,,,,,1,1.0
-1923,A.V. Thomas and Co,Institutional,,,,,,1,1.0
-1924,U.S. investors,Institutional,,,,,,1,0.0
-1925,Mohan Krishna,Individual,,,,,,1,0.0
-1926,Ajitha Challa,Individual,,,,,,1,0.0
-1927,Praveen Jaipuriar,Individual,,,,,,1,0.0
-1928,Shantanu Rastogi,Individual,,,,,,1,1.0
-1929,Castle Investments,Institutional,,,,,,1,0.0
-1930,Ajax Capital,Institutional,,,,,,1,0.0
-1931,Satyadharma Investments,Institutional,,,,,,1,0.0
-1932,Holy Basil Consultancy,Individual,,,,,,1,0.0
-1934,Shiv Dhawan,Individual,,,,,,1,0.0
-1937,Gagan Malhotra,Individual,,,,,,1,0.0
-1938,Sanchit Garg,Individual,,,,,,1,0.0
-1941,Anicut Equity Continuum Fund,Institutional,,,,,,1,0.0
-1942,Abhinav Pathak,Individual,,,,,,1,0.0
-1943,Madhav Tandan,Individual,,,,,,1,0.0
-1944,Nikhil,Institutional,,,,,,1,0.0
-1947,IVen Amplifi Fund,Institutional,,,,,,1,1.0
-1952,Dabur Family Office,Family office,,,,,,1,0.0
-1955,Ventatana Ventures,Institutional,,,,,,1,0.0
-1956,91 Ventures,Institutional,,,,,,1,0.0
-1957,Navyug Global Ventures,Institutional,,,,,,1,1.0
-1963,Homegrown Ventures,Institutional,,,,,,1,1.0
-1966,NEAR Foundation,Institutional,,,,,,1,1.0
-1967,Circle Ventures,Institutional,,,,,,1,0.0
-1969,Jindal Stainless,Individual,,,,,,1,1.0
-1970,Jindal Stainless Steelway Limited,Corporate,,,,,,1,1.0
-1971,Multiples Equity,Institutional,,,,,,1,1.0
-1972,Sahil Jindal,Individual,,,,,,1,0.0
-1973,Varun Sheth,Individual,,,,,,1,0.0
-1974,Zaheer Adenwala,Individual,,,,,,1,0.0
-1975,Brijraj Bhuptani,Individual,,,,,,1,0.0
-1976,Umesh Agarwal,Individual,,,,,,1,0.0
-1978,Prasanna Venkatesan,Individual,,,,,,1,0.0
-1979,Pradeep Nain,Individual,,,,,,1,1.0
-1983,Glenn Maxwell,Individual,,,,,,1,1.0
-1984,M-League,Institutional,,,,,,1,0.0
-1985,Amarnath Thombre,Individual,,,,,,1,0.0
-1986,Play Ventures,Institutional,,,,,,1,1.0
-1988,State Street Global Advisors,Institutional,,,,,,1,0.0
-1989,Niveshaay AIF,Individual,,,,,,1,0.0
-1991,Rummytime Technologies,Individual,,,,,,1,0.0
-1993,Akram Ventures,Institutional,,,,,,1,0.0
-1994,Rinku Singh,Individual,,,,,,1,1.0
-1997,Rohan Mirchandani,Individual,,,,,,1,0.0
-1998,Waimea Bay Investments,Institutional,,,,,,1,1.0
-2003,Discovery Assets,Individual,,,,,,1,0.0
-2006,JDSS,Institutional,,,,,,1,0.0
-2007,Enrsion INDIA CAPITAL,Institutional,,,,,,1,0.0
-2009,Venture Catalysts (VCAT),Institutional,,,,,,1,1.0
-2010,SYL Investments,Institutional,,,,,,1,0.0
-2012,Saarthee Actionable Insights,Individual,,,,,,1,1.0
-2015,Saurabh Munjal,Individual,,,,,,1,0.0
-2019,Harshadkumar Patel,Individual,,,,,,1,1.0
-2020,Divyang Patel,Individual,,,,,,1,0.0
-2022,Odd Bird VC,Institutional,,,,,,1,0.0
-2023,Kamal Agrawal,Individual,,,,,,1,1.0
-2024,Khazanah Nasional,Individual,,,,,,1,1.0
-2025,IIM-A Ventures,Accelerator,,,,,,1,1.0
-2026,Dr. Sanjay Arora,Individual,,,,,,1,0.0
-2027,Adarsh Narahari,Individual,,,,,,1,0.0
-2029,Seedstars International Ventures,Institutional,,,,,,1,1.0
-2030,Fluent Ventures,Institutional,,,,,,1,1.0
-2031,Autodesk-affiliated angel investors,Angel network,,,,,,1,0.0
-2032,Amazon-affiliated angel investors,Angel network,,,,,,1,0.0
-2040,Green Trunk Ventures,Institutional,,,,,,1,0.0
-2044,Leblon Capital,Institutional,,,,,,1,1.0
-2045,Stem AI,Individual,,,,,,1,0.0
-2046,GC India Investment Holdings,Institutional,,,,,,1,1.0
-2047,Muthoot Fincorp,Institutional,,,,,,1,0.0
-2048,Walden International,Individual,,,,,,1,0.0
-2049,Reed India Consulting,Individual,,,,,,1,0.0
-2051,SGgrow Capital,Institutional,,,,,,1,1.0
-2053,Ravi Nigam,Individual,,,,,,1,0.0
-2054,Shashank Deshpande,Individual,,,,,,1,0.0
-2055,Ujjwal Jain,Individual,,,,,,1,0.0
-2056,Nitin Sharma,Individual,,,,,,1,0.0
-2060,Sim&San law firm,Institutional,,,,,,1,0.0
-2065,Sanjay Sharma,Individual,,,,,,1,0.0
-2066,Ashish Sharma,Individual,,,,,,1,0.0
-2067,Prithvijit Roy,Individual,,,,,,1,0.0
-2071,Fullerton Carbon Action Fund,Institutional,,,,,,1,1.0
-2072,Shift4Good,Institutional,,,,,,1,1.0
-2078,Sarthak Mishra,Individual,,,,,,1,0.0
-2083,Darkmode Ventures,Institutional,,,,,,1,0.0
-2084,Dovetail,Institutional,,,,,,1,0.0
-2088,Yugadi Capital,Institutional,,,,,,1,1.0
-2089,Aditya Agarwal,Individual,,,,,,1,0.0
-2090,Darashaw & Company,Institutional,,,,,,1,0.0
-2092,Swiggy Dineout founders,Institutional,,,,,,1,0.0
-2093,Orra founders,Institutional,,,,,,1,0.0
-2096,MOL PLUS,Individual,,,,,,1,0.0
-2097,PSA Ventures,Institutional,,,,,,1,0.0
-2098,İnci Holding,Institutional,,,,,,1,0.0
-2099,UntroD Capital,Institutional,,,,,,1,0.0
-2100,Pappas Capital,Institutional,,,,,,1,0.0
-2101,SEEDS Capital,Institutional,,,,,,1,0.0
-2102,Rajiv Ahuja,Individual,,,,,,1,0.0
-2104,Jaswinder Ahuja,Individual,,,,,,1,0.0
-2105,Dilipkumar Khandelwal,Individual,,,,,,1,0.0
-2107,Bombay54,Institutional,,,,,,1,0.0
-2109,Dream Sports,Individual,,,,,,1,1.0
-2110,4point0 Health Ventures,Institutional,,,,,,1,1.0
-2111,Tata 1mg founders,Institutional,,,,,,1,0.0
-2112,NephroPlus founders,Institutional,,,,,,1,0.0
-2113,SafeExpress founders,Institutional,,,,,,1,0.0
-2114,Eye Q Hospital founders,Institutional,,,,,,1,0.0
-2115,Hexa Health founders,Institutional,,,,,,1,0.0
-2116,AstroTalk founders,Institutional,,,,,,1,0.0
-2118,Foundation Private Equity,Institutional,,,,,,1,0.0
-2119,JP Shukla,Individual,,,,,,1,0.0
-2123,Development Bank of Austria (OeEB),Debt / Bank,,,,,,1,1.0
-2125,Prana Ventures,Institutional,,,,,,1,0.0
-2126,Commvault,Institutional,,,,,,1,0.0
-2127,Meeran Family,Individual,,,,,,1,0.0
-2130,Sakal Media Group,Corporate,,,,,,1,0.0
-2132,Jason Kothari,Individual,,,,,,1,0.0
-2133,Shah Rukh Khan’s family office,Family office,,,,,,1,0.0
-2134,Saif Saeed Ghobash,Individual,,,,,,1,0.0
-2135,Jayanti Kannai,Individual,,,,,,1,0.0
-2137,Marc Younan,Individual,,,,,,1,0.0
-2138,Deepen Parikh,Individual,,,,,,1,0.0
-2139,Samir Vora,Individual,,,,,,1,0.0
-2140,Samarth Parekh,Individual,,,,,,1,0.0
-2141,Anurag Goel,Individual,,,,,,1,0.0
-2142,Nishant Aggarwal,Individual,,,,,,1,0.0
-2144,Sayandeb Banerjee,Individual,,,,,,1,0.0
-2145,Suresh Rayasam,Individual,,,,,,1,0.0
-2146,Ravi Sudhakar,Individual,,,,,,1,0.0
-2147,Ravi Modi Family Office,Family office,,,,,,1,0.0
-2155,Anurag Ramadasan,Individual,,,,,,1,0.0
-2157,Manish Poddar,Individual,,,,,,1,1.0
-2162,Sunrise Sunset Family Trust,Family office,,,,,,1,0.0
-2163,Infinyte Club Angel Fund,Angel network,,,,,,1,0.0
-2165,Classplus,Institutional,,,,,,1,1.0
-2166,Citigroup Global Markets Mauritius,Institutional,,,,,,1,0.0
-2167,Meri Punji IMF Private Limited,Corporate,,,,,,1,1.0
-2168,Your Trips Limited,Corporate,,,,,,1,0.0
-2173,Swapurna Family Office,Family office,,,,,,1,0.0
-2174,Undisclosed angel investors,Angel network,,,,,,1,1.0
-2176,Stargazer Growth,Individual,,,,,,1,0.0
-2177,Lathe Investment,Institutional,,,,,,1,1.0
-2181,Rukam Sitara Fund,Institutional,,,,,,1,1.0
-2186,Usha Dalmia Trust,Institutional,,,,,,1,0.0
-2187,Prakash Padukone,Individual,,,,,,1,0.0
-2188,Pear VC,Institutional,,,,,,1,0.0
-2189,BOND,Institutional,,,,,,1,0.0
-2190,Accion Digital Transformation,Individual,,,,,,1,1.0
-2191,Manit Gupta,Individual,,,,,,1,1.0
-2192,Apoorv Salarpuria,Individual,,,,,,1,0.0
-2193,Rahul Todi,Individual,,,,,,1,0.0
-2195,Vivek Raghavan,Individual,,,,,,1,0.0
-2196,Satya Vas,Individual,,,,,,1,0.0
-2198,Pantnagar Capital,Institutional,,,,,,1,1.0
-2199,Greylock,Institutional,,,,,,1,1.0
-2200,Quantum Light Ventures,Institutional,,,,,,1,0.0
-2202,Chanakya Gupta,Individual,,,,,,1,0.0
-2203,Arun Sharma,Individual,,,,,,1,0.0
-2204,NewView Capital,Institutional,,,,,,1,1.0
-2207,Brighton Park Capital,Institutional,,,,,,1,0.0
-2208,Revaia,Institutional,,,,,,1,0.0
-2209,Greenfield Partners,Institutional,,,,,,1,0.0
-2210,Red Dot Capital Partners,Institutional,,,,,,1,0.0
-2211,O.G. Tech,Individual,,,,,,1,0.0
-2212,Joule Capital Partners,Institutional,,,,,,1,0.0
-2213,Maor Investments,Institutional,,,,,,1,0.0
-2216,Sanjay Suri,Individual,,,,,,1,0.0
-2219,Sharda family office,Family office,,,,,,1,0.0
-2220,Kay family,Institutional,,,,,,1,0.0
-2221,Dhruv Khush Business Ventures,Institutional,,,,,,1,1.0
-2222,Ashok Goel,Individual,,,,,,1,1.0
-2224,Caspian Impact Investments (Caspian Debt),Debt / Bank,,,,,,1,1.0
-2225,Raghav Singhal,Individual,,,,,,1,0.0
-2226,Santosh Govindaraju,Individual,,,,,,1,0.0
-2227,Aabhas Khanna,Individual,,,,,,1,0.0
-2228,Ameera Shah,Individual,,,,,,1,0.0
-2231,Rajasthan Gum Pvt. Ltd,Corporate,,,,,,1,0.0
-2232,Shree Ram India Gums Ltd,Corporate,,,,,,1,0.0
-2234,Trident Growth Partners,Institutional,,,,,,1,1.0
-2237,Baroda BNP Paribas Mutual Fund,Institutional,,,,,,1,0.0
-2238,Trust Mutual Fund,Institutional,,,,,,1,0.0
-2239,Buoyant Capital,Institutional,,,,,,1,0.0
-2242,Franklin Templeton Alternative Investments,Institutional,,,,,,1,0.0
-2247,Prateek,Institutional,,,,,,1,0.0
-2248,Rapido co-founders,Institutional,,,,,,1,0.0
-2249,Amar Nagaram,Individual,,,,,,1,0.0
-2252,Akshant Goyal,Individual,,,,,,1,0.0
-2253,Vineet Sethi,Individual,,,,,,1,0.0
-2254,Aditya Sharma,Individual,,,,,,1,0.0
-2257,Trica,Institutional,,,,,,1,0.0
-2262,CIO and CTO angel investors,Angel network,,,,,,1,0.0
-2264,IIM Bangalore's NSRCEL,Accelerator,,,,,,1,0.0
-2266,Chaitanya Ramalingegowda,Individual,,,,,,1,0.0
-2267,Ajith Pai,Individual,,,,,,1,0.0
-2268,Trust Investment Advisors,Institutional,,,,,,1,0.0
-2269,Rahul Dewan,Individual,,,,,,1,1.0
-2270,Ajay Gupta,Individual,,,,,,1,0.0
-2271,Mangwani Family Office,Family office,,,,,,1,0.0
-2273,Kumar Saurabh,Individual,,,,,,1,0.0
-2275,GVF,Institutional,,,,,,1,1.0
-2276,Capital Code,Institutional,,,,,,1,1.0
-2277,Mount Judy Ventures,Institutional,,,,,,1,0.0
-2278,KPB Ventures,Institutional,,,,,,1,0.0
-2279,Monta Vista Capital,Institutional,,,,,,1,1.0
-2280,New York Ventures,Institutional,,,,,,1,0.0
-2283,"Angels and operators from Magicpin, Zomato, Innovaccer, and Aftershoot",Angel network,,,,,,1,0.0
-2285,Preetinder Singh Panjrath,Individual,,,,,,1,0.0
-2286,Bandai Namco Entertainment,Individual,,,,,,1,0.0
-2287,Square Enix,Individual,,,,,,1,0.0
-2290,Prosperity7 Ventures,Institutional,,,,,,1,0.0
-2291,John Chambers,Individual,,,,,,1,0.0
-2293,Pravek Family Office,Family office,,,,,,1,1.0
-2294,Climate-tech and mobility investors,Institutional,,,,,,1,1.0
-2295,GSF Investors,Individual,,,,,,1,0.0
-2296,Cyber Fund,Institutional,,,,,,1,1.0
-2298,Innovation Mission Punjab,Individual,,,,,,1,0.0
-2299,Select angels,Angel network,,,,,,1,0.0
-2300,HHV Advanced Technologies,Individual,,,,,,1,0.0
-2302,Vivriti Alpha,Individual,,,,,,1,0.0
-2303,SK Finance,Individual,,,,,,1,0.0
-2306,IB Future Tech,Individual,,,,,,1,0.0
-2308,NASSCOM,Institutional,,,,,,1,0.0
-2309,FalconX,Institutional,,,,,,1,0.0
-2310,Skycatcher,Institutional,,,,,,1,1.0
-2311,a16z Speedrun,Institutional,,,,,,1,0.0
-2313,Polygon Ventures,Institutional,,,,,,1,0.0
-2314,Neowiz,Institutional,,,,,,1,0.0
-2315,IVC Japan,Institutional,,,,,,1,0.0
-2316,Loud.GG,Institutional,,,,,,1,0.0
-2317,Karthik Sundar Iyer,Individual,,,,,,1,0.0
-2322,Vibha Chetan,Individual,,,,,,1,0.0
-2324,Native Angel Network,Angel network,,,,,,1,0.0
-2326,IIM-CAN,Accelerator,,,,,,1,0.0
-2327,Metis Family Office,Family office,,,,,,1,0.0
-2329,Midas,Institutional,,,,,,1,0.0
-2331,Tin Men Capital,Institutional,,,,,,1,1.0
-2332,Orzon,Institutional,,,,,,1,0.0
-2333,Integra Partners,Institutional,,,,,,1,0.0
-2334,Raju Barwale,Individual,,,,,,1,1.0
-2337,IIM Ahmedabad’s CIIE,Accelerator,,,,,,1,0.0
-2338,Heston Castelino,Individual,,,,,,1,0.0
-2342,Dulquer Salmaan,Individual,,,,,,1,0.0
-2344,Hira Group,Corporate,,,,,,1,0.0
-2347,GNP Group,Corporate,,,,,,1,0.0
-2348,Paras Defence,Individual,,,,,,1,0.0
-2349,Principal Venture Partners,Institutional,,,,,,1,0.0
-2350,GSI,Institutional,,,,,,1,0.0
-2351,Paytm,Institutional,,,,,,1,0.0
-2356,Raj Narayanam,Individual,,,,,,1,1.0
-2358,Goldman Sachs (Singapore),Institutional,,,,,,1,0.0
-2370,Amit Baid,Individual,,,,,,1,0.0
-2371,Nidhish Mundra,Individual,,,,,,1,0.0
-2372,Enetra EV,Individual,,,,,,1,1.0
-2373,Nomura India Investment Fund Mother Fund,Institutional,,,,,,1,1.0
-2374,Archean Chemical Industries,Individual,,,,,,1,1.0
-2379,Choice Group,Corporate,,,,,,1,1.0
-2381,MetroMax Group (India),Corporate,,,,,,1,0.0
-2382,Ankit Sajnani,Individual,,,,,,1,0.0
-2385,SPA Family Ventures,Institutional,,,,,,1,0.0
-2386,Ankit Goel,Individual,,,,,,1,0.0
-2387,Seven Square Ventures,Institutional,,,,,,1,0.0
-2388,Trillion Dollar Venture Partners,Institutional,,,,,,1,1.0
-2389,Raghunandan G,Individual,,,,,,1,0.0
-2391,Hari Krishnan Nair,Individual,,,,,,1,0.0
-2395,CE-Invests,Institutional,,,,,,1,0.0
-2396,Symphysis LSV LLP,Institutional,,,,,,1,0.0
-2397,Rohan Nayak,Individual,,,,,,1,0.0
-2398,Globaz Technologies,Individual,,,,,,1,1.0
-2399,Burla Angel Network,Angel network,,,,,,1,0.0
-2400,O2 Angels,Angel network,,,,,,1,0.0
-2401,SBI Cap Ventures,Institutional,,,,,,1,0.0
-2402,ONGC,Institutional,,,,,,1,0.0
-2405,Shyamal Hitesh Anadkat,Individual,,,,,,1,0.0
-2407,Schneider Electric Energy Access Asia,Institutional,,,,,,1,1.0
-2409,Sriram Sankaran,Individual,,,,,,1,0.0
-2410,Muthu Murugappan,Individual,,,,,,1,0.0
-2411,Amit Dalmia,Individual,,,,,,1,0.0
-2412,Alex von Behr,Institutional,,,,,,1,0.0
-2416,Setu AIF Trust,Institutional,,,,,,1,0.0
-2420,AlphaGen Venture Capital,Institutional,,,,,,1,0.0
-2421,Rubamin,Institutional,,,,,,1,0.0
-2422,Mayank Singhal,Individual,,,,,,1,0.0
-2423,Jeff Dean,Individual,,,,,,1,0.0
-2424,Devendra Chaplot,Individual,,,,,,1,0.0
-2425,Bipin Patel Family Office,Family office,,,,,,1,1.0
-2426,Jhaveri Credits,Debt / Bank,,,,,,1,0.0
-2429,Desai Foods,Individual,,,,,,1,0.0
-2434,Sahyadri Farms,Individual,,,,,,1,1.0
-2436,Shakti VC,Institutional,,,,,,1,0.0
-2437,Ram Shriram,Individual,,,,,,1,0.0
-2438,Sagar Narola,Individual,,,,,,1,0.0
-2439,Suryansh Jalan,Individual,,,,,,1,0.0
-2440,Gautam Kumar,Individual,,,,,,1,0.0
-2441,Dr. Arokiaswamy Velumani,Individual,,,,,,1,1.0
-2442,Balamurugan Arumugam,Individual,,,,,,1,0.0
-2445,Ganesh Natarajan,Individual,,,,,,1,0.0
-2446,Chaitanya Kejriwal,Individual,,,,,,1,0.0
-2447,Shruti Deorah,Individual,,,,,,1,0.0
-2448,ABC World Asia,Individual,,,,,,1,1.0
-2449,Omidyar,Institutional,,,,,,1,0.0
-2450,Singhania family office,Family office,,,,,,1,0.0
-2451,JK Tyre promoters,Institutional,,,,,,1,0.0
-2452,Vikasa India EIF I Fund,Institutional,,,,,,1,1.0
-2453,ISB Angels,Angel network,,,,,,1,0.0
-2454,Guptaji VC,Institutional,,,,,,1,0.0
-2455,Dr. Abhishek Sharma,Individual,,,,,,1,0.0
-2456,Dr. Viveka Kulharia,Individual,,,,,,1,0.0
-2457,Shashikant Chaudhary,Individual,,,,,,1,0.0
-2458,Ejaz Ahmed,Individual,,,,,,1,0.0
-2459,Nikhil Tripathi,Individual,,,,,,1,0.0
-2460,KK Venkata,Individual,,,,,,1,0.0
-2461,Swapnil Sheth,Individual,,,,,,1,0.0
-2462,Michele Barbazza,Individual,,,,,,1,0.0
-2467,BoFA Securities Europe,Institutional,,,,,,1,1.0
-2471,Dinesh Talera and family,Institutional,,,,,,1,1.0
-2472,IGNITE Growth LLP,Institutional,,,,,,1,0.0
-2473,Sanos Capital,Institutional,,,,,,1,1.0
-2476,Arnav Kumar,Individual,,,,,,1,0.0
-2478,Sashi Kumar,Individual,,,,,,1,0.0
-2480,cybersecurity angels,Angel network,,,,,,1,0.0
-2481,HSBC Mutual Fund,Institutional,,,,,,1,0.0
-2483,California Public Employees’ Retirement System (CalPERS),Institutional,,,,,,1,1.0
-2484,institutional investors,Institutional,,,,,,1,0.0
-2486,The Players Fund,Institutional,,,,,,1,0.0
-2487,Epic Angels,Angel network,,,,,,1,0.0
-2489,AMD,Institutional,,,,,,1,0.0
-2490,Snowflake,Institutional,,,,,,1,0.0
-2491,Databricks,Institutional,,,,,,1,0.0
-2492,NEA,Institutional,,,,,,1,0.0
-2495,Reliance Intelligence,Individual,,,,,,1,1.0
-2496,Facebook Overseas,Individual,,,,,,1,1.0
-2498,Aditya Birla Sun Life Mutual Fund,Institutional,,,,,,1,0.0
-2499,HSBC Mutual Fund Midcap Fund,Institutional,,,,,,1,0.0
-2501,Eastspring Investments India Consumer Equity Open,Institutional,,,,,,1,0.0
-2502,Crimson Winter,Individual,,,,,,1,0.0
-2503,Global eCommerce,Institutional,,,,,,1,0.0
-2505,Cosma Ventures,Institutional,,,,,,1,0.0
-2506,Cloudberry Pioneer Investments,Institutional,,,,,,1,0.0
-2507,Moringa Ventures,Institutional,,,,,,1,0.0
-2508,strategic family offices from India and Singapore,Family office,,,,,,1,0.0
-2510,Infynno Solutions,Individual,,,,,,1,1.0
-2513,N.R. Narayanan,Individual,,,,,,1,0.0
-2514,Lalit Wadhwa,Individual,,,,,,1,0.0
-2515,Suvrat Sehgal,Individual,,,,,,1,0.0
-2516,AgriSURE Fund,Institutional,,,,,,1,1.0
-2517,Basis Set Ventures,Institutional,,,,,,1,1.0
-2520,Oorjan Cleantech,Individual,,,,,,1,0.0
-2521,Gautam Das,Individual,,,,,,1,0.0
-2522,iHeartMedia,Institutional,,,,,,1,1.0
-2528,The MIT Retirement Fund,Institutional,,,,,,1,0.0
-2531,Nippon MF,Individual,,,,,,1,0.0
-2532,DSP MF,Individual,,,,,,1,0.0
-2533,Motilal Oswal MF,Individual,,,,,,1,0.0
-2535,Bharti AXA Life,Individual,,,,,,1,0.0
-2537,Canara Robeco MF,Individual,,,,,,1,0.0
-2538,Capital Research,Institutional,,,,,,1,0.0
-2539,PineBridge,Institutional,,,,,,1,0.0
-2541,Spark Alternative Investment Fund,Institutional,,,,,,1,0.0
-2542,Cadabams Group,Corporate,,,,,,1,1.0
-2546,GII,Institutional,,,,,,1,0.0
-2548,Kunwar Asheesh Saxena,Individual,,,,,,1,0.0
-2549,Sathguru Catalysers,Individual,,,,,,1,0.0
-2551,KITVEN,Institutional,,,,,,1,0.0
-2554,SBI MF,Individual,,,,,,1,0.0
-2556,Aditya Birla MF,Individual,,,,,,1,0.0
-2557,Matthews India Fund,Institutional,,,,,,1,0.0
-2558,HSBC Global Investment Funds – Asia Ex Japan Smaller Companies,Institutional,,,,,,1,0.0
-2559,PineBridge India Equity Fund,Institutional,,,,,,1,0.0
-2560,ITEL,Institutional,,,,,,1,0.0
-2561,Virendra Prasad,Individual,,,,,,1,1.0
-2563,Index Ventures,Institutional,,,,,,1,1.0
-2564,Roha Family Office,Family office,,,,,,1,0.0
-2566,Invesco Mutual Fund,Institutional,,,,,,1,0.0
-2567,Société Générale,Individual,,,,,,1,0.0
-2568,Edelweiss Mutual Fund,Institutional,,,,,,1,0.0
-2570,India Acorn ICAV,Individual,,,,,,1,0.0
-2572,Luxe Opco Holdings,Institutional,,,,,,1,1.0
-2573,Kunal Khanna,Individual,,,,,,1,0.0
-2574,Krishna Jain,Individual,,,,,,1,0.0
-2575,PVS Raju,Individual,,,,,,1,0.0
-2579,Tenity,Institutional,,,,,,1,0.0
-2581,Karekeba Ventures / Cogniphy AIF Fund,Institutional,,,,,,1,0.0
-2582,MoneyVyapaar,Institutional,,,,,,1,0.0
-2583,Indian Accelerator,Accelerator,,,,,,1,0.0
-2584,Bay Area angels,Angel network,,,,,,1,0.0
-2587,Arthos Corporate,Institutional,,,,,,1,0.0
-2588,ElectroMech India,Individual,,,,,,1,0.0
-2594,Ankit Kawatra,Individual,,,,,,1,0.0
-2595,Kishore Jagjival Gokal,Individual,,,,,,1,0.0
-2596,Srinivas Rao Ravuri,Individual,,,,,,1,0.0
-2597,Kailash Ramlal Jhaveri,Individual,,,,,,1,0.0
-2598,Nuvama Wealth,Individual,,,,,,1,0.0
-2599,Dezerv,Institutional,,,,,,1,0.0
-2600,The South Indian Bank,Debt / Bank,,,,,,1,0.0
-2601,Fiedlin Ventures,Institutional,,,,,,1,0.0
-2602,Smile Gate Group,Corporate,,,,,,1,1.0
-2603,Mukul Agarwal and affiliates,Institutional,,,,,,1,1.0
-2605,"A, Paul SRC SPV V, LLC",Institutional,,,,,,1,0.0
-2606,AVCF1 (Aditum Venture Capital Fund),Institutional,,,,,,1,1.0
-2607,Aranya Holding Ventures LLP,Institutional,,,,,,1,0.0
-2608,AR Enterprises,Individual,,,,,,1,0.0
-2609,Ativira Technologies,Individual,,,,,,1,0.0
-2610,Aviral Bhatnagar,Individual,,,,,,1,0.0
-2611,Jongsong Investments (Temasek),Institutional,,,,,,1,1.0
-2612,Manoj Kumar Meena,Individual,,,,,,1,0.0
-2613,Sibabrata Das,Individual,,,,,,1,0.0
-2615,Calabasas Ventures,Institutional,,,,,,1,0.0
-2616,Sushmita Mathur,Individual,,,,,,1,0.0
-2617,Ojaswa Sharma,Individual,,,,,,1,0.0
-2618,Anil Kumar Goteti,Individual,,,,,,1,0.0
-2620,SVAS,Institutional,,,,,,1,0.0
-2621,Sigma,Institutional,,,,,,1,0.0
-2623,Atlantic Bridge,Individual,,,,,,1,1.0
-2625,Madrona,Institutional,,,,,,1,0.0
-2626,Sheela Foam,Individual,,,,,,1,1.0
-2633,Mahindra MF,Individual,,,,,,1,0.0
-2634,Bajaj Life Insurance,Individual,,,,,,1,0.0
-2635,Ashoka WhiteOak,Individual,,,,,,1,0.0
-2636,OfBusiness,Institutional,,,,,,1,1.0
-2637,Raghav Chandra,Individual,,,,,,1,0.0
-2640,IPV International,Individual,,,,,,1,0.0
-2641,Saket Narang,Individual,,,,,,1,0.0
-2643,Waaree Renewable Technologies,Individual,,,,,,1,0.0
-2644,Five Sigma,Individual,,,,,,1,1.0
-2646,Anupam Jalote,Individual,,,,,,1,0.0
-2647,Narayan,Institutional,,,,,,1,0.0
-2649,Ministry of Heavy Industries,Corporate,,,,,,1,1.0
-2650,Quona Accion Inclusion Fund,Institutional,,,,,,1,0.0
-2652,Snam Solutions,Individual,,,,,,1,1.0
-2657,Vakil Housing,Individual,,,,,,1,1.0
-2658,Parthasarathy NS,Individual,,,,,,1,0.0
-2659,Ramakrishna,Institutional,,,,,,1,0.0
-2660,Umashankar,Institutional,,,,,,1,0.0
-2661,Vadiraj Katti,Individual,,,,,,1,0.0
-2662,Suresh Pillay,Individual,,,,,,1,0.0
-2663,Anand Narayanan,Individual,,,,,,1,0.0
-2665,Lotus Herbals’ Beauty Innovation Fund,Institutional,,,,,,1,0.0
-2669,Kamal Puri,Individual,,,,,,1,0.0
-2670,Vrinda Goyal,Individual,,,,,,1,0.0
-2671,Haresh Patel,Individual,,,,,,1,0.0
-2672,Maneesh Shrivastav,Individual,,,,,,1,0.0
-2673,Twin & Bull Family Office,Family office,,,,,,1,0.0
-2676,M2P,Institutional,,,,,,1,0.0
-2677,Turtlemint,Institutional,,,,,,1,0.0
-2678,Kissht,Institutional,,,,,,1,0.0
-2679,US-based strategic investors,Institutional,,,,,,1,0.0
-2680,India Accelerator & Finvolve,Accelerator,,,,,,1,0.0
-2681,Equentis Wealth Advisory Services,Individual,,,,,,1,0.0
-2682,Grand Anicut Angel Fund,Angel network,,,,,,1,0.0
-2683,Rukum Sitara Fund,Institutional,,,,,,1,0.0
-2684,Ankurit Capital,Institutional,,,,,,1,0.0
-2685,Sandip Gupta,Individual,,,,,,1,0.0
-2686,Rajdip Gupta,Individual,,,,,,1,0.0
-2687,SanRaj Family Ventures Pvt. Ltd,Institutional,,,,,,1,0.0
-2689,Kitty Agarwal,Individual,,,,,,1,0.0
-2690,SVF II Ostrich (DE) LLC,Institutional,,,,,,1,0.0
-2691,Rajesh Ranavat,Individual,,,,,,1,1.0
-2692,Vivek Gaur,Individual,,,,,,1,0.0
-2693,Vikram Tandon,Individual,,,,,,1,0.0
-2694,Mufin Green,Individual,,,,,,1,0.0
-2695,Anupam Finserv,Individual,,,,,,1,0.0
-2696,CreedCap,Institutional,,,,,,1,1.0
-2698,Meraki Sport & Entertainment,Institutional,,,,,,1,0.0
-2700,Param Kandhari,Individual,,,,,,1,0.0
-2701,Naresh Krishnaswamy,Individual,,,,,,1,0.0
-2702,Abhinav Mathur,Individual,,,,,,1,0.0
-2703,Hemanshu Jain,Individual,,,,,,1,0.0
-2704,Vinay Bhopatkar,Individual,,,,,,1,0.0
-2705,Vaibhav Sisinty,Individual,,,,,,1,0.0
-2706,Dalvir Suri,Individual,,,,,,1,0.0
-2707,Rishit Jhunjhunwala,Individual,,,,,,1,0.0
-2708,Shaili Chopra,Individual,,,,,,1,0.0
-2712,"Founders and senior operators from Zetwerk, Livspace, Unacademy, Urban Vault, and Panthera Peak",Institutional,,,,,,1,0.0
-2713,Keynote Financial Services Limited,Corporate,,,,,,1,0.0
-2714,JS Global,Individual,,,,,,1,0.0
-2715,Orange Collective,Individual,,,,,,1,0.0
-2716,Transpose Capital,Institutional,,,,,,1,0.0
-2717,Eight Capital,Institutional,,,,,,1,0.0
-2718,AIC-AU Incubation Foundation,Institutional,,,,,,1,0.0
-2719,Cap-A,Institutional,,,,,,1,0.0
-2720,Microsoft,Institutional,,,,,,1,0.0
-2721,First Cheque by India Quotient,Institutional,,,,,,1,1.0
-2722,SRF Ltd,Corporate,,,,,,1,1.0
-2723,Havells India (QRG Investment & Holdings),Institutional,,,,,,1,1.0
-2724,Arushi Aayush Agrawal,Individual,,,,,,1,0.0
-2725,Ash Lilani,Individual,,,,,,1,0.0
-2726,Sanjay Kapoor,Individual,,,,,,1,0.0
-2727,ZeroW,Institutional,,,,,,1,1.0
-2728,Ikemori Ventures,Institutional,,,,,,1,0.0
-2730,Inovia VC,Institutional,,,,,,1,0.0
-2731,Raju Menon,Individual,,,,,,1,1.0
-2732,Suresh Katamreddy,Individual,,,,,,1,1.0
-2733,Acumen Fund,Institutional,,,,,,1,1.0
-2734,Upaya Social Ventures,Institutional,,,,,,1,0.0
-2735,GGV Ventures,Institutional,,,,,,1,0.0
-2736,Anand Prabhudesai,Individual,,,,,,1,0.0
-2737,Dhirendra Mahyavanshi,Individual,,,,,,1,0.0
-2739,Reliance Business Ventures,Institutional,,,,,,1,1.0
-2740,Nyca Partners,Institutional,,,,,,1,1.0
-2744,Data Tech Fund,Institutional,,,,,,1,0.0
-2745,John Pepper,Individual,,,,,,1,0.0
-2746,9Yards Capital,Institutional,,,,,,1,0.0
-2750,NBD Ventures,Institutional,,,,,,1,0.0
-2751,888 VC,Institutional,,,,,,1,0.0
-2752,DCG Pack,Individual,,,,,,1,0.0
-2754,Vaishav Investments,Institutional,,,,,,1,0.0
-2756,Shivam Puri,Individual,,,,,,1,0.0
-2760,Global South Capital,Institutional,,,,,,1,0.0
-2761,ixigo,Institutional,,,,,,1,1.0
-2763,InVideo,Institutional,,,,,,1,1.0
-2764,RedBull India,Individual,,,,,,1,1.0
-2765,Anthropic,Institutional,,,,,,1,1.0
-2766,Eros International,Individual,,,,,,1,1.0
-2770,Blackstone-affiliated private equity funds,Institutional,,,,,,1,1.0
-2771,360 ONE Assets,Institutional,,,,,,1,0.0
-2772,THCL Travel Holding Cyprus Limited,Corporate,,,,,,1,0.0
-2773,Sekar PRC,Individual,,,,,,1,1.0
-2774,Sudip Nandy,Individual,,,,,,1,1.0
-2775,Knowhere Ventures LLC,Institutional,,,,,,1,1.0
-2776,Pacific Global Solutions Limited,Corporate,,,,,,1,1.0
-2777,LeadAngels FLV,Angel network,,,,,,1,1.0
-2778,Vipul Prakash,Individual,,,,,,1,0.0
-2779,Sandeep Johri,Individual,,,,,,1,0.0
-2780,RCD Holdings,Institutional,,,,,,1,0.0
-2782,Caperize Fina,Individual,,,,,,1,0.0
-2783,MAIQ Growth Scheme,Individual,,,,,,1,0.0
-2785,Raamdeo Agarwal,Individual,,,,,,1,0.0
-2786,Taparia Family Office,Family office,,,,,,1,0.0
-2788,RP Sanjiv Goenka Group,Corporate,,,,,,1,0.0
-2790,Haldiram Snacks Family Office,Family office,,,,,,1,0.0
-2791,Sekhsaria Family Office,Family office,,,,,,1,0.0
-2792,Kalyan Family Office,Family office,,,,,,1,0.0
-2793,Happy Forgings Family Office,Family office,,,,,,1,0.0
-2794,Mothers Recipe Family Office (Desai Brothers),Family office,,,,,,1,0.0
-2796,Abhishek Bachchan,Individual,,,,,,1,0.0
-2797,Moglix,Institutional,,,,,,1,0.0
-2798,Cedars Sinai,Individual,,,,,,1,0.0
-2799,Eragon,Institutional,,,,,,1,0.0
-2802,Ramesh Bafna,Individual,,,,,,1,0.0
-2803,Siddharth,Institutional,,,,,,1,0.0
-2804,Vinit Gautam,Individual,,,,,,1,0.0
-2805,Amitabh Suri,Individual,,,,,,1,0.0
-2807,Chittorgarh Infotech Limited,Corporate,,,,,,1,0.0
-2809,Tryrock Capital Trust AIF,Institutional,,,,,,1,0.0
-2811,AP Ventures,Institutional,,,,,,1,1.0
-2812,IIM Udaipur Incubation Centre,Accelerator,,,,,,1,1.0
-2813,Shift Alt Cap,Individual,,,,,,1,0.0
-2818,BC Jindal Group,Corporate,,,,,,1,1.0
-2819,Matrix Partners India DeVC,Institutional,,,,,,1,0.0
-2820,Waterfield Fund,Institutional,,,,,,1,0.0
-2824,Srinath Ramakkrushnan,Individual,,,,,,1,0.0
-2826,Digital Finance International,Individual,,,,,,1,1.0
-2827,Shell Foundation,Institutional,,,,,,1,1.0
-2828,Ram Govindarajan,Individual,,,,,,1,0.0
-2829,Sumit Agarwal,Individual,,,,,,1,0.0
-2833,Lip-Bu Tan,Individual,,,,,,1,0.0
-2835,Kaizenvest PE,Individual,,,,,,1,0.0
-2836,Ahmed Ali Husain Nalwala,Individual,,,,,,1,0.0
-2837,DS Group (Dharampal Satyapal Ltd),Corporate,,,,,,1,0.0
-2838,Hemin Shah,Individual,,,,,,1,1.0
-2839,Sudhakar Moparthy,Individual,,,,,,1,1.0
-2840,Al Zarooni Emirates,Individual,,,,,,1,1.0
-2841,IA Fund,Institutional,,,,,,1,0.0
-2844,Kesh Kala Family Office,Family office,,,,,,1,1.0
-2847,Ahana Gupta,Individual,,,,,,1,1.0
-2850,Rethink Education Ventures,Institutional,,,,,,1,1.0
-2853,Bharti Airtel,Individual,,,,,,1,1.0
-2854,Nikhil Bakshi,Individual,,,,,,1,0.0
-2855,Vivek Kapoor,Individual,,,,,,1,0.0
-2856,Janeville Limited,Corporate,,,,,,1,1.0
-2858,Meera Reddy,Individual,,,,,,1,0.0
-2859,Kartik Meyyappan,Individual,,,,,,1,0.0
-2860,L. Ramkumar,Individual,,,,,,1,0.0
-2861,Sivadas Raghava,Individual,,,,,,1,0.0
-2862,Shailaja Reddy,Individual,,,,,,1,0.0
-2863,Louis Dreyfus Company Ventures,Institutional,,,,,,1,0.0
-2864,Suneight Investment,Institutional,,,,,,1,0.0
-2865,HATCH,Institutional,,,,,,1,0.0
-2867,Indigo AG,Individual,,,,,,1,1.0
-2868,Mahyco,Institutional,,,,,,1,1.0
-2871,Vivek Vig,Individual,,,,,,1,0.0
-2872,Ashneer Grover,Individual,,,,,,1,0.0
-2873,Shankar Nath,Individual,,,,,,1,0.0
-2874,Manish Amin,Individual,,,,,,1,0.0
-2875,VIC Enterprises,Individual,,,,,,1,0.0
-2876,Stallion Ventures,Institutional,,,,,,1,0.0
-2877,Udyat Ventures,Institutional,,,,,,1,0.0
-2879,Atul Goel,Individual,,,,,,1,0.0
-2880,Shrishti Sahu,Individual,,,,,,1,0.0
-2881,Kundan Group,Corporate,,,,,,1,1.0
-2882,Brindavan Group,Corporate,,,,,,1,1.0
-2883,Infotel Business Solution,Individual,,,,,,1,1.0
-2884,Consensys Mesh,Individual,,,,,,1,1.0
-2885,Infinite Capital,Institutional,,,,,,1,1.0
-2886,Gnosis,Institutional,,,,,,1,1.0
-2887,Stefan George,Individual,,,,,,1,1.0
-2888,Mahin Gupta,Individual,,,,,,1,1.0
-2889,OrangeDAO,Institutional,,,,,,1,1.0
-2890,Furqan Rydhan,Individual,,,,,,1,1.0
-2892,Zinal Growth,Individual,,,,,,1,1.0
-2895,Nikhil Srivastava,Individual,,,,,,1,0.0
-2896,Rishi Vasudev,Individual,,,,,,1,0.0
-2897,Bbigplas Poly Private Ltd,Corporate,,,,,,1,0.0
-2899,Shiva Singh Sangwan,Individual,,,,,,1,0.0
-2900,Anuj Tejpal,Individual,,,,,,1,0.0
-2901,Manu Gupta,Individual,,,,,,1,0.0
-2902,Frontline Strategy Funds,Institutional,,,,,,1,1.0
-2903,Khimji Family,Individual,,,,,,1,0.0
-2904,Sarvann,Institutional,,,,,,1,0.0
-2905,Calega Family Office,Family office,,,,,,1,0.0
-2906,Kaleesuwari Group,Corporate,,,,,,1,1.0
-2907,Anshul Rai,Individual,,,,,,1,0.0
-2908,Kashyap Deorah,Individual,,,,,,1,0.0
-2909,Girish Gulati,Individual,,,,,,1,1.0
-2910,Dnyanesh Bhatavadekar,Individual,,,,,,1,1.0
-2911,Neha Idnany,Individual,,,,,,1,1.0
-2912,Yogesh Bagaria,Individual,,,,,,1,1.0
-2913,Amit Bagaria,Individual,,,,,,1,1.0
-2914,Clal Insurance,Individual,,,,,,1,0.0
-2916,Vishal Chaudhary,Individual,,,,,,1,0.0
-2917,Rehan Khan,Individual,,,,,,1,0.0
-2918,Jawaid Iqbal,Individual,,,,,,1,0.0
-2919,Anubhav,Institutional,,,,,,1,0.0
-2920,Ankit Singh,Individual,,,,,,1,0.0
-2922,Vikas Bagaria,Individual,,,,,,1,0.0
-2923,Ananya Goenka,Individual,,,,,,1,0.0
-2924,Sequoia India and Southeast Asia's Surge,Institutional,,,,,,1,1.0
-2927,Mumbai Angel Network,Angel network,,,,,,1,0.0
-2928,Vaishnav Shetty,Individual,,,,,,1,0.0
-2929,Pirojshaw Sarkari,Individual,,,,,,1,0.0
-2932,Himanshu Periwal,Individual,,,,,,1,0.0
-2934,Jitendra Jagadev,Individual,,,,,,1,0.0
-2936,Anuj Bishnoi,Individual,,,,,,1,0.0
-2937,Ankit Maheshwari,Individual,,,,,,1,0.0
-2938,Divyanshu Anand,Individual,,,,,,1,0.0
-2939,Shakeeb Anwar,Individual,,,,,,1,0.0
-2940,Sarath Ruthvic,Individual,,,,,,1,0.0
-2941,LV Fund,Institutional,,,,,,1,0.0
-2942,CIIE Regional Innovation Foundation,Institutional,,,,,,1,0.0
-2944,S. Chand Family Office,Family office,,,,,,1,1.0
-2945,Sanjeev Kumar,Individual,,,,,,1,0.0
-2946,Rahul Dalmia,Individual,,,,,,1,0.0
-2947,Affle Global,Individual,,,,,,1,1.0
-2948,Meenakshi Sundaram,Individual,,,,,,1,1.0
-2949,Jaikumar R,Individual,,,,,,1,1.0
-2950,Rahul Mahipal,Individual,,,,,,1,1.0
-2952,Amith D'Souza,Individual,,,,,,1,1.0
-2953,Viko Ventures,Institutional,,,,,,1,0.0
-2954,Reddy Futures LLP,Institutional,,,,,,1,0.0
-2955,ADIA,Institutional,,,,,,1,0.0
-2960,Shopify,Institutional,,,,,,1,0.0
-2961,QCM Holdings,Institutional,,,,,,1,0.0
-2962,M.V. Nair,Individual,,,,,,1,1.0
-2963,Possible Ventures,Institutional,,,,,,1,0.0
-2965,Founders Angel Network,Angel network,,,,,,1,0.0
-2966,JIIF Shark Angels,Angel network,,,,,,1,0.0
-2967,UIncept,Institutional,,,,,,1,0.0
-2968,POD,Institutional,,,,,,1,0.0
-2969,Harsh Pokharna,Individual,,,,,,1,0.0
-2970,Bhola Meena,Individual,,,,,,1,0.0
-2971,On Mauritius,Individual,,,,,,1,1.0
-2972,NFX,Institutional,,,,,,1,1.0
-2973,Tamil Nadu Startup and Innovation Mission (TANSIM),Institutional,,,,,,1,0.0
-2974,Capricon Realty,Individual,,,,,,1,1.0
-2979,VentureSoul Partners,Institutional,,,,,,1,1.0
-2980,Vyom Wealth,Individual,,,,,,1,1.0
-2981,SN Capital,Institutional,,,,,,1,0.0
-2982,Morphosis Venture Capital,Institutional,,,,,,1,1.0
-2983,NAB Ventures,Institutional,,,,,,1,0.0
-2984,NV Alpha Fund Management,Institutional,,,,,,1,0.0
-2985,HF0 Residency,Individual,,,,,,1,1.0
-2986,Apollo Global Management,Institutional,,,,,,1,1.0
-2987,Addition,Institutional,,,,,,1,0.0
-2988,Hrithik Roshan,Individual,,,,,,1,1.0
-2989,Parthiv Patel,Individual,,,,,,1,1.0
-2993,12 Flags Consumer Holdings,Institutional,,,,,,1,1.0
-2994,Apis Growth Fund II,Institutional,,,,,,1,1.0
-2996,Vivek Vikram Singh,Individual,,,,,,1,0.0
-2997,Holtzbrinck Publishing Group,Corporate,,,,,,1,1.0
-2998,GMJP,Institutional,,,,,,1,0.0
-2999,Graphic India,Individual,,,,,,1,0.0
-3000,Gen Fukunaga,Individual,,,,,,1,1.0
-3001,Antique Securities,Institutional,,,,,,1,0.0
-3002,HNI family offices,Family office,,,,,,1,0.0
-3003,M&G Prudential,Individual,,,,,,1,0.0
-3004,Pegasus India Fund,Institutional,,,,,,1,1.0
-3005,BITS BioCyTiH Foundation,Institutional,,,,,,1,0.0
-3006,VCats Group,Corporate,,,,,,1,0.0
-3007,HSBC Innovation Banking,Institutional,,,,,,1,0.0
-3010,Edaphon,Institutional,,,,,,1,1.0
-3011,AI Fund,Institutional,,,,,,1,1.0
-3013,Hindon Mercantil,Individual,,,,,,1,1.0
-3014,Srikar Reddy,Individual,,,,,,1,1.0
-3015,DFAN,Institutional,,,,,,1,0.0
-3016,Serica Angel Fund,Angel network,,,,,,1,0.0
-3017,Dynamis Ventures,Institutional,,,,,,1,0.0
-3018,IIT Madras Incubation Cell,Accelerator,,,,,,1,1.0
-3019,Goel Group,Corporate,,,,,,1,1.0
-3020,Daimler India Commercial Vehicles,Individual,,,,,,1,1.0
-3022,Stakeboat Capital Fund II,Institutional,,,,,,1,1.0
-3023,ML Tondon and Sons HUF,Institutional,,,,,,1,0.0
-3025,Coast Fund VC,Institutional,,,,,,1,1.0
-3026,SSK Exports,Individual,,,,,,1,0.0
-3029,senior management,Institutional,,,,,,1,1.0
-3032,Vimal Khinvasara,Individual,,,,,,1,0.0
-3033,Ashok Shah,Individual,,,,,,1,0.0
-3034,Amit Chandwar,Individual,,,,,,1,0.0
-3035,ElectriFI,Institutional,,,,,,1,1.0
-3036,Chroma Impact Investment,Institutional,,,,,,1,0.0
-3037,KawiSafi Ventures,Institutional,,,,,,1,0.0
-3038,AXA IM Alts,Individual,,,,,,1,0.0
-3040,Maersk,Institutional,,,,,,1,0.0
-3041,Intesa Sanpaolo,Individual,,,,,,1,0.0
-3042,Heliad,Institutional,,,,,,1,0.0
-3043,Infoedge (Redstart),Institutional,,,,,,1,0.0
-3044,MountTech Growth Fund,Institutional,,,,,,1,1.0
-3045,Finsight Ventures,Institutional,,,,,,1,0.0
-3046,Harbourfront Capital,Institutional,,,,,,1,0.0
-3047,Pegasus India Evolving Opportunities Fund,Institutional,,,,,,1,0.0
-3049,Keshav Reddy,Individual,,,,,,1,1.0
-3050,Karan Adani,Individual,,,,,,1,0.0
-3051,D S Brar,Individual,,,,,,1,0.0
-3052,Fenice Investment Group,Corporate,,,,,,1,0.0
-3054,Breathe Capital,Institutional,,,,,,1,0.0
-3055,Keshav Bhajanka,Individual,,,,,,1,0.0
-3056,Sanjay Agarwal,Individual,,,,,,1,0.0
-3057,Kanishka Sethia,Individual,,,,,,1,0.0
-3060,Murali Subramanian,Individual,,,,,,1,0.0
-3061,Ram Bhamidi,Individual,,,,,,1,0.0
-3062,Aneesh Garg,Individual,,,,,,1,0.0
-3063,Rahul Guptan,Individual,,,,,,1,0.0
-3064,Mudhal Partners,Institutional,,,,,,1,1.0
-3065,Abhiraj Bhal,Individual,,,,,,1,0.0
-3067,Avtar Monga,Individual,,,,,,1,0.0
-3068,Fireside Venture Investment Fund III,Institutional,,,,,,1,1.0
-3069,Shezan Bhojani,Individual,,,,,,1,0.0
-3070,Chandru Kalro,Individual,,,,,,1,0.0
-3073,Aashka Goradia Goble,Individual,,,,,,1,0.0
-3075,Government Pension Fund (Norges Fund),Institutional,,,,,,1,0.0
-3077,Prarambh Ventures,Institutional,,,,,,1,1.0
-3079,Navis Capital Partners,Institutional,,,,,,1,1.0
-3081,Dia Vikas Capital,Institutional,,,,,,1,0.0
-3085,Finsight Seed Fund,Institutional,,,,,,1,0.0
-3086,consortium of angel investors,Angel network,,,,,,1,0.0
-3088,Shrenik Ghodawat,Individual,,,,,,1,0.0
-3089,The Schiehallion Fund,Institutional,,,,,,1,0.0
-3090,Acron Heavy Industries,Individual,,,,,,1,0.0
-3091,AEX4 LLC,Individual,,,,,,1,0.0
-3092,The Chinkerpoo Family Trust,Family office,,,,,,1,0.0
-3093,Prashasta Seth (Prudent Investment Manager),Institutional,,,,,,1,1.0
-3094,Perpetuity Ventures,Institutional,,,,,,1,0.0
-3096,Ashish Kasholia (Lucky Investments),Institutional,,,,,,1,1.0
-3097,LV Angel,Angel network,,,,,,1,0.0
-3101,IE Ventures Fund Follow-On,Institutional,,,,,,1,0.0
-3102,existing promoters,Institutional,,,,,,1,0.0
-3103,surgeons,Institutional,,,,,,1,0.0
-3104,medical professionals,Institutional,,,,,,1,0.0
-3105,bankers,Institutional,,,,,,1,0.0
-3106,Mars Veterinary Health,Individual,,,,,,1,1.0
-3107,SFMG Wealth Advisors,Institutional,,,,,,1,0.0
-3108,Gregg Fisher (Quent Capital),Institutional,,,,,,1,0.0
-3109,XYZ Ventures,Institutional,,,,,,1,0.0
-3110,ANBG Enterprise LLP (Godrej Family Office),Family office,,,,,,1,1.0
-3111,Ravindernath Chadha,Individual,,,,,,1,0.0
-3112,Reena Dayal,Individual,,,,,,1,0.0
-3113,Kalaari Capital's CXXO initiative,Institutional,,,,,,1,1.0
-3115,MINTCAP,Institutional,,,,,,1,0.0
-3116,MedMountain Ventures,Institutional,,,,,,1,0.0
-3117,Rebellion VC,Institutional,,,,,,1,0.0
-3120,Moore Capital,Institutional,,,,,,1,0.0
-3121,JN Capital & Growth Advisory,Institutional,,,,,,1,0.0
-3125,Seedcamp,Institutional,,,,,,1,1.0
-3126,EWOR,Institutional,,,,,,1,0.0
-3127,Entropy Industrial Ventures,Institutional,,,,,,1,0.0
-3128,Concept Ventures,Institutional,,,,,,1,0.0
-3129,Stan Boland,Individual,,,,,,1,0.0
-3131,Amitoj Singh,Individual,,,,,,1,0.0
-3132,Aman Rajpal,Individual,,,,,,1,0.0
-3133,Ankur Kathuria,Individual,,,,,,1,0.0
-3134,Deepak Garg,Individual,,,,,,1,0.0
-3135,Coronation Fund Managers,Institutional,,,,,,1,1.0
-3136,Boost VC,Institutional,,,,,,1,0.0
-3137,2.2 Capital,Institutional,,,,,,1,0.0
-3138,Arjit Johri,Individual,,,,,,1,0.0
-3139,Yash Jain,Individual,,,,,,1,0.0
-3140,Nishank Jain,Individual,,,,,,1,0.0
-3141,Yashvardhan Kanoi,Individual,,,,,,1,0.0
-3142,Ashwarya Garg,Individual,,,,,,1,0.0
-3143,Amishi Parasrampuria,Individual,,,,,,1,0.0
-3144,UntitledVC,Institutional,,,,,,1,0.0
-3145,Department of Science and Technology,Institutional,,,,,,1,0.0
-3146,NSRCEL–IIM Bangalore,Accelerator,,,,,,1,0.0
-3147,SustainTN,Institutional,,,,,,1,0.0
-3148,ITEL Foundation,Institutional,,,,,,1,0.0
-3150,noa,Institutional,,,,,,1,0.0
-3151,Aaroh Fund,Institutional,,,,,,1,0.0
-3152,Antler Singapore,Accelerator,,,,,,1,1.0
-3154,Dabur Ventures,Institutional,,,,,,1,1.0
-3155,promoters and existing shareholders,Institutional,,,,,,1,0.0
-3156,Al Nahyan family,Institutional,,,,,,1,0.0
-3157,Al-Ketbi family,Institutional,,,,,,1,0.0
-3158,Pulsar Capital,Institutional,,,,,,1,0.0
-3159,MakeMyTrip,Institutional,,,,,,1,0.0
-3160,Invention Engine,Individual,,,,,,1,0.0
-3161,Cognify,Institutional,,,,,,1,0.0
-3162,AIF,Institutional,,,,,,1,0.0
-3163,IIM Lucknow Enterprise Incubation Centre,Accelerator,,,,,,1,0.0
-3164,Velo Partners,Institutional,,,,,,1,0.0
-3166,Long Journey Ventures,Institutional,,,,,,1,0.0
-3167,Eversource Capital,Institutional,,,,,,1,0.0
-3169,Rishubh Satiya,Individual,,,,,,1,0.0
-3170,Rohit Chawla,Individual,,,,,,1,0.0
-3171,Sifat Khurana,Individual,,,,,,1,0.0
-3172,Shayamal Vallabhjee,Individual,,,,,,1,0.0
-3173,Mangum II,Individual,,,,,,1,0.0
-3174,Medra Family,Individual,,,,,,1,0.0
-3175,Pallavi Mohadikar,Individual,,,,,,1,0.0
-3177,Arc180,Institutional,,,,,,1,0.0
-3178,HAF,Institutional,,,,,,1,0.0
-3180,Apekso,Institutional,,,,,,1,0.0
-3182,Pi Labs,Institutional,,,,,,1,1.0
-3183,Haatch,Institutional,,,,,,1,0.0
-3184,Navigate Ventures,Institutional,,,,,,1,0.0
-3185,Old College Capital,Institutional,,,,,,1,0.0
-3186,Punjab National Bank,Debt / Bank,,,,,,1,1.0
-3187,Ashra Private Equity Fund,Institutional,,,,,,1,0.0
-3188,Impact Fund Denmark,Institutional,,,,,,1,1.0
-3190,Aurum Rising India Fund,Institutional,,,,,,1,0.0
-3191,Run Ventures,Institutional,,,,,,1,1.0
-3193,Catamaran Ventures,Institutional,,,,,,1,0.0
-3194,founders of Groww,Institutional,,,,,,1,0.0
-3195,Manish Taneja,Individual,,,,,,1,0.0
-3197,Aaruha Technology Fund,Institutional,,,,,,1,0.0
-3198,Vikash Agarwal (Rupa Family Office),Family office,,,,,,1,0.0
-3200,Anshuman Singh,Individual,,,,,,1,0.0
-3201,JIF Capital,Institutional,,,,,,1,1.0
-3202,15th Rock,Institutional,,,,,,1,0.0
-3203,Vishal Shah,Individual,,,,,,1,0.0
-3204,Varun Patel,Individual,,,,,,1,0.0
-3205,Viraj Lavingia,Individual,,,,,,1,0.0
-3206,Bhavin Sodavadiya,Individual,,,,,,1,0.0
-3208,Vi-John Group,Corporate,,,,,,1,0.0
-3209,Sanjay Singhvi,Individual,,,,,,1,0.0
-3210,Bavadeep Reddy,Individual,,,,,,1,0.0
-3211,Malani Ventures,Institutional,,,,,,1,0.0
-3212,Gurshant Singh Bhatia,Individual,,,,,,1,0.0
-3213,Sunny Bhatia,Individual,,,,,,1,0.0
-3214,Upkaran Singh Chawla,Individual,,,,,,1,0.0
-3215,Harbir Dhingra,Individual,,,,,,1,0.0
-3216,Ajay Mehra,Individual,,,,,,1,0.0
-3217,Samir Palod,Individual,,,,,,1,0.0
-3218,Kishore Biyani,Individual,,,,,,1,0.0
-3219,"founders of Unacademy, Mosaic Wellness, Livspace and others",Institutional,,,,,,1,0.0
-3221,Bahram N Vakil,Individual,,,,,,1,0.0
-3222,Vinod Rustagi,Individual,,,,,,1,0.0
-3223,Amit Rathi,Individual,,,,,,1,0.0
-3224,Sanjit Advani,Individual,,,,,,1,0.0
-3225,Lendable,Institutional,,,,,,1,1.0
-3228,founders of Razorpay,Institutional,,,,,,1,0.0
-3229,Bhukhanwala Industries,Individual,,,,,,1,0.0
-3232,Riyan Parag,Individual,,,,,,1,1.0
-3233,Coheron Wealth,Individual,,,,,,1,0.0
-3235,Susquehanna International Group (SIG),Corporate,,,,,,1,0.0
-3236,Hero Investment Office,Institutional,,,,,,1,0.0
-3237,35 North Ventures,Institutional,,,,,,1,0.0
-3238,Indusbridge Ventures,Institutional,,,,,,1,0.0
-3239,Monarch Holdings,Institutional,,,,,,1,0.0
-3240,Riambel Capital PCC,Institutional,,,,,,1,0.0
-3242,Classic Enterprises,Individual,,,,,,1,0.0
-3244,Shreyas Shibulal,Individual,,,,,,1,0.0
-3246,Sascha Mornell,Individual,,,,,,1,0.0
-3249,Greenstone Capital,Institutional,,,,,,1,1.0
-3252,Anup Agarwal,Individual,,,,,,1,0.0
-3253,Vinay Bagri,Individual,,,,,,1,0.0
-3254,Lightspeed Faction,Individual,,,,,,1,1.0
-3255,M13,Institutional,,,,,,1,1.0
-3256,Northzone,Institutional,,,,,,1,1.0
-3257,HegdInvst,Institutional,,,,,,1,1.0
-3260,Shikhar Raj,Individual,,,,,,1,0.0
-3262,Madhur Gupta,Individual,,,,,,1,0.0
-3263,Kartik Hosanagar,Individual,,,,,,1,0.0
-3265,Emami,Institutional,,,,,,1,1.0
-3266,Konvoy,Institutional,,,,,,1,1.0
-3267,Taisu Ventures,Institutional,,,,,,1,0.0
-3268,IIMA-CIIE,Accelerator,,,,,,1,0.0
-3272,Fundalogical Ventures,Institutional,,,,,,1,1.0
-3274,Amiya Pathak,Individual,,,,,,1,0.0
-3276,ICMG Global Ventures,Institutional,,,,,,1,0.0
-3277,MSN Holdings,Institutional,,,,,,1,1.0
-3278,Venturizer,Institutional,,,,,,1,1.0
-3279,Tarun Billa,Individual,,,,,,1,0.0
-3280,Mayank Singh Tomar,Individual,,,,,,1,0.0
-3282,A.P. Moller Holding,Individual,,,,,,1,0.0
-3283,Founders of OnGrid and HROne,Institutional,,,,,,1,0.0
-3285,Euro Gulf Investment,Institutional,,,,,,1,1.0
-3286,Artha Venture Fund II,Institutional,,,,,,1,1.0
-3287,Himanshu Ratnoo,Individual,,,,,,1,0.0
-3288,Kunal Gupta,Individual,,,,,,1,0.0
-3289,Devaiah Bopanna,Individual,,,,,,1,0.0
-3290,Vikrant Potnis,Individual,,,,,,1,0.0
-3291,Rinshul Chandra,Individual,,,,,,1,0.0
-3292,Harpreet Grover,Individual,,,,,,1,0.0
-3293,Anurag Prasad,Individual,,,,,,1,0.0
-3294,Harish Varadarajan,Individual,,,,,,1,0.0
-3295,Redbrook Fund,Institutional,,,,,,1,1.0
-3298,SB Investment,Institutional,,,,,,1,0.0
-3299,Prakash Govindan,Individual,,,,,,1,0.0
-3300,Himanshu Singhal,Individual,,,,,,1,0.0
-3301,Optiscape Network Holdings,Angel network,,,,,,1,0.0
-3303,Pramod Bhasin,Individual,,,,,,1,0.0
-3304,WVC,Institutional,,,,,,1,0.0
-3305,Shreyas Iyer,Individual,,,,,,1,0.0
-3306,Ravindra Jadeja,Individual,,,,,,1,0.0
-3307,Tilak Varma,Individual,,,,,,1,0.0
-3308,Sai Sudharsan,Individual,,,,,,1,0.0
-3309,Hardik Pandya,Individual,,,,,,1,0.0
-3311,Metica,Institutional,,,,,,1,1.0
-3312,Shepherd's Hill Private Equity,Institutional,,,,,,1,0.0
-3313,ESV-Arthya AIF,Individual,,,,,,1,0.0
-3314,Crucifer Investments,Institutional,,,,,,1,1.0
-3315,Gaurav Kapoor,Individual,,,,,,1,0.0
-3316,Hindustan Times,Individual,,,,,,1,1.0
-3317,Oxyzo,Institutional,,,,,,1,0.0
-3318,360 ONE Opportunities Fund,Institutional,,,,,,1,0.0
-3319,Praveek Ventures,Institutional,,,,,,1,1.0
-3320,Arvind Choudhar,Individual,,,,,,1,0.0
-3321,Aenik Shah,Individual,,,,,,1,0.0
-3322,Kartik Khatri,Individual,,,,,,1,0.0
-3323,Yash Mehta,Individual,,,,,,1,0.0
-3324,iOPEX Technologies,Institutional,,,,,,1,0.0
-3325,Amit Sheth,Individual,,,,,,1,0.0
-3326,Bhavin Manek,Individual,,,,,,1,0.0
-3327,Bijou Kurien,Individual,,,,,,1,0.0
-3330,Sampath Srisailam,Individual,,,,,,1,0.0
-3331,Aaryan Baid,Individual,,,,,,1,0.0
-3332,Sitara Capital,Institutional,,,,,,1,1.0
-3333,Turner Morrison consortium,Institutional,,,,,,1,0.0
-3334,Infosys,Institutional,,,,,,1,1.0
-3335,Maithan Family Office,Family office,,,,,,1,0.0
-3337,247VC,Institutional,,,,,,1,1.0
-3339,Rohit Qamra,Individual,,,,,,1,1.0
-3340,RMRN Ventures,Institutional,,,,,,1,0.0
-3341,BP Jain Holdings,Institutional,,,,,,1,0.0
-3342,Bipin Preet Singh,Individual,,,,,,1,0.0
-3343,Aakash Goyal,Individual,,,,,,1,0.0
-3344,Aditya Singh,Individual,,,,,,1,0.0
-3345,Valiant Fund,Institutional,,,,,,1,0.0
-3346,Sameer Nigam,Individual,,,,,,1,0.0
-3347,Zubin Bharti Mittal,Individual,,,,,,1,0.0
-3348,Anshu Sharma,Individual,,,,,,1,0.0
-3349,Sandhya Devanathan,Individual,,,,,,1,0.0
-3350,Sridhar Pinnapureddy,Individual,,,,,,1,0.0
-3351,HCLTech,Institutional,,,,,,1,1.0
-3352,Raj Dandu Family Office,Family office,,,,,,1,0.0
-3355,Kashish Sharma,Individual,,,,,,1,0.0
-3356,Mount Judi India Growth Fund,Institutional,,,,,,1,1.0
-3359,57 Stars,Institutional,,,,,,1,0.0
-3360,Seven Train Ventures,Institutional,,,,,,1,0.0
-3361,Mirae-Naver Asia Growth Fund,Institutional,,,,,,1,1.0
-3362,Exceed Entertainment,Individual,,,,,,1,0.0
-3363,Founders Club,Individual,,,,,,1,0.0
-3364,Anim Fund,Institutional,,,,,,1,0.0
-3366,Joe Montana,Individual,,,,,,1,0.0
-3367,John Jersin,Individual,,,,,,1,0.0
-3369,Harry Robertson,Individual,,,,,,1,0.0
-3370,Nordstar,Institutional,,,,,,1,0.0
-3371,Virendra Gupta,Individual,,,,,,1,0.0
-3373,Kyush Investments,Institutional,,,,,,1,0.0
-3375,IFC Emerging Asia Fund,Institutional,,,,,,1,1.0
-3376,VEF,Institutional,,,,,,1,1.0
-3377,Sands Capital,Institutional,,,,,,1,0.0
-3378,Manish Chowdhary,Individual,,,,,,1,0.0
-3379,Karan Chowdhary,Individual,,,,,,1,0.0
-3380,Elm,Institutional,,,,,,1,0.0
-3381,Sistema Asia Capital,Institutional,,,,,,1,0.0
-3383,Amansa Capital,Institutional,,,,,,1,0.0
-3384,Carmignac,Institutional,,,,,,1,0.0
-3386,FactorE,Institutional,,,,,,1,0.0
-3391,Souvik Sengupta,Individual,,,,,,1,0.0
-3394,"Founders and co-founders of MakeMyTrip, Cred, INDMoney, Udaan, Unacademy, Razorpay and others",Institutional,,,,,,1,0.0
-3395,Reliance Retail Ventures,Institutional,,,,,,1,1.0
-3396,Kalyan Krishnamurthy,Individual,,,,,,1,0.0
-3397,FedEx Express,Individual,,,,,,1,1.0
-3399,Anand Chandrasekaran,Individual,,,,,,1,0.0
-3401,Vy Capital,Institutional,,,,,,1,1.0
-3404,Hemesh Singh,Individual,,,,,,1,0.0
-3405,Sahil Barua,Individual,,,,,,1,0.0
-3406,SAI Global India Fund,Institutional,,,,,,1,1.0
-3408,"Founders of Vedantu, upGrad, Unacademy, DoubtNut and Avanti",Institutional,,,,,,1,1.0
-3411,Blackrock Global Investments,Institutional,,,,,,1,0.0
-3413,T Rowe Price,Individual,,,,,,1,0.0
-3414,Baillie Gifford,Individual,,,,,,1,0.0
-3415,Bank of Baroda,Debt / Bank,,,,,,1,1.0
-3417,Education Catalyst Fund,Institutional,,,,,,1,0.0
-3418,Yukti Securities,Institutional,,,,,,1,0.0
-3420,Willoughby Capital,Institutional,,,,,,1,0.0
-3421,Antara,Institutional,,,,,,1,0.0
-3422,H&M Group,Corporate,,,,,,1,1.0
-3424,KTB Network,Angel network,,,,,,1,0.0
-3425,Samsung Ventures,Institutional,,,,,,1,0.0
-3426,Fosun RZ Capital,Institutional,,,,,,1,0.0
-3428,GC DF Ventures,Institutional,,,,,,1,0.0
-3431,PharmEasy,Institutional,,,,,,1,0.0
-3432,Merisis VP,Individual,,,,,,1,0.0
-3433,Orios VP,Individual,,,,,,1,0.0
-3435,Fidelity Management & Research Co,Institutional,,,,,,1,1.0
-3437,Fowler Westrup,Individual,,,,,,1,0.0
-3438,IKP,Institutional,,,,,,1,0.0
-3439,Rajul Garg,Individual,,,,,,1,0.0
-3440,Zinnia Global Fund,Institutional,,,,,,1,1.0
-3441,Apar Group,Corporate,,,,,,1,0.0
-3442,Makers Fund,Institutional,,,,,,1,0.0
-3443,Amazon Climate Pledge Fund,Institutional,,,,,,1,1.0
-3444,Climate Capital,Institutional,,,,,,1,0.0
-3445,Mastermind Capital,Institutional,,,,,,1,1.0
-3446,Accor,Institutional,,,,,,1,1.0
-3447,Deepak Parayanken,Individual,,,,,,1,0.0
-3448,Ward Ferry,Individual,,,,,,1,0.0
-3450,Arvind Kumar Gupta,Individual,,,,,,1,0.0
-3451,Akash Singh,Individual,,,,,,1,0.0
-3452,Akhil Bhiwal,Individual,,,,,,1,0.0
-3454,Swapnil Jain,Individual,,,,,,1,0.0
-3455,Anil Advani,Individual,,,,,,1,0.0
-3456,Raj Krishna Murtthy,Individual,,,,,,1,0.0
-3457,Vaibhav Raj Gupta,Individual,,,,,,1,0.0
-3458,UP2398,Institutional,,,,,,1,0.0
-3459,Jan M. Leeman,Individual,,,,,,1,0.0
-3461,Masoom Minawala,Individual,,,,,,1,0.0
-3462,Jet Synthesis,Individual,,,,,,1,0.0
-3463,LenDenClub Alpha,Individual,,,,,,1,1.0
-3464,Katalyst Ventures,Institutional,,,,,,1,0.0
-3466,DFC,Institutional,,,,,,1,1.0
-3467,Sony Ventures Corporation,Institutional,,,,,,1,0.0
-3468,Shine Capital,Institutional,,,,,,1,0.0
-3469,Basecamp Fund,Institutional,,,,,,1,0.0
-3470,Accel Atoms,Individual,,,,,,1,1.0
-3471,Nishant Mungali,Individual,,,,,,1,0.0
-3473,Swati Mohan,Individual,,,,,,1,0.0
-3474,Roshan Abbas,Individual,,,,,,1,0.0
-3478,Arun Jain,Individual,,,,,,1,1.0
-3479,Rajesh Razdan,Individual,,,,,,1,0.0
-3480,Ankush Nijhawan,Individual,,,,,,1,0.0
-3481,Purrshottam Bhaggeria,Individual,,,,,,1,0.0
-3482,Abhay Agarwal,Individual,,,,,,1,0.0
-3483,Navin Jain,Individual,,,,,,1,0.0
-3484,VedaVC,Institutional,,,,,,1,0.0
-3485,Alarko Ventures,Institutional,,,,,,1,1.0
-3486,Esas Ventures,Institutional,,,,,,1,1.0
-3487,Deb Deep Sengupta,Individual,,,,,,1,0.0
-3488,Ankush Grover,Individual,,,,,,1,0.0
-3489,Aaryaman Vir Shah,Individual,,,,,,1,0.0
-3490,Ankit Sethi,Individual,,,,,,1,0.0
-3491,AIC RNTU Bhopal,Individual,,,,,,1,1.0
-3492,Horses Stable,Individual,,,,,,1,0.0
-3493,Mohit Gulati,Individual,,,,,,1,0.0
-3494,Mandar Joshi,Individual,,,,,,1,0.0
-3495,Yamika Mehra,Individual,,,,,,1,0.0
-3496,Ankita Vashistha,Individual,,,,,,1,0.0
-3497,Aarti Gupta,Individual,,,,,,1,0.0
-3498,Dr. Vivek Bindra,Individual,,,,,,1,0.0
-3501,Innopact VC,Institutional,,,,,,1,0.0
-3503,Priyavrata Mafatlal,Individual,,,,,,1,0.0
-3504,Bimal Parekh,Individual,,,,,,1,0.0
-3505,Sweta Amrish Rau,Individual,,,,,,1,0.0
-3506,Harish Naraynan,Individual,,,,,,1,0.0
-3507,Kolte-Patil Family Ventures,Institutional,,,,,,1,0.0
-3508,Gaurav VK Singhvi,Individual,,,,,,1,0.0
-3509,Neeraj Tyagi,Individual,,,,,,1,0.0
-3510,Bhawna Bhatnagar,Individual,,,,,,1,0.0
-3511,Sandeep Balaji,Individual,,,,,,1,0.0
-3512,Rahul Hingmire,Individual,,,,,,1,0.0
-3513,Amit Hooja,Individual,,,,,,1,0.0
-3514,Vardhman Group,Corporate,,,,,,1,0.0
-3515,Rahul Sharma,Individual,,,,,,1,0.0
-3517,Siply,Institutional,,,,,,1,1.0
-3518,BoldCapital,Institutional,,,,,,1,0.0
-3519,Rainmatter Foundation,Institutional,,,,,,1,0.0
-3520,Venture Dairy,Institutional,,,,,,1,0.0
-3522,Mohit Sadanni,Individual,,,,,,1,0.0
-3523,Varun Sadana,Individual,,,,,,1,0.0
-3524,IQ Alpha,Individual,,,,,,1,0.0
-3525,Rohit Kumar Bansal,Individual,,,,,,1,0.0
-3526,Kunal Bhal,Individual,,,,,,1,0.0
-3528,Xceed Investments LLC,Institutional,,,,,,1,0.0
-3529,Singularity Opportunities Growth Fund,Institutional,,,,,,1,1.0
-3531,Derbi Foundation,Institutional,,,,,,1,0.0
-3532,Nadir Godrej,Individual,,,,,,1,0.0
-3533,Sanjay Rangrass,Individual,,,,,,1,0.0
-3534,Akshay Singhal,Individual,,,,,,1,0.0
-3535,Ashish Mohapatra,Individual,,,,,,1,0.0
-3537,Chaitnya Peddi,Individual,,,,,,1,0.0
-3538,Jayant Paleti,Individual,,,,,,1,0.0
-3539,Sidharth Gupta,Individual,,,,,,1,0.0
-3540,Kunal Suri,Individual,,,,,,1,0.0
-3541,Siddharth Jayanti,Individual,,,,,,1,0.0
-3542,Amitabh Mall,Individual,,,,,,1,0.0
-3543,Rajeev Kumar,Individual,,,,,,1,0.0
-3544,Sakshi Sinha,Individual,,,,,,1,0.0
-3545,Kalaari Capital (CXXO),Institutional,,,,,,1,1.0
-3546,AmTrust,Institutional,,,,,,1,0.0
-3547,Baksh Capital,Institutional,,,,,,1,1.0
-3549,Varun Gupta,Individual,,,,,,1,0.0
-3550,Sajid Rahman,Individual,,,,,,1,0.0
-3551,Vineet Kumar Jain,Individual,,,,,,1,0.0
-3552,Sanjay Rishi,Individual,,,,,,1,0.0
-3553,Manipal Group,Corporate,,,,,,1,0.0
-3554,Negen Capital AIF,Institutional,,,,,,1,1.0
-3555,Aditya Goel,Individual,,,,,,1,1.0
-3556,Go-Ventures,Institutional,,,,,,1,0.0
-3558,Biological E. Limited,Corporate,,,,,,1,1.0
-3559,Alkem,Institutional,,,,,,1,1.0
-3560,NATCO,Institutional,,,,,,1,1.0
-3561,Anurag Bagaria,Individual,,,,,,1,1.0
-3562,Karan Bagaria,Individual,,,,,,1,1.0
-3563,Kotak Private Equity,Institutional,,,,,,1,0.0
-3564,Goel family fund,Institutional,,,,,,1,1.0
-3565,Alsisar Impact,Individual,,,,,,1,1.0
-3566,Sethu Raman,Individual,,,,,,1,1.0
-3567,Anand Lakra,Individual,,,,,,1,1.0
-3568,Mridula Chettri,Individual,,,,,,1,1.0
-3569,Sourabh Chourasia,Individual,,,,,,1,0.0
-3570,Arjun Mallya,Individual,,,,,,1,0.0
-3572,Nitesh Damani,Individual,,,,,,1,0.0
-3573,Nikhil Chandra Gupta,Individual,,,,,,1,0.0
-3574,Neeraj Goenka,Individual,,,,,,1,0.0
-3575,Uday Chattarjeee,Individual,,,,,,1,0.0
-3576,Hari Balasubramniam,Individual,,,,,,1,0.0
-3578,T-Fund,Institutional,,,,,,1,0.0
-3580,Jay Singh,Individual,,,,,,1,0.0
-3581,GTM Ventures,Institutional,,,,,,1,0.0
-3582,Unmaj Corporation,Corporate,,,,,,1,0.0
-3583,Gopal Srinivasan,Individual,,,,,,1,0.0
-3585,Avendus Future Leaders Fund,Institutional,,,,,,1,1.0
-3586,IQ Fund,Institutional,,,,,,1,0.0
-3587,AngelList Quant Fund,Angel network,,,,,,1,1.0
-3588,WorldQuant Ventures,Institutional,,,,,,1,1.0
-3589,Varanium GenNext Fund,Institutional,,,,,,1,1.0
-3591,Gaurav Juneja,Individual,,,,,,1,0.0
-3592,Saurabh Agrawal,Individual,,,,,,1,0.0
-3593,Rajeev Goel,Individual,,,,,,1,0.0
-3594,Broom Ventures,Institutional,,,,,,1,0.0
-3595,Incisive Ventures,Institutional,,,,,,1,0.0
-3596,Ajay Adiseshan,Individual,,,,,,1,0.0
-3597,Anoop Mathur,Individual,,,,,,1,0.0
-3598,Jaydeep Deshpande,Individual,,,,,,1,0.0
-3599,Yagnesh Sanghrajka,Individual,,,,,,1,0.0
-3600,Sachin,Institutional,,,,,,1,0.0
-3601,Jubilant Foodworks,Individual,,,,,,1,1.0
-3602,HePo NL,Individual,,,,,,1,0.0
-3604,Sheikha Hend Al Qassemi,Individual,,,,,,1,1.0
-3605,Raza Beig,Individual,,,,,,1,1.0
-3607,K Ganesh,Individual,,,,,,1,0.0
-3609,Jaynti Kanani,Individual,,,,,,1,0.0
-3610,Metaplanet VC,Institutional,,,,,,1,1.0
-3611,Goldwater Capital,Institutional,,,,,,1,0.0
-3613,Original Capital,Institutional,,,,,,1,0.0
-3614,Valiant Employee Investment Fund,Institutional,,,,,,1,1.0
-3616,Old World Hospitality,Individual,,,,,,1,0.0
-3617,Jasleen Royal,Individual,,,,,,1,0.0
-3618,RB Investments,Institutional,,,,,,1,0.0
-3620,V.M. Salgaocar Family Office,Family office,,,,,,1,0.0
-3621,M2P founders,Institutional,,,,,,1,0.0
-3622,Kwaish Ventures,Institutional,,,,,,1,0.0
-3623,Nihar Parikh,Individual,,,,,,1,0.0
-3624,Sriram Natarajan,Individual,,,,,,1,0.0
-3625,Justin Hamilton,Individual,,,,,,1,0.0
-3626,Ivy Growth Associates,Individual,,,,,,1,0.0
-3627,Mirae Assets,Individual,,,,,,1,0.0
-3628,VGROW Ventures,Institutional,,,,,,1,1.0
-3629,Ravi Shankar Kathirvelu,Individual,,,,,,1,0.0
-3630,Hari TN,Individual,,,,,,1,0.0
-3631,Abhishek Raj Pandey,Individual,,,,,,1,0.0
-3632,Gujarat-based angel syndicate,Angel network,,,,,,1,0.0
-3633,"HNI investors from Google, Deloitte, Tata 1mg, Axis Capital",Institutional,,,,,,1,0.0
-3634,Jalaj Dani,Individual,,,,,,1,1.0
-3635,founders of Addverb Technologies,Institutional,,,,,,1,0.0
-3637,Beyond Capital Ventures,Institutional,,,,,,1,1.0
-3638,Asymmetry Ventures,Institutional,,,,,,1,0.0
-3640,Ashok Gudibandla,Individual,,,,,,1,0.0
-3641,100x Entrepreneurs,Institutional,,,,,,1,0.0
-3642,Dr. Akshay Singhal,Individual,,,,,,1,0.0
-3643,Ms Monika Rao,Individual,,,,,,1,0.0
-3644,multiple investors,Institutional,,,,,,1,0.0
-3645,Dr. Cornelius (Conny) Boersch,Institutional,,,,,,1,1.0
-3646,Koh Boon Hwee,Individual,,,,,,1,1.0
-3647,Apoorva Ranjan Sharma,Individual,,,,,,1,1.0
-3648,Ramit Mittal,Individual,,,,,,1,1.0
-3649,25 D2C founder angels,Angel network,,,,,,1,0.0
-3650,Ocean View,Individual,,,,,,1,0.0
-3652,3to1 Capital,Institutional,,,,,,1,1.0
-3653,Vijay Sethi,Individual,,,,,,1,0.0
-3654,Chandan Chowdhury,Individual,,,,,,1,0.0
-3655,Saptroshi Hore,Individual,,,,,,1,0.0
-3656,Neeraj Khandewal,Individual,,,,,,1,0.0
-3657,Ankur Jain,Individual,,,,,,1,0.0
-3658,Abhishek Sureka,Individual,,,,,,1,0.0
-3659,Shankar Rachakonda,Individual,,,,,,1,0.0
-3660,Anand Reddy,Individual,,,,,,1,0.0
-3661,Jio Platforms,Individual,,,,,,1,1.0
-3663,Woodside Technologies Pty Ltd,Corporate,,,,,,1,1.0
-3664,Dare Ventures,Institutional,,,,,,1,0.0
-3665,Zenfold Ventures,Institutional,,,,,,1,0.0
-3666,Unaprime Investment Advisors,Institutional,,,,,,1,0.0
-3667,ODX (On Deck),Institutional,,,,,,1,1.0
-3668,Kepler Operator's fund,Institutional,,,,,,1,1.0
-3669,Pidilite Industries,Individual,,,,,,1,1.0
-3670,Konglo Ventures,Institutional,,,,,,1,0.0
-3671,Vineet Kumar,Individual,,,,,,1,0.0
-3672,Deep Gupta,Individual,,,,,,1,0.0
-3673,Cover Genius,Individual,,,,,,1,1.0
-3674,NexStep Discovery Pte,Individual,,,,,,1,0.0
-3675,CP Ventures,Institutional,,,,,,1,0.0
-3676,Amogh Kumar Gupta,Individual,,,,,,1,1.0
-3677,Kavikrut,Institutional,,,,,,1,0.0
-3679,Uday Thakker,Individual,,,,,,1,0.0
-3680,Falisha Technoworld,Individual,,,,,,1,1.0
-3681,Crescent,Institutional,,,,,,1,0.0
-3682,Dream Incubator Japan,Accelerator,,,,,,1,1.0
-3683,Tony Xu,Individual,,,,,,1,0.0
-3685,Sara International Group,Corporate,,,,,,1,0.0
-3687,Olympus Capital,Institutional,,,,,,1,0.0
-3688,57 Stars Global Innovation Fund,Institutional,,,,,,1,1.0
-3689,Manish Agrawal,Individual,,,,,,1,0.0
-3691,Fasanara Capital,Institutional,,,,,,1,1.0
-3692,Abstract Ventures,Institutional,,,,,,1,1.0
-3693,Anand Lunia,Individual,,,,,,1,0.0
-3694,Chitransh Sahai,Individual,,,,,,1,0.0
-3696,Meteor Ventures,Institutional,,,,,,1,0.0
-3698,Redsprig Innovation Partners,Institutional,,,,,,1,1.0
-3699,Godrej Family Office,Family office,,,,,,1,1.0
-3701,Ambis Holding US,Individual,,,,,,1,0.0
-3702,Kuberans Ventures,Institutional,,,,,,1,0.0
-3703,Karimjee Group,Corporate,,,,,,1,0.0
-3704,Mission Vertical Capital,Institutional,,,,,,1,0.0
-3705,Sanjiv Saraf Family Office,Family office,,,,,,1,0.0
-3706,Pravek Kalp Family Office,Family office,,,,,,1,0.0
-3708,INVSTT,Institutional,,,,,,1,0.0
-3711,Jainam Broking Limited,Corporate,,,,,,1,1.0
-3712,Arun Venkatachalam HUF,Individual,,,,,,1,0.0
-3713,Veena Merchants And Advisors LLP,Institutional,,,,,,1,0.0
-3714,Selemium Trust,Institutional,,,,,,1,0.0
-3715,MUFG,Institutional,,,,,,1,1.0
-3717,Intersection Ventures,Institutional,,,,,,1,0.0
-3718,DSP Group,Corporate,,,,,,1,0.0
-3721,Ritu Bapna,Individual,,,,,,1,0.0
-3722,UMI,Institutional,,,,,,1,0.0
-3728,Sunil Rohokale,Individual,,,,,,1,0.0
-3729,Monik Koticha,Individual,,,,,,1,0.0
-3732,Abhinav Dhar,Individual,,,,,,1,0.0
-3733,Prasad Ramakrishnan,Individual,,,,,,1,0.0
-3734,Avanish Sahai,Individual,,,,,,1,0.0
-3735,Rich Waldron,Individual,,,,,,1,0.0
-3736,Wint Wealth,Individual,,,,,,1,0.0
-3738,Dr. Ritesh Malik,Individual,,,,,,1,0.0
-3739,Sahil Malik,Individual,,,,,,1,0.0
-3740,Chandini Purnesh,Individual,,,,,,1,0.0
-3741,Aman Bahel,Individual,,,,,,1,0.0
-3742,Nakul Dev Chawla,Individual,,,,,,1,0.0
-3743,Dr. Shriram Nene,Individual,,,,,,1,0.0
-3745,Sinar Mas,Individual,,,,,,1,1.0
-3747,Om Jain,Individual,,,,,,1,1.0
-3748,Vimal Khivesara,Individual,,,,,,1,0.0
-3749,Ramesh Jain,Individual,,,,,,1,0.0
-3750,Prabhakar,Institutional,,,,,,1,0.0
-3752,V Ocean Investments,Institutional,,,,,,1,0.0
-3753,Puro Wellness,Individual,,,,,,1,1.0
-3754,MARL Fund,Institutional,,,,,,1,0.0
-3755,Quant Fund,Institutional,,,,,,1,0.0
-3756,C-CAMP,Institutional,,,,,,1,0.0
-3757,Nandak Growth Catalysts,Individual,,,,,,1,0.0
-3759,M&G Catalyst,Individual,,,,,,1,0.0
-3760,Shriram Nene,Individual,,,,,,1,0.0
-3761,Ramneek Sehgal,Individual,,,,,,1,0.0
-3762,Mayank Gupta,Individual,,,,,,1,0.0
-3763,Rahul Mathur,Individual,,,,,,1,0.0
-3764,Piyush Nangru,Individual,,,,,,1,0.0
-3765,Utkarsh Kumar,Individual,,,,,,1,0.0
-3766,Amit Goel,Individual,,,,,,1,0.0
-3767,Shilpa Shetty Kundra,Individual,,,,,,1,0.0
-3768,Harsh Vardhan Bhagchandka,Individual,,,,,,1,0.0
-3769,Vinit Bhansali,Individual,,,,,,1,0.0
-3770,Kenro Capital,Institutional,,,,,,1,0.0
-3771,Jaipuria Family Office,Family office,,,,,,1,1.0
-3772,Quadrant,Institutional,,,,,,1,1.0
-3773,DSGCP,Institutional,,,,,,1,0.0
-3774,Dhianu Das,Individual,,,,,,1,0.0
-3775,Banner Health,Individual,,,,,,1,0.0
-3776,Danaher Ventures LLC,Institutional,,,,,,1,0.0
-3777,Generation Investment Management,Institutional,,,,,,1,0.0
-3778,Kaiser Permanente,Individual,,,,,,1,0.0
-3780,Anshul Sharan,Individual,,,,,,1,0.0
-3781,Abhijeet Kumar,Individual,,,,,,1,0.0
-3782,Harshit Panday,Individual,,,,,,1,0.0
-3783,Vidya Sridharan,Individual,,,,,,1,0.0
-3784,Munendra Singh,Individual,,,,,,1,0.0
-3785,Srihari Sahu,Individual,,,,,,1,0.0
-3786,Preeti Sagtani,Individual,,,,,,1,0.0
-3787,Dr. Biju Jacob,Individual,,,,,,1,0.0
-3788,Anand Tiwari,Individual,,,,,,1,0.0
-3789,KK,Institutional,,,,,,1,0.0
-3790,Vishal Jain,Individual,,,,,,1,0.0
-3791,Dhingra Partners Prosperity Trust,Institutional,,,,,,1,0.0
-3793,Maanaveeya Development & Finance Private Limited,Corporate,,,,,,1,0.0
-3794,Vinay Jain,Individual,,,,,,1,0.0
-3795,Manish Dureja,Individual,,,,,,1,0.0
-3796,Prantik Mazumdar,Individual,,,,,,1,0.0
-3797,Neeraj Sagar,Individual,,,,,,1,0.0
-3798,Sudhir Kamath,Individual,,,,,,1,0.0
-3799,TANSIM,Institutional,,,,,,1,0.0
-3800,Samir Goenka,Individual,,,,,,1,0.0
-3801,Narinder Bajaj,Individual,,,,,,1,0.0
-3802,Kapil Kriplani,Individual,,,,,,1,0.0
-3803,Vega Industries,Individual,,,,,,1,0.0
-3804,Gagan Khanna,Individual,,,,,,1,0.0
-3805,Supersonic Carrier,Individual,,,,,,1,0.0
-3806,Nirmal K Bathwal,Individual,,,,,,1,0.0
-3807,7th Gen Ventures,Institutional,,,,,,1,0.0
-3808,Trudie Styler,Individual,,,,,,1,0.0
-3810,MK Ventures,Institutional,,,,,,1,0.0
-3811,Aionios Alpha Investment Management,Institutional,,,,,,1,0.0
-3812,Ashika Group,Corporate,,,,,,1,0.0
-3813,Amit Rajpal,Individual,,,,,,1,0.0
+1881,Mile Deep Works,Individual,,,,,,1,1.0
+1884,Preethi Kasireddy,Individual,,,,,,1,0.0
+1885,Nishant Verman,Individual,,,,,,1,0.0
+1887,Dewang Neralla's family office,Family office,,,,,,1,0.0
+1888,Jupiter Metaverse LLP,Institutional,,,,,,1,0.0
+1890,Nilesh Doshi,Individual,,,,,,1,0.0
+1891,Mysten Labs,Institutional,,,,,,1,1.0
+1892,Cypher Capital,Institutional,,,,,,1,0.0
+1893,Illuminati Capital,Institutional,,,,,,1,0.0
+1900,Rameshchandra Shah,Individual,,,,,,1,1.0
+1901,Shirish Patel,Individual,,,,,,1,0.0
+1902,Rajkumar Sorathi,Individual,,,,,,1,0.0
+1903,Hardik Kothiya,Individual,,,,,,1,0.0
+1904,MIT SBXI,Individual,,,,,,1,0.0
+1906,Alchemy Long Term Ventures Fund,Institutional,,,,,,1,1.0
+1910,Kemfin Family Office,Family office,,,,,,1,0.0
+1912,Weikfield Family Office,Family office,,,,,,1,0.0
+1913,Salil Taneja Family Office,Family office,,,,,,1,0.0
+1914,PKM Capital,Institutional,,,,,,1,0.0
+1915,Satyen Kanoria,Individual,,,,,,1,0.0
+1916,Ritesh Kamani,Individual,,,,,,1,0.0
+1918,Signet Family Office,Family office,,,,,,1,0.0
+1919,Rupa Family Office,Family office,,,,,,1,0.0
+1920,Kiran Gems Family Office,Family office,,,,,,1,0.0
+1921,Nuvama Asset Management Limited,Corporate,,,,,,1,1.0
+1922,A.V. Thomas and Co,Institutional,,,,,,1,1.0
+1923,U.S. investors,Institutional,,,,,,1,0.0
+1924,Mohan Krishna,Individual,,,,,,1,0.0
+1925,Ajitha Challa,Individual,,,,,,1,0.0
+1926,Praveen Jaipuriar,Individual,,,,,,1,0.0
+1927,Shantanu Rastogi,Individual,,,,,,1,1.0
+1928,Castle Investments,Institutional,,,,,,1,0.0
+1929,Ajax Capital,Institutional,,,,,,1,0.0
+1930,Satyadharma Investments,Institutional,,,,,,1,0.0
+1931,Holy Basil Consultancy,Individual,,,,,,1,0.0
+1933,Shiv Dhawan,Individual,,,,,,1,0.0
+1936,Gagan Malhotra,Individual,,,,,,1,0.0
+1937,Sanchit Garg,Individual,,,,,,1,0.0
+1940,Anicut Equity Continuum Fund,Institutional,,,,,,1,0.0
+1941,Abhinav Pathak,Individual,,,,,,1,0.0
+1942,Madhav Tandan,Individual,,,,,,1,0.0
+1943,Nikhil,Institutional,,,,,,1,0.0
+1946,IVen Amplifi Fund,Institutional,,,,,,1,1.0
+1951,Dabur Family Office,Family office,,,,,,1,0.0
+1954,Ventatana Ventures,Institutional,,,,,,1,0.0
+1955,91 Ventures,Institutional,,,,,,1,0.0
+1956,Navyug Global Ventures,Institutional,,,,,,1,1.0
+1962,Homegrown Ventures,Institutional,,,,,,1,1.0
+1965,NEAR Foundation,Institutional,,,,,,1,1.0
+1966,Circle Ventures,Institutional,,,,,,1,0.0
+1968,Jindal Stainless,Individual,,,,,,1,1.0
+1969,Jindal Stainless Steelway Limited,Corporate,,,,,,1,1.0
+1970,Multiples Equity,Institutional,,,,,,1,1.0
+1971,Sahil Jindal,Individual,,,,,,1,0.0
+1972,Varun Sheth,Individual,,,,,,1,0.0
+1973,Zaheer Adenwala,Individual,,,,,,1,0.0
+1974,Brijraj Bhuptani,Individual,,,,,,1,0.0
+1975,Umesh Agarwal,Individual,,,,,,1,0.0
+1977,Prasanna Venkatesan,Individual,,,,,,1,0.0
+1978,Pradeep Nain,Individual,,,,,,1,1.0
+1982,Glenn Maxwell,Individual,,,,,,1,1.0
+1983,M-League,Institutional,,,,,,1,0.0
+1984,Amarnath Thombre,Individual,,,,,,1,0.0
+1985,Play Ventures,Institutional,,,,,,1,1.0
+1987,State Street Global Advisors,Institutional,,,,,,1,0.0
+1988,Niveshaay AIF,Individual,,,,,,1,0.0
+1990,Rummytime Technologies,Individual,,,,,,1,0.0
+1992,Akram Ventures,Institutional,,,,,,1,0.0
+1993,Rinku Singh,Individual,,,,,,1,1.0
+1996,Rohan Mirchandani,Individual,,,,,,1,0.0
+1997,Waimea Bay Investments,Institutional,,,,,,1,1.0
+2002,Discovery Assets,Individual,,,,,,1,0.0
+2005,JDSS,Institutional,,,,,,1,0.0
+2006,Enrsion INDIA CAPITAL,Institutional,,,,,,1,0.0
+2008,Venture Catalysts (VCAT),Institutional,,,,,,1,1.0
+2009,SYL Investments,Institutional,,,,,,1,0.0
+2011,Saarthee Actionable Insights,Individual,,,,,,1,1.0
+2014,Saurabh Munjal,Individual,,,,,,1,0.0
+2018,Harshadkumar Patel,Individual,,,,,,1,1.0
+2019,Divyang Patel,Individual,,,,,,1,0.0
+2021,Odd Bird VC,Institutional,,,,,,1,0.0
+2022,Kamal Agrawal,Individual,,,,,,1,1.0
+2023,Khazanah Nasional,Individual,,,,,,1,1.0
+2024,IIM-A Ventures,Accelerator,,,,,,1,1.0
+2025,Dr. Sanjay Arora,Individual,,,,,,1,0.0
+2026,Adarsh Narahari,Individual,,,,,,1,0.0
+2028,Seedstars International Ventures,Institutional,,,,,,1,1.0
+2029,Fluent Ventures,Institutional,,,,,,1,1.0
+2030,Autodesk-affiliated angel investors,Angel network,,,,,,1,0.0
+2031,Amazon-affiliated angel investors,Angel network,,,,,,1,0.0
+2039,Green Trunk Ventures,Institutional,,,,,,1,0.0
+2043,Leblon Capital,Institutional,,,,,,1,1.0
+2044,Stem AI,Individual,,,,,,1,0.0
+2045,GC India Investment Holdings,Institutional,,,,,,1,1.0
+2046,Muthoot Fincorp,Institutional,,,,,,1,0.0
+2047,Walden International,Individual,,,,,,1,0.0
+2048,Reed India Consulting,Individual,,,,,,1,0.0
+2050,SGgrow Capital,Institutional,,,,,,1,1.0
+2052,Ravi Nigam,Individual,,,,,,1,0.0
+2053,Shashank Deshpande,Individual,,,,,,1,0.0
+2054,Ujjwal Jain,Individual,,,,,,1,0.0
+2055,Nitin Sharma,Individual,,,,,,1,0.0
+2059,Sim&San law firm,Institutional,,,,,,1,0.0
+2064,Sanjay Sharma,Individual,,,,,,1,0.0
+2065,Ashish Sharma,Individual,,,,,,1,0.0
+2066,Prithvijit Roy,Individual,,,,,,1,0.0
+2070,Fullerton Carbon Action Fund,Institutional,,,,,,1,1.0
+2071,Shift4Good,Institutional,,,,,,1,1.0
+2077,Sarthak Mishra,Individual,,,,,,1,0.0
+2082,Darkmode Ventures,Institutional,,,,,,1,0.0
+2083,Dovetail,Institutional,,,,,,1,0.0
+2087,Yugadi Capital,Institutional,,,,,,1,1.0
+2088,Aditya Agarwal,Individual,,,,,,1,0.0
+2089,Darashaw & Company,Institutional,,,,,,1,0.0
+2091,Swiggy Dineout founders,Institutional,,,,,,1,0.0
+2092,Orra founders,Institutional,,,,,,1,0.0
+2095,MOL PLUS,Individual,,,,,,1,0.0
+2096,PSA Ventures,Institutional,,,,,,1,0.0
+2097,İnci Holding,Institutional,,,,,,1,0.0
+2098,UntroD Capital,Institutional,,,,,,1,0.0
+2099,Pappas Capital,Institutional,,,,,,1,0.0
+2100,SEEDS Capital,Institutional,,,,,,1,0.0
+2101,Rajiv Ahuja,Individual,,,,,,1,0.0
+2103,Jaswinder Ahuja,Individual,,,,,,1,0.0
+2104,Dilipkumar Khandelwal,Individual,,,,,,1,0.0
+2106,Bombay54,Institutional,,,,,,1,0.0
+2108,Dream Sports,Individual,,,,,,1,1.0
+2109,4point0 Health Ventures,Institutional,,,,,,1,1.0
+2110,Tata 1mg founders,Institutional,,,,,,1,0.0
+2111,NephroPlus founders,Institutional,,,,,,1,0.0
+2112,SafeExpress founders,Institutional,,,,,,1,0.0
+2113,Eye Q Hospital founders,Institutional,,,,,,1,0.0
+2114,Hexa Health founders,Institutional,,,,,,1,0.0
+2115,AstroTalk founders,Institutional,,,,,,1,0.0
+2117,Foundation Private Equity,Institutional,,,,,,1,0.0
+2118,JP Shukla,Individual,,,,,,1,0.0
+2122,Development Bank of Austria (OeEB),Debt / Bank,,,,,,1,1.0
+2124,Prana Ventures,Institutional,,,,,,1,0.0
+2125,Commvault,Institutional,,,,,,1,0.0
+2126,Meeran Family,Individual,,,,,,1,0.0
+2129,Sakal Media Group,Corporate,,,,,,1,0.0
+2131,Jason Kothari,Individual,,,,,,1,0.0
+2132,Shah Rukh Khan’s family office,Family office,,,,,,1,0.0
+2133,Saif Saeed Ghobash,Individual,,,,,,1,0.0
+2134,Jayanti Kannai,Individual,,,,,,1,0.0
+2136,Marc Younan,Individual,,,,,,1,0.0
+2137,Deepen Parikh,Individual,,,,,,1,0.0
+2138,Samir Vora,Individual,,,,,,1,0.0
+2139,Samarth Parekh,Individual,,,,,,1,0.0
+2140,Anurag Goel,Individual,,,,,,1,0.0
+2141,Nishant Aggarwal,Individual,,,,,,1,0.0
+2143,Sayandeb Banerjee,Individual,,,,,,1,0.0
+2144,Suresh Rayasam,Individual,,,,,,1,0.0
+2145,Ravi Sudhakar,Individual,,,,,,1,0.0
+2146,Ravi Modi Family Office,Family office,,,,,,1,0.0
+2154,Anurag Ramadasan,Individual,,,,,,1,0.0
+2156,Manish Poddar,Individual,,,,,,1,1.0
+2161,Sunrise Sunset Family Trust,Family office,,,,,,1,0.0
+2162,Infinyte Club Angel Fund,Angel network,,,,,,1,0.0
+2164,Classplus,Institutional,,,,,,1,1.0
+2165,Citigroup Global Markets Mauritius,Institutional,,,,,,1,0.0
+2166,Meri Punji IMF Private Limited,Corporate,,,,,,1,1.0
+2167,Your Trips Limited,Corporate,,,,,,1,0.0
+2172,Swapurna Family Office,Family office,,,,,,1,0.0
+2173,Undisclosed angel investors,Angel network,,,,,,1,1.0
+2175,Stargazer Growth,Individual,,,,,,1,0.0
+2176,Lathe Investment,Institutional,,,,,,1,1.0
+2180,Rukam Sitara Fund,Institutional,,,,,,1,1.0
+2185,Usha Dalmia Trust,Institutional,,,,,,1,0.0
+2186,Prakash Padukone,Individual,,,,,,1,0.0
+2187,Pear VC,Institutional,,,,,,1,0.0
+2188,BOND,Institutional,,,,,,1,0.0
+2189,Accion Digital Transformation,Individual,,,,,,1,1.0
+2190,Manit Gupta,Individual,,,,,,1,1.0
+2191,Apoorv Salarpuria,Individual,,,,,,1,0.0
+2192,Rahul Todi,Individual,,,,,,1,0.0
+2194,Vivek Raghavan,Individual,,,,,,1,0.0
+2195,Satya Vas,Individual,,,,,,1,0.0
+2197,Pantnagar Capital,Institutional,,,,,,1,1.0
+2198,Greylock,Institutional,,,,,,1,1.0
+2199,Quantum Light Ventures,Institutional,,,,,,1,0.0
+2201,Chanakya Gupta,Individual,,,,,,1,0.0
+2202,Arun Sharma,Individual,,,,,,1,0.0
+2203,NewView Capital,Institutional,,,,,,1,1.0
+2206,Brighton Park Capital,Institutional,,,,,,1,0.0
+2207,Revaia,Institutional,,,,,,1,0.0
+2208,Greenfield Partners,Institutional,,,,,,1,0.0
+2209,Red Dot Capital Partners,Institutional,,,,,,1,0.0
+2210,O.G. Tech,Individual,,,,,,1,0.0
+2211,Joule Capital Partners,Institutional,,,,,,1,0.0
+2212,Maor Investments,Institutional,,,,,,1,0.0
+2215,Sanjay Suri,Individual,,,,,,1,0.0
+2218,Sharda family office,Family office,,,,,,1,0.0
+2219,Kay family,Institutional,,,,,,1,0.0
+2220,Dhruv Khush Business Ventures,Institutional,,,,,,1,1.0
+2221,Ashok Goel,Individual,,,,,,1,1.0
+2223,Caspian Impact Investments (Caspian Debt),Debt / Bank,,,,,,1,1.0
+2224,Raghav Singhal,Individual,,,,,,1,0.0
+2225,Santosh Govindaraju,Individual,,,,,,1,0.0
+2226,Aabhas Khanna,Individual,,,,,,1,0.0
+2227,Ameera Shah,Individual,,,,,,1,0.0
+2230,Rajasthan Gum Pvt. Ltd,Corporate,,,,,,1,0.0
+2231,Shree Ram India Gums Ltd,Corporate,,,,,,1,0.0
+2233,Trident Growth Partners,Institutional,,,,,,1,1.0
+2236,Baroda BNP Paribas Mutual Fund,Institutional,,,,,,1,0.0
+2237,Trust Mutual Fund,Institutional,,,,,,1,0.0
+2238,Buoyant Capital,Institutional,,,,,,1,0.0
+2241,Franklin Templeton Alternative Investments,Institutional,,,,,,1,0.0
+2246,Prateek,Institutional,,,,,,1,0.0
+2247,Rapido co-founders,Institutional,,,,,,1,0.0
+2248,Amar Nagaram,Individual,,,,,,1,0.0
+2251,Akshant Goyal,Individual,,,,,,1,0.0
+2252,Vineet Sethi,Individual,,,,,,1,0.0
+2253,Aditya Sharma,Individual,,,,,,1,0.0
+2256,Trica,Institutional,,,,,,1,0.0
+2261,CIO and CTO angel investors,Angel network,,,,,,1,0.0
+2263,IIM Bangalore's NSRCEL,Accelerator,,,,,,1,0.0
+2265,Chaitanya Ramalingegowda,Individual,,,,,,1,0.0
+2266,Ajith Pai,Individual,,,,,,1,0.0
+2267,Trust Investment Advisors,Institutional,,,,,,1,0.0
+2268,Rahul Dewan,Individual,,,,,,1,1.0
+2269,Ajay Gupta,Individual,,,,,,1,0.0
+2270,Mangwani Family Office,Family office,,,,,,1,0.0
+2272,Kumar Saurabh,Individual,,,,,,1,0.0
+2274,GVF,Institutional,,,,,,1,1.0
+2275,Capital Code,Institutional,,,,,,1,1.0
+2276,Mount Judy Ventures,Institutional,,,,,,1,0.0
+2277,KPB Ventures,Institutional,,,,,,1,0.0
+2278,Monta Vista Capital,Institutional,,,,,,1,1.0
+2279,New York Ventures,Institutional,,,,,,1,0.0
+2282,"Angels and operators from Magicpin, Zomato, Innovaccer, and Aftershoot",Angel network,,,,,,1,0.0
+2284,Preetinder Singh Panjrath,Individual,,,,,,1,0.0
+2285,Bandai Namco Entertainment,Individual,,,,,,1,0.0
+2286,Square Enix,Individual,,,,,,1,0.0
+2289,Prosperity7 Ventures,Institutional,,,,,,1,0.0
+2290,John Chambers,Individual,,,,,,1,0.0
+2292,Pravek Family Office,Family office,,,,,,1,1.0
+2293,Climate-tech and mobility investors,Institutional,,,,,,1,1.0
+2294,GSF Investors,Individual,,,,,,1,0.0
+2295,Cyber Fund,Institutional,,,,,,1,1.0
+2297,Innovation Mission Punjab,Individual,,,,,,1,0.0
+2298,Select angels,Angel network,,,,,,1,0.0
+2299,HHV Advanced Technologies,Individual,,,,,,1,0.0
+2301,Vivriti Alpha,Individual,,,,,,1,0.0
+2302,SK Finance,Individual,,,,,,1,0.0
+2305,IB Future Tech,Individual,,,,,,1,0.0
+2307,NASSCOM,Institutional,,,,,,1,0.0
+2308,FalconX,Institutional,,,,,,1,0.0
+2309,Skycatcher,Institutional,,,,,,1,1.0
+2310,a16z Speedrun,Institutional,,,,,,1,0.0
+2312,Polygon Ventures,Institutional,,,,,,1,0.0
+2313,Neowiz,Institutional,,,,,,1,0.0
+2314,IVC Japan,Institutional,,,,,,1,0.0
+2315,Loud.GG,Institutional,,,,,,1,0.0
+2316,Karthik Sundar Iyer,Individual,,,,,,1,0.0
+2321,Vibha Chetan,Individual,,,,,,1,0.0
+2323,Native Angel Network,Angel network,,,,,,1,0.0
+2325,IIM-CAN,Accelerator,,,,,,1,0.0
+2326,Metis Family Office,Family office,,,,,,1,0.0
+2328,Midas,Institutional,,,,,,1,0.0
+2330,Tin Men Capital,Institutional,,,,,,1,1.0
+2331,Orzon,Institutional,,,,,,1,0.0
+2332,Integra Partners,Institutional,,,,,,1,0.0
+2333,Raju Barwale,Individual,,,,,,1,1.0
+2336,IIM Ahmedabad’s CIIE,Accelerator,,,,,,1,0.0
+2337,Heston Castelino,Individual,,,,,,1,0.0
+2341,Dulquer Salmaan,Individual,,,,,,1,0.0
+2343,Hira Group,Corporate,,,,,,1,0.0
+2346,GNP Group,Corporate,,,,,,1,0.0
+2347,Paras Defence,Individual,,,,,,1,0.0
+2348,Principal Venture Partners,Institutional,,,,,,1,0.0
+2349,GSI,Institutional,,,,,,1,0.0
+2350,Paytm,Institutional,,,,,,1,0.0
+2355,Raj Narayanam,Individual,,,,,,1,1.0
+2357,Goldman Sachs (Singapore),Institutional,,,,,,1,0.0
+2369,Amit Baid,Individual,,,,,,1,0.0
+2370,Nidhish Mundra,Individual,,,,,,1,0.0
+2371,Enetra EV,Individual,,,,,,1,1.0
+2372,Nomura India Investment Fund Mother Fund,Institutional,,,,,,1,1.0
+2373,Archean Chemical Industries,Individual,,,,,,1,1.0
+2378,Choice Group,Corporate,,,,,,1,1.0
+2380,MetroMax Group (India),Corporate,,,,,,1,0.0
+2381,Ankit Sajnani,Individual,,,,,,1,0.0
+2384,SPA Family Ventures,Institutional,,,,,,1,0.0
+2385,Ankit Goel,Individual,,,,,,1,0.0
+2386,Seven Square Ventures,Institutional,,,,,,1,0.0
+2387,Trillion Dollar Venture Partners,Institutional,,,,,,1,1.0
+2388,Raghunandan G,Individual,,,,,,1,0.0
+2390,Hari Krishnan Nair,Individual,,,,,,1,0.0
+2394,CE-Invests,Institutional,,,,,,1,0.0
+2395,Symphysis LSV LLP,Institutional,,,,,,1,0.0
+2396,Rohan Nayak,Individual,,,,,,1,0.0
+2397,Globaz Technologies,Individual,,,,,,1,1.0
+2398,Burla Angel Network,Angel network,,,,,,1,0.0
+2399,O2 Angels,Angel network,,,,,,1,0.0
+2400,SBI Cap Ventures,Institutional,,,,,,1,0.0
+2401,ONGC,Institutional,,,,,,1,0.0
+2404,Shyamal Hitesh Anadkat,Individual,,,,,,1,0.0
+2406,Schneider Electric Energy Access Asia,Institutional,,,,,,1,1.0
+2408,Sriram Sankaran,Individual,,,,,,1,0.0
+2409,Muthu Murugappan,Individual,,,,,,1,0.0
+2410,Amit Dalmia,Individual,,,,,,1,0.0
+2411,Alex von Behr,Institutional,,,,,,1,0.0
+2415,Setu AIF Trust,Institutional,,,,,,1,0.0
+2419,AlphaGen Venture Capital,Institutional,,,,,,1,0.0
+2420,Rubamin,Institutional,,,,,,1,0.0
+2421,Mayank Singhal,Individual,,,,,,1,0.0
+2422,Jeff Dean,Individual,,,,,,1,0.0
+2423,Devendra Chaplot,Individual,,,,,,1,0.0
+2424,Bipin Patel Family Office,Family office,,,,,,1,1.0
+2425,Jhaveri Credits,Debt / Bank,,,,,,1,0.0
+2428,Desai Foods,Individual,,,,,,1,0.0
+2433,Sahyadri Farms,Individual,,,,,,1,1.0
+2435,Shakti VC,Institutional,,,,,,1,0.0
+2436,Ram Shriram,Individual,,,,,,1,0.0
+2437,Sagar Narola,Individual,,,,,,1,0.0
+2438,Suryansh Jalan,Individual,,,,,,1,0.0
+2439,Gautam Kumar,Individual,,,,,,1,0.0
+2440,Dr. Arokiaswamy Velumani,Individual,,,,,,1,1.0
+2441,Balamurugan Arumugam,Individual,,,,,,1,0.0
+2444,Ganesh Natarajan,Individual,,,,,,1,0.0
+2445,Chaitanya Kejriwal,Individual,,,,,,1,0.0
+2446,Shruti Deorah,Individual,,,,,,1,0.0
+2447,ABC World Asia,Individual,,,,,,1,1.0
+2448,Omidyar,Institutional,,,,,,1,0.0
+2449,Singhania family office,Family office,,,,,,1,0.0
+2450,JK Tyre promoters,Institutional,,,,,,1,0.0
+2451,Vikasa India EIF I Fund,Institutional,,,,,,1,1.0
+2452,ISB Angels,Angel network,,,,,,1,0.0
+2453,Guptaji VC,Institutional,,,,,,1,0.0
+2454,Dr. Abhishek Sharma,Individual,,,,,,1,0.0
+2455,Dr. Viveka Kulharia,Individual,,,,,,1,0.0
+2456,Shashikant Chaudhary,Individual,,,,,,1,0.0
+2457,Ejaz Ahmed,Individual,,,,,,1,0.0
+2458,Nikhil Tripathi,Individual,,,,,,1,0.0
+2459,KK Venkata,Individual,,,,,,1,0.0
+2460,Swapnil Sheth,Individual,,,,,,1,0.0
+2461,Michele Barbazza,Individual,,,,,,1,0.0
+2466,BoFA Securities Europe,Institutional,,,,,,1,1.0
+2470,Dinesh Talera and family,Institutional,,,,,,1,1.0
+2471,IGNITE Growth LLP,Institutional,,,,,,1,0.0
+2472,Sanos Capital,Institutional,,,,,,1,1.0
+2475,Arnav Kumar,Individual,,,,,,1,0.0
+2477,Sashi Kumar,Individual,,,,,,1,0.0
+2479,cybersecurity angels,Angel network,,,,,,1,0.0
+2480,HSBC Mutual Fund,Institutional,,,,,,1,0.0
+2482,California Public Employees’ Retirement System (CalPERS),Institutional,,,,,,1,1.0
+2483,institutional investors,Institutional,,,,,,1,0.0
+2485,The Players Fund,Institutional,,,,,,1,0.0
+2486,Epic Angels,Angel network,,,,,,1,0.0
+2488,AMD,Institutional,,,,,,1,0.0
+2489,Snowflake,Institutional,,,,,,1,0.0
+2490,Databricks,Institutional,,,,,,1,0.0
+2491,NEA,Institutional,,,,,,1,0.0
+2494,Reliance Intelligence,Individual,,,,,,1,1.0
+2495,Facebook Overseas,Individual,,,,,,1,1.0
+2497,Aditya Birla Sun Life Mutual Fund,Institutional,,,,,,1,0.0
+2498,HSBC Mutual Fund Midcap Fund,Institutional,,,,,,1,0.0
+2500,Eastspring Investments India Consumer Equity Open,Institutional,,,,,,1,0.0
+2501,Crimson Winter,Individual,,,,,,1,0.0
+2502,Global eCommerce,Institutional,,,,,,1,0.0
+2504,Cosma Ventures,Institutional,,,,,,1,0.0
+2505,Cloudberry Pioneer Investments,Institutional,,,,,,1,0.0
+2506,Moringa Ventures,Institutional,,,,,,1,0.0
+2507,strategic family offices from India and Singapore,Family office,,,,,,1,0.0
+2509,Infynno Solutions,Individual,,,,,,1,1.0
+2512,N.R. Narayanan,Individual,,,,,,1,0.0
+2513,Lalit Wadhwa,Individual,,,,,,1,0.0
+2514,Suvrat Sehgal,Individual,,,,,,1,0.0
+2515,AgriSURE Fund,Institutional,,,,,,1,1.0
+2516,Basis Set Ventures,Institutional,,,,,,1,1.0
+2519,Oorjan Cleantech,Individual,,,,,,1,0.0
+2520,Gautam Das,Individual,,,,,,1,0.0
+2521,iHeartMedia,Institutional,,,,,,1,1.0
+2527,The MIT Retirement Fund,Institutional,,,,,,1,0.0
+2530,Nippon MF,Individual,,,,,,1,0.0
+2531,DSP MF,Individual,,,,,,1,0.0
+2532,Motilal Oswal MF,Individual,,,,,,1,0.0
+2534,Bharti AXA Life,Individual,,,,,,1,0.0
+2536,Canara Robeco MF,Individual,,,,,,1,0.0
+2537,Capital Research,Institutional,,,,,,1,0.0
+2538,PineBridge,Institutional,,,,,,1,0.0
+2540,Spark Alternative Investment Fund,Institutional,,,,,,1,0.0
+2541,Cadabams Group,Corporate,,,,,,1,1.0
+2545,GII,Institutional,,,,,,1,0.0
+2547,Kunwar Asheesh Saxena,Individual,,,,,,1,0.0
+2548,Sathguru Catalysers,Individual,,,,,,1,0.0
+2550,KITVEN,Institutional,,,,,,1,0.0
+2553,SBI MF,Individual,,,,,,1,0.0
+2555,Aditya Birla MF,Individual,,,,,,1,0.0
+2556,Matthews India Fund,Institutional,,,,,,1,0.0
+2557,HSBC Global Investment Funds – Asia Ex Japan Smaller Companies,Institutional,,,,,,1,0.0
+2558,PineBridge India Equity Fund,Institutional,,,,,,1,0.0
+2559,ITEL,Institutional,,,,,,1,0.0
+2560,Virendra Prasad,Individual,,,,,,1,1.0
+2562,Index Ventures,Institutional,,,,,,1,1.0
+2563,Roha Family Office,Family office,,,,,,1,0.0
+2565,Invesco Mutual Fund,Institutional,,,,,,1,0.0
+2566,Société Générale,Individual,,,,,,1,0.0
+2567,Edelweiss Mutual Fund,Institutional,,,,,,1,0.0
+2569,India Acorn ICAV,Individual,,,,,,1,0.0
+2571,Luxe Opco Holdings,Institutional,,,,,,1,1.0
+2572,Kunal Khanna,Individual,,,,,,1,0.0
+2573,Krishna Jain,Individual,,,,,,1,0.0
+2574,PVS Raju,Individual,,,,,,1,0.0
+2578,Tenity,Institutional,,,,,,1,0.0
+2580,Karekeba Ventures / Cogniphy AIF Fund,Institutional,,,,,,1,0.0
+2581,MoneyVyapaar,Institutional,,,,,,1,0.0
+2582,Indian Accelerator,Accelerator,,,,,,1,0.0
+2583,Bay Area angels,Angel network,,,,,,1,0.0
+2586,Arthos Corporate,Institutional,,,,,,1,0.0
+2587,ElectroMech India,Individual,,,,,,1,0.0
+2593,Ankit Kawatra,Individual,,,,,,1,0.0
+2594,Kishore Jagjival Gokal,Individual,,,,,,1,0.0
+2595,Srinivas Rao Ravuri,Individual,,,,,,1,0.0
+2596,Kailash Ramlal Jhaveri,Individual,,,,,,1,0.0
+2597,Nuvama Wealth,Individual,,,,,,1,0.0
+2598,Dezerv,Institutional,,,,,,1,0.0
+2599,The South Indian Bank,Debt / Bank,,,,,,1,0.0
+2600,Fiedlin Ventures,Institutional,,,,,,1,0.0
+2601,Smile Gate Group,Corporate,,,,,,1,1.0
+2602,Mukul Agarwal and affiliates,Institutional,,,,,,1,1.0
+2604,"A, Paul SRC SPV V, LLC",Institutional,,,,,,1,0.0
+2605,AVCF1 (Aditum Venture Capital Fund),Institutional,,,,,,1,1.0
+2606,Aranya Holding Ventures LLP,Institutional,,,,,,1,0.0
+2607,AR Enterprises,Individual,,,,,,1,0.0
+2608,Ativira Technologies,Individual,,,,,,1,0.0
+2609,Aviral Bhatnagar,Individual,,,,,,1,0.0
+2610,Jongsong Investments (Temasek),Institutional,,,,,,1,1.0
+2611,Manoj Kumar Meena,Individual,,,,,,1,0.0
+2612,Sibabrata Das,Individual,,,,,,1,0.0
+2614,Calabasas Ventures,Institutional,,,,,,1,0.0
+2615,Sushmita Mathur,Individual,,,,,,1,0.0
+2616,Ojaswa Sharma,Individual,,,,,,1,0.0
+2617,Anil Kumar Goteti,Individual,,,,,,1,0.0
+2619,SVAS,Institutional,,,,,,1,0.0
+2620,Sigma,Institutional,,,,,,1,0.0
+2622,Atlantic Bridge,Individual,,,,,,1,1.0
+2624,Madrona,Institutional,,,,,,1,0.0
+2625,Sheela Foam,Individual,,,,,,1,1.0
+2632,Mahindra MF,Individual,,,,,,1,0.0
+2633,Bajaj Life Insurance,Individual,,,,,,1,0.0
+2634,Ashoka WhiteOak,Individual,,,,,,1,0.0
+2635,OfBusiness,Institutional,,,,,,1,1.0
+2636,Raghav Chandra,Individual,,,,,,1,0.0
+2639,IPV International,Individual,,,,,,1,0.0
+2640,Saket Narang,Individual,,,,,,1,0.0
+2642,Waaree Renewable Technologies,Individual,,,,,,1,0.0
+2643,Five Sigma,Individual,,,,,,1,1.0
+2645,Anupam Jalote,Individual,,,,,,1,0.0
+2646,Narayan,Institutional,,,,,,1,0.0
+2648,Ministry of Heavy Industries,Corporate,,,,,,1,1.0
+2649,Quona Accion Inclusion Fund,Institutional,,,,,,1,0.0
+2651,Snam Solutions,Individual,,,,,,1,1.0
+2656,Vakil Housing,Individual,,,,,,1,1.0
+2657,Parthasarathy NS,Individual,,,,,,1,0.0
+2658,Ramakrishna,Institutional,,,,,,1,0.0
+2659,Umashankar,Institutional,,,,,,1,0.0
+2660,Vadiraj Katti,Individual,,,,,,1,0.0
+2661,Suresh Pillay,Individual,,,,,,1,0.0
+2662,Anand Narayanan,Individual,,,,,,1,0.0
+2664,Lotus Herbals’ Beauty Innovation Fund,Institutional,,,,,,1,0.0
+2668,Kamal Puri,Individual,,,,,,1,0.0
+2669,Vrinda Goyal,Individual,,,,,,1,0.0
+2670,Haresh Patel,Individual,,,,,,1,0.0
+2671,Maneesh Shrivastav,Individual,,,,,,1,0.0
+2672,Twin & Bull Family Office,Family office,,,,,,1,0.0
+2675,M2P,Institutional,,,,,,1,0.0
+2676,Turtlemint,Institutional,,,,,,1,0.0
+2677,Kissht,Institutional,,,,,,1,0.0
+2678,US-based strategic investors,Institutional,,,,,,1,0.0
+2679,India Accelerator & Finvolve,Accelerator,,,,,,1,0.0
+2680,Equentis Wealth Advisory Services,Individual,,,,,,1,0.0
+2681,Grand Anicut Angel Fund,Angel network,,,,,,1,0.0
+2682,Rukum Sitara Fund,Institutional,,,,,,1,0.0
+2683,Ankurit Capital,Institutional,,,,,,1,0.0
+2684,Sandip Gupta,Individual,,,,,,1,0.0
+2685,Rajdip Gupta,Individual,,,,,,1,0.0
+2686,SanRaj Family Ventures Pvt. Ltd,Institutional,,,,,,1,0.0
+2688,Kitty Agarwal,Individual,,,,,,1,0.0
+2689,SVF II Ostrich (DE) LLC,Institutional,,,,,,1,0.0
+2690,Rajesh Ranavat,Individual,,,,,,1,1.0
+2691,Vivek Gaur,Individual,,,,,,1,0.0
+2692,Vikram Tandon,Individual,,,,,,1,0.0
+2693,Mufin Green,Individual,,,,,,1,0.0
+2694,Anupam Finserv,Individual,,,,,,1,0.0
+2695,CreedCap,Institutional,,,,,,1,1.0
+2697,Meraki Sport & Entertainment,Institutional,,,,,,1,0.0
+2699,Param Kandhari,Individual,,,,,,1,0.0
+2700,Naresh Krishnaswamy,Individual,,,,,,1,0.0
+2701,Abhinav Mathur,Individual,,,,,,1,0.0
+2702,Hemanshu Jain,Individual,,,,,,1,0.0
+2703,Vinay Bhopatkar,Individual,,,,,,1,0.0
+2704,Vaibhav Sisinty,Individual,,,,,,1,0.0
+2705,Dalvir Suri,Individual,,,,,,1,0.0
+2706,Rishit Jhunjhunwala,Individual,,,,,,1,0.0
+2707,Shaili Chopra,Individual,,,,,,1,0.0
+2711,"Founders and senior operators from Zetwerk, Livspace, Unacademy, Urban Vault, and Panthera Peak",Institutional,,,,,,1,0.0
+2712,Keynote Financial Services Limited,Corporate,,,,,,1,0.0
+2713,JS Global,Individual,,,,,,1,0.0
+2714,Orange Collective,Individual,,,,,,1,0.0
+2715,Transpose Capital,Institutional,,,,,,1,0.0
+2716,Eight Capital,Institutional,,,,,,1,0.0
+2717,AIC-AU Incubation Foundation,Institutional,,,,,,1,0.0
+2718,Cap-A,Institutional,,,,,,1,0.0
+2719,Microsoft,Institutional,,,,,,1,0.0
+2720,First Cheque by India Quotient,Institutional,,,,,,1,1.0
+2721,SRF Ltd,Corporate,,,,,,1,1.0
+2722,Havells India (QRG Investment & Holdings),Institutional,,,,,,1,1.0
+2723,Arushi Aayush Agrawal,Individual,,,,,,1,0.0
+2724,Ash Lilani,Individual,,,,,,1,0.0
+2725,Sanjay Kapoor,Individual,,,,,,1,0.0
+2726,ZeroW,Institutional,,,,,,1,1.0
+2727,Ikemori Ventures,Institutional,,,,,,1,0.0
+2729,Inovia VC,Institutional,,,,,,1,0.0
+2730,Raju Menon,Individual,,,,,,1,1.0
+2731,Suresh Katamreddy,Individual,,,,,,1,1.0
+2732,Acumen Fund,Institutional,,,,,,1,1.0
+2733,Upaya Social Ventures,Institutional,,,,,,1,0.0
+2734,GGV Ventures,Institutional,,,,,,1,0.0
+2735,Anand Prabhudesai,Individual,,,,,,1,0.0
+2736,Dhirendra Mahyavanshi,Individual,,,,,,1,0.0
+2738,Reliance Business Ventures,Institutional,,,,,,1,1.0
+2739,Nyca Partners,Institutional,,,,,,1,1.0
+2743,Data Tech Fund,Institutional,,,,,,1,0.0
+2744,John Pepper,Individual,,,,,,1,0.0
+2745,9Yards Capital,Institutional,,,,,,1,0.0
+2749,NBD Ventures,Institutional,,,,,,1,0.0
+2750,888 VC,Institutional,,,,,,1,0.0
+2751,DCG Pack,Individual,,,,,,1,0.0
+2753,Vaishav Investments,Institutional,,,,,,1,0.0
+2755,Shivam Puri,Individual,,,,,,1,0.0
+2759,Global South Capital,Institutional,,,,,,1,0.0
+2760,ixigo,Institutional,,,,,,1,1.0
+2762,InVideo,Institutional,,,,,,1,1.0
+2763,RedBull India,Individual,,,,,,1,1.0
+2764,Anthropic,Institutional,,,,,,1,1.0
+2765,Eros International,Individual,,,,,,1,1.0
+2769,Blackstone-affiliated private equity funds,Institutional,,,,,,1,1.0
+2770,360 ONE Assets,Institutional,,,,,,1,0.0
+2771,THCL Travel Holding Cyprus Limited,Corporate,,,,,,1,0.0
+2772,Sekar PRC,Individual,,,,,,1,1.0
+2773,Sudip Nandy,Individual,,,,,,1,1.0
+2774,Knowhere Ventures LLC,Institutional,,,,,,1,1.0
+2775,Pacific Global Solutions Limited,Corporate,,,,,,1,1.0
+2776,LeadAngels FLV,Angel network,,,,,,1,1.0
+2777,Vipul Prakash,Individual,,,,,,1,0.0
+2778,Sandeep Johri,Individual,,,,,,1,0.0
+2779,RCD Holdings,Institutional,,,,,,1,0.0
+2781,Caperize Fina,Individual,,,,,,1,0.0
+2782,MAIQ Growth Scheme,Individual,,,,,,1,0.0
+2784,Raamdeo Agarwal,Individual,,,,,,1,0.0
+2785,Taparia Family Office,Family office,,,,,,1,0.0
+2787,RP Sanjiv Goenka Group,Corporate,,,,,,1,0.0
+2789,Haldiram Snacks Family Office,Family office,,,,,,1,0.0
+2790,Sekhsaria Family Office,Family office,,,,,,1,0.0
+2791,Kalyan Family Office,Family office,,,,,,1,0.0
+2792,Happy Forgings Family Office,Family office,,,,,,1,0.0
+2793,Mothers Recipe Family Office (Desai Brothers),Family office,,,,,,1,0.0
+2795,Abhishek Bachchan,Individual,,,,,,1,0.0
+2796,Moglix,Institutional,,,,,,1,0.0
+2797,Cedars Sinai,Individual,,,,,,1,0.0
+2798,Eragon,Institutional,,,,,,1,0.0
+2801,Ramesh Bafna,Individual,,,,,,1,0.0
+2802,Siddharth,Institutional,,,,,,1,0.0
+2803,Vinit Gautam,Individual,,,,,,1,0.0
+2804,Amitabh Suri,Individual,,,,,,1,0.0
+2806,Chittorgarh Infotech Limited,Corporate,,,,,,1,0.0
+2808,Tryrock Capital Trust AIF,Institutional,,,,,,1,0.0
+2810,AP Ventures,Institutional,,,,,,1,1.0
+2811,IIM Udaipur Incubation Centre,Accelerator,,,,,,1,1.0
+2812,Shift Alt Cap,Individual,,,,,,1,0.0
+2817,BC Jindal Group,Corporate,,,,,,1,1.0
+2818,Matrix Partners India DeVC,Institutional,,,,,,1,0.0
+2819,Waterfield Fund,Institutional,,,,,,1,0.0
+2823,Srinath Ramakkrushnan,Individual,,,,,,1,0.0
+2825,Digital Finance International,Individual,,,,,,1,1.0
+2826,Shell Foundation,Institutional,,,,,,1,1.0
+2827,Ram Govindarajan,Individual,,,,,,1,0.0
+2828,Sumit Agarwal,Individual,,,,,,1,0.0
+2832,Lip-Bu Tan,Individual,,,,,,1,0.0
+2834,Kaizenvest PE,Individual,,,,,,1,0.0
+2835,Ahmed Ali Husain Nalwala,Individual,,,,,,1,0.0
+2836,DS Group (Dharampal Satyapal Ltd),Corporate,,,,,,1,0.0
+2837,Hemin Shah,Individual,,,,,,1,1.0
+2838,Sudhakar Moparthy,Individual,,,,,,1,1.0
+2839,Al Zarooni Emirates,Individual,,,,,,1,1.0
+2840,IA Fund,Institutional,,,,,,1,0.0
+2843,Kesh Kala Family Office,Family office,,,,,,1,1.0
+2846,Ahana Gupta,Individual,,,,,,1,1.0
+2849,Rethink Education Ventures,Institutional,,,,,,1,1.0
+2852,Bharti Airtel,Individual,,,,,,1,1.0
+2853,Nikhil Bakshi,Individual,,,,,,1,0.0
+2854,Vivek Kapoor,Individual,,,,,,1,0.0
+2855,Janeville Limited,Corporate,,,,,,1,1.0
+2857,Meera Reddy,Individual,,,,,,1,0.0
+2858,Kartik Meyyappan,Individual,,,,,,1,0.0
+2859,L. Ramkumar,Individual,,,,,,1,0.0
+2860,Sivadas Raghava,Individual,,,,,,1,0.0
+2861,Shailaja Reddy,Individual,,,,,,1,0.0
+2862,Louis Dreyfus Company Ventures,Institutional,,,,,,1,0.0
+2863,Suneight Investment,Institutional,,,,,,1,0.0
+2864,HATCH,Institutional,,,,,,1,0.0
+2866,Indigo AG,Individual,,,,,,1,1.0
+2867,Mahyco,Institutional,,,,,,1,1.0
+2870,Vivek Vig,Individual,,,,,,1,0.0
+2871,Ashneer Grover,Individual,,,,,,1,0.0
+2872,Shankar Nath,Individual,,,,,,1,0.0
+2873,Manish Amin,Individual,,,,,,1,0.0
+2874,VIC Enterprises,Individual,,,,,,1,0.0
+2875,Stallion Ventures,Institutional,,,,,,1,0.0
+2876,Udyat Ventures,Institutional,,,,,,1,0.0
+2878,Atul Goel,Individual,,,,,,1,0.0
+2879,Shrishti Sahu,Individual,,,,,,1,0.0
+2880,Kundan Group,Corporate,,,,,,1,1.0
+2881,Brindavan Group,Corporate,,,,,,1,1.0
+2882,Infotel Business Solution,Individual,,,,,,1,1.0
+2883,Consensys Mesh,Individual,,,,,,1,1.0
+2884,Infinite Capital,Institutional,,,,,,1,1.0
+2885,Gnosis,Institutional,,,,,,1,1.0
+2886,Stefan George,Individual,,,,,,1,1.0
+2887,Mahin Gupta,Individual,,,,,,1,1.0
+2888,OrangeDAO,Institutional,,,,,,1,1.0
+2889,Furqan Rydhan,Individual,,,,,,1,1.0
+2891,Zinal Growth,Individual,,,,,,1,1.0
+2894,Nikhil Srivastava,Individual,,,,,,1,0.0
+2895,Rishi Vasudev,Individual,,,,,,1,0.0
+2896,Bbigplas Poly Private Ltd,Corporate,,,,,,1,0.0
+2898,Shiva Singh Sangwan,Individual,,,,,,1,0.0
+2899,Anuj Tejpal,Individual,,,,,,1,0.0
+2900,Manu Gupta,Individual,,,,,,1,0.0
+2901,Frontline Strategy Funds,Institutional,,,,,,1,1.0
+2902,Khimji Family,Individual,,,,,,1,0.0
+2903,Sarvann,Institutional,,,,,,1,0.0
+2904,Calega Family Office,Family office,,,,,,1,0.0
+2905,Kaleesuwari Group,Corporate,,,,,,1,1.0
+2906,Anshul Rai,Individual,,,,,,1,0.0
+2907,Kashyap Deorah,Individual,,,,,,1,0.0
+2908,Girish Gulati,Individual,,,,,,1,1.0
+2909,Dnyanesh Bhatavadekar,Individual,,,,,,1,1.0
+2910,Neha Idnany,Individual,,,,,,1,1.0
+2911,Yogesh Bagaria,Individual,,,,,,1,1.0
+2912,Amit Bagaria,Individual,,,,,,1,1.0
+2913,Clal Insurance,Individual,,,,,,1,0.0
+2915,Vishal Chaudhary,Individual,,,,,,1,0.0
+2916,Rehan Khan,Individual,,,,,,1,0.0
+2917,Jawaid Iqbal,Individual,,,,,,1,0.0
+2918,Anubhav,Institutional,,,,,,1,0.0
+2919,Ankit Singh,Individual,,,,,,1,0.0
+2921,Vikas Bagaria,Individual,,,,,,1,0.0
+2922,Ananya Goenka,Individual,,,,,,1,0.0
+2923,Sequoia India and Southeast Asia's Surge,Institutional,,,,,,1,1.0
+2926,Mumbai Angel Network,Angel network,,,,,,1,0.0
+2927,Vaishnav Shetty,Individual,,,,,,1,0.0
+2928,Pirojshaw Sarkari,Individual,,,,,,1,0.0
+2931,Himanshu Periwal,Individual,,,,,,1,0.0
+2933,Jitendra Jagadev,Individual,,,,,,1,0.0
+2935,Anuj Bishnoi,Individual,,,,,,1,0.0
+2936,Ankit Maheshwari,Individual,,,,,,1,0.0
+2937,Divyanshu Anand,Individual,,,,,,1,0.0
+2938,Shakeeb Anwar,Individual,,,,,,1,0.0
+2939,Sarath Ruthvic,Individual,,,,,,1,0.0
+2940,LV Fund,Institutional,,,,,,1,0.0
+2941,CIIE Regional Innovation Foundation,Institutional,,,,,,1,0.0
+2943,S. Chand Family Office,Family office,,,,,,1,1.0
+2944,Sanjeev Kumar,Individual,,,,,,1,0.0
+2945,Rahul Dalmia,Individual,,,,,,1,0.0
+2946,Affle Global,Individual,,,,,,1,1.0
+2947,Meenakshi Sundaram,Individual,,,,,,1,1.0
+2948,Jaikumar R,Individual,,,,,,1,1.0
+2949,Rahul Mahipal,Individual,,,,,,1,1.0
+2951,Amith D'Souza,Individual,,,,,,1,1.0
+2952,Viko Ventures,Institutional,,,,,,1,0.0
+2953,Reddy Futures LLP,Institutional,,,,,,1,0.0
+2954,ADIA,Institutional,,,,,,1,0.0
+2959,Shopify,Institutional,,,,,,1,0.0
+2960,QCM Holdings,Institutional,,,,,,1,0.0
+2961,M.V. Nair,Individual,,,,,,1,1.0
+2962,Possible Ventures,Institutional,,,,,,1,0.0
+2964,Founders Angel Network,Angel network,,,,,,1,0.0
+2965,JIIF Shark Angels,Angel network,,,,,,1,0.0
+2966,UIncept,Institutional,,,,,,1,0.0
+2967,POD,Institutional,,,,,,1,0.0
+2968,Harsh Pokharna,Individual,,,,,,1,0.0
+2969,Bhola Meena,Individual,,,,,,1,0.0
+2970,On Mauritius,Individual,,,,,,1,1.0
+2971,NFX,Institutional,,,,,,1,1.0
+2972,Tamil Nadu Startup and Innovation Mission (TANSIM),Institutional,,,,,,1,0.0
+2973,Capricon Realty,Individual,,,,,,1,1.0
+2978,VentureSoul Partners,Institutional,,,,,,1,1.0
+2979,Vyom Wealth,Individual,,,,,,1,1.0
+2980,SN Capital,Institutional,,,,,,1,0.0
+2981,Morphosis Venture Capital,Institutional,,,,,,1,1.0
+2982,NAB Ventures,Institutional,,,,,,1,0.0
+2983,NV Alpha Fund Management,Institutional,,,,,,1,0.0
+2984,HF0 Residency,Individual,,,,,,1,1.0
+2985,Apollo Global Management,Institutional,,,,,,1,1.0
+2986,Addition,Institutional,,,,,,1,0.0
+2987,Hrithik Roshan,Individual,,,,,,1,1.0
+2988,Parthiv Patel,Individual,,,,,,1,1.0
+2992,12 Flags Consumer Holdings,Institutional,,,,,,1,1.0
+2993,Apis Growth Fund II,Institutional,,,,,,1,1.0
+2995,Vivek Vikram Singh,Individual,,,,,,1,0.0
+2996,Holtzbrinck Publishing Group,Corporate,,,,,,1,1.0
+2997,GMJP,Institutional,,,,,,1,0.0
+2998,Graphic India,Individual,,,,,,1,0.0
+2999,Gen Fukunaga,Individual,,,,,,1,1.0
+3000,Antique Securities,Institutional,,,,,,1,0.0
+3001,HNI family offices,Family office,,,,,,1,0.0
+3002,M&G Prudential,Individual,,,,,,1,0.0
+3003,Pegasus India Fund,Institutional,,,,,,1,1.0
+3004,BITS BioCyTiH Foundation,Institutional,,,,,,1,0.0
+3005,VCats Group,Corporate,,,,,,1,0.0
+3006,HSBC Innovation Banking,Institutional,,,,,,1,0.0
+3009,Edaphon,Institutional,,,,,,1,1.0
+3010,AI Fund,Institutional,,,,,,1,1.0
+3012,Hindon Mercantil,Individual,,,,,,1,1.0
+3013,Srikar Reddy,Individual,,,,,,1,1.0
+3014,DFAN,Institutional,,,,,,1,0.0
+3015,Serica Angel Fund,Angel network,,,,,,1,0.0
+3016,Dynamis Ventures,Institutional,,,,,,1,0.0
+3017,IIT Madras Incubation Cell,Accelerator,,,,,,1,1.0
+3018,Goel Group,Corporate,,,,,,1,1.0
+3019,Daimler India Commercial Vehicles,Individual,,,,,,1,1.0
+3021,Stakeboat Capital Fund II,Institutional,,,,,,1,1.0
+3022,ML Tondon and Sons HUF,Institutional,,,,,,1,0.0
+3024,Coast Fund VC,Institutional,,,,,,1,1.0
+3025,SSK Exports,Individual,,,,,,1,0.0
+3028,senior management,Institutional,,,,,,1,1.0
+3031,Vimal Khinvasara,Individual,,,,,,1,0.0
+3032,Ashok Shah,Individual,,,,,,1,0.0
+3033,Amit Chandwar,Individual,,,,,,1,0.0
+3034,ElectriFI,Institutional,,,,,,1,1.0
+3035,Chroma Impact Investment,Institutional,,,,,,1,0.0
+3036,KawiSafi Ventures,Institutional,,,,,,1,0.0
+3037,AXA IM Alts,Individual,,,,,,1,0.0
+3039,Maersk,Institutional,,,,,,1,0.0
+3040,Intesa Sanpaolo,Individual,,,,,,1,0.0
+3041,Heliad,Institutional,,,,,,1,0.0
+3042,Infoedge (Redstart),Institutional,,,,,,1,0.0
+3043,MountTech Growth Fund,Institutional,,,,,,1,1.0
+3044,Finsight Ventures,Institutional,,,,,,1,0.0
+3045,Harbourfront Capital,Institutional,,,,,,1,0.0
+3046,Pegasus India Evolving Opportunities Fund,Institutional,,,,,,1,0.0
+3048,Keshav Reddy,Individual,,,,,,1,1.0
+3049,Karan Adani,Individual,,,,,,1,0.0
+3050,D S Brar,Individual,,,,,,1,0.0
+3051,Fenice Investment Group,Corporate,,,,,,1,0.0
+3053,Breathe Capital,Institutional,,,,,,1,0.0
+3054,Keshav Bhajanka,Individual,,,,,,1,0.0
+3055,Sanjay Agarwal,Individual,,,,,,1,0.0
+3056,Kanishka Sethia,Individual,,,,,,1,0.0
+3059,Murali Subramanian,Individual,,,,,,1,0.0
+3060,Ram Bhamidi,Individual,,,,,,1,0.0
+3061,Aneesh Garg,Individual,,,,,,1,0.0
+3062,Rahul Guptan,Individual,,,,,,1,0.0
+3063,Mudhal Partners,Institutional,,,,,,1,1.0
+3064,Abhiraj Bhal,Individual,,,,,,1,0.0
+3066,Avtar Monga,Individual,,,,,,1,0.0
+3067,Fireside Venture Investment Fund III,Institutional,,,,,,1,1.0
+3068,Shezan Bhojani,Individual,,,,,,1,0.0
+3069,Chandru Kalro,Individual,,,,,,1,0.0
+3072,Aashka Goradia Goble,Individual,,,,,,1,0.0
+3074,Government Pension Fund (Norges Fund),Institutional,,,,,,1,0.0
+3076,Prarambh Ventures,Institutional,,,,,,1,1.0
+3078,Navis Capital Partners,Institutional,,,,,,1,1.0
+3080,Dia Vikas Capital,Institutional,,,,,,1,0.0
+3084,Finsight Seed Fund,Institutional,,,,,,1,0.0
+3085,consortium of angel investors,Angel network,,,,,,1,0.0
+3087,Shrenik Ghodawat,Individual,,,,,,1,0.0
+3088,The Schiehallion Fund,Institutional,,,,,,1,0.0
+3089,Acron Heavy Industries,Individual,,,,,,1,0.0
+3090,AEX4 LLC,Individual,,,,,,1,0.0
+3091,The Chinkerpoo Family Trust,Family office,,,,,,1,0.0
+3092,Prashasta Seth (Prudent Investment Manager),Institutional,,,,,,1,1.0
+3093,Perpetuity Ventures,Institutional,,,,,,1,0.0
+3095,Ashish Kasholia (Lucky Investments),Institutional,,,,,,1,1.0
+3096,LV Angel,Angel network,,,,,,1,0.0
+3100,IE Ventures Fund Follow-On,Institutional,,,,,,1,0.0
+3101,existing promoters,Institutional,,,,,,1,0.0
+3102,surgeons,Institutional,,,,,,1,0.0
+3103,medical professionals,Institutional,,,,,,1,0.0
+3104,bankers,Institutional,,,,,,1,0.0
+3105,Mars Veterinary Health,Individual,,,,,,1,1.0
+3106,SFMG Wealth Advisors,Institutional,,,,,,1,0.0
+3107,Gregg Fisher (Quent Capital),Institutional,,,,,,1,0.0
+3108,XYZ Ventures,Institutional,,,,,,1,0.0
+3109,ANBG Enterprise LLP (Godrej Family Office),Family office,,,,,,1,1.0
+3110,Ravindernath Chadha,Individual,,,,,,1,0.0
+3111,Reena Dayal,Individual,,,,,,1,0.0
+3112,Kalaari Capital's CXXO initiative,Institutional,,,,,,1,1.0
+3114,MINTCAP,Institutional,,,,,,1,0.0
+3115,MedMountain Ventures,Institutional,,,,,,1,0.0
+3116,Rebellion VC,Institutional,,,,,,1,0.0
+3119,Moore Capital,Institutional,,,,,,1,0.0
+3120,JN Capital & Growth Advisory,Institutional,,,,,,1,0.0
+3124,Seedcamp,Institutional,,,,,,1,1.0
+3125,EWOR,Institutional,,,,,,1,0.0
+3126,Entropy Industrial Ventures,Institutional,,,,,,1,0.0
+3127,Concept Ventures,Institutional,,,,,,1,0.0
+3128,Stan Boland,Individual,,,,,,1,0.0
+3130,Amitoj Singh,Individual,,,,,,1,0.0
+3131,Aman Rajpal,Individual,,,,,,1,0.0
+3132,Ankur Kathuria,Individual,,,,,,1,0.0
+3133,Deepak Garg,Individual,,,,,,1,0.0
+3134,Coronation Fund Managers,Institutional,,,,,,1,1.0
+3135,Boost VC,Institutional,,,,,,1,0.0
+3136,2.2 Capital,Institutional,,,,,,1,0.0
+3137,Arjit Johri,Individual,,,,,,1,0.0
+3138,Yash Jain,Individual,,,,,,1,0.0
+3139,Nishank Jain,Individual,,,,,,1,0.0
+3140,Yashvardhan Kanoi,Individual,,,,,,1,0.0
+3141,Ashwarya Garg,Individual,,,,,,1,0.0
+3142,Amishi Parasrampuria,Individual,,,,,,1,0.0
+3143,UntitledVC,Institutional,,,,,,1,0.0
+3144,Department of Science and Technology,Institutional,,,,,,1,0.0
+3145,NSRCEL–IIM Bangalore,Accelerator,,,,,,1,0.0
+3146,SustainTN,Institutional,,,,,,1,0.0
+3147,ITEL Foundation,Institutional,,,,,,1,0.0
+3149,noa,Institutional,,,,,,1,0.0
+3150,Aaroh Fund,Institutional,,,,,,1,0.0
+3151,Antler Singapore,Accelerator,,,,,,1,1.0
+3153,Dabur Ventures,Institutional,,,,,,1,1.0
+3154,promoters and existing shareholders,Institutional,,,,,,1,0.0
+3155,Al Nahyan family,Institutional,,,,,,1,0.0
+3156,Al-Ketbi family,Institutional,,,,,,1,0.0
+3157,Pulsar Capital,Institutional,,,,,,1,0.0
+3158,MakeMyTrip,Institutional,,,,,,1,0.0
+3159,Invention Engine,Individual,,,,,,1,0.0
+3160,Cognify,Institutional,,,,,,1,0.0
+3161,AIF,Institutional,,,,,,1,0.0
+3162,IIM Lucknow Enterprise Incubation Centre,Accelerator,,,,,,1,0.0
+3163,Velo Partners,Institutional,,,,,,1,0.0
+3165,Long Journey Ventures,Institutional,,,,,,1,0.0
+3166,Eversource Capital,Institutional,,,,,,1,0.0
+3168,Rishubh Satiya,Individual,,,,,,1,0.0
+3169,Rohit Chawla,Individual,,,,,,1,0.0
+3170,Sifat Khurana,Individual,,,,,,1,0.0
+3171,Shayamal Vallabhjee,Individual,,,,,,1,0.0
+3172,Mangum II,Individual,,,,,,1,0.0
+3173,Medra Family,Individual,,,,,,1,0.0
+3174,Pallavi Mohadikar,Individual,,,,,,1,0.0
+3176,Arc180,Institutional,,,,,,1,0.0
+3177,HAF,Institutional,,,,,,1,0.0
+3179,Apekso,Institutional,,,,,,1,0.0
+3181,Pi Labs,Institutional,,,,,,1,1.0
+3182,Haatch,Institutional,,,,,,1,0.0
+3183,Navigate Ventures,Institutional,,,,,,1,0.0
+3184,Old College Capital,Institutional,,,,,,1,0.0
+3185,Punjab National Bank,Debt / Bank,,,,,,1,1.0
+3186,Ashra Private Equity Fund,Institutional,,,,,,1,0.0
+3187,Impact Fund Denmark,Institutional,,,,,,1,1.0
+3189,Aurum Rising India Fund,Institutional,,,,,,1,0.0
+3190,Run Ventures,Institutional,,,,,,1,1.0
+3192,Catamaran Ventures,Institutional,,,,,,1,0.0
+3193,founders of Groww,Institutional,,,,,,1,0.0
+3194,Manish Taneja,Individual,,,,,,1,0.0
+3196,Aaruha Technology Fund,Institutional,,,,,,1,0.0
+3197,Vikash Agarwal (Rupa Family Office),Family office,,,,,,1,0.0
+3199,Anshuman Singh,Individual,,,,,,1,0.0
+3200,JIF Capital,Institutional,,,,,,1,1.0
+3201,15th Rock,Institutional,,,,,,1,0.0
+3202,Vishal Shah,Individual,,,,,,1,0.0
+3203,Varun Patel,Individual,,,,,,1,0.0
+3204,Viraj Lavingia,Individual,,,,,,1,0.0
+3205,Bhavin Sodavadiya,Individual,,,,,,1,0.0
+3207,Vi-John Group,Corporate,,,,,,1,0.0
+3208,Sanjay Singhvi,Individual,,,,,,1,0.0
+3209,Bavadeep Reddy,Individual,,,,,,1,0.0
+3210,Malani Ventures,Institutional,,,,,,1,0.0
+3211,Gurshant Singh Bhatia,Individual,,,,,,1,0.0
+3212,Sunny Bhatia,Individual,,,,,,1,0.0
+3213,Upkaran Singh Chawla,Individual,,,,,,1,0.0
+3214,Harbir Dhingra,Individual,,,,,,1,0.0
+3215,Ajay Mehra,Individual,,,,,,1,0.0
+3216,Samir Palod,Individual,,,,,,1,0.0
+3217,Kishore Biyani,Individual,,,,,,1,0.0
+3218,"founders of Unacademy, Mosaic Wellness, Livspace and others",Institutional,,,,,,1,0.0
+3220,Bahram N Vakil,Individual,,,,,,1,0.0
+3221,Vinod Rustagi,Individual,,,,,,1,0.0
+3222,Amit Rathi,Individual,,,,,,1,0.0
+3223,Sanjit Advani,Individual,,,,,,1,0.0
+3224,Lendable,Institutional,,,,,,1,1.0
+3227,founders of Razorpay,Institutional,,,,,,1,0.0
+3228,Bhukhanwala Industries,Individual,,,,,,1,0.0
+3231,Riyan Parag,Individual,,,,,,1,1.0
+3232,Coheron Wealth,Individual,,,,,,1,0.0
+3234,Susquehanna International Group (SIG),Corporate,,,,,,1,0.0
+3235,Hero Investment Office,Institutional,,,,,,1,0.0
+3236,35 North Ventures,Institutional,,,,,,1,0.0
+3237,Indusbridge Ventures,Institutional,,,,,,1,0.0
+3238,Monarch Holdings,Institutional,,,,,,1,0.0
+3239,Riambel Capital PCC,Institutional,,,,,,1,0.0
+3241,Classic Enterprises,Individual,,,,,,1,0.0
+3243,Shreyas Shibulal,Individual,,,,,,1,0.0
+3245,Sascha Mornell,Individual,,,,,,1,0.0
+3248,Greenstone Capital,Institutional,,,,,,1,1.0
+3251,Anup Agarwal,Individual,,,,,,1,0.0
+3252,Vinay Bagri,Individual,,,,,,1,0.0
+3253,Lightspeed Faction,Individual,,,,,,1,1.0
+3254,M13,Institutional,,,,,,1,1.0
+3255,Northzone,Institutional,,,,,,1,1.0
+3256,HegdInvst,Institutional,,,,,,1,1.0
+3259,Shikhar Raj,Individual,,,,,,1,0.0
+3261,Madhur Gupta,Individual,,,,,,1,0.0
+3262,Kartik Hosanagar,Individual,,,,,,1,0.0
+3264,Emami,Institutional,,,,,,1,1.0
+3265,Konvoy,Institutional,,,,,,1,1.0
+3266,Taisu Ventures,Institutional,,,,,,1,0.0
+3267,IIMA-CIIE,Accelerator,,,,,,1,0.0
+3271,Fundalogical Ventures,Institutional,,,,,,1,1.0
+3273,Amiya Pathak,Individual,,,,,,1,0.0
+3275,ICMG Global Ventures,Institutional,,,,,,1,0.0
+3276,MSN Holdings,Institutional,,,,,,1,1.0
+3277,Venturizer,Institutional,,,,,,1,1.0
+3278,Tarun Billa,Individual,,,,,,1,0.0
+3279,Mayank Singh Tomar,Individual,,,,,,1,0.0
+3281,A.P. Moller Holding,Individual,,,,,,1,0.0
+3282,Founders of OnGrid and HROne,Institutional,,,,,,1,0.0
+3284,Euro Gulf Investment,Institutional,,,,,,1,1.0
+3285,Artha Venture Fund II,Institutional,,,,,,1,1.0
+3286,Himanshu Ratnoo,Individual,,,,,,1,0.0
+3287,Kunal Gupta,Individual,,,,,,1,0.0
+3288,Devaiah Bopanna,Individual,,,,,,1,0.0
+3289,Vikrant Potnis,Individual,,,,,,1,0.0
+3290,Rinshul Chandra,Individual,,,,,,1,0.0
+3291,Harpreet Grover,Individual,,,,,,1,0.0
+3292,Anurag Prasad,Individual,,,,,,1,0.0
+3293,Harish Varadarajan,Individual,,,,,,1,0.0
+3294,Redbrook Fund,Institutional,,,,,,1,1.0
+3297,SB Investment,Institutional,,,,,,1,0.0
+3298,Prakash Govindan,Individual,,,,,,1,0.0
+3299,Himanshu Singhal,Individual,,,,,,1,0.0
+3300,Optiscape Network Holdings,Angel network,,,,,,1,0.0
+3302,Pramod Bhasin,Individual,,,,,,1,0.0
+3303,WVC,Institutional,,,,,,1,0.0
+3304,Shreyas Iyer,Individual,,,,,,1,0.0
+3305,Ravindra Jadeja,Individual,,,,,,1,0.0
+3306,Tilak Varma,Individual,,,,,,1,0.0
+3307,Sai Sudharsan,Individual,,,,,,1,0.0
+3308,Hardik Pandya,Individual,,,,,,1,0.0
+3310,Metica,Institutional,,,,,,1,1.0
+3311,Shepherd's Hill Private Equity,Institutional,,,,,,1,0.0
+3312,ESV-Arthya AIF,Individual,,,,,,1,0.0
+3313,Crucifer Investments,Institutional,,,,,,1,1.0
+3314,Gaurav Kapoor,Individual,,,,,,1,0.0
+3315,Hindustan Times,Individual,,,,,,1,1.0
+3316,Oxyzo,Institutional,,,,,,1,0.0
+3317,360 ONE Opportunities Fund,Institutional,,,,,,1,0.0
+3318,Praveek Ventures,Institutional,,,,,,1,1.0
+3319,Arvind Choudhar,Individual,,,,,,1,0.0
+3320,Aenik Shah,Individual,,,,,,1,0.0
+3321,Kartik Khatri,Individual,,,,,,1,0.0
+3322,Yash Mehta,Individual,,,,,,1,0.0
+3323,iOPEX Technologies,Institutional,,,,,,1,0.0
+3324,Amit Sheth,Individual,,,,,,1,0.0
+3325,Bhavin Manek,Individual,,,,,,1,0.0
+3326,Bijou Kurien,Individual,,,,,,1,0.0
+3329,Sampath Srisailam,Individual,,,,,,1,0.0
+3330,Aaryan Baid,Individual,,,,,,1,0.0
+3331,Sitara Capital,Institutional,,,,,,1,1.0
+3332,Turner Morrison consortium,Institutional,,,,,,1,0.0
+3333,Infosys,Institutional,,,,,,1,1.0
+3334,Maithan Family Office,Family office,,,,,,1,0.0
+3336,247VC,Institutional,,,,,,1,1.0
+3338,Rohit Qamra,Individual,,,,,,1,1.0
+3339,RMRN Ventures,Institutional,,,,,,1,0.0
+3340,BP Jain Holdings,Institutional,,,,,,1,0.0
+3341,Bipin Preet Singh,Individual,,,,,,1,0.0
+3342,Aakash Goyal,Individual,,,,,,1,0.0
+3343,Aditya Singh,Individual,,,,,,1,0.0
+3344,Valiant Fund,Institutional,,,,,,1,0.0
+3345,Sameer Nigam,Individual,,,,,,1,0.0
+3346,Zubin Bharti Mittal,Individual,,,,,,1,0.0
+3347,Anshu Sharma,Individual,,,,,,1,0.0
+3348,Sandhya Devanathan,Individual,,,,,,1,0.0
+3349,Sridhar Pinnapureddy,Individual,,,,,,1,0.0
+3350,HCLTech,Institutional,,,,,,1,1.0
+3351,Raj Dandu Family Office,Family office,,,,,,1,0.0
+3354,Kashish Sharma,Individual,,,,,,1,0.0
+3355,Mount Judi India Growth Fund,Institutional,,,,,,1,1.0
+3358,57 Stars,Institutional,,,,,,1,0.0
+3359,Seven Train Ventures,Institutional,,,,,,1,0.0
+3360,Mirae-Naver Asia Growth Fund,Institutional,,,,,,1,1.0
+3361,Exceed Entertainment,Individual,,,,,,1,0.0
+3362,Founders Club,Individual,,,,,,1,0.0
+3363,Anim Fund,Institutional,,,,,,1,0.0
+3365,Joe Montana,Individual,,,,,,1,0.0
+3366,John Jersin,Individual,,,,,,1,0.0
+3368,Harry Robertson,Individual,,,,,,1,0.0
+3369,Nordstar,Institutional,,,,,,1,0.0
+3370,Virendra Gupta,Individual,,,,,,1,0.0
+3372,Kyush Investments,Institutional,,,,,,1,0.0
+3373,IFC Emerging Asia Fund,Institutional,,,,,,1,1.0
+3374,VEF,Institutional,,,,,,1,1.0
+3375,Sands Capital,Institutional,,,,,,1,0.0
+3377,Manish Chowdhary,Individual,,,,,,1,0.0
+3378,Karan Chowdhary,Individual,,,,,,1,0.0
+3379,Elm,Institutional,,,,,,1,0.0
+3380,Sistema Asia Capital,Institutional,,,,,,1,0.0
+3382,Amansa Capital,Institutional,,,,,,1,0.0
+3383,Carmignac,Institutional,,,,,,1,0.0
+3385,FactorE,Institutional,,,,,,1,0.0
+3390,Souvik Sengupta,Individual,,,,,,1,0.0
+3393,"Founders and co-founders of MakeMyTrip, Cred, INDMoney, Udaan, Unacademy, Razorpay and others",Institutional,,,,,,1,0.0
+3394,Reliance Retail Ventures,Institutional,,,,,,1,1.0
+3395,Kalyan Krishnamurthy,Individual,,,,,,1,0.0
+3396,FedEx Express,Individual,,,,,,1,1.0
+3398,Anand Chandrasekaran,Individual,,,,,,1,0.0
+3400,Vy Capital,Institutional,,,,,,1,1.0
+3403,Hemesh Singh,Individual,,,,,,1,0.0
+3404,Sahil Barua,Individual,,,,,,1,0.0
+3405,SAI Global India Fund,Institutional,,,,,,1,1.0
+3407,"Founders of Vedantu, upGrad, Unacademy, DoubtNut and Avanti",Institutional,,,,,,1,1.0
+3410,Blackrock Global Investments,Institutional,,,,,,1,0.0
+3412,T Rowe Price,Individual,,,,,,1,0.0
+3413,Baillie Gifford,Individual,,,,,,1,0.0
+3414,Bank of Baroda,Debt / Bank,,,,,,1,1.0
+3416,Education Catalyst Fund,Institutional,,,,,,1,0.0
+3417,Yukti Securities,Institutional,,,,,,1,0.0
+3419,Willoughby Capital,Institutional,,,,,,1,0.0
+3420,Antara,Institutional,,,,,,1,0.0
+3421,H&M Group,Corporate,,,,,,1,1.0
+3423,KTB Network,Angel network,,,,,,1,0.0
+3424,Samsung Ventures,Institutional,,,,,,1,0.0
+3425,Fosun RZ Capital,Institutional,,,,,,1,0.0
+3427,GC DF Ventures,Institutional,,,,,,1,0.0
+3430,PharmEasy,Institutional,,,,,,1,0.0
+3431,Merisis VP,Individual,,,,,,1,0.0
+3432,Orios VP,Individual,,,,,,1,0.0
+3434,Fidelity Management & Research Co,Institutional,,,,,,1,1.0
+3436,Fowler Westrup,Individual,,,,,,1,0.0
+3437,IKP,Institutional,,,,,,1,0.0
+3438,Rajul Garg,Individual,,,,,,1,0.0
+3439,Zinnia Global Fund,Institutional,,,,,,1,1.0
+3440,Apar Group,Corporate,,,,,,1,0.0
+3441,Makers Fund,Institutional,,,,,,1,0.0
+3442,Amazon Climate Pledge Fund,Institutional,,,,,,1,1.0
+3443,Climate Capital,Institutional,,,,,,1,0.0
+3444,Mastermind Capital,Institutional,,,,,,1,1.0
+3445,Accor,Institutional,,,,,,1,1.0
+3446,Deepak Parayanken,Individual,,,,,,1,0.0
+3447,Ward Ferry,Individual,,,,,,1,0.0
+3449,Arvind Kumar Gupta,Individual,,,,,,1,0.0
+3450,Akash Singh,Individual,,,,,,1,0.0
+3451,Akhil Bhiwal,Individual,,,,,,1,0.0
+3453,Swapnil Jain,Individual,,,,,,1,0.0
+3454,Anil Advani,Individual,,,,,,1,0.0
+3455,Raj Krishna Murtthy,Individual,,,,,,1,0.0
+3456,Vaibhav Raj Gupta,Individual,,,,,,1,0.0
+3457,UP2398,Institutional,,,,,,1,0.0
+3458,Jan M. Leeman,Individual,,,,,,1,0.0
+3460,Masoom Minawala,Individual,,,,,,1,0.0
+3461,Jet Synthesis,Individual,,,,,,1,0.0
+3462,LenDenClub Alpha,Individual,,,,,,1,1.0
+3463,Katalyst Ventures,Institutional,,,,,,1,0.0
+3465,DFC,Institutional,,,,,,1,1.0
+3466,Sony Ventures Corporation,Institutional,,,,,,1,0.0
+3467,Shine Capital,Institutional,,,,,,1,0.0
+3468,Basecamp Fund,Institutional,,,,,,1,0.0
+3469,Accel Atoms,Individual,,,,,,1,1.0
+3470,Nishant Mungali,Individual,,,,,,1,0.0
+3472,Swati Mohan,Individual,,,,,,1,0.0
+3473,Roshan Abbas,Individual,,,,,,1,0.0
+3477,Arun Jain,Individual,,,,,,1,1.0
+3478,Rajesh Razdan,Individual,,,,,,1,0.0
+3479,Ankush Nijhawan,Individual,,,,,,1,0.0
+3480,Purrshottam Bhaggeria,Individual,,,,,,1,0.0
+3481,Abhay Agarwal,Individual,,,,,,1,0.0
+3482,Navin Jain,Individual,,,,,,1,0.0
+3483,VedaVC,Institutional,,,,,,1,0.0
+3484,Alarko Ventures,Institutional,,,,,,1,1.0
+3485,Esas Ventures,Institutional,,,,,,1,1.0
+3486,Deb Deep Sengupta,Individual,,,,,,1,0.0
+3487,Ankush Grover,Individual,,,,,,1,0.0
+3488,Aaryaman Vir Shah,Individual,,,,,,1,0.0
+3489,Ankit Sethi,Individual,,,,,,1,0.0
+3490,AIC RNTU Bhopal,Individual,,,,,,1,1.0
+3491,Horses Stable,Individual,,,,,,1,0.0
+3492,Mohit Gulati,Individual,,,,,,1,0.0
+3493,Mandar Joshi,Individual,,,,,,1,0.0
+3494,Yamika Mehra,Individual,,,,,,1,0.0
+3495,Ankita Vashistha,Individual,,,,,,1,0.0
+3496,Aarti Gupta,Individual,,,,,,1,0.0
+3497,Dr. Vivek Bindra,Individual,,,,,,1,0.0
+3500,Innopact VC,Institutional,,,,,,1,0.0
+3502,Priyavrata Mafatlal,Individual,,,,,,1,0.0
+3503,Bimal Parekh,Individual,,,,,,1,0.0
+3504,Sweta Amrish Rau,Individual,,,,,,1,0.0
+3505,Harish Naraynan,Individual,,,,,,1,0.0
+3506,Kolte-Patil Family Ventures,Institutional,,,,,,1,0.0
+3507,Gaurav VK Singhvi,Individual,,,,,,1,0.0
+3508,Neeraj Tyagi,Individual,,,,,,1,0.0
+3509,Bhawna Bhatnagar,Individual,,,,,,1,0.0
+3510,Sandeep Balaji,Individual,,,,,,1,0.0
+3511,Rahul Hingmire,Individual,,,,,,1,0.0
+3512,Amit Hooja,Individual,,,,,,1,0.0
+3513,Vardhman Group,Corporate,,,,,,1,0.0
+3514,Rahul Sharma,Individual,,,,,,1,0.0
+3516,Siply,Institutional,,,,,,1,1.0
+3517,BoldCapital,Institutional,,,,,,1,0.0
+3518,Rainmatter Foundation,Institutional,,,,,,1,0.0
+3519,Venture Dairy,Institutional,,,,,,1,0.0
+3521,Mohit Sadanni,Individual,,,,,,1,0.0
+3522,Varun Sadana,Individual,,,,,,1,0.0
+3523,IQ Alpha,Individual,,,,,,1,0.0
+3524,Rohit Kumar Bansal,Individual,,,,,,1,0.0
+3525,Kunal Bhal,Individual,,,,,,1,0.0
+3527,Xceed Investments LLC,Institutional,,,,,,1,0.0
+3528,Singularity Opportunities Growth Fund,Institutional,,,,,,1,1.0
+3530,Derbi Foundation,Institutional,,,,,,1,0.0
+3531,Nadir Godrej,Individual,,,,,,1,0.0
+3532,Sanjay Rangrass,Individual,,,,,,1,0.0
+3533,Akshay Singhal,Individual,,,,,,1,0.0
+3534,Ashish Mohapatra,Individual,,,,,,1,0.0
+3536,Chaitnya Peddi,Individual,,,,,,1,0.0
+3537,Jayant Paleti,Individual,,,,,,1,0.0
+3538,Sidharth Gupta,Individual,,,,,,1,0.0
+3539,Kunal Suri,Individual,,,,,,1,0.0
+3540,Siddharth Jayanti,Individual,,,,,,1,0.0
+3541,Amitabh Mall,Individual,,,,,,1,0.0
+3542,Rajeev Kumar,Individual,,,,,,1,0.0
+3543,Sakshi Sinha,Individual,,,,,,1,0.0
+3544,Kalaari Capital (CXXO),Institutional,,,,,,1,1.0
+3545,AmTrust,Institutional,,,,,,1,0.0
+3546,Baksh Capital,Institutional,,,,,,1,1.0
+3548,Varun Gupta,Individual,,,,,,1,0.0
+3549,Sajid Rahman,Individual,,,,,,1,0.0
+3550,Vineet Kumar Jain,Individual,,,,,,1,0.0
+3551,Sanjay Rishi,Individual,,,,,,1,0.0
+3552,Manipal Group,Corporate,,,,,,1,0.0
+3553,Negen Capital AIF,Institutional,,,,,,1,1.0
+3554,Aditya Goel,Individual,,,,,,1,1.0
+3555,Go-Ventures,Institutional,,,,,,1,0.0
+3557,Biological E. Limited,Corporate,,,,,,1,1.0
+3558,Alkem,Institutional,,,,,,1,1.0
+3559,NATCO,Institutional,,,,,,1,1.0
+3560,Anurag Bagaria,Individual,,,,,,1,1.0
+3561,Karan Bagaria,Individual,,,,,,1,1.0
+3562,Kotak Private Equity,Institutional,,,,,,1,0.0
+3563,Goel family fund,Institutional,,,,,,1,1.0
+3564,Alsisar Impact,Individual,,,,,,1,1.0
+3565,Sethu Raman,Individual,,,,,,1,1.0
+3566,Anand Lakra,Individual,,,,,,1,1.0
+3567,Mridula Chettri,Individual,,,,,,1,1.0
+3568,Sourabh Chourasia,Individual,,,,,,1,0.0
+3569,Arjun Mallya,Individual,,,,,,1,0.0
+3571,Nitesh Damani,Individual,,,,,,1,0.0
+3572,Nikhil Chandra Gupta,Individual,,,,,,1,0.0
+3573,Neeraj Goenka,Individual,,,,,,1,0.0
+3574,Uday Chattarjeee,Individual,,,,,,1,0.0
+3575,Hari Balasubramniam,Individual,,,,,,1,0.0
+3577,T-Fund,Institutional,,,,,,1,0.0
+3579,Jay Singh,Individual,,,,,,1,0.0
+3580,GTM Ventures,Institutional,,,,,,1,0.0
+3581,Unmaj Corporation,Corporate,,,,,,1,0.0
+3582,Gopal Srinivasan,Individual,,,,,,1,0.0
+3584,Avendus Future Leaders Fund,Institutional,,,,,,1,1.0
+3585,IQ Fund,Institutional,,,,,,1,0.0
+3586,AngelList Quant Fund,Angel network,,,,,,1,1.0
+3587,WorldQuant Ventures,Institutional,,,,,,1,1.0
+3588,Varanium GenNext Fund,Institutional,,,,,,1,1.0
+3590,Gaurav Juneja,Individual,,,,,,1,0.0
+3591,Saurabh Agrawal,Individual,,,,,,1,0.0
+3592,Rajeev Goel,Individual,,,,,,1,0.0
+3593,Broom Ventures,Institutional,,,,,,1,0.0
+3594,Incisive Ventures,Institutional,,,,,,1,0.0
+3595,Ajay Adiseshan,Individual,,,,,,1,0.0
+3596,Anoop Mathur,Individual,,,,,,1,0.0
+3597,Jaydeep Deshpande,Individual,,,,,,1,0.0
+3598,Yagnesh Sanghrajka,Individual,,,,,,1,0.0
+3599,Sachin,Institutional,,,,,,1,0.0
+3600,Jubilant Foodworks,Individual,,,,,,1,1.0
+3601,HePo NL,Individual,,,,,,1,0.0
+3603,Sheikha Hend Al Qassemi,Individual,,,,,,1,1.0
+3604,Raza Beig,Individual,,,,,,1,1.0
+3606,K Ganesh,Individual,,,,,,1,0.0
+3608,Jaynti Kanani,Individual,,,,,,1,0.0
+3609,Metaplanet VC,Institutional,,,,,,1,1.0
+3610,Goldwater Capital,Institutional,,,,,,1,0.0
+3612,Original Capital,Institutional,,,,,,1,0.0
+3613,Valiant Employee Investment Fund,Institutional,,,,,,1,1.0
+3615,Old World Hospitality,Individual,,,,,,1,0.0
+3616,Jasleen Royal,Individual,,,,,,1,0.0
+3617,RB Investments,Institutional,,,,,,1,0.0
+3619,V.M. Salgaocar Family Office,Family office,,,,,,1,0.0
+3620,M2P founders,Institutional,,,,,,1,0.0
+3621,Kwaish Ventures,Institutional,,,,,,1,0.0
+3622,Nihar Parikh,Individual,,,,,,1,0.0
+3623,Sriram Natarajan,Individual,,,,,,1,0.0
+3624,Justin Hamilton,Individual,,,,,,1,0.0
+3625,Ivy Growth Associates,Individual,,,,,,1,0.0
+3626,Mirae Assets,Individual,,,,,,1,0.0
+3627,VGROW Ventures,Institutional,,,,,,1,1.0
+3628,Ravi Shankar Kathirvelu,Individual,,,,,,1,0.0
+3629,Hari TN,Individual,,,,,,1,0.0
+3630,Abhishek Raj Pandey,Individual,,,,,,1,0.0
+3631,Gujarat-based angel syndicate,Angel network,,,,,,1,0.0
+3632,"HNI investors from Google, Deloitte, Tata 1mg, Axis Capital",Institutional,,,,,,1,0.0
+3633,Jalaj Dani,Individual,,,,,,1,1.0
+3634,founders of Addverb Technologies,Institutional,,,,,,1,0.0
+3636,Beyond Capital Ventures,Institutional,,,,,,1,1.0
+3637,Asymmetry Ventures,Institutional,,,,,,1,0.0
+3639,Ashok Gudibandla,Individual,,,,,,1,0.0
+3640,100x Entrepreneurs,Institutional,,,,,,1,0.0
+3641,Dr. Akshay Singhal,Individual,,,,,,1,0.0
+3642,Ms Monika Rao,Individual,,,,,,1,0.0
+3643,multiple investors,Institutional,,,,,,1,0.0
+3644,Dr. Cornelius (Conny) Boersch,Institutional,,,,,,1,1.0
+3645,Koh Boon Hwee,Individual,,,,,,1,1.0
+3646,Apoorva Ranjan Sharma,Individual,,,,,,1,1.0
+3647,Ramit Mittal,Individual,,,,,,1,1.0
+3648,25 D2C founder angels,Angel network,,,,,,1,0.0
+3649,Ocean View,Individual,,,,,,1,0.0
+3651,3to1 Capital,Institutional,,,,,,1,1.0
+3652,Vijay Sethi,Individual,,,,,,1,0.0
+3653,Chandan Chowdhury,Individual,,,,,,1,0.0
+3654,Saptroshi Hore,Individual,,,,,,1,0.0
+3655,Neeraj Khandewal,Individual,,,,,,1,0.0
+3656,Ankur Jain,Individual,,,,,,1,0.0
+3657,Abhishek Sureka,Individual,,,,,,1,0.0
+3658,Shankar Rachakonda,Individual,,,,,,1,0.0
+3659,Anand Reddy,Individual,,,,,,1,0.0
+3660,Jio Platforms,Individual,,,,,,1,1.0
+3662,Woodside Technologies Pty Ltd,Corporate,,,,,,1,1.0
+3663,Dare Ventures,Institutional,,,,,,1,0.0
+3664,Zenfold Ventures,Institutional,,,,,,1,0.0
+3665,Unaprime Investment Advisors,Institutional,,,,,,1,0.0
+3666,ODX (On Deck),Institutional,,,,,,1,1.0
+3667,Kepler Operator's fund,Institutional,,,,,,1,1.0
+3668,Pidilite Industries,Individual,,,,,,1,1.0
+3669,Konglo Ventures,Institutional,,,,,,1,0.0
+3670,Vineet Kumar,Individual,,,,,,1,0.0
+3671,Deep Gupta,Individual,,,,,,1,0.0
+3672,Cover Genius,Individual,,,,,,1,1.0
+3673,NexStep Discovery Pte,Individual,,,,,,1,0.0
+3674,CP Ventures,Institutional,,,,,,1,0.0
+3675,Amogh Kumar Gupta,Individual,,,,,,1,1.0
+3676,Kavikrut,Institutional,,,,,,1,0.0
+3678,Uday Thakker,Individual,,,,,,1,0.0
+3679,Falisha Technoworld,Individual,,,,,,1,1.0
+3680,Crescent,Institutional,,,,,,1,0.0
+3681,Dream Incubator Japan,Accelerator,,,,,,1,1.0
+3682,Tony Xu,Individual,,,,,,1,0.0
+3684,Sara International Group,Corporate,,,,,,1,0.0
+3686,Olympus Capital,Institutional,,,,,,1,0.0
+3687,57 Stars Global Innovation Fund,Institutional,,,,,,1,1.0
+3688,Manish Agrawal,Individual,,,,,,1,0.0
+3690,Fasanara Capital,Institutional,,,,,,1,1.0
+3691,Abstract Ventures,Institutional,,,,,,1,1.0
+3692,Anand Lunia,Individual,,,,,,1,0.0
+3693,Chitransh Sahai,Individual,,,,,,1,0.0
+3695,Meteor Ventures,Institutional,,,,,,1,0.0
+3697,Redsprig Innovation Partners,Institutional,,,,,,1,1.0
+3698,Godrej Family Office,Family office,,,,,,1,1.0
+3700,Ambis Holding US,Individual,,,,,,1,0.0
+3701,Kuberans Ventures,Institutional,,,,,,1,0.0
+3702,Karimjee Group,Corporate,,,,,,1,0.0
+3703,Mission Vertical Capital,Institutional,,,,,,1,0.0
+3704,Sanjiv Saraf Family Office,Family office,,,,,,1,0.0
+3705,Pravek Kalp Family Office,Family office,,,,,,1,0.0
+3707,INVSTT,Institutional,,,,,,1,0.0
+3710,Jainam Broking Limited,Corporate,,,,,,1,1.0
+3711,Arun Venkatachalam HUF,Individual,,,,,,1,0.0
+3712,Veena Merchants And Advisors LLP,Institutional,,,,,,1,0.0
+3713,Selemium Trust,Institutional,,,,,,1,0.0
+3714,MUFG,Institutional,,,,,,1,1.0
+3716,Intersection Ventures,Institutional,,,,,,1,0.0
+3717,DSP Group,Corporate,,,,,,1,0.0
+3720,Ritu Bapna,Individual,,,,,,1,0.0
+3721,UMI,Institutional,,,,,,1,0.0
+3727,Sunil Rohokale,Individual,,,,,,1,0.0
+3728,Monik Koticha,Individual,,,,,,1,0.0
+3731,Abhinav Dhar,Individual,,,,,,1,0.0
+3732,Prasad Ramakrishnan,Individual,,,,,,1,0.0
+3733,Avanish Sahai,Individual,,,,,,1,0.0
+3734,Rich Waldron,Individual,,,,,,1,0.0
+3735,Wint Wealth,Individual,,,,,,1,0.0
+3737,Dr. Ritesh Malik,Individual,,,,,,1,0.0
+3738,Sahil Malik,Individual,,,,,,1,0.0
+3739,Chandini Purnesh,Individual,,,,,,1,0.0
+3740,Aman Bahel,Individual,,,,,,1,0.0
+3741,Nakul Dev Chawla,Individual,,,,,,1,0.0
+3742,Dr. Shriram Nene,Individual,,,,,,1,0.0
+3744,Sinar Mas,Individual,,,,,,1,1.0
+3746,Om Jain,Individual,,,,,,1,1.0
+3747,Vimal Khivesara,Individual,,,,,,1,0.0
+3748,Ramesh Jain,Individual,,,,,,1,0.0
+3749,Prabhakar,Institutional,,,,,,1,0.0
+3751,V Ocean Investments,Institutional,,,,,,1,0.0
+3752,Puro Wellness,Individual,,,,,,1,1.0
+3753,MARL Fund,Institutional,,,,,,1,0.0
+3754,Quant Fund,Institutional,,,,,,1,0.0
+3755,C-CAMP,Institutional,,,,,,1,0.0
+3756,Nandak Growth Catalysts,Individual,,,,,,1,0.0
+3758,M&G Catalyst,Individual,,,,,,1,0.0
+3759,Shriram Nene,Individual,,,,,,1,0.0
+3760,Ramneek Sehgal,Individual,,,,,,1,0.0
+3761,Mayank Gupta,Individual,,,,,,1,0.0
+3762,Rahul Mathur,Individual,,,,,,1,0.0
+3763,Piyush Nangru,Individual,,,,,,1,0.0
+3764,Utkarsh Kumar,Individual,,,,,,1,0.0
+3765,Amit Goel,Individual,,,,,,1,0.0
+3766,Shilpa Shetty Kundra,Individual,,,,,,1,0.0
+3767,Harsh Vardhan Bhagchandka,Individual,,,,,,1,0.0
+3768,Vinit Bhansali,Individual,,,,,,1,0.0
+3769,Kenro Capital,Institutional,,,,,,1,0.0
+3770,Jaipuria Family Office,Family office,,,,,,1,1.0
+3771,Quadrant,Institutional,,,,,,1,1.0
+3772,DSGCP,Institutional,,,,,,1,0.0
+3773,Dhianu Das,Individual,,,,,,1,0.0
+3774,Banner Health,Individual,,,,,,1,0.0
+3775,Danaher Ventures LLC,Institutional,,,,,,1,0.0
+3776,Generation Investment Management,Institutional,,,,,,1,0.0
+3777,Kaiser Permanente,Individual,,,,,,1,0.0
+3779,Anshul Sharan,Individual,,,,,,1,0.0
+3780,Abhijeet Kumar,Individual,,,,,,1,0.0
+3781,Harshit Panday,Individual,,,,,,1,0.0
+3782,Vidya Sridharan,Individual,,,,,,1,0.0
+3783,Munendra Singh,Individual,,,,,,1,0.0
+3784,Srihari Sahu,Individual,,,,,,1,0.0
+3785,Preeti Sagtani,Individual,,,,,,1,0.0
+3786,Dr. Biju Jacob,Individual,,,,,,1,0.0
+3787,Anand Tiwari,Individual,,,,,,1,0.0
+3788,KK,Institutional,,,,,,1,0.0
+3789,Vishal Jain,Individual,,,,,,1,0.0
+3790,Dhingra Partners Prosperity Trust,Institutional,,,,,,1,0.0
+3792,Maanaveeya Development & Finance Private Limited,Corporate,,,,,,1,0.0
+3793,Vinay Jain,Individual,,,,,,1,0.0
+3794,Manish Dureja,Individual,,,,,,1,0.0
+3795,Prantik Mazumdar,Individual,,,,,,1,0.0
+3796,Neeraj Sagar,Individual,,,,,,1,0.0
+3797,Sudhir Kamath,Individual,,,,,,1,0.0
+3798,TANSIM,Institutional,,,,,,1,0.0
+3799,Samir Goenka,Individual,,,,,,1,0.0
+3800,Narinder Bajaj,Individual,,,,,,1,0.0
+3801,Kapil Kriplani,Individual,,,,,,1,0.0
+3802,Vega Industries,Individual,,,,,,1,0.0
+3803,Gagan Khanna,Individual,,,,,,1,0.0
+3804,Supersonic Carrier,Individual,,,,,,1,0.0
+3805,Nirmal K Bathwal,Individual,,,,,,1,0.0
+3806,7th Gen Ventures,Institutional,,,,,,1,0.0
+3807,Trudie Styler,Individual,,,,,,1,0.0
+3809,MK Ventures,Institutional,,,,,,1,0.0
+3810,Aionios Alpha Investment Management,Institutional,,,,,,1,0.0
+3811,Ashika Group,Corporate,,,,,,1,0.0
+3812,Amit Rajpal,Individual,,,,,,1,0.0
 3814,Go Digit,Individual,,,,,,1,1.0
 3816,Manash E-commerce Private Limited,Corporate,,,,,,1,1.0
 3817,ABB Motion,Individual,,,,,,1,1.0
@@ -5453,73 +5453,73 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1876,Head Digital Works,Individual,,,,,,0,
 1877,MobiKwik,Institutional,,,,,,0,
 1878,PayRange,Institutional,,,,,,0,
-1881,Veranda Learning Solutions,Individual,,,,,,0,
-1887,Super.money,Institutional,,,,,,0,
-1949,Unicommerce,Institutional,,,,,,0,
-1964,Jumbotail,Institutional,,,,,,0,
-2002,CleverTap,Institutional,,,,,,0,
-2035,Jaipuria Group,Corporate,,,,,,0,
-2041,Ampivo AI,Individual,,,,,,0,
-2042,Accenture,Institutional,,,,,,0,
-2043,CARS24,Institutional,,,,,,0,
-2129,"Axana Estates, Plutus Wealth Management, and Junomoneta Finsol",Institutional,,,,,,0,
-2175,PhonePe,Institutional,,,,,,0,
-2230,Incuspaze,Institutional,,,,,,0,
-2282,Udaan,Institutional,,,,,,0,
-2345,Zetwerk,Institutional,,,,,,0,
-2364,Uniphore,Institutional,,,,,,0,
-2367,Star Localmart,Individual,,,,,,0,
-2377,TBO Tek,Individual,,,,,,0,
-2414,EaseMyTrip,Institutional,,,,,,0,
-2553,VideoDB,Institutional,,,,,,0,
-2586,Vyapar,Institutional,,,,,,0,
-2630,Zaggle,Institutional,,,,,,0,
-2645,Swara Baby,Individual,,,,,,0,
-2651,Livspace,Institutional,,,,,,0,
-2656,Unnati Agri,Individual,,,,,,0,
-2668,Urban Harvest,Individual,,,,,,0,
-2748,HORIBA India,Individual,,,,,,0,
-2758,USV,Institutional,,,,,,0,
-2800,Moksha Group,Corporate,,,,,,0,
-2821,M2P Fintech,Individual,,,,,,0,
-2822,Nourish You,Individual,,,,,,0,
-2823,MPL,Institutional,,,,,,0,
-2926,Amagi,Institutional,,,,,,0,
-2933,Skill-Lync,Institutional,,,,,,0,
-2976,MoEVing,Institutional,,,,,,0,
-2992,Veefin Group,Corporate,,,,,,0,
-3039,Licious,Institutional,,,,,,0,
-3058,Kovai.co,Institutional,,,,,,0,
-3118,OYO,Institutional,,,,,,0,
-3130,BillDesk,Institutional,,,,,,0,
-3149,upGrad,Institutional,,,,,,0,
-3192,CureBay,Institutional,,,,,,0,
-3199,Poggipolini Group,Corporate,,,,,,0,
-3231,91trucks,Institutional,,,,,,0,
-3234,Moving Tech,Individual,,,,,,0,
-3248,Tauseef Mirza,Individual,,,,,,0,
-3258,Raise Fintech Ventures,Institutional,,,,,,0,
-3259,Globalbees Brands,Individual,,,,,,0,
-3270,Fashinza,Institutional,,,,,,0,
-3296,Emversity,Institutional,,,,,,0,
-3336,Meesho,Institutional,,,,,,0,
-3374,Byju's,Institutional,,,,,,0,
-3385,YouTube,Institutional,,,,,,0,
-3398,Vedantu,Institutional,,,,,,0,
-3434,Clear,Institutional,,,,,,0,
-3436,Modern Times Group,Corporate,,,,,,0,
-3500,Mensa Brands,Individual,,,,,,0,
-3608,Hesa,Institutional,,,,,,0,
-3662,LifeCell International,Individual,,,,,,0,
-3686,PagarBook,Institutional,,,,,,0,
-3690,FIXCRAFT,Institutional,,,,,,0,
-3695,WinZO,Institutional,,,,,,0,
-3707,Tata Electronics,Individual,,,,,,0,
-3709,Boss Wallah,Individual,,,,,,0,
-3710,Mintoak,Institutional,,,,,,0,
-3730,Omnia,Institutional,,,,,,0,
-3731,Tata Sons,Individual,,,,,,0,
-3758,Pluckk,Institutional,,,,,,0,
+1886,Super.money,Institutional,,,,,,0,
+1948,Unicommerce,Institutional,,,,,,0,
+1963,Jumbotail,Institutional,,,,,,0,
+2001,CleverTap,Institutional,,,,,,0,
+2034,Jaipuria Group,Corporate,,,,,,0,
+2040,Ampivo AI,Individual,,,,,,0,
+2041,Accenture,Institutional,,,,,,0,
+2042,CARS24,Institutional,,,,,,0,
+2128,"Axana Estates, Plutus Wealth Management, and Junomoneta Finsol",Institutional,,,,,,0,
+2174,PhonePe,Institutional,,,,,,0,
+2229,Incuspaze,Institutional,,,,,,0,
+2281,Udaan,Institutional,,,,,,0,
+2344,Zetwerk,Institutional,,,,,,0,
+2363,Uniphore,Institutional,,,,,,0,
+2366,Star Localmart,Individual,,,,,,0,
+2376,TBO Tek,Individual,,,,,,0,
+2413,EaseMyTrip,Institutional,,,,,,0,
+2552,VideoDB,Institutional,,,,,,0,
+2585,Vyapar,Institutional,,,,,,0,
+2629,Zaggle,Institutional,,,,,,0,
+2644,Swara Baby,Individual,,,,,,0,
+2650,Livspace,Institutional,,,,,,0,
+2655,Unnati Agri,Individual,,,,,,0,
+2667,Urban Harvest,Individual,,,,,,0,
+2747,HORIBA India,Individual,,,,,,0,
+2757,USV,Institutional,,,,,,0,
+2799,Moksha Group,Corporate,,,,,,0,
+2820,M2P Fintech,Individual,,,,,,0,
+2821,Nourish You,Individual,,,,,,0,
+2822,MPL,Institutional,,,,,,0,
+2925,Amagi,Institutional,,,,,,0,
+2932,Skill-Lync,Institutional,,,,,,0,
+2975,MoEVing,Institutional,,,,,,0,
+2991,Veefin Group,Corporate,,,,,,0,
+3038,Licious,Institutional,,,,,,0,
+3057,Kovai.co,Institutional,,,,,,0,
+3117,OYO,Institutional,,,,,,0,
+3129,BillDesk,Institutional,,,,,,0,
+3148,upGrad,Institutional,,,,,,0,
+3191,CureBay,Institutional,,,,,,0,
+3198,Poggipolini Group,Corporate,,,,,,0,
+3230,91trucks,Institutional,,,,,,0,
+3233,Moving Tech,Individual,,,,,,0,
+3247,Tauseef Mirza,Individual,,,,,,0,
+3257,Raise Fintech Ventures,Institutional,,,,,,0,
+3258,Globalbees Brands,Individual,,,,,,0,
+3269,Fashinza,Institutional,,,,,,0,
+3295,Emversity,Institutional,,,,,,0,
+3335,Meesho,Institutional,,,,,,0,
+3376,Byju's,Institutional,,,,,,0,
+3384,YouTube,Institutional,,,,,,0,
+3397,Vedantu,Institutional,,,,,,0,
+3433,Clear,Institutional,,,,,,0,
+3435,Modern Times Group,Corporate,,,,,,0,
+3499,Mensa Brands,Individual,,,,,,0,
+3607,Hesa,Institutional,,,,,,0,
+3661,LifeCell International,Individual,,,,,,0,
+3685,PagarBook,Institutional,,,,,,0,
+3689,FIXCRAFT,Institutional,,,,,,0,
+3694,WinZO,Institutional,,,,,,0,
+3706,Tata Electronics,Individual,,,,,,0,
+3708,Boss Wallah,Individual,,,,,,0,
+3709,Mintoak,Institutional,,,,,,0,
+3729,Omnia,Institutional,,,,,,0,
+3730,Tata Sons,Individual,,,,,,0,
+3757,Pluckk,Institutional,,,,,,0,
+3813,Veranda Learning Solutions,Individual,,,,,,0,
 3815,InCred Finance,Institutional,,,,,,0,
 3829,Perfios,Institutional,,,,,,0,
 3840,Groyyo,Institutional,,,,,,0,

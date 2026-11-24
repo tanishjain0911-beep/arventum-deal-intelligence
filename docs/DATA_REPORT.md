@@ -1,31 +1,31 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T08:25:57._
+_Generated from `db/deals.db` at 2026-11-24T08:54:10._
 
 ## Contents
 
 | table | rows |
 |---|---|
-| sources | 7161 |
-| companies | 3886 |
+| sources | 7157 |
+| companies | 3882 |
 | investors | 5587 |
-| deals | 5348 |
-| deal_investors | 13823 |
-| deal_sources | 5610 |
+| deals | 5343 |
+| deal_investors | 13821 |
+| deal_sources | 5606 |
 | financials | 1252 |
 | weekly_totals | 299 |
-| corrections | 551 |
+| corrections | 554 |
 
 Articles used, by source:
 
 | site | articles |
 |---|---|
-| entrackr | 6937 |
+| entrackr | 6933 |
 | inc42 | 224 |
 
-- Deal records before de-duplication: **5610**; duplicate reports merged: **262**; deals confirmed by 2+ articles: **251**
+- Deal records before de-duplication: **5606**; duplicate reports merged: **263**; deals confirmed by 2+ articles: **252**
 - Amount disclosed: **90.9%** of deals; at least one named investor: **78.3%**
-- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 124, 'partial / unfinished fiscal year dropped': 338, 'self-acquisition dropped (role swap)': 9, 'public-market raise': 54, 'implausible amount dropped': 4}
+- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 122, 'partial / unfinished fiscal year dropped': 338, 'self-acquisition dropped (role swap)': 9, 'public-market raise': 54, 'multi-company record dropped': 5, 'implausible amount dropped': 4}
 
 ## Primary rounds by year
 
@@ -35,8 +35,8 @@ Articles used, by source:
 | 2022 | 769 | 18,172.1 | 5.0 |
 | 2023 | 622 | 9,632.6 | 3.4 |
 | 2024 | 916 | 12,132.5 | 4.0 |
-| 2025 | 1136 | 15,389.4 | 3.9 |
-| 2026 | 866 | 11,645.6 | 4.1 |
+| 2025 | 1136 | 15,644.4 | 3.9 |
+| 2026 | 865 | 11,645.6 | 4.1 |
 
 ## Top sectors by capital raised
 
@@ -52,7 +52,7 @@ Articles used, by source:
 | Consumer Internet | 129 | 3,375.1 |
 | Media & Gaming | 147 | 2,829.9 |
 | SaaS | 176 | 2,541.2 |
-| Artificial Intelligence | 207 | 2,397.3 |
+| Artificial Intelligence | 206 | 2,397.3 |
 | Industrial Tech | 126 | 2,041.2 |
 | AgriTech | 162 | 1,793.2 |
 | Travel & Hospitality | 106 | 1,650.3 |
@@ -63,7 +63,7 @@ Articles used, by source:
 | name | type | ai_type | hq_country | deals | led |
 |---|---|---|---|---|---|
 | Inflection Point Ventures | Institutional | Angel network / platform | India | 156 | 127 |
-| Peak XV Partners | Institutional | Venture Capital | Singapore | 145 | 86 |
+| Peak XV Partners | Institutional | Venture Capital | Singapore | 144 | 85 |
 | Accel | Institutional | Venture Capital | United States | 129 | 84 |
 | Venture Catalysts | Institutional | Angel network / platform | India | 114 | 48 |
 | Blume Ventures | Institutional | Venture Capital | India | 110 | 37 |
@@ -111,9 +111,9 @@ Articles used, by source:
 {
   "weeks_compared": 296,
   "reported_deals_total": 7808,
-  "our_deals_total": 4648,
+  "our_deals_total": 4647,
   "deal_recall_pct": 59.5,
-  "usd_recall_pct": 79.6,
+  "usd_recall_pct": 79.8,
   "median_weekly_deal_recall_pct": 64.5
 }
 ```

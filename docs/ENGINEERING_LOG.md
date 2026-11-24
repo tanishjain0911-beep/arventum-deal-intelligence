@@ -44,4 +44,7 @@ Real-world data is messy. Each entry below was **detected by a check built into 
 | 30 | Captain Fresh appeared as the *target* of its own acquisitions | In 8 of 331 acquisitions (2.4%) the AI recorded the buyer as both target and acquirer | Self-acquisitions are dropped and logged rather than guessed; QA script `analysis/check_acquisitions.py` now reports 0 |
 | 31 | One company's funding history split across two records (Moneyview / Money View, Byju / Byju's, RENÉE / RENEE, TheMathCompany / The Math Company) | Company keys were sensitive to spacing, possessives, accents and a fused "The" | Company keys ignore all four (11 duplicate groups → 0, `analysis/company_dupes.py`); regression tests added |
 
+| 32 | "Nikhil Kamath invests $20 Mn in GreenLine's $275 Mn round" corrected to $20M | Headline-wins took the first amount; the AI had correctly chosen the round size | Override only when the AI's amount matches **none** of the amounts in the headline |
+| 33 | Fake companies such as "Companion Labs, Kello, Memfold AI, Round1 and Zoop" | The AI packed several companies into one record | Multi-company records are dropped and logged (5, all verified genuine) |
+
 **Takeaway:** every fix is enforced by a check that runs on each rebuild (`python pipeline/run_all.py`): validation, the coverage audit, two-agent agreement, and regression tests.

@@ -26,7 +26,7 @@ import pandas as pd
 from rapidfuzz import fuzz
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import _records, fx, headline_amount_usd, to_usd_m  # noqa: E402
+from common import _records, all_headline_amounts, fx, headline_amount_usd, to_usd_m  # noqa: E402
 from sectors import ALL_SECTORS, STAGES  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +35,8 @@ PROCESSED = ROOT / "data" / "processed"
 
 DEAL_TYPES = {"funding": "equity", "acquisition": "acquisition", "secondary": "secondary", "ipo": "ipo"}
 ROUNDUP = re.compile(r"this-week|weekly-funding|monthly-funding|funding-galore")
+MULTI_COMPANY = re.compile(r",\s*[A-Z]|\b[A-Z][\w.]+\s+and\s+[A-Z][\w.]+\s+[A-Z]|\b(?:five|four|three|two|several)\s+"
+                           r"(?:startups|companies)\b")
 PUBLIC_MARKET = re.compile(r"\b(QIP|qualified institution\w*|anchor (?:investors?|book|round)|preferential "
                            r"(?:issue|allotment)|rights issue|block deal|offer for sale|\bOFS\b|follow-on public)",
                            re.I)
@@ -234,12 +236,20 @@ def main():
             continue
         a = arts[r["url"]]
         d = date.fromisoformat(a["date"][:10])
+        if MULTI_COMPANY.search(r["company"]):
+            # several companies packed into one field ("BB Virtuals and Navkar Digital") -> ambiguous record
+            corrections.append((r["url"], "company", r["company"], None, "multi-company record dropped"))
+            continue
         ck = companies.add(r["company"])
         sector = r.get("sector") if r.get("sector") in ALL_SECTORS else None
         if r["record_type"] in DEAL_TYPES:
             usd = to_usd_m(r.get("amount_value"), r.get("amount_currency"), r.get("amount_unit"), d.year)
             head = headline_amount_usd(a.get("title"), d.year)
-            if head is not None and (usd is None or abs(head - usd) > 0.12 * max(head, usd)):
+            # if the AI's amount equals ANY amount in the headline it chose deliberately (e.g. "X invests $20 Mn in
+            # Y's $275 Mn round" -> the round is $275M); only override when it matches none of them
+            ai_in_headline = usd is not None and any(
+                abs(h - usd) <= 0.12 * max(h, usd) for h in all_headline_amounts(a.get("title"), d.year))
+            if head is not None and not ai_in_headline and (usd is None or abs(head - usd) > 0.12 * max(head, usd)):
                 corrections.append((r["url"], "amount_usd_m", usd, head, "headline-wins"))
                 usd = head
             if usd is not None and not (0.005 <= usd <= 20000):

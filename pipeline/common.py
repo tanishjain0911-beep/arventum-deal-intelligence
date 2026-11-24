@@ -45,6 +45,16 @@ NOT_ROUND_AFTER = re.compile(r"^\s*(?:mn|million|bn|billion|cr|crore)?\s*(?:for\
                              r"(valuation|revenue|loss|profit|gmv|arr|turnover|fund\b|corpus|aum)", re.I)
 
 
+def all_headline_amounts(text: str, year: int = 2025) -> list:
+    """Every amount mentioned in a headline (USD millions), regardless of context."""
+    out = []
+    for m in AMT.finditer(text or ""):
+        v = headline_amount_usd(m.group(0), year)
+        if v is not None:
+            out.append(v)
+    return out
+
+
 def headline_amount_usd(text: str, year: int = 2025):
     """Deterministic amount parser for headlines like '$11 Mn', 'Rs 70 Cr', '₹115 Cr', '$250,000', '$500K'.
     Skips amounts that describe a valuation, revenue, loss, fund size etc.

@@ -1,45 +1,46 @@
 {
-  "built": "2026-11-24T08:25:57",
+  "built": "2026-11-24T08:54:10",
   "tables": {
-    "sources": 7161,
-    "companies": 3886,
+    "sources": 7157,
+    "companies": 3882,
     "investors": 5587,
-    "deals": 5348,
-    "deal_investors": 13823,
-    "deal_sources": 5610,
+    "deals": 5343,
+    "deal_investors": 13821,
+    "deal_sources": 5606,
     "financials": 1252,
     "weekly_totals": 299,
-    "corrections": 551
+    "corrections": 554
   },
-  "deal_records_before_dedupe": 5610,
-  "duplicate_reports_merged": 262,
+  "deal_records_before_dedupe": 5606,
+  "duplicate_reports_merged": 263,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
-    "headline-wins": 124,
+    "headline-wins": 122,
     "partial / unfinished fiscal year dropped": 338,
     "self-acquisition dropped (role swap)": 9,
     "public-market raise": 54,
+    "multi-company record dropped": 5,
     "implausible amount dropped": 4
   },
   "deals_by_type": {
-    "equity": "4544",
-    "acquisition": "322",
+    "equity": "4543",
+    "acquisition": "319",
     "debt": "216",
-    "secondary": "127",
+    "secondary": "126",
     "ipo": "88",
     "public_market": "51"
   },
   "deals_by_year": {
-    "2021": 466,
+    "2021": 465,
     "2022": 817,
     "2023": 699,
     "2024": 1046,
-    "2025": 1359,
-    "2026": 961
+    "2025": 1357,
+    "2026": 959
   },
   "amount_disclosed_pct": 90.9,
   "with_named_investor_pct": 78.3,
-  "multi_source_deals": 251,
+  "multi_source_deals": 252,
   "top_investors": [
     {
       "name": "Inflection Point Ventures",
@@ -50,8 +51,8 @@
     {
       "name": "Peak XV Partners",
       "type": "Institutional",
-      "n_deals": 145,
-      "n_led": 86.0
+      "n_deals": 144,
+      "n_led": 85.0
     },
     {
       "name": "Accel",
