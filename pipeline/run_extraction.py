@@ -113,6 +113,30 @@ def parse_json(text: str):
     return json.loads(text[start : end + 1])
 
 
+CALL_TIMEOUT = 360  # seconds per batch; a healthy call takes 1-4 minutes
+
+
+class _Result:
+    def __init__(self, stdout, stderr, returncode):
+        self.stdout, self.stderr, self.returncode = stdout, stderr, returncode
+
+
+def run_killable(cmd, input_text=None, cwd=None, timeout=CALL_TIMEOUT):
+    """Run a CLI agent; on timeout kill the WHOLE process tree.
+    (subprocess.run(shell=True, timeout=...) only kills the shell, leaving a hung agent running forever -
+    which is how the free models stalled the pipeline overnight.)"""
+    p = subprocess.Popen(cmd, stdin=subprocess.PIPE if input_text is not None else subprocess.DEVNULL,
+                         stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8",
+                         errors="replace", shell=True, cwd=cwd)
+    try:
+        out, err = p.communicate(input=input_text, timeout=timeout)
+        return _Result(out, err, p.returncode)
+    except subprocess.TimeoutExpired:
+        subprocess.run(["taskkill", "/T", "/F", "/PID", str(p.pid)], capture_output=True)
+        p.communicate()
+        raise RuntimeError(f"agent call timed out after {timeout}s (process tree killed)")
+
+
 def run_codex(batch: Path, out: Path):
     data = batch.read_text(encoding="utf-8")
     prompt = PROMPT + "\n\nARTICLES (JSON lines):\n" + data
@@ -121,10 +145,9 @@ def run_codex(batch: Path, out: Path):
         "-m", CODEX_MODEL, "-c", 'model_reasoning_effort="low"',
         "--output-schema", str(SCHEMA), "-o", str(out), "-",
     ]
-    p = subprocess.run(cmd, input=prompt, capture_output=True, text=True, encoding="utf-8",
-                       timeout=900, shell=True)
-    if not out.exists():
-        raise RuntimeError(f"codex failed: {p.stderr[-300:]}")
+    p = run_killable(cmd, input_text=prompt)
+    if not out.exists() or out.stat().st_size == 0:
+        raise RuntimeError(f"codex failed: {(p.stderr or '')[-300:]} {(p.stdout or '')[-200:]}")
     parse_json(out.read_text(encoding="utf-8"))  # validate
 
 
@@ -138,8 +161,9 @@ def run_opencode(batch: Path, out: Path, model: str = None):
            "file (JSON lines). Do not use any tools and do not edit files. Reply with the JSON object only.")
     # message must come BEFORE -f: the -f option is greedy and would swallow it as a file name
     cmd = ["opencode", "run", "-m", model or OPENCODE_MODEL, f'"{msg}"', "-f", str(instr), "-f", str(batch)]
-    p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", timeout=900,
-                       shell=True, cwd=str(BATCH_DIR))
+    p = run_killable(cmd, cwd=str(BATCH_DIR))
+    if re.search(r"usage limit", (p.stdout or "") + (p.stderr or ""), re.I):
+        raise RuntimeError("usage limit has been reached")
     obj = parse_json(p.stdout)
     out.write_text(json.dumps(obj, ensure_ascii=False), encoding="utf-8")
 
@@ -161,22 +185,42 @@ AGENTS = {"codex": run_codex, "opencode": run_opencode,
           **{k: partial(run_opencode, model=v) for k, v in FREE_MODELS.items()}}
 
 
+QUOTA_FLAG = ROOT / "data" / "processed" / "_gpt_quota_exhausted"
+QUOTA_COOLDOWN = 45 * 60          # after this long, try the GPT agents again
+GPT_AGENTS = {"codex", "opencode"}
+FALLBACK = ["deepseek", "pickle"]   # best free models by measured agreement (analysis/model_eval.py)
+
+
+def quota_exhausted() -> bool:
+    import time
+    return QUOTA_FLAG.exists() and time.time() - QUOTA_FLAG.stat().st_mtime < QUOTA_COOLDOWN
+
+
 def job(agent: str, batch: Path, any_agent_ok: bool = True):
-    out_dir = OUT_DIR / agent
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out = out_dir / (batch.stem + ".json")
-    if out.exists() or (any_agent_ok and any((OUT_DIR / a / (batch.stem + ".json")).exists() for a in AGENTS)):
+    if any_agent_ok and any((OUT_DIR / a / (batch.stem + ".json")).exists() for a in AGENTS):
         return agent, batch.stem, "cached"
-    for attempt in range(2):
+    for attempt in range(3):
+        use = agent
+        if agent in GPT_AGENTS and any_agent_ok and quota_exhausted():
+            use = FALLBACK[(hash(batch.stem) + attempt) % len(FALLBACK)]  # automatic free-model fallback
+        out_dir = OUT_DIR / use
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out = out_dir / (batch.stem + ".json")
+        if out.exists():
+            return use, batch.stem, "cached"
         try:
-            AGENTS[agent](batch, out)
+            AGENTS[use](batch, out)
             n = len(json.loads(out.read_text(encoding="utf-8"))["records"])
-            log(f"[{agent}] {batch.stem}: {n} records")
-            return agent, batch.stem, "ok"
+            log(f"[{use}] {batch.stem}: {n} records")
+            return use, batch.stem, "ok"
         except Exception as e:  # noqa: BLE001
             if out.exists():
                 out.unlink()
-            log(f"[{agent}] {batch.stem}: attempt {attempt + 1} failed: {str(e)[:200]}")
+            msg = str(e)
+            if use in GPT_AGENTS and re.search(r"usage limit", msg, re.I):
+                QUOTA_FLAG.write_text("exhausted", encoding="utf-8")
+                log(f"[{use}] ChatGPT quota exhausted -> switching to free models for {QUOTA_COOLDOWN // 60} min")
+            log(f"[{use}] {batch.stem}: attempt {attempt + 1} failed: {msg[:200]}")
     return agent, batch.stem, "failed"
 
 
