@@ -4,6 +4,14 @@ The website in `site/` is static: HTML, CSS, JavaScript and JSON data files. It 
 
 ## Option A: Vercel (recommended; works with this private repository)
 
+**Live now:** https://deal-intelligence-kappa.vercel.app (Vercel project `deal-intelligence`, deployed from this computer with the Vercel CLI). To publish an update after refreshing the data:
+
+```
+npx vercel deploy --prod --cwd site
+```
+
+`site/.env.local` holds a Vercel token created by `vercel link`. It is git-ignored and excluded from uploads by `site/.vercelignore`; never commit it. The steps below set up deploy-on-push from GitHub instead.
+
 1. Go to **https://vercel.com** and sign up with **Continue with GitHub**.
 2. Click **Add New → Project**, choose `arventum-deal-intelligence`, and grant access to that one repository.
 3. Under **Root Directory**, choose `site`. Framework preset: **Other**. Leave the build command empty.
