@@ -27,8 +27,11 @@ for a, b in different:
     check(inv.add(a) != inv.add(b), f"keep apart: {a} != {b}")
 check(inv.canonical(inv.add("sequoia capital india")) == "Peak XV Partners", "canonical name is the alias target")
 
-comp = Resolver(generic=COMPANY_SUFFIX, threshold=95)
+comp = Resolver(generic=COMPANY_SUFFIX, threshold=95, squash=True)
 check(comp.add("Botsync Pte Ltd") == comp.add("Botsync"), "company suffix stripped")
+for a, b in [("Money View", "Moneyview"), ("Byju's", "Byju"), ("Sid’s Farm", "Sid's Farm"),
+             ("RENÉE Cosmetics", "RENEE Cosmetics"), ("TheMathCompany", "The Math Company"), ("Fresh Bus", "FreshBus")]:
+    check(comp.add(a) == comp.add(b), f"company variants merged: {a} == {b}")
 check(comp.add("Zepto") != comp.add("Zetwerk"), "distinct companies kept apart")
 
 for p in ["angel investors", "Other angel investors", "existing investors", "HNIs", "family offices"]:
