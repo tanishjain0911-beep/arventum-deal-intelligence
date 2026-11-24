@@ -46,7 +46,8 @@ if cc.get("agreement_pct"):
     rows.append({"extractor": "OpenCode (GPT-5.6)", "role": "primary", "company": f"{a['company']}%",
                  "amount": f"{a['amount']}%", "lead investors": f"{a['lead_investors']}%",
                  "note": f"{cc.get('articles_compared')} articles read by both"})
-for k, label in [("deepseek", "DeepSeek (free)"), ("pickle", "Big Pickle (free)"), ("nemotron", "Nemotron (free)"),
+for k, label in [("gemini", "Gemini Flash-Lite (free API)"), ("groq", "Groq gpt-oss-120b (free API)"),
+                 ("deepseek", "DeepSeek (free)"), ("pickle", "Big Pickle (free)"), ("nemotron", "Nemotron (free)"),
                  ("mimo", "Mimo (free)")]:
     if k in me:
         rows.append({"extractor": label, "role": "fallback", "company": f"{me[k]['company']}%",

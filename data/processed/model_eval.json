@@ -9,6 +9,26 @@
     "sector": 83.1,
     "mean": 92.9
   },
+  "gemini": {
+    "articles": 89,
+    "record_type": 100.0,
+    "company": 98.9,
+    "stage": 84.3,
+    "amount": 95.5,
+    "lead_investors": 92.1,
+    "sector": 78.7,
+    "mean": 91.6
+  },
+  "groq": {
+    "articles": 30,
+    "record_type": 96.7,
+    "company": 96.7,
+    "stage": 76.7,
+    "amount": 96.7,
+    "lead_investors": 93.3,
+    "sector": 70.0,
+    "mean": 88.4
+  },
   "mimo": {
     "articles": 29,
     "record_type": 100.0,
@@ -48,5 +68,15 @@
     "lead_investors": 96.6,
     "sector": 81.4,
     "mean": 92.9
+  },
+  "rules": {
+    "articles": 43,
+    "record_type": 83.7,
+    "company": 93.0,
+    "stage": 65.1,
+    "amount": 86.0,
+    "lead_investors": 74.4,
+    "sector": 7.0,
+    "mean": 68.2
   }
 }

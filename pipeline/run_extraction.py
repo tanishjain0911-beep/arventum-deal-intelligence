@@ -168,6 +168,78 @@ def run_opencode(batch: Path, out: Path, model: str = None):
     out.write_text(json.dumps(obj, ensure_ascii=False), encoding="utf-8")
 
 
+def _api_key(name: str):
+    import os
+    v = os.environ.get(name)
+    if v:
+        return v
+    try:
+        import winreg
+        with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Environment") as k:
+            return winreg.QueryValueEx(k, name)[0]
+    except OSError:
+        return None
+
+
+def _post_json(url: str, headers: dict, body: dict, timeout=CALL_TIMEOUT, tries=6):
+    """POST with back-off on 429/5xx (honours Retry-After, capped at 60 s)."""
+    import time
+    import urllib.error
+    import urllib.request
+    for attempt in range(tries):
+        req = urllib.request.Request(url, data=json.dumps(body).encode(),
+                                     headers={**headers, "Content-Type": "application/json",
+                                              "User-Agent": "arventum-deal-intelligence"})
+        try:
+            return json.load(urllib.request.urlopen(req, timeout=timeout))
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503, 504) and attempt < tries - 1:
+                wait = float(e.headers.get("Retry-After") or 0) or 10 * (attempt + 1)
+                time.sleep(min(wait, 60))
+                continue
+            raise RuntimeError(f"HTTP {e.code}: {e.read()[:200]!r}") from e
+
+
+GROQ_MODEL = "openai/gpt-oss-120b"
+GEMINI_MODEL = "gemini-flash-lite-latest"
+
+
+GROQ_CHUNK = 5        # articles per call: the free tier allows 8,000 tokens/minute for this model
+_groq_lock = __import__("threading").Lock()
+
+
+def run_groq(batch: Path, out: Path):
+    """Groq free tier: split the batch into small chunks and pace calls to stay under the TPM limit."""
+    import time
+    key = _api_key("GROQ_API_KEY")
+    if not key:
+        raise RuntimeError("GROQ_API_KEY not set")
+    lines = [l for l in batch.read_text(encoding="utf-8").splitlines() if l.strip()]
+    records = []
+    for i in range(0, len(lines), GROQ_CHUNK):
+        msg = PROMPT + "\n\nARTICLES (JSON lines):\n" + "\n".join(lines[i:i + GROQ_CHUNK])
+        with _groq_lock:  # one Groq call at a time across workers, spaced out
+            r = _post_json("https://api.groq.com/openai/v1/chat/completions", {"Authorization": f"Bearer {key}"},
+                           {"model": GROQ_MODEL, "temperature": 0, "response_format": {"type": "json_object"},
+                            "messages": [{"role": "user", "content": msg}]})
+            time.sleep(20)
+        records += parse_json(r["choices"][0]["message"]["content"]).get("records", [])
+    out.write_text(json.dumps({"records": records}, ensure_ascii=False), encoding="utf-8")
+
+
+def run_gemini(batch: Path, out: Path):
+    key = _api_key("GEMINI_API_KEY")
+    if not key:
+        raise RuntimeError("GEMINI_API_KEY not set")
+    msg = PROMPT + "\n\nARTICLES (JSON lines):\n" + batch.read_text(encoding="utf-8")
+    r = _post_json(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+                   {"x-goog-api-key": key},
+                   {"contents": [{"parts": [{"text": msg}]}],
+                    "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}})
+    obj = parse_json(r["candidates"][0]["content"]["parts"][0]["text"])
+    out.write_text(json.dumps(obj, ensure_ascii=False), encoding="utf-8")
+
+
 from functools import partial  # noqa: E402
 
 # free OpenCode-hosted models (used when the ChatGPT Plus quota is exhausted)
@@ -181,14 +253,14 @@ FREE_MODELS = {
     "flint": "opencode/flint-40b-free",
     "lightning": "opencode/nemotron-3.5-lightning-free",
 }
-AGENTS = {"codex": run_codex, "opencode": run_opencode,
+AGENTS = {"codex": run_codex, "opencode": run_opencode, "groq": run_groq, "gemini": run_gemini,
           **{k: partial(run_opencode, model=v) for k, v in FREE_MODELS.items()}}
 
 
 QUOTA_FLAG = ROOT / "data" / "processed" / "_gpt_quota_exhausted"
 QUOTA_COOLDOWN = 45 * 60          # after this long, try the GPT agents again
 GPT_AGENTS = {"codex", "opencode"}
-FALLBACK = ["deepseek", "pickle"]   # best free models by measured agreement (analysis/model_eval.py)
+FALLBACK = ["gemini", "groq"]   # reliable API fallbacks (measured in analysis/model_eval.py); OpenCode free models hang
 
 
 def quota_exhausted() -> bool:
@@ -232,6 +304,8 @@ def main():
     ap.add_argument("--opencode-workers", type=int, default=2)
     ap.add_argument("--final", action="store_true", help="also process the last partial batch")
     ap.add_argument("--agents", help="override worker pool, e.g. 'pickle:2,deepseek:2'")
+    ap.add_argument("--reverse", action="store_true",
+                    help="work the queue from the end (lets a second process share a queue without overlap)")
     ap.add_argument("--only", help="comma list of batch stems to (re)run with --agents (quality tests)")
     ap.add_argument("--urls", help="URL csv (default data/raw/entrackr_urls.csv)")
     ap.add_argument("--tag", default="", help="batch name prefix for this URL list, e.g. hist")
@@ -257,8 +331,10 @@ def main():
         for spec in args.agents.split(","):
             name, n = (spec.split(":") + ["1"])[:2]
             pattern += [name] * int(n)
-        jobs = [(pattern[i % len(pattern)], b, True) for i, b in enumerate(batches[: args.limit] if args.limit
-                                                                           else batches)]
+        todo = batches[: args.limit] if args.limit else batches
+        if args.reverse:
+            todo = todo[::-1]
+        jobs = [(pattern[i % len(pattern)], b, True) for i, b in enumerate(todo)]
         with ThreadPoolExecutor(max_workers=len(pattern)) as ex:
             results = list(ex.map(lambda j: job(*j), jobs))
         failed = [r for r in results if r[2] == "failed"]
