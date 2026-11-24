@@ -234,6 +234,14 @@ def run(today: pd.Timestamp | None = None) -> RadarResult:
     d_all = _deals()
     listed = set(d_all[d_all.deal_type == "ipo"].company_id)
     now = now[~now.index.isin(listed)]
+    # ...and companies that were already listed before our data starts (matched to the listed-comps universe)
+    try:
+        from .data import comparables
+        listed_names = {str(n).lower().split()[0] for n in comparables().query("market == 'India'").name
+                        if len(str(n).split()[0]) >= 5}
+        now = now[~now.company.str.lower().str.split().str[0].isin(listed_names)]
+    except Exception:  # noqa: BLE001
+        pass
 
     # importance via permutation on the training data (cheap version: AUC drop)
     rng = np.random.default_rng(0)
