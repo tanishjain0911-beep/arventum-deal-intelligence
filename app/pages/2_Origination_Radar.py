@@ -108,6 +108,15 @@ st.dataframe(
     })
 st.caption("Likelihood = the model's estimated probability of a new primary round within 12 months.")
 
+from lib import brief  # noqa: E402
+
+md = brief.weekly_brief(scores, ARVENTUM_FOCUS)
+c1, c2 = st.columns([1, 3])
+c1.download_button("📩 Download this week's brief", md.encode("utf-8"), "arventum_weekly_brief.md", "text/markdown",
+                   help="The 'top 10 companies to call' email the Radar can send every Monday")
+with c2.expander("Preview the weekly brief"):
+    st.markdown(md)
+
 # ---- drill-down
 st.subheader("Why is a company on the list?")
 pick = st.selectbox("Company", s.company.tolist())
