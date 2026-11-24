@@ -36,7 +36,7 @@ def main():
             for v in views:
                 for suffix, (w, mobile) in SIZES.items():
                     c.call("Emulation.setDeviceMetricsOverride", width=w, height=900, deviceScaleFactor=1, mobile=mobile)
-                    c.call("Page.navigate", url=f"http://localhost:8600/?r={time.time()}#/{v}")
+                    c.call("Page.navigate", url=f"http://localhost:8600/app.html?r={time.time()}#/{v}")
                     for _ in range(40):
                         if c.eval("!!document.querySelector('main .view')"):
                             break

@@ -105,7 +105,7 @@ async function viewMarket() {
     <div class="grid">
       ${exhibit({ n: "2.1", title: `Capital raised per quarter, ${label}`, cls: "c6", body: barChart(capItems, { w: colW(6), fmt: v => usd(v, 0), height: 230 }), source: sourceLine("equity and venture-debt rounds with disclosed amounts.") })}
       ${exhibit({ n: "2.2", title: `Rounds per quarter, ${label}`, cls: "c6", body: barChart(cntItems, { w: colW(6), fmt: v => int(v), height: 230 }), source: sourceLine("all primary rounds, disclosed or not.") })}
-      ${exhibit({ n: "2.3", title: "Where the money went in the last six months", sub: `<span class="legend"><span><i style="background:var(--teal)"></i>Arventum focus sector</span><span><i style="background:var(--slate)"></i>Other sector</span></span>`, cls: "c7",
+      ${exhibit({ n: "2.3", title: "Where the money went in the last six months", sub: `<span class="legend"><span><i style="background:var(--ink)"></i>Arventum focus sector</span><span><i style="background:var(--stone)"></i>Other sector</span></span>`, cls: "c7",
         body: hbarChart(heat, { w: colW(7), labelW: lw(7, 160), row: 24, fmt: v => usd(v, v >= 1000 ? 1 : 0) }), source: sourceLine("capital in disclosed rounds; hover a bar for the change versus the prior six months.") })}
       ${exhibit({ n: "2.4", title: "What a round looks like now, by stage", sub: "Middle half of disclosed rounds in the last two years; the dark tick is the median.", cls: "c5",
         body: bench.length ? rangeChart(bench, { log: true, fmt: v => usd(v, 0), ticksAt: [0.1, 1, 10, 100], labelW: 96, w: colW(5), row: 30 }) : `<div class="empty">Too few disclosed rounds.</div>`,
