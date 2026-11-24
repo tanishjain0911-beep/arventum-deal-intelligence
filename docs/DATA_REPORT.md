@@ -1,6 +1,6 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T07:22:09._
+_Generated from `db/deals.db` at 2026-11-24T07:24:55._
 
 ## Contents
 
@@ -8,9 +8,9 @@ _Generated from `db/deals.db` at 2026-11-24T07:22:09._
 |---|---|
 | sources | 7180 |
 | companies | 3947 |
-| investors | 6077 |
+| investors | 5645 |
 | deals | 5459 |
-| deal_investors | 14771 |
+| deal_investors | 13819 |
 | deal_sources | 5724 |
 | financials | 1157 |
 | weekly_totals | 299 |
@@ -24,7 +24,7 @@ Articles used, by source:
 | inc42 | 226 |
 
 - Deal records before de-duplication: **5724**; duplicate reports merged: **265**; deals confirmed by 2+ articles: **253**
-- Amount disclosed: **89.4%** of deals; at least one named investor: **85.6%**
+- Amount disclosed: **89.4%** of deals; at least one named investor: **76.7%**
 - Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 127, 'implausible amount dropped': 4}
 
 ## Primary rounds by year
@@ -62,26 +62,26 @@ Articles used, by source:
 
 | name | type | ai_type | hq_country | deals | led |
 |---|---|---|---|---|---|
-| Inflection Point Ventures | Institutional | Angel network / platform | India | 169 | 140 |
-| Peak XV Partners | Institutional | Venture Capital | Singapore | 154 | 93 |
-| Accel | Institutional | Venture Capital | United States | 136 | 88 |
-| Venture Catalysts | Institutional | Angel network / platform | India | 123 | 56 |
-| Blume Ventures | Institutional | Venture Capital | India | 112 | 39 |
-| Elevation Capital | Institutional | Venture Capital | India | 103 | 57 |
-| Lightspeed | Institutional | Venture Capital | United States | 88 | 46 |
-| Z47 | Institutional | Venture Capital | India | 87 | 42 |
-| Info Edge Ventures | Institutional | Corporate / CVC | India | 73 | 41 |
-| Alteria Capital | Debt / Bank | Venture debt / NBFC / Bank | India | 69 | 22 |
-| Nexus Venture Partners | Institutional | Venture Capital | United States | 65 | 36 |
+| Inflection Point Ventures | Institutional | Angel network / platform | India | 158 | 129 |
+| Peak XV Partners | Institutional | Venture Capital | Singapore | 145 | 86 |
+| Accel | Institutional | Venture Capital | United States | 129 | 84 |
+| Venture Catalysts | Institutional | Angel network / platform | India | 114 | 48 |
+| Blume Ventures | Institutional | Venture Capital | India | 110 | 37 |
+| Elevation Capital | Institutional | Venture Capital | India | 96 | 50 |
+| Lightspeed | Institutional | Venture Capital | United States | 86 | 45 |
+| Z47 | Institutional | Venture Capital | India | 84 | 39 |
+| Info Edge Ventures | Institutional | Corporate / CVC | India | 69 | 38 |
+| Alteria Capital | Debt / Bank | Venture debt / NBFC / Bank | India | 67 | 20 |
 | Fireside Ventures | Institutional | Venture Capital | India | 64 | 41 |
-| Titan Capital | Institutional | Venture Capital | India | 63 | 27 |
+| Nexus Venture Partners | Institutional | Venture Capital | United States | 62 | 34 |
 | Rainmatter | Institutional | Corporate / CVC | India | 62 | 37 |
-| 3one4 Capital | Institutional | Venture Capital | India | 61 | 31 |
-| LetsVenture | Angel network | Angel network / platform | India | 55 | 8 |
+| Titan Capital | Institutional | Venture Capital | India | 59 | 24 |
 | Anicut Capital | Institutional | Private Equity / Growth | India | 53 | 19 |
-| BEENEXT | Institutional | Venture Capital | Japan | 51 | 17 |
-| Unicorn India Ventures | Institutional | Venture Capital | India | 51 | 43 |
-| Chiratae Ventures | Institutional | Venture Capital | India | 51 | 21 |
+| IvyCap Ventures | Institutional | Venture Capital | India | 51 | 31 |
+| Stride Ventures | Debt / Bank | Venture debt / NBFC / Bank | India | 50 | 16 |
+| 3one4 Capital | Institutional | Venture Capital | India | 50 | 20 |
+| LetsVenture | Angel network | Angel network / platform | India | 48 | 4 |
+| BEENEXT | Institutional | Venture Capital | Japan | 47 | 16 |
 
 ## Latest acquisitions
 
@@ -133,9 +133,9 @@ Articles used, by source:
     "pass_rate": 97.6
   },
   "missing_core": {
-    "passed": 5884,
+    "passed": 5847,
     "checked": 5978,
-    "pass_rate": 98.4
+    "pass_rate": 97.8
   },
   "company_in_title": {
     "passed": 8287,

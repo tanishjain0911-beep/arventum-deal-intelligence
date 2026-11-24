@@ -12,9 +12,9 @@
       "pass_rate": 97.6
     },
     "missing_core": {
-      "passed": 5884,
+      "passed": 5847,
       "checked": 5978,
-      "pass_rate": 98.4
+      "pass_rate": 97.8
     },
     "company_in_title": {
       "passed": 8287,

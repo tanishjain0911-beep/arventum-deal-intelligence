@@ -45,10 +45,20 @@ FY = re.compile(r"\bFY\s?'?(\d{2})\b", re.I)
 CR = re.compile(r"Rs\.?\s?([\d,]+(?:\.\d+)?)\s?(lakh\s)?Cr", re.I)
 
 
+JUNK = re.compile(r"\b(founded|plans|startup|based|along|with|which|that|the company|its|who|said|will|joins|"
+                  r"round|invests|backs|participates|led|leads|raises|funding)\b", re.I)
+
+
 def split_investors(s: str) -> list:
     s = re.sub(r"\b(others|existing investors|angel investors|clutch of angels)\b", "", s, flags=re.I)
     parts = re.split(r",\s*|\s+and\s+|\s*&\s+", s)
-    return [p.strip(" .") for p in parts if 2 < len(p.strip(" .")) < 60]
+    out = []
+    for p in parts:
+        p = p.strip(" .")
+        # an investor name is short and has no sentence words; reject fragments like "Venture Catalysts Founded in..."
+        if 2 < len(p) < 50 and len(p.split()) <= 5 and not JUNK.search(p) and p[:1].isupper():
+            out.append(p)
+    return out
 
 
 GENERIC_KW = re.compile(r"^(funding|valuation|debt funding|exclusive|acquisition|ipo|lead|series [a-z]|"
@@ -132,7 +142,7 @@ def extract(a: dict) -> dict:
             rec["lead_investors"] = split_investors(lm.group("lead"))
             rec["company"] = kw or lm.group("company").strip()
         else:
-            m2 = LED_BY.search(title) or LED_BY.search(desc)
+            m2 = LED_BY.search(title)  # headline only: descriptions are prose and produce junk names
             if m2:
                 invs = split_investors(m2.group("inv"))
                 key = "lead_investors" if re.search(r"led by", m2.group(0), re.I) or len(invs) == 1 else "other_investors"
