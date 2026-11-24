@@ -23,4 +23,8 @@ Real-world data is messy. Each entry below was **detected by a check built into 
 | 17 | Valuation regression weak (R² 0.15) | Missing driver | Leave-one-out CV across 6 specifications; adding gross margin doubled R² (0.30) and cut out-of-sample error ~10% |
 | 18 | Schema file unreadable by Codex | PowerShell 5 wrote a UTF-8 BOM and mangled "₹" | Stripped the BOM, scanned all files for mojibake, moved edits to a safe path |
 
+| 19 | History extraction "finished" with only 14 of ~80 batches | Fix #3 (treat DNS failure as permanent) was too broad: a brief network blip made **3,400 valid entrackr.com articles** look permanently dead | DNS failures are now retried with back-off and marked permanent only after 4 failures; poisoned cache entries purged and re-downloaded; a "remaining" list re-queues every downloaded-but-unextracted article |
+| 20 | ChatGPT Plus quota exhausted overnight | ~100 batches per 5-hour window at full parallelism | Benchmarked 8 free OpenCode models against Codex; used only those scoring ~93% agreement; cut prompt size ~30%; each deal records which agent extracted it, and the merge prefers higher-accuracy agents |
+| 21 | Investor Matchmaker no better than a "most active investors" list (top-10 hit 26% vs 29%) | Hand-set weights over-weighted sector fit | Weights tuned on a validation window and **tested on an untouched later window**: top-10 hit rate 38% vs 29% for the baseline (211 real rounds) |
+
 **Takeaway:** every fix is enforced by a check that runs on each rebuild (`python pipeline/run_all.py`): validation, the coverage audit, two-agent agreement, and regression tests.

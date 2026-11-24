@@ -128,8 +128,14 @@ def fetch(row):
         except requests.RequestException as e:
             rec["error"] = str(e)[:120]
             if "NameResolutionError" in str(e) or "getaddrinfo failed" in str(e):
-                rec["error"] = "http 404 (host does not resolve)"  # permanent: retrying cannot help
-                break
+                # A DNS failure can be a real dead host OR a temporary network blip (this once poisoned
+                # 2,050 valid articles). Retry with back-off; only after 4 failures call it permanent.
+                if attempt >= 3:
+                    rec["error"] = "http 404 (host does not resolve)"
+                    break
+                rec["error"] = "dns error (transient)"
+                time.sleep(10 * (attempt + 1))
+                continue
             time.sleep(3 * (attempt + 1))
     path.write_text(json.dumps(rec, ensure_ascii=False), encoding="utf-8")
     return rec
