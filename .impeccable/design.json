@@ -1,446 +1,444 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-24T06:37:28.914Z",
+  "generatedAt": "2026-11-24T08:22:25.778Z",
   "title": "Design System: Deal Intelligence",
   "extensions": {
     "colorMeta": {
-      "navy": {
-        "role": "primary",
-        "displayName": "Deep Ledger Navy",
-        "canonical": "#13233B",
-        "oklch": "oklch(25.5% 0.051 258.3)",
-        "tonalRamp": [
-          "#050B16",
-          "#182437",
-          "#304059",
-          "#4C5F7A",
-          "#6F819E",
-          "#95A6BF",
-          "#C0CBDD",
-          "#EBEFF5"
-        ]
-      },
-      "navy-raised": {
-        "role": "primary",
-        "displayName": "Raised Navy",
-        "canonical": "#1C3050",
-        "oklch": "oklch(31.0% 0.064 259.4)",
-        "tonalRamp": [
-          "#040B19",
-          "#15243B",
-          "#2D405F",
-          "#485E82",
-          "#6B81A5",
-          "#92A6C5",
-          "#BECCE1",
-          "#EAEFF7"
-        ]
-      },
-      "navy-rule": {
-        "role": "primary",
-        "displayName": "Navy Rule",
-        "canonical": "#2A4166",
-        "oklch": "oklch(37.5% 0.070 259.5)",
-        "tonalRamp": [
-          "#030B1A",
-          "#14243E",
-          "#2A4062",
-          "#465E85",
-          "#6881A9",
-          "#90A6C9",
-          "#BCCCE4",
-          "#E9EFF8"
-        ]
-      },
-      "navy-ink": {
-        "role": "primary",
-        "displayName": "Shell Ink",
-        "canonical": "#C9D3E2",
-        "oklch": "oklch(86.4% 0.023 258.4)",
-        "tonalRamp": [
-          "#080B10",
-          "#1F242D",
-          "#39404C",
-          "#565E6B",
-          "#78818E",
-          "#9DA5B1",
-          "#C6CBD3",
-          "#EDEFF1"
-        ]
-      },
-      "navy-mute": {
-        "role": "primary",
-        "displayName": "Shell Mute",
-        "canonical": "#8C9BB3",
-        "oklch": "oklch(68.6% 0.039 259.8)",
-        "tonalRamp": [
-          "#070B14",
-          "#1B2433",
-          "#344053",
-          "#515E74",
-          "#738197",
-          "#99A5B9",
-          "#C3CBD9",
-          "#EBEFF4"
-        ]
-      },
-      "ground": {
+      "paper": {
         "role": "neutral",
-        "displayName": "Paper Ground",
-        "canonical": "#E9ECF0",
-        "oklch": "oklch(94.2% 0.006 255.5)",
+        "displayName": "Neutral Paper",
+        "canonical": "#F1F1EE",
+        "oklch": "oklch(95.7% 0.004 106.5)",
         "tonalRamp": [
-          "#0A0B0C",
-          "#222426",
-          "#3E4043",
-          "#5B5E61",
-          "#7E8084",
-          "#A2A5A8",
-          "#C9CBCD",
-          "#EEEEEF"
+          "#0B0B0A",
+          "#252524",
+          "#424240",
+          "#61615F",
+          "#828280",
+          "#A5A5A3",
+          "#C9C9C7",
+          "#EEEEED"
         ]
       },
-      "page": {
+      "surface": {
         "role": "neutral",
-        "displayName": "Page White",
-        "canonical": "#FFFFFF",
-        "oklch": "oklch(100.0% 0.000 89.9)",
+        "displayName": "Plate Surface",
+        "canonical": "#FBFBF9",
+        "oklch": "oklch(98.8% 0.003 106.4)",
         "tonalRamp": [
-          "#0B0B0B",
-          "#242424",
-          "#404040",
-          "#5D5D5D",
-          "#808080",
-          "#A4A4A4",
-          "#CACACA",
-          "#EEEEEE"
+          "#0B0B0A",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#A5A5A3",
+          "#C9C9C8",
+          "#EEEEED"
+        ]
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Pressed Wash",
+        "canonical": "#E7E7E2",
+        "oklch": "oklch(92.7% 0.007 106.5)",
+        "tonalRamp": [
+          "#0B0B09",
+          "#252523",
+          "#42423F",
+          "#61615D",
+          "#83837E",
+          "#A5A5A1",
+          "#C9C9C6",
+          "#EFEFEC"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Ink",
-        "canonical": "#13233B",
-        "oklch": "oklch(25.5% 0.051 258.3)",
+        "displayName": "Press Ink",
+        "canonical": "#1A1A16",
+        "oklch": "oklch(21.6% 0.008 107.0)",
         "tonalRamp": [
-          "#050B16",
-          "#182437",
-          "#304059",
-          "#4C5F7A",
-          "#6F819E",
-          "#95A6BF",
-          "#C0CBDD",
-          "#EBEFF5"
+          "#0B0B09",
+          "#252522",
+          "#42423E",
+          "#61615D",
+          "#83837E",
+          "#A5A5A1",
+          "#C9C9C5",
+          "#EFEFEB"
         ]
       },
       "ink-secondary": {
         "role": "neutral",
         "displayName": "Secondary Ink",
-        "canonical": "#3B4658",
-        "oklch": "oklch(39.2% 0.034 260.2)",
+        "canonical": "#45443B",
+        "oklch": "oklch(38.5% 0.015 101.9)",
         "tonalRamp": [
-          "#070B12",
-          "#1D2431",
-          "#364051",
-          "#535E71",
-          "#758194",
-          "#9BA5B6",
-          "#C4CBD7",
-          "#ECEFF3"
+          "#0C0B07",
+          "#262520",
+          "#43423B",
+          "#636259",
+          "#848379",
+          "#A6A59D",
+          "#CAC9C2",
+          "#EFEFE8"
         ]
       },
       "ink-tertiary": {
         "role": "neutral",
-        "displayName": "Tertiary Ink",
-        "canonical": "#5A6475",
-        "oklch": "oklch(50.1% 0.030 261.1)",
+        "displayName": "Margin Ink",
+        "canonical": "#6B665A",
+        "oklch": "oklch(51.1% 0.019 88.1)",
         "tonalRamp": [
-          "#080B12",
-          "#1E242F",
-          "#37404F",
-          "#545E6F",
-          "#778192",
-          "#9CA5B4",
-          "#C5CBD5",
-          "#ECEFF2"
+          "#0D0B06",
+          "#28251E",
+          "#454239",
+          "#656156",
+          "#878276",
+          "#A9A59A",
+          "#CDC9C0",
+          "#F1EEE6"
         ]
       },
-      "rule": {
+      "hairline": {
         "role": "neutral",
-        "displayName": "Hairline",
-        "canonical": "#DDE1E7",
-        "oklch": "oklch(90.8% 0.009 258.3)",
+        "displayName": "Hairline Rule",
+        "canonical": "#D8D8D1",
+        "oklch": "oklch(88.0% 0.009 106.6)",
         "tonalRamp": [
-          "#0A0B0D",
-          "#222428",
-          "#3D4044",
-          "#5A5E63",
-          "#7D8086",
-          "#A2A5A9",
-          "#C8CBCE",
-          "#EEEEF0"
+          "#0B0B09",
+          "#252522",
+          "#42423E",
+          "#62625C",
+          "#83837D",
+          "#A5A5A0",
+          "#C9C9C5",
+          "#EFEFEB"
         ]
       },
-      "rule-strong": {
+      "hairline-strong": {
         "role": "neutral",
         "displayName": "Strong Hairline",
-        "canonical": "#C4CAD3",
-        "oklch": "oklch(83.7% 0.014 258.3)",
+        "canonical": "#B0B0A6",
+        "oklch": "oklch(75.4% 0.014 106.7)",
         "tonalRamp": [
-          "#090B0E",
-          "#212429",
-          "#3B4047",
-          "#595E66",
-          "#7B8189",
-          "#A0A5AC",
-          "#C7CBD0",
-          "#EDEEF0"
+          "#0B0B08",
+          "#252520",
+          "#42423C",
+          "#626259",
+          "#83837A",
+          "#A6A69E",
+          "#CACAC3",
+          "#EFEFE9"
         ]
       },
-      "wash": {
+      "claret": {
+        "role": "primary",
+        "displayName": "Claret",
+        "canonical": "#8A2B2B",
+        "oklch": "oklch(43.4% 0.129 24.3)",
+        "tonalRamp": [
+          "#220000",
+          "#470C0D",
+          "#6F2625",
+          "#9A403E",
+          "#C0625E",
+          "#DF8A84",
+          "#FEB3AD",
+          "#FFDCD7"
+        ]
+      },
+      "claret-deep": {
+        "role": "primary",
+        "displayName": "Deep Claret",
+        "canonical": "#6B1E1E",
+        "oklch": "oklch(35.9% 0.110 24.5)",
+        "tonalRamp": [
+          "#1F0001",
+          "#431212",
+          "#692C29",
+          "#934743",
+          "#B86863",
+          "#D78F89",
+          "#F7B7B1",
+          "#FFDFDA"
+        ]
+      },
+      "claret-wash": {
+        "role": "primary",
+        "displayName": "Claret Wash",
+        "canonical": "#F4E8E2",
+        "oklch": "oklch(93.9% 0.015 48.6)",
+        "tonalRamp": [
+          "#0E0A08",
+          "#2A2421",
+          "#48403C",
+          "#685F5A",
+          "#8A807B",
+          "#ACA39E",
+          "#CFC7C3",
+          "#F4EDE9"
+        ]
+      },
+      "chart-ink": {
         "role": "neutral",
-        "displayName": "Wash",
-        "canonical": "#F5F7F9",
-        "oklch": "oklch(97.5% 0.003 247.9)",
+        "displayName": "Chart Ink",
+        "canonical": "#23241D",
+        "oklch": "oklch(25.7% 0.013 113.9)",
         "tonalRamp": [
-          "#0B0B0C",
-          "#232425",
-          "#3E4041",
-          "#5C5E5F",
-          "#7F8082",
-          "#A3A5A6",
-          "#C9CACC",
-          "#EEEEEF"
+          "#0B0C08",
+          "#252621",
+          "#42433C",
+          "#61625A",
+          "#82837B",
+          "#A5A69F",
+          "#C9CAC3",
+          "#EEEFEA"
         ]
       },
-      "teal": {
+      "stone": {
         "role": "secondary",
-        "displayName": "Exhibit Teal",
-        "canonical": "#1D7A74",
-        "oklch": "oklch(52.6% 0.083 188.5)",
+        "displayName": "Stone",
+        "canonical": "#948B7A",
+        "oklch": "oklch(64.0% 0.027 83.4)",
         "tonalRamp": [
-          "#00100F",
-          "#002D2A",
-          "#004C48",
-          "#016C67",
-          "#3E9089",
-          "#72B3AD",
-          "#AAD4D0",
-          "#E3F2F0"
+          "#0E0B05",
+          "#29241B",
+          "#484135",
+          "#686051",
+          "#8A8172",
+          "#ACA496",
+          "#CFC8BC",
+          "#F3EEE3"
         ]
       },
-      "teal-deep": {
+      "tan": {
         "role": "secondary",
-        "displayName": "Teal Deep",
-        "canonical": "#155C57",
-        "oklch": "oklch(43.1% 0.068 188.0)",
+        "displayName": "Range Tan",
+        "canonical": "#C6AC97",
+        "oklch": "oklch(76.1% 0.042 61.0)",
         "tonalRamp": [
-          "#00100E",
-          "#002C29",
-          "#034A46",
-          "#276A65",
-          "#4F8D87",
-          "#7DB0AB",
-          "#B1D3CF",
-          "#E5F1F0"
+          "#120903",
+          "#2F2216",
+          "#503E2F",
+          "#725C4B",
+          "#947D6B",
+          "#B6A190",
+          "#D8C5B7",
+          "#FBEBDF"
         ]
       },
-      "teal-wash": {
-        "role": "secondary",
-        "displayName": "Teal Wash",
-        "canonical": "#E2F0EE",
-        "oklch": "oklch(94.4% 0.015 186.7)",
-        "tonalRamp": [
-          "#080C0C",
-          "#1E2625",
-          "#384241",
-          "#55605F",
-          "#778381",
-          "#9DA7A6",
-          "#C5CCCB",
-          "#ECEFEF"
-        ]
-      },
-      "teal-soft": {
-        "role": "secondary",
-        "displayName": "Teal Soft",
-        "canonical": "#9CCBC6",
-        "oklch": "oklch(80.7% 0.050 188.1)",
-        "tonalRamp": [
-          "#000E0D",
-          "#082A27",
-          "#1F4844",
-          "#3B6763",
-          "#5F8A85",
-          "#89ADA9",
-          "#B8D1CE",
-          "#E8F1F0"
-        ]
-      },
-      "series-other": {
-        "role": "secondary",
-        "displayName": "Comparison Slate",
-        "canonical": "#A8B3C4",
-        "oklch": "oklch(76.4% 0.027 259.0)",
-        "tonalRamp": [
-          "#080B11",
-          "#1E242E",
-          "#38404D",
-          "#545E6D",
-          "#778190",
-          "#9CA5B3",
-          "#C5CBD4",
-          "#ECEFF2"
-        ]
-      },
-      "amber": {
+      "gold": {
         "role": "tertiary",
-        "displayName": "Ochre Warning",
-        "canonical": "#A86412",
-        "oklch": "oklch(56.7% 0.123 63.4)",
+        "displayName": "Caution Gold",
+        "canonical": "#8A6520",
+        "oklch": "oklch(53.2% 0.096 79.1)",
         "tonalRamp": [
-          "#1C0300",
-          "#421400",
-          "#682D00",
-          "#8C4A00",
-          "#B16F28",
-          "#D19761",
-          "#EAC29E",
-          "#FAECDF"
+          "#170700",
+          "#362000",
+          "#583C01",
+          "#7C5A1A",
+          "#9F7C3F",
+          "#C0A06C",
+          "#E1C599",
+          "#FFEBC6"
         ]
       },
-      "amber-wash": {
+      "gold-wash": {
         "role": "tertiary",
-        "displayName": "Ochre Wash",
-        "canonical": "#FBF0DF",
-        "oklch": "oklch(95.9% 0.025 78.9)",
+        "displayName": "Gold Wash",
+        "canonical": "#F6EDD8",
+        "oklch": "oklch(94.8% 0.029 87.5)",
         "tonalRamp": [
-          "#0E0B06",
-          "#292319",
-          "#473E32",
-          "#655C4E",
-          "#887F70",
-          "#ACA397",
-          "#CFCAC1",
-          "#F0EEEB"
+          "#0E0B04",
+          "#29251A",
+          "#474134",
+          "#686150",
+          "#898270",
+          "#ABA494",
+          "#CFC9BB",
+          "#F3EEE2"
         ]
       },
-      "red": {
-        "role": "tertiary",
-        "displayName": "Signal Red",
-        "canonical": "#B42318",
-        "oklch": "oklch(50.0% 0.182 29.5)",
+      "band-text": {
+        "role": "neutral",
+        "displayName": "Band Text",
+        "canonical": "#DADAD2",
+        "oklch": "oklch(88.6% 0.011 106.6)",
         "tonalRamp": [
-          "#270000",
-          "#550000",
-          "#830000",
-          "#AD1A10",
-          "#D44C3C",
-          "#F27D6D",
-          "#FFB3A5",
-          "#FFE6E1"
+          "#0B0B08",
+          "#252521",
+          "#42423D",
+          "#62625B",
+          "#83837C",
+          "#A5A59F",
+          "#C9C9C4",
+          "#EFEFEA"
         ]
       },
-      "red-wash": {
-        "role": "tertiary",
-        "displayName": "Red Wash",
-        "canonical": "#FBE9E7",
-        "oklch": "oklch(94.8% 0.020 25.2)",
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#FFFFFF",
+        "oklch": "oklch(100.0% 0.000 89.9)",
         "tonalRamp": [
-          "#0F0A09",
-          "#2B2120",
-          "#493C3B",
-          "#685A58",
-          "#8B7C7A",
-          "#AEA19F",
-          "#D1C8C7",
-          "#F1EDED"
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
         ]
       }
     },
     "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The landing headline only."
+      },
+      "band-headline": {
+        "displayName": "Band Headline",
+        "purpose": "The dark closing band statement; landing band titles sit just below it."
+      },
       "section-title": {
-        "displayName": "Section title",
-        "purpose": "View h1 with its teal section number; 28px under 780px."
+        "displayName": "Section Title",
+        "purpose": "App section heading, with the section numeral as a claret superscript (serif 400, 0.46em, raised 0.75em)."
+      },
+      "figure-large": {
+        "displayName": "Figure Large",
+        "purpose": "The four live landing figures."
       },
       "lede": {
         "displayName": "Lede",
-        "purpose": "One plain-sentence navy headline in the lead exhibit; 24px under 780px."
-      },
-      "exhibit-title": {
-        "displayName": "Exhibit title",
-        "purpose": "Every exhibit h2, prefixed by its teal exhibit number."
+        "purpose": "One-sentence finding at the top of an exhibit, max 30ch."
       },
       "figure": {
         "displayName": "Figure",
-        "purpose": "Quotable numbers in figure rows (22px) and results lists (24px)."
+        "purpose": "Fact strips and measured-result lists."
+      },
+      "item-title": {
+        "displayName": "Item Title",
+        "purpose": "Landing tool names."
+      },
+      "exhibit-title": {
+        "displayName": "Exhibit Title",
+        "purpose": "Every exhibit heading, preceded by its exhibit number."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Running text; prose capped near 68-70ch."
+        "purpose": "Prose and controls; 16px on the landing, max 62-68ch."
       },
       "table": {
         "displayName": "Table",
-        "purpose": "Tables and lists; headers 600 12.5px tertiary ink."
+        "purpose": "Data tables with tabular numerals."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Field labels; source lines and captions at 400 in the same size."
+        "purpose": "Uppercase buttons, nav links, table headers, field labels, captions, tags."
       },
-      "chart-text": {
-        "displayName": "Chart text",
-        "purpose": "Axis text 11.5px, category labels 12.5px, values 12px, fixed regardless of chart width."
+      "exhibit-number": {
+        "displayName": "Exhibit Number",
+        "purpose": "Claret section.item number inline with the exhibit title."
+      },
+      "note": {
+        "displayName": "Note",
+        "purpose": "Source lines, sub-captions, chart axis text. The 12px floor."
       }
     },
     "shadows": [
       {
-        "name": "popover",
-        "value": "0 12px 32px rgba(0, 0, 0, .14)",
-        "purpose": "Search results dropdown only."
+        "name": "plate-lip",
+        "value": "0 1px 0 rgba(26, 26, 22, .04)",
+        "purpose": "Near-invisible lip under exhibits; the only shadow in the system."
       },
       {
-        "name": "tooltip",
-        "value": "0 6px 18px rgba(0, 0, 0, .2)",
-        "purpose": "Navy chart tooltip only."
+        "name": "focus-underline",
+        "value": "inset 0 -2px 0 #8A2B2B",
+        "purpose": "Claret underline inside focused selects and inputs."
+      }
+    ],
+    "rules": [
+      {
+        "name": "rule-heavy",
+        "value": "2px solid #1A1A16",
+        "purpose": "Opens a region: masthead, topbar, figures band, tool list head, table top (1px ink)."
       },
       {
-        "name": "focus-halo",
-        "value": "0 0 0 3px #E2F0EE",
-        "purpose": "Input and select focus, with a teal border."
+        "name": "rule-section",
+        "value": "3px solid #1A1A16",
+        "purpose": "Bar above every app section head (2px on phones)."
+      },
+      {
+        "name": "rule-hair",
+        "value": "1px solid #D8D8D1",
+        "purpose": "Row dividers, exhibit frames, figure column rules."
+      },
+      {
+        "name": "rule-hair-strong",
+        "value": "1px solid #B0B0A6",
+        "purpose": "Under section heads, tool rows, table headers."
+      },
+      {
+        "name": "rule-source",
+        "value": "1px dotted #B0B0A6",
+        "purpose": "Above every Source line."
       }
     ],
     "motion": [
       {
-        "name": "ease",
+        "name": "ease-out-quint",
         "value": "cubic-bezier(0.22, 1, 0.36, 1)",
-        "purpose": "All transitions."
+        "purpose": "The only easing curve."
       },
       {
-        "name": "view-enter",
-        "value": "320ms fade and 6px rise",
-        "purpose": "Each view on entry; removed under prefers-reduced-motion."
+        "name": "hover",
+        "value": "0.12s-0.18s",
+        "purpose": "Colour, background and border state changes."
       },
       {
-        "name": "state",
-        "value": "120-200ms",
-        "purpose": "Hover, focus and selection colour changes; button press scales to 0.97."
+        "name": "plate-settle",
+        "value": "translateY(7px) -> none, 0.5s, staggered 0.05s per exhibit up to 0.2s",
+        "purpose": "App view arrival; transform only, off below 1100px."
+      },
+      {
+        "name": "band-rise",
+        "value": "translateY(16px) -> none, 0.8s, on scroll into view",
+        "purpose": "Landing figures, tools and closing bands; transform only so content is always legible."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none",
+        "purpose": "All motion disabled under prefers-reduced-motion."
       }
     ],
     "breakpoints": [
       {
-        "name": "stack-exhibits",
-        "value": "1100px"
+        "name": "landing-wide",
+        "value": "1000px",
+        "purpose": "Hero row and tool head stack; tool rows reflow."
       },
       {
-        "name": "mobile",
-        "value": "780px"
+        "name": "landing-mid",
+        "value": "820px",
+        "purpose": "Figures go 2x2."
+      },
+      {
+        "name": "landing-phone",
+        "value": "560px",
+        "purpose": "Figures single column; masthead wraps."
+      },
+      {
+        "name": "app-narrow",
+        "value": "1100px",
+        "purpose": "All exhibits span 12; settle animation off."
+      },
+      {
+        "name": "app-phone",
+        "value": "780px",
+        "purpose": "Single column shell, spine becomes tab row, wide-only columns hidden, tables capped at 12 rows."
       }
-    ],
-    "openOpportunities": [
-      "The word \"Exhibit\" before each number, with a running page head and folio.",
-      "Footnote markers tied to individual figures.",
-      "A bound-tab treatment for the spine.",
-      "Chart annotations.",
-      "One authored motion moment beyond the view-enter fade."
     ]
   },
   "components": [
@@ -448,135 +446,161 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Navy action button, e.g. Open the Origination Radar.",
+      "description": "Ink button for the main action in a section head or form; turns claret on hover.",
       "html": "<button class=\"ds-btn\">Open the Origination Radar</button>",
-      "css": ".ds-btn{height:36px;padding:0 16px;border-radius:4px;border:1px solid #13233B;background:#13233B;color:#fff;font:600 14px \"Source Sans 3\",\"Segoe UI\",system-ui,sans-serif;cursor:pointer;transition:background .15s cubic-bezier(0.22,1,0.36,1),transform .12s cubic-bezier(0.22,1,0.36,1)}.ds-btn:hover{background:#2A4166}.ds-btn:active{transform:scale(0.97)}.ds-btn:focus-visible{outline:2px solid #1D7A74;outline-offset:2px}"
+      "css": ".ds-btn { height: 36px; padding: 0 16px; border-radius: 2px; border: 1px solid var(--ink, #1A1A16); background: var(--ink, #1A1A16); color: var(--paper, #F1F1EE); font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: background .16s cubic-bezier(0.22, 1, 0.36, 1), border-color .16s cubic-bezier(0.22, 1, 0.36, 1), color .16s cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn:hover { background: var(--claret, #8A2B2B); border-color: var(--claret, #8A2B2B); color: #fff; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--claret, #8A2B2B); outline-offset: 3px; }"
     },
     {
       "name": "Ghost Button",
       "kind": "button",
       "refersTo": "button-ghost",
-      "description": "Secondary action and the mobile Show all N control.",
+      "description": "Secondary action and the phone \"Show all\" button; inverts to ink on hover.",
       "html": "<button class=\"ds-btn-ghost\">Look up a company</button>",
-      "css": ".ds-btn-ghost{height:36px;padding:0 16px;border-radius:4px;border:1px solid #C4CAD3;background:#fff;color:#13233B;font:600 14px \"Source Sans 3\",\"Segoe UI\",system-ui,sans-serif;cursor:pointer;transition:border-color .15s}.ds-btn-ghost:hover{border-color:#13233B}.ds-btn-ghost:active{transform:scale(0.97)}.ds-btn-ghost:focus-visible{outline:2px solid #1D7A74;outline-offset:2px}"
+      "css": ".ds-btn-ghost { height: 36px; padding: 0 16px; border-radius: 2px; border: 1px solid var(--hair-2, #B0B0A6); background: transparent; color: var(--ink, #1A1A16); font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: background .16s cubic-bezier(0.22, 1, 0.36, 1), border-color .16s cubic-bezier(0.22, 1, 0.36, 1), color .16s cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-ghost:hover { background: var(--ink, #1A1A16); border-color: var(--ink, #1A1A16); color: var(--paper, #F1F1EE); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--claret, #8A2B2B); outline-offset: 3px; }"
     },
     {
-      "name": "Select / Text Field",
+      "name": "Landing CTA",
+      "kind": "button",
+      "refersTo": "cta",
+      "description": "Square ink call to action on the landing page; a paper variant sits on the dark closing band.",
+      "html": "<a class=\"ds-cta\" href=\"#\">Open the deal book</a>",
+      "css": ".ds-cta { display: inline-block; background: var(--ink, #1A1A16); color: var(--paper, #F1F1EE); text-decoration: none; padding: 15px 26px; border: 1px solid var(--ink, #1A1A16); font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; transition: background .18s cubic-bezier(0.22, 1, 0.36, 1), border-color .18s cubic-bezier(0.22, 1, 0.36, 1), color .18s cubic-bezier(0.22, 1, 0.36, 1); } .ds-cta:hover { background: var(--claret, #8A2B2B); border-color: var(--claret, #8A2B2B); color: #fff; } .ds-cta:focus-visible { outline: 2px solid var(--claret, #8A2B2B); outline-offset: 3px; }"
+    },
+    {
+      "name": "Field",
       "kind": "input",
-      "refersTo": "input-field",
-      "description": "Stacked label over a 36px field; teal focus with a wash halo.",
-      "html": "<label class=\"ds-f\">Sector<input class=\"ds-input\" type=\"text\" value=\"FinTech &amp; Payments\"></label>",
-      "css": ".ds-f{display:flex;flex-direction:column;gap:4px;font:600 12.5px \"Source Sans 3\",system-ui,sans-serif;color:#5A6475}.ds-input{height:36px;border:1px solid #C4CAD3;border-radius:4px;background:#fff;color:#13233B;font:400 14px \"Source Sans 3\",system-ui,sans-serif;padding:0 12px;min-width:160px;transition:border-color .15s,box-shadow .15s}.ds-input:hover{border-color:#5A6475}.ds-input:focus{outline:none;border-color:#1D7A74;box-shadow:0 0 0 3px #E2F0EE}"
+      "refersTo": "input",
+      "description": "Labelled select or number field; focus turns the field white with a claret underline.",
+      "html": "<label class=\"ds-field\"><span>Sector</span><select><option>FinTech &amp; Payments</option><option>SaaS</option></select></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 5px; font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3, #6B665A); } .ds-field select { height: 36px; min-width: 160px; border: 1px solid var(--hair-2, #B0B0A6); border-radius: 2px; background: var(--surface, #FBFBF9); color: var(--ink, #1A1A16); font: inherit; font-size: 14px; font-weight: 400; letter-spacing: 0; text-transform: none; padding: 0 12px; transition: border-color .15s cubic-bezier(0.22, 1, 0.36, 1), background .15s cubic-bezier(0.22, 1, 0.36, 1); } .ds-field select:hover { border-color: var(--ink-3, #6B665A); } .ds-field select:focus { outline: none; border-color: var(--ink, #1A1A16); background: #fff; box-shadow: inset 0 -2px 0 var(--claret, #8A2B2B); }"
     },
     {
       "name": "Segmented Control",
       "kind": "chip",
       "refersTo": "segmented-on",
-      "description": "Small mutually exclusive choice; active option in navy.",
-      "html": "<div class=\"ds-seg\"><button class=\"on\">Both</button><button>India</button><button>Global</button></div>",
-      "css": ".ds-seg{display:inline-flex;border:1px solid #C4CAD3;border-radius:4px;overflow:hidden;height:36px}.ds-seg button{border:0;border-right:1px solid #DDE1E7;background:#fff;padding:0 12px;font:400 14px \"Source Sans 3\",system-ui,sans-serif;color:#3B4658;cursor:pointer}.ds-seg button:last-child{border-right:0}.ds-seg button:hover{background:#F5F7F9}.ds-seg button.on{background:#13233B;color:#fff}.ds-seg button:focus-visible{outline:2px solid #1D7A74;outline-offset:-2px}"
+      "description": "Scope switch; the selected option is ink.",
+      "html": "<div class=\"ds-seg\"><button class=\"on\">Both</button><button>Listed</button><button>Private</button></div>",
+      "css": ".ds-seg { display: inline-flex; height: 36px; border: 1px solid var(--hair-2, #B0B0A6); border-radius: 2px; overflow: hidden; background: var(--surface, #FBFBF9); } .ds-seg button { border: 0; border-right: 1px solid var(--hair, #D8D8D1); background: none; padding: 0 12px; font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 13px; color: var(--ink-2, #45443B); cursor: pointer; transition: background .15s cubic-bezier(0.22, 1, 0.36, 1); } .ds-seg button:last-child { border-right: 0; } .ds-seg button:hover { background: var(--wash, #E7E7E2); } .ds-seg button.on { background: var(--ink, #1A1A16); color: var(--paper, #F1F1EE); } .ds-seg button:focus-visible { outline: 2px solid var(--claret, #8A2B2B); outline-offset: -2px; }"
     },
     {
-      "name": "Spine Navigation",
-      "kind": "nav",
-      "refersTo": "section-tab",
-      "description": "Numbered section tabs on the navy spine; active tab is cut from the ground.",
-      "html": "<nav class=\"ds-spine\"><a class=\"ds-tab\" href=\"#\">1<span>Summary<small>The deal book at a glance</small></span></a><a class=\"ds-tab on\" href=\"#\">2<span>Market<small>Capital, sectors, round sizes</small></span></a><a class=\"ds-tab\" href=\"#\">3<span>Origination<small>Who is likely to raise next</small></span></a></nav>",
-      "css": ".ds-spine{background:#13233B;padding:16px 0;width:232px;display:flex;flex-direction:column;gap:2px}.ds-tab{display:grid;grid-template-columns:28px 1fr;padding:10px 24px;color:#C9D3E2;text-decoration:none;font:400 15px \"Source Sans 3\",system-ui,sans-serif;font-family:\"Source Serif 4\",Georgia,serif;border-radius:4px 0 0 4px;transition:background .2s,color .2s}.ds-tab span{font-family:\"Source Sans 3\",system-ui,sans-serif}.ds-tab small{display:block;font-size:12.5px;color:#8C9BB3;line-height:1.3}.ds-tab:hover{background:#1C3050;color:#fff}.ds-tab.on{background:#E9ECF0;color:#13233B;margin-left:12px;padding-left:12px}.ds-tab.on{color:#1D7A74}.ds-tab.on span{color:#13233B}.ds-tab.on small{color:#5A6475}.ds-tab:focus-visible{outline:2px solid #9CCBC6;outline-offset:-2px}"
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Uppercase status tag; neutral by default, claret or gold tint for emphasis.",
+      "html": "<span class=\"ds-tag\">Series A</span> <span class=\"ds-tag ds-tag-claret\">Focus</span> <span class=\"ds-tag ds-tag-gold\">Partial</span>",
+      "css": ".ds-tag { display: inline-block; font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; padding: 2px 6px; border-radius: 1px; background: var(--wash, #E7E7E2); color: var(--ink-2, #45443B); border: 1px solid var(--hair, #D8D8D1); } .ds-tag-claret { background: var(--claret-wash, #F4E8E2); color: var(--claret-2, #6B1E1E); border-color: transparent; } .ds-tag-gold { background: var(--gold-wash, #F6EDD8); color: var(--gold, #8A6520); border-color: transparent; }"
     },
     {
       "name": "Exhibit",
       "kind": "card",
       "refersTo": "exhibit",
-      "description": "The system's unit: number, serif title, figure, source line.",
-      "html": "<section class=\"ds-ex\"><h2><span>2.2</span>Rounds per quarter</h2><p class=\"ds-sub\">All primary rounds, disclosed or not.</p><svg viewBox=\"0 0 300 90\" width=\"100%\"><g fill=\"#1D7A74\"><rect x=\"10\" y=\"60\" width=\"22\" height=\"30\" rx=\"2\"/><rect x=\"40\" y=\"45\" width=\"22\" height=\"45\" rx=\"2\"/><rect x=\"70\" y=\"50\" width=\"22\" height=\"40\" rx=\"2\"/><rect x=\"100\" y=\"30\" width=\"22\" height=\"60\" rx=\"2\"/><rect x=\"130\" y=\"20\" width=\"22\" height=\"70\" rx=\"2\"/><rect x=\"160\" y=\"35\" width=\"22\" height=\"55\" rx=\"2\"/><rect x=\"190\" y=\"10\" width=\"22\" height=\"80\" rx=\"2\"/><rect x=\"220\" y=\"25\" width=\"22\" height=\"65\" rx=\"2\"/></g><line x1=\"0\" x2=\"300\" y1=\"90\" y2=\"90\" stroke=\"#C4CAD3\"/></svg><p class=\"ds-src\"><b>Source:</b> all primary rounds, disclosed or not. <a href=\"#\">Method</a></p></section>",
-      "css": ".ds-ex{background:#fff;border:1px solid #DDE1E7;border-radius:4px;padding:24px;font:400 15px/1.5 \"Source Sans 3\",system-ui,sans-serif;color:#13233B;max-width:420px}.ds-ex h2{font:600 19px/1.25 \"Source Serif 4\",Georgia,serif;letter-spacing:-0.01em;margin:0 0 4px;color:#13233B}.ds-ex h2 span{color:#1D7A74;margin-right:8px;font-variant-numeric:tabular-nums}.ds-sub{color:#5A6475;font-size:13.5px;margin:0 0 16px}.ds-src{margin:16px 0 0;padding-top:12px;border-top:1px solid #DDE1E7;font-size:12.5px;color:#5A6475}.ds-src b{color:#3B4658}.ds-src a{color:#3B4658;text-underline-offset:3px}.ds-src a:hover{color:#155C57}"
+      "description": "The numbered plate every chart and table sits on, closed by a Source line.",
+      "html": "<section class=\"ds-exhibit\"><h2><span class=\"ds-xn\">2.1</span>Capital raised per quarter, FinTech</h2><p class=\"ds-sub\">Equity and venture-debt rounds with disclosed amounts.</p><div class=\"ds-body\"><p class=\"ds-lede\">6,656 deals since 2021, each traced to the article it came from.</p></div><p class=\"ds-source\"><b>Source:</b> 10,367 public articles (Entrackr, Inc42). <a href=\"#\">Method</a></p></section>",
+      "css": ".ds-exhibit { background: var(--surface, #FBFBF9); border: 1px solid var(--hair, #D8D8D1); border-radius: 2px; padding: 24px; box-shadow: 0 1px 0 rgba(26,26,22,.04); color: var(--ink, #1A1A16); font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 15px; line-height: 1.55; max-width: 560px; } .ds-exhibit h2 { font-family: \"Source Serif 4\", Georgia, serif; font-weight: 600; font-size: 19px; line-height: 1.25; letter-spacing: -0.012em; margin: 0 0 4px; } .ds-xn { font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; color: var(--claret, #8A2B2B); margin-right: 9px; vertical-align: 1px; } .ds-sub { color: var(--ink-3, #6B665A); font-size: 13px; margin: 4px 0 16px; line-height: 1.45; } .ds-lede { font-family: \"Source Serif 4\", Georgia, serif; font-size: 26px; line-height: 1.22; letter-spacing: -0.02em; font-weight: 500; margin: 0; max-width: 30ch; } .ds-source { margin: 16px 0 0; padding-top: 12px; border-top: 1px dotted var(--hair-2, #B0B0A6); font-size: 12px; color: var(--ink-3, #6B665A); line-height: 1.5; } .ds-source b { color: var(--ink-2, #45443B); font-weight: 600; } .ds-source a { color: var(--ink-2, #45443B); text-underline-offset: 3px; } .ds-source a:hover { color: var(--claret-2, #6B1E1E); }"
     },
     {
-      "name": "Figure Row",
+      "name": "Section Head",
       "kind": "custom",
-      "refersTo": "exhibit",
-      "description": "Ruled row of quotable figures inside a numbered exhibit; replaces KPI tiles.",
-      "html": "<dl class=\"ds-facts\"><div><dt>Rounds</dt><dd>367</dd></div><div><dt>Capital raised</dt><dd>$6.5B</dd></div><div><dt>Median disclosed round</dt><dd>$5.4M</dd></div><div><dt>Companies funded</dt><dd>354<small>tracked</small></dd></div></dl>",
-      "css": ".ds-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0;border-top:1px solid #C4CAD3;border-bottom:1px solid #DDE1E7;font-family:\"Source Sans 3\",system-ui,sans-serif}.ds-facts div{padding:12px 16px;border-right:1px solid #DDE1E7}.ds-facts div:first-child{padding-left:0}.ds-facts div:last-child{border-right:0}.ds-facts dt{font-size:12.5px;color:#5A6475}.ds-facts dd{margin:2px 0 0;font:600 22px/1.1 \"Source Serif 4\",Georgia,serif;color:#13233B;font-variant-numeric:tabular-nums lining-nums}.ds-facts dd small{display:block;font:400 12.5px \"Source Sans 3\",system-ui,sans-serif;color:#5A6475}"
+      "refersTo": "section-title",
+      "description": "Ruled title page for each app section: 3px ink bar, serif title with claret superscript numeral, one sentence.",
+      "html": "<div class=\"ds-sechead\"><h1><b>3</b>Origination</h1><p>Private companies ranked by the chance they announce a round within twelve months.</p></div>",
+      "css": ".ds-sechead { position: relative; padding: 12px 0 16px; border-bottom: 1px solid var(--hair-2, #B0B0A6); border-top: 3px solid var(--ink, #1A1A16); } .ds-sechead h1 { font-family: \"Source Serif 4\", Georgia, serif; font-weight: 500; font-size: 44px; line-height: 1; letter-spacing: -0.028em; margin: 0; color: var(--ink, #1A1A16); } .ds-sechead h1 b { font-weight: 400; font-size: 0.46em; color: var(--claret, #8A2B2B); margin-right: 0.42em; vertical-align: 0.75em; letter-spacing: 0; } .ds-sechead p { margin: 10px 0 0; font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; color: var(--ink-2, #45443B); font-size: 15.5px; max-width: 62ch; }"
     },
     {
-      "name": "Data Table",
+      "name": "Spine Navigation",
+      "kind": "nav",
+      "refersTo": "body",
+      "description": "Numbered section list; active entry gets wash, ink weight and a claret numeral.",
+      "html": "<nav class=\"ds-spine\"><a href=\"#\"><b>1</b><span>Summary</span><small>The deal book at a glance</small></a><a class=\"on\" href=\"#\"><b>2</b><span>Market</span><small>Capital, sectors, round sizes</small></a><a href=\"#\"><b>3</b><span>Origination</span><small>Who is likely to raise next</small></a></nav>",
+      "css": ".ds-spine { display: flex; flex-direction: column; width: 236px; background: var(--paper, #F1F1EE); font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; } .ds-spine a { display: grid; grid-template-columns: 26px minmax(0,1fr); align-items: baseline; padding: 9px 16px 9px 24px; color: var(--ink-2, #45443B); text-decoration: none; font-size: 15px; transition: color .18s cubic-bezier(0.22, 1, 0.36, 1), background .18s cubic-bezier(0.22, 1, 0.36, 1); } .ds-spine b { font-family: \"Source Serif 4\", Georgia, serif; font-weight: 500; font-size: 13px; color: var(--ink-3, #6B665A); } .ds-spine small { grid-column: 2; font-size: 12px; color: var(--ink-3, #6B665A); line-height: 1.35; } .ds-spine a:hover { color: var(--ink, #1A1A16); background: var(--wash, #E7E7E2); } .ds-spine a.on { background: var(--wash, #E7E7E2); color: var(--ink, #1A1A16); font-weight: 600; } .ds-spine a.on b { color: var(--claret, #8A2B2B); } .ds-spine a:focus-visible { outline: 2px solid var(--claret, #8A2B2B); outline-offset: -2px; }"
+    },
+    {
+      "name": "Figures Band",
       "kind": "custom",
-      "refersTo": "exhibit",
-      "description": "Hairline-ruled sortable table with tabular right-aligned numbers and teal selection.",
-      "html": "<table class=\"ds-tbl\"><thead><tr><th>Investor</th><th class=\"n\">Rounds<span>↓</span></th><th class=\"n\">Led</th></tr></thead><tbody><tr><td>Peak XV Partners</td><td class=\"n\">16</td><td class=\"n\">10</td></tr><tr class=\"sel\"><td>Rainmatter</td><td class=\"n\">15</td><td class=\"n\">12</td></tr><tr><td>Accel</td><td class=\"n\">14</td><td class=\"n\">11</td></tr></tbody></table>",
-      "css": ".ds-tbl{width:100%;border-collapse:collapse;font:400 14px \"Source Sans 3\",system-ui,sans-serif;color:#13233B}.ds-tbl th{text-align:left;font-weight:600;font-size:12.5px;color:#5A6475;padding:9px 10px;border-bottom:1px solid #C4CAD3;cursor:pointer}.ds-tbl th:hover{color:#13233B}.ds-tbl th span{color:#1D7A74;margin-left:2px}.ds-tbl td{padding:8px 10px;border-bottom:1px solid #DDE1E7}.ds-tbl .n{text-align:right;font-variant-numeric:tabular-nums lining-nums}.ds-tbl tbody tr:hover{background:#F5F7F9}.ds-tbl tbody tr.sel{background:#E2F0EE}"
-    },
-    {
-      "name": "Tag",
-      "kind": "chip",
-      "refersTo": "tag-teal",
-      "description": "Small inline status label; neutral, teal and amber variants.",
-      "html": "<span class=\"ds-tag\">Series B</span> <span class=\"ds-tag teal\">led</span> <span class=\"ds-tag amber\">partial</span>",
-      "css": ".ds-tag{display:inline-block;font:400 12px \"Source Sans 3\",system-ui,sans-serif;padding:1px 7px;border-radius:3px;background:#F5F7F9;color:#3B4658;border:1px solid #DDE1E7}.ds-tag.teal{background:#E2F0EE;color:#155C57;border-color:transparent}.ds-tag.amber{background:#FBF0DF;color:#A86412;border-color:transparent}"
+      "refersTo": "figure-large",
+      "description": "Ruled row of live headline figures with a qualifier under each and a Source line beneath.",
+      "html": "<div class=\"ds-figs\"><dl><div><dt>Deals on record</dt><dd>6,656</dd><p>10,367 articles read.</p></div><div><dt>Radar top-100 precision</dt><dd>43%</dd><p>against 16% for a simple timing rule.</p></div></dl><p class=\"ds-figsrc\">Source: the deal book, built only from public articles.</p></div>",
+      "css": ".ds-figs { background: var(--surface, #FBFBF9); border-top: 2px solid var(--ink, #1A1A16); border-bottom: 1px solid var(--hair-2, #B0B0A6); font-family: \"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif; color: var(--ink, #1A1A16); } .ds-figs dl { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); margin: 0; padding: 20px 24px 24px; } .ds-figs dl > div { padding: 6px 28px; border-left: 1px solid var(--hair, #D8D8D1); } .ds-figs dl > div:first-child { padding-left: 0; border-left: 0; } .ds-figs dt { font-size: 12px; font-weight: 700; letter-spacing: 0.11em; text-transform: uppercase; color: var(--ink-2, #45443B); } .ds-figs dd { margin: 8px 0 0; font-family: \"Source Serif 4\", Georgia, serif; font-size: 52px; font-weight: 600; line-height: 1; letter-spacing: -0.035em; font-variant-numeric: tabular-nums lining-nums; } .ds-figs dl p { margin: 10px 0 0; font-size: 13px; line-height: 1.5; color: var(--ink-3, #6B665A); max-width: 34ch; } .ds-figsrc { margin: 0; padding: 12px 24px 18px; border-top: 1px dotted var(--hair-2, #B0B0A6); font-size: 12px; color: var(--ink-3, #6B665A); }"
     }
   ],
   "narrative": {
-    "northStar": "The Pitch Book",
-    "overview": "The product is a living pitch book. Every view is a numbered section of a bound deal book, and every unit of content inside it is a numbered exhibit: a serif title with its number, the figure (chart, table, or ruled figure row), and a source line beneath it that names where the number came from and links to the article or the method. The reader is a senior banker who already knows what a pitch book looks like; the system borrows that document's discipline (numbering, hairline rules, sourced figures, a single navy ink) rather than the visual vocabulary of a SaaS dashboard.\n\nDensity is high but ordered. White exhibit pages sit on a cool paper-grey ground, framed by a deep navy shell (top bar and a left spine of numbered section tabs). Depth is conveyed by ground against page and by hairlines, never by shadow on content. Colour is spent on meaning: navy for ink and structure, one teal for numbering, links, selection and the primary data series, warm amber and red only when a value needs a warning. Motion is minimal: one short fade-and-rise as a view enters, and quick state transitions on controls.\n\nThe world refuses the KPI-tile dashboard of identical floating cards. Summary figures are themselves numbered exhibits (2.0, 6.0, 7.0) with a ruled figure row and a source line.",
+    "northStar": "The Research Note",
+    "overview": "Deal Intelligence is set like a sell-side research note: neutral off-white paper, near-black ink, one claret accent, and rules doing the work that boxes and shadows do elsewhere. Serif carries the voice (the landing headline, section titles, exhibit titles, every headline figure); a humanist sans carries the machinery (controls, tables, labels, source lines). The reader is a numerate, skeptical banker, so the page earns trust the way a printed note does: numbered exhibits, a \"Source:\" line under every chart and table, figures read from the data rather than typed, and claims sized to what the data supports.\n\nDensity is report-like rather than dashboard-like. The app is a sticky ruled topbar, a numbered section spine, and a 12-column grid of exhibits on paper. The landing page is a single printed broadsheet: masthead over a heavy rule, a very large serif headline, a four-figure band with its own source line, a five-item numbered tool list, a dark closing band, and a quiet footer. Nothing glows, nothing floats, corners are square or nearly so. Motion is a short transform-only settle that never hides content.\n\nThe system was built by the Freebuff coding agent from a brief, then corrected after review. The corrections are part of the system: neutral paper, not cream; no kicker or eyebrow labels above headings; a 12px text floor; exhibit numbers and source lines everywhere; figures always live from `data/summary.json`; no decorative side stripes; transform-only motion; and a phone layout with no sideways scroll.",
     "keyCharacteristics": [
-      "Numbered exhibits (section.exhibit, e.g. 2.4) with a serif title and a source line under every figure.",
-      "Navy shell (top bar plus numbered spine) around white pages on a cool grey ground.",
-      "Serif (Source Serif 4) for titles and big figures; sans (Source Sans 3) for UI and tables, with tabular lining figures everywhere numbers align.",
-      "Hairline rules, 4px corners, no shadows on content.",
-      "Hand-built SVG charts sized to their container, text at fixed CSS sizes."
+      "Neutral off-white paper with a lighter surface for plates and bands; near-black ink.",
+      "One accent, claret, used for links, numerals, selection and hover, never as a fill for large areas.",
+      "Heavy ink rules (2–3px) open a region; hairlines (1px) divide within it; dotted hairlines set off source lines.",
+      "Source Serif 4 for voice and figures, Source Sans 3 for controls and data, nothing smaller than 12px.",
+      "Every exhibit is numbered (section.item) and closes with a \"Source:\" line.",
+      "Square to near-square corners (0–2px); no ambient shadows."
     ],
     "rules": [
       {
-        "name": "The One Ink Rule",
-        "body": "Navy is the only ink for titles, ledes and figures. The lede is navy, never teal.",
+        "name": "The One Voice Rule",
+        "body": "Claret is the only chromatic accent in the interface. It marks what is clickable, current or numbered; it never fills a hero, a band or a card.",
         "section": "colors"
       },
       {
-        "name": "The Teal Is Earned Rule",
-        "body": "Teal marks numbering, links, selection and the primary data series. It never fills a surface larger than a selected row or a detail panel wash.",
+        "name": "The Neutral Paper Rule",
+        "body": "Paper is a neutral off-white (paper), not cream or bone-yellow. A warmer page reads as nostalgic; this one reads as a printed note.",
         "section": "colors"
       },
       {
-        "name": "The Meaning-Only Rule",
-        "body": "Amber and red appear only when a value carries a warning or a contrasting published figure; never as decoration or category colour.",
+        "name": "The Ink-and-Stone Data Rule",
+        "body": "Charts are ink with stone for the comparison series and tan for ranges; claret appears in a chart only on hover. A chart never introduces a new hue.",
         "section": "colors"
       },
       {
-        "name": "The Serif Means Quote It Rule",
-        "body": "Serif is for titles and quotable figures only; controls, tables and captions stay in sans.",
+        "name": "The Twelve Pixel Floor",
+        "body": "No text renders below 12px, including chart axis labels, tags, source lines and the spine footer. SVG charts are drawn at the exhibit's real pixel width so their 12px text stays 12px.",
+        "section": "typography"
+      },
+      {
+        "name": "The Numbered Exhibit Rule",
+        "body": "Section numbers are claret superscripts on the section title; exhibit numbers are claret letterspaced micro-labels inline with the exhibit title. Numbers sit in the heading, never as a separate label above it.",
         "section": "typography"
       },
       {
         "name": "The Tabular Figures Rule",
-        "body": "Any number that sits in a column or beside another number uses tabular lining figures.",
+        "body": "Every number in a table, figure or chart uses tabular lining numerals and is right-aligned in tables.",
         "section": "typography"
       },
       {
-        "name": "The Paper Not Glass Rule",
-        "body": "Exhibits, panels, tables and callouts are flat paper with a hairline. Only transient overlays may lift.",
+        "name": "The No Sideways Scroll Rule",
+        "body": "At 390px nothing scrolls horizontally except the spine tab row, which is a deliberate scroller. Tables lose secondary columns instead of overflowing.",
+        "section": "layout"
+      },
+      {
+        "name": "The Twelve Rows Rule",
+        "body": "On phones (under 780px) every table shows at most 12 rows, followed by a full-width ghost \"Show all N\" button.",
+        "section": "layout"
+      },
+      {
+        "name": "The Rules Not Shadows Rule",
+        "body": "Heavy rule (2px ink; 3px on the section head) opens a region, hairline (1px) divides inside it, dotted hairline sets off a source line. If a boundary needs more emphasis, use a heavier rule, never a shadow.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do number every exhibit (section.index) and give it a serif title and a source line that links to the article or the Method view.",
-      "Do present summary figures as a numbered exhibit with a ruled figure row (as in 2.0, 6.0, 7.0), not as tiles.",
-      "Do render charts at the container's measured width with fixed CSS text sizes, and size horizontal label gutters from the longest label.",
-      "Do keep both end ticks when thinning a range or log axis.",
-      "Do align grid items to start so exhibits keep their natural height.",
-      "Do mark secondary table columns as wide so they hide under 780px, and cap mobile lists at 12 rows with a \"Show all N\" button.",
-      "Do set every aligned number in tabular lining figures, right-aligned.",
-      "Do keep the lede and all titles in navy; spend teal only on numbering, links, selection and the primary series."
+      "Do number every exhibit (section.item) and close every chart and table with a \"Source:\" line linking to Method.",
+      "Do read every headline figure from the data at load time; show an em dash until it arrives.",
+      "Do size claims to the data (\"each traced to its source\", not \"every round\").",
+      "Do open regions with a heavy ink rule and divide them with hairlines.",
+      "Do keep claret for links, numerals, current state, focus and hover.",
+      "Do keep all text at 12px or larger, including chart text.",
+      "Do animate with transform only (a 7px settle in the app, a 16px rise on landing bands, ease cubic-bezier(0.22, 1, 0.36, 1)) and switch all motion off under prefers-reduced-motion.",
+      "Do hide secondary table columns and cap lists at 12 rows with \"Show all\" on phones.",
+      "Do make every link on the dark closing band turn white on hover and focus."
     ],
     "donts": [
-      "Don't build strips of identical KPI tile cards.",
-      "Don't put a shadow on an exhibit, panel, table or callout; shadows belong only to the dropdown and tooltip.",
-      "Don't use amber or red for anything but a warning or a contrasting published figure.",
-      "Don't set a figure, chart or table without a source line.",
-      "Don't stretch grid items to equal heights.",
-      "Don't scale chart text with the SVG viewBox; charts take an explicit width instead.",
-      "Don't use a radius other than 4px (3px tags, 2px chart marks), or a thicker line than the 2px section rule."
+      "Don't put kicker or eyebrow labels above headings; numbers live inside the heading.",
+      "Don't use cream or yellowed paper; the ground is neutral (paper).",
+      "Don't use a coloured side stripe as a decorative accent on panels, callouts or cards.",
+      "Don't add ambient or drop shadows, glows, gradients or rounded cards.",
+      "Don't introduce a second accent hue or colour charts outside ink, stone, tan (and gold for a reference series).",
+      "Don't type figures into markup; they come from `data/summary.json`.",
+      "Don't fade content in from invisible; a section that has not animated yet is still fully legible.",
+      "Don't let any page scroll sideways at 390px."
     ]
   }
 }

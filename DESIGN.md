@@ -1,77 +1,105 @@
 ---
 name: Deal Intelligence
-description: A sourced, measured deal book for Indian technology transactions, set as a living pitch book.
+description: A sourced deal book for Indian technology transactions, set as a printed research note.
 colors:
-  navy: "#13233B"
-  navy-raised: "#1C3050"
-  navy-rule: "#2A4166"
-  navy-ink: "#C9D3E2"
-  navy-mute: "#8C9BB3"
-  ground: "#E9ECF0"
-  page: "#FFFFFF"
-  ink: "#13233B"
-  ink-secondary: "#3B4658"
-  ink-tertiary: "#5A6475"
-  rule: "#DDE1E7"
-  rule-strong: "#C4CAD3"
-  wash: "#F5F7F9"
-  teal: "#1D7A74"
-  teal-deep: "#155C57"
-  teal-wash: "#E2F0EE"
-  teal-soft: "#9CCBC6"
-  series-other: "#A8B3C4"
-  amber: "#A86412"
-  amber-wash: "#FBF0DF"
-  red: "#B42318"
-  red-wash: "#FBE9E7"
+  paper: "#F1F1EE"
+  surface: "#FBFBF9"
+  wash: "#E7E7E2"
+  ink: "#1A1A16"
+  ink-secondary: "#45443B"
+  ink-tertiary: "#6B665A"
+  hairline: "#D8D8D1"
+  hairline-strong: "#B0B0A6"
+  claret: "#8A2B2B"
+  claret-deep: "#6B1E1E"
+  claret-wash: "#F4E8E2"
+  chart-ink: "#23241D"
+  stone: "#948B7A"
+  tan: "#C6AC97"
+  gold: "#8A6520"
+  gold-wash: "#F6EDD8"
+  band-text: "#DADAD2"
+  white: "#FFFFFF"
 typography:
+  display:
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
+    fontSize: "clamp(40px, 7.4vw, 92px)"
+    fontWeight: 500
+    lineHeight: 0.97
+    letterSpacing: "-0.038em"
+  band-headline:
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
+    fontSize: "clamp(32px, 4.6vw, 62px)"
+    fontWeight: 500
+    lineHeight: 1
+    letterSpacing: "-0.035em"
   section-title:
-    fontFamily: "Source Serif 4, Georgia, serif"
-    fontSize: "34px"
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
+    fontSize: "clamp(30px, 3.4vw, 44px)"
+    fontWeight: 500
+    lineHeight: 1
+    letterSpacing: "-0.028em"
+  figure-large:
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
+    fontSize: "clamp(34px, 4.2vw, 52px)"
     fontWeight: 600
-    lineHeight: 1.1
-    letterSpacing: "-0.02em"
+    lineHeight: 1
+    letterSpacing: "-0.035em"
+    fontFeature: "\"tnum\", \"lnum\""
   lede:
-    fontFamily: "Source Serif 4, Georgia, serif"
-    fontSize: "30px"
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
+    fontSize: "clamp(22px, 2.4vw, 29px)"
     fontWeight: 500
     lineHeight: 1.22
     letterSpacing: "-0.02em"
+  figure:
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
+    fontSize: "26px"
+    fontWeight: 600
+    lineHeight: 1.1
+    letterSpacing: "-0.02em"
+    fontFeature: "\"tnum\", \"lnum\""
+  item-title:
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
+    fontSize: "25px"
+    fontWeight: 600
+    lineHeight: 1.1
+    letterSpacing: "-0.02em"
   exhibit-title:
-    fontFamily: "Source Serif 4, Georgia, serif"
+    fontFamily: "Source Serif 4, Georgia, Times New Roman, serif"
     fontSize: "19px"
     fontWeight: 600
     lineHeight: 1.25
-    letterSpacing: "-0.01em"
-  figure:
-    fontFamily: "Source Serif 4, Georgia, serif"
-    fontSize: "22px"
-    fontWeight: 600
-    lineHeight: 1.1
-    fontFeature: "\"tnum\", \"lnum\""
+    letterSpacing: "-0.012em"
   body:
     fontFamily: "Source Sans 3, Segoe UI, system-ui, sans-serif"
     fontSize: "15px"
     fontWeight: 400
-    lineHeight: 1.5
+    lineHeight: 1.55
   table:
     fontFamily: "Source Sans 3, Segoe UI, system-ui, sans-serif"
-    fontSize: "14px"
+    fontSize: "13.5px"
     fontWeight: 400
-    lineHeight: 1.5
     fontFeature: "\"tnum\", \"lnum\""
   label:
     fontFamily: "Source Sans 3, Segoe UI, system-ui, sans-serif"
-    fontSize: "12.5px"
-    fontWeight: 600
-    lineHeight: 1.45
-  chart-text:
+    fontSize: "12px"
+    fontWeight: 700
+    letterSpacing: "0.1em"
+  exhibit-number:
     fontFamily: "Source Sans 3, Segoe UI, system-ui, sans-serif"
-    fontSize: "11.5px"
+    fontSize: "12px"
+    fontWeight: 700
+    letterSpacing: "0.14em"
+  note:
+    fontFamily: "Source Sans 3, Segoe UI, system-ui, sans-serif"
+    fontSize: "12px"
     fontWeight: 400
+    lineHeight: 1.5
 rounded:
-  tag: "3px"
-  r: "4px"
+  none: "0px"
+  hairline: "1px"
+  sm: "2px"
 spacing:
   s1: "4px"
   s2: "8px"
@@ -81,68 +109,79 @@ spacing:
   s6: "32px"
   s7: "48px"
   s8: "64px"
+  page-gutter: "clamp(20px, 5vw, 64px)"
 components:
   button-primary:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.page}"
-    rounded: "{rounded.r}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
+    typography: "{typography.label}"
+    rounded: "{rounded.sm}"
     padding: "0 16px"
     height: "36px"
   button-primary-hover:
-    backgroundColor: "{colors.navy-rule}"
-    textColor: "{colors.page}"
+    backgroundColor: "{colors.claret}"
+    textColor: "{colors.white}"
   button-ghost:
-    backgroundColor: "{colors.page}"
-    textColor: "{colors.navy}"
-    rounded: "{rounded.r}"
+    backgroundColor: "transparent"
+    textColor: "{colors.ink}"
+    typography: "{typography.label}"
+    rounded: "{rounded.sm}"
     padding: "0 16px"
     height: "36px"
-  input-field:
-    backgroundColor: "{colors.page}"
+  button-ghost-hover:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
+  cta:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
+    typography: "{typography.label}"
+    rounded: "{rounded.none}"
+    padding: "15px 26px"
+  cta-hover:
+    backgroundColor: "{colors.claret}"
+    textColor: "{colors.white}"
+  cta-light:
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.r}"
+    rounded: "{rounded.none}"
+    padding: "15px 26px"
+  input:
+    backgroundColor: "{colors.surface}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.sm}"
     padding: "0 12px"
     height: "36px"
-  search-field:
-    backgroundColor: "{colors.navy-raised}"
-    textColor: "{colors.page}"
-    rounded: "{rounded.r}"
-    height: "36px"
+  input-focus:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.ink}"
   segmented-on:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.page}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
     height: "36px"
-  section-tab:
-    textColor: "{colors.navy-ink}"
-    rounded: "{rounded.r}"
-    padding: "10px 24px"
-  section-tab-active:
-    backgroundColor: "{colors.ground}"
-    textColor: "{colors.navy}"
   exhibit:
-    backgroundColor: "{colors.page}"
+    backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.r}"
+    rounded: "{rounded.sm}"
     padding: "24px"
-  detail-panel:
-    backgroundColor: "{colors.teal-wash}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.r}"
-    padding: "16px 24px"
   tag:
     backgroundColor: "{colors.wash}"
     textColor: "{colors.ink-secondary}"
-    rounded: "{rounded.tag}"
-    padding: "1px 7px"
-  tag-teal:
-    backgroundColor: "{colors.teal-wash}"
-    textColor: "{colors.teal-deep}"
-    rounded: "{rounded.tag}"
-    padding: "1px 7px"
+    rounded: "{rounded.hairline}"
+    padding: "2px 6px"
+  tag-claret:
+    backgroundColor: "{colors.claret-wash}"
+    textColor: "{colors.claret-deep}"
+    rounded: "{rounded.hairline}"
+    padding: "2px 6px"
+  tag-gold:
+    backgroundColor: "{colors.gold-wash}"
+    textColor: "{colors.gold}"
+    rounded: "{rounded.hairline}"
+    padding: "2px 6px"
   tooltip:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.page}"
-    rounded: "{rounded.r}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
+    rounded: "{rounded.sm}"
     padding: "6px 9px"
 ---
 
@@ -150,176 +189,187 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Pitch Book"**
+**Creative North Star: "The Research Note"**
 
-The product is a living pitch book. Every view is a numbered section of a bound deal book, and every unit of content inside it is a numbered exhibit: a serif title with its number, the figure (chart, table, or ruled figure row), and a source line beneath it that names where the number came from and links to the article or the method. The reader is a senior banker who already knows what a pitch book looks like; the system borrows that document's discipline (numbering, hairline rules, sourced figures, a single navy ink) rather than the visual vocabulary of a SaaS dashboard.
+Deal Intelligence is set like a sell-side research note: neutral off-white paper, near-black ink, one claret accent, and rules doing the work that boxes and shadows do elsewhere. Serif carries the voice (the landing headline, section titles, exhibit titles, every headline figure); a humanist sans carries the machinery (controls, tables, labels, source lines). The reader is a numerate, skeptical banker, so the page earns trust the way a printed note does: numbered exhibits, a "Source:" line under every chart and table, figures read from the data rather than typed, and claims sized to what the data supports.
 
-Density is high but ordered. White exhibit pages sit on a cool paper-grey ground, framed by a deep navy shell (top bar and a left spine of numbered section tabs). Depth is conveyed by ground against page and by hairlines, never by shadow on content. Colour is spent on meaning: navy for ink and structure, one teal for numbering, links, selection and the primary data series, warm amber and red only when a value needs a warning. Motion is minimal: one short fade-and-rise as a view enters, and quick state transitions on controls.
+Density is report-like rather than dashboard-like. The app is a sticky ruled topbar, a numbered section spine, and a 12-column grid of exhibits on paper. The landing page is a single printed broadsheet: masthead over a heavy rule, a very large serif headline, a four-figure band with its own source line, a five-item numbered tool list, a dark closing band, and a quiet footer. Nothing glows, nothing floats, corners are square or nearly so. Motion is a short transform-only settle that never hides content.
 
-The world refuses the KPI-tile dashboard of identical floating cards. Summary figures are themselves numbered exhibits (2.0, 6.0, 7.0) with a ruled figure row and a source line.
+The system was built by the Freebuff coding agent from a brief, then corrected after review. The corrections are part of the system: neutral paper, not cream; no kicker or eyebrow labels above headings; a 12px text floor; exhibit numbers and source lines everywhere; figures always live from `data/summary.json`; no decorative side stripes; transform-only motion; and a phone layout with no sideways scroll.
 
 **Key Characteristics:**
-- Numbered exhibits (section.exhibit, e.g. 2.4) with a serif title and a source line under every figure.
-- Navy shell (top bar plus numbered spine) around white pages on a cool grey ground.
-- Serif (Source Serif 4) for titles and big figures; sans (Source Sans 3) for UI and tables, with tabular lining figures everywhere numbers align.
-- Hairline rules, 4px corners, no shadows on content.
-- Hand-built SVG charts sized to their container, text at fixed CSS sizes.
+- Neutral off-white paper with a lighter surface for plates and bands; near-black ink.
+- One accent, claret, used for links, numerals, selection and hover, never as a fill for large areas.
+- Heavy ink rules (2–3px) open a region; hairlines (1px) divide within it; dotted hairlines set off source lines.
+- Source Serif 4 for voice and figures, Source Sans 3 for controls and data, nothing smaller than 12px.
+- Every exhibit is numbered (section.item) and closes with a "Source:" line.
+- Square to near-square corners (0–2px); no ambient shadows.
 
 ## Colors
 
-A restrained banker's palette: one navy ink, one teal accent, cool neutrals, and two warning hues held in reserve.
+A warm-neutral greyscale with a single oxblood voice and a stone second data tone.
 
 ### Primary
-- **Deep Ledger Navy** (navy): the ink of the whole system. Top bar and spine background, section and exhibit titles, the lede, big figures, primary buttons, the active segmented option, the median tick on range charts, the 2px rule under each section head, the tooltip.
-- **Raised Navy** (navy-raised) and **Navy Rule** (navy-rule): the search field and tab hover inside the shell; borders and dividers inside the shell, and the primary button's hover.
-- **Shell Ink** (navy-ink) and **Shell Mute** (navy-mute): tab labels and secondary text on navy; placeholder text and tab numerals at rest.
+- **Claret** (claret): the only accent. Links, the section numeral superscript, exhibit numbers, tool-list numerals, sort arrows, focus outlines, the active spine numeral, chart-bar hover, and the hover fill of every ink button.
+- **Deep Claret** (claret-deep): link hover, text on claret-wash tags.
+- **Claret Wash** (claret-wash): selected table row and the claret tag background. A tint, never a panel colour for whole regions.
 
 ### Secondary
-- **Exhibit Teal** (teal): exhibit and section numbers, links, focus rings, the active tab's numeral, selected-row and sort-arrow marks, and the primary data series in every chart. **Teal Deep** (teal-deep) is its hover/pressed state and the text of teal tags. **Teal Wash** (teal-wash) fills selected rows, search-result hover, detail panels and the input focus halo. **Teal Soft** (teal-soft) is the interquartile bar on range charts, the detail-panel border, the text selection and the brand subline.
-- **Comparison Slate** (series-other): the secondary series in bar charts ("other sector") and its legend swatch.
-
-### Tertiary
-- **Ochre Warning** (amber, amber-wash): meaning only. Amber tags and the "published weekly total" comparison line on the coverage chart.
-- **Signal Red** (red, red-wash): meaning only; reserved for errors and negative signals.
+- **Stone** (stone): the second data tone. "Other" bars beside ink "focus" bars, the "other sector" legend key.
+- **Tan** (tan): the range bars of range and football-field charts, behind an ink median tick.
+- **Gold** (gold) with **Gold Wash** (gold-wash): a cautionary tag, and the "published total" reference line set against the book's own line. Rare.
 
 ### Neutral
-- **Paper Ground** (ground): the page behind exhibits, and the active tab, which appears cut from the ground into the spine.
-- **Page White** (page): exhibit surfaces, table headers, inputs.
-- **Ink** (ink), **Secondary Ink** (ink-secondary), **Tertiary Ink** (ink-tertiary): body text; prose and labels; captions, source lines, axis text, muted columns.
-- **Hairline** (rule) and **Strong Hairline** (rule-strong): exhibit borders, table row rules, source-line rules; table header rule, input and ghost-button borders.
-- **Wash** (wash): row hover, neutral tags, callouts.
+- **Paper** (paper): page background in both landing and app; also the text colour on ink.
+- **Surface** (surface): exhibits, the masthead, topbar, figures band, inputs, table header cells. One step lighter than paper; the only "lift" the system has.
+- **Wash** (wash): row hover, active spine tab, default tag, callouts, search-result hover.
+- **Ink** (ink): body text, headings, heavy rules, primary buttons, the closing band, tooltip.
+- **Chart Ink** (chart-ink): default bar fill, a hair lighter than ink so bars read as data rather than type.
+- **Ink Secondary** (ink-secondary): supporting prose, ledes under section titles, table labels.
+- **Ink Tertiary** (ink-tertiary): metadata, axis text, uppercase labels, source lines, placeholders.
+- **Hairline** (hairline): row dividers, exhibit frames, figure-band column rules.
+- **Hairline Strong** (hairline-strong): the rule under a section head, ghost-button and input borders, link underlines at rest, dotted source rules.
+- **Band Text** (band-text): body copy on the dark closing band.
+- **White** (white): focused input fields and text on claret hover fills only.
 
 ### Named Rules
-**The One Ink Rule.** Navy is the only ink for titles, ledes and figures. The lede is navy, never teal.
+**The One Voice Rule.** Claret is the only chromatic accent in the interface. It marks what is clickable, current or numbered; it never fills a hero, a band or a card.
 
-**The Teal Is Earned Rule.** Teal marks numbering, links, selection and the primary data series. It never fills a surface larger than a selected row or a detail panel wash.
+**The Neutral Paper Rule.** Paper is a neutral off-white (paper), not cream or bone-yellow. A warmer page reads as nostalgic; this one reads as a printed note.
 
-**The Meaning-Only Rule.** Amber and red appear only when a value carries a warning or a contrasting published figure; never as decoration or category colour.
+**The Ink-and-Stone Data Rule.** Charts are ink with stone for the comparison series and tan for ranges; claret appears in a chart only on hover. A chart never introduces a new hue.
 
 ## Typography
 
-**Display Font:** Source Serif 4 (with Georgia, serif), self-hosted variable woff2.
-**Body Font:** Source Sans 3 (with Segoe UI, system-ui, sans-serif), self-hosted variable woff2.
+**Display Font:** Source Serif 4 (with Georgia, Times New Roman, serif)
+**Body Font:** Source Sans 3 (with Segoe UI, system-ui, sans-serif)
 
-**Character:** A research-report pairing: a sturdy transitional serif carries titles and the numbers that matter, a quiet humanist sans carries every control, table and caption.
+**Character:** a research house's serif for anything the reader should remember, a plain humanist sans for anything the reader operates. Both self-hosted as variable woff2 (weights 200–900), preloaded.
 
 ### Hierarchy
-- **Section title** (600, 34px, 1.1, -0.02em; 28px under 780px): the view's h1, prefixed by its teal section number.
-- **Lede** (500, 30px, 1.22, -0.02em, max 30ch; 24px under 780px): one plain-sentence headline inside the lead exhibit, navy.
-- **Exhibit title** (600, 19px, 1.25, -0.01em): every exhibit h2, prefixed by its teal exhibit number.
-- **Figure** (600, 22px in figure rows, 24px in results lists; tabular lining): the numbers a banker would quote.
-- **Body** (400, 15px, 1.5): running text; prose capped at 68–70ch.
-- **Table** (400, 14px; headers 600, 12.5px, tertiary ink): all lists and tables, tabular figures, numbers right-aligned.
-- **Label** (600, 12.5px): field labels; source lines and captions use the same 12.5px at 400 in tertiary ink with a bold lead word ("Source:").
-- **Chart text** (400, 11.5px axes; 12.5px category labels; 12px values): fixed CSS sizes regardless of chart width.
+- **Display** (500, clamp 40–92px, 0.97, -0.038em, max 16ch, balanced): the landing headline only.
+- **Band Headline** (500, clamp 32–62px, 1.0): the closing band's statement. Landing band titles such as "Five tools, one book" sit between this and the section title (500, clamp 30–46px, 1.02, -0.03em).
+- **Section Title** (500, clamp 30–44px, 1.0, -0.028em; 30px on phones): the app section heading, preceded by its section numeral as a small claret superscript (serif 400, 0.46em, raised 0.75em).
+- **Figure Large** (600, clamp 34–52px, tabular lining numerals; 40px on phones): the four landing figures.
+- **Lede** (500, clamp 22–29px, 1.22, max 30ch; 23px on phones): one sentence that states the finding at the top of an exhibit.
+- **Figure** (600, 25–26px, tabular lining): fact strips and measured-result lists.
+- **Item Title** (600, 25px): landing tool names.
+- **Exhibit Title** (600, 19px; 17.5px on phones): every exhibit heading, preceded by its exhibit number.
+- **Body** (400, 15px app / 16px landing, 1.55; hero sub 17px at 1.6, max 62ch): prose, max 62–68ch.
+- **Table** (400, 13.5px, tabular): data tables; headers are labels.
+- **Label** (700, 12px, 0.07–0.14em, uppercase): buttons, nav links, table headers, field labels, figure captions, tags.
+- **Exhibit Number** (sans 700, 12px, 0.14em, claret): "1.1", "2.3" ahead of the exhibit title, inline, never on its own line.
+- **Note** (400, 12–13px, 1.5, ink-tertiary): source lines, sub-captions, chart axis text.
 
 ### Named Rules
-**The Serif Means Quote It Rule.** Serif is for titles and quotable figures only; controls, tables and captions stay in sans.
+**The Twelve Pixel Floor.** No text renders below 12px, including chart axis labels, tags, source lines and the spine footer. SVG charts are drawn at the exhibit's real pixel width so their 12px text stays 12px.
 
-**The Tabular Figures Rule.** Any number that sits in a column or beside another number uses tabular lining figures.
+**The Numbered Exhibit Rule.** Section numbers are claret superscripts on the section title; exhibit numbers are claret letterspaced micro-labels inline with the exhibit title. Numbers sit in the heading, never as a separate label above it.
+
+**The Tabular Figures Rule.** Every number in a table, figure or chart uses tabular lining numerals and is right-aligned in tables.
 
 ## Layout
 
-A fixed shell: a 56px navy top bar (brand, centred search up to 560px, "Method & quality" link) over a two-column grid with a 232px navy spine of numbered section tabs and a scrolling main column. Main pads 32px/48px and centres views at a 1240px maximum.
+**Landing.** A full-width masthead (surface, 20px vertical padding, heavy 2px ink rule below) holds the serif wordmark and two uppercase links, the second in claret. The hero sits in a 1320px column: the display headline, then a hairline-topped two-column row with the subline (live deal count in bold ink) and the actions. The figures band runs full bleed on surface between a 2px ink rule and a hairline: an uppercase caption with the live date range at right, four figures in columns divided by hairlines, then a dotted-ruled "Source:" line. The tools section is a 1320px column: title and sentence in two columns over a 2px ink rule, then five rows on hairlines (numeral 64px, name 200px, description, arrow). The closing band is full-bleed ink. The footer is a hairline-topped row of two 12px lines. Side gutter everywhere is `page-gutter`.
 
-Each view opens with a section head (title and one-line description left, controls right, closed by a 2px navy rule), followed by a 12-column grid with a 24px gap. Exhibits span 12, 8, 7, 6, 5 or 4 columns; grid items align to start, so exhibits keep their natural height instead of stretching to match neighbours.
+**App.** A grid shell: 236px spine plus fluid main, under a 60px sticky topbar (surface, heavy ink rule below) holding wordmark, search (max 520px) and two uppercase links. The spine is paper with a hairline right edge and a footer of live totals. Main content has 32/48/64px padding and a 1240px max view. Each section opens with a section head; exhibits sit in a 12-column grid with 24px gaps, spans of 12, 8/4, 7/5 or 6/6.
 
-Spacing steps on a 4px base: 4, 8, 12, 16, 24, 32, 48, 64. Exhibits pad 24px; source lines sit 16px below the figure behind a hairline with 12px above the text.
+**Spacing rhythm.** A 4px-based scale (s1–s8: 4, 8, 12, 16, 24, 32, 48, 64). Landing vertical rhythm uses clamps (hero 48–116px top, tools 56–104px).
 
-Responsive behaviour:
-- **Under 1100px:** every exhibit spans the full 12 columns; main pads 24px.
-- **Under 780px:** the shell stacks; the top bar becomes static with search full-width; the spine becomes a horizontal scrolling row of numbered tabs without descriptions; figure rows go to two columns; secondary table columns (marked wide) are hidden; tables and lists cap at 12 rows with a full-width "Show all N" ghost button; inline bar graphics drop to numbers; controls fill the width.
-- **Print:** shell hidden, exhibits avoid page breaks.
+**Responsive.** Landing: at 1000px the hero row and tool head stack and tool rows reflow to numeral + text; at 820px figures go 2×2; at 560px figures go single column with top hairlines and the masthead wraps. App: at 1100px every exhibit spans 12 and the settle animation stops; at 780px the shell becomes one column, the spine becomes a horizontally scrolling tab row with a claret bottom marker, search drops to its own row, controls go full width, fact strips go 2×2, and secondary table columns (`wide-only`) are hidden.
 
-Charts are rendered at the exhibit's measured width (charts take a width option) so their text keeps its CSS size. Horizontal-bar and range-chart label gutters size from the longest label (capped at 55% of the width); axis thinning on range and log axes always keeps both end ticks.
+### Named Rules
+**The No Sideways Scroll Rule.** At 390px nothing scrolls horizontally except the spine tab row, which is a deliberate scroller. Tables lose secondary columns instead of overflowing.
+
+**The Twelve Rows Rule.** On phones (under 780px) every table shows at most 12 rows, followed by a full-width ghost "Show all N" button.
 
 ## Elevation & Depth
 
-Flat. Depth comes from two surfaces (white page on cool grey ground) and hairline borders; content never casts a shadow. Shadows exist only on things that float above the page and disappear when dismissed.
+The system is flat. Depth is tonal and ruled: paper is the ground, surface is the plate, wash is the pressed or hovered state, and ink rules separate regions. The masthead, topbar, figures band and section heads all announce themselves with a heavy ink rule rather than a shadow. The search results list and tooltip are the only floating layers, and they float on a 1px ink border, not a shadow.
 
 ### Shadow Vocabulary
-- **Popover** (`box-shadow: 0 12px 32px rgba(0, 0, 0, .14)`): the search results dropdown.
-- **Tooltip** (`box-shadow: 0 6px 18px rgba(0, 0, 0, .2)`): the navy chart tooltip.
-- **Focus halo** (`box-shadow: 0 0 0 3px` teal-wash): input and select focus, paired with a teal border.
+- **Plate lip** (`box-shadow: 0 1px 0 rgba(26, 26, 22, .04)`): a near-invisible 1px lip on exhibits. The only shadow in the system.
+- **Focus underline** (`box-shadow: inset 0 -2px 0 #8A2B2B`): focused selects and inputs, a claret underline drawn inside the field.
 
 ### Named Rules
-**The Paper Not Glass Rule.** Exhibits, panels, tables and callouts are flat paper with a hairline. Only transient overlays may lift.
+**The Rules Not Shadows Rule.** Heavy rule (2px ink; 3px on the section head) opens a region, hairline (1px) divides inside it, dotted hairline sets off a source line. If a boundary needs more emphasis, use a heavier rule, never a shadow.
 
 ## Shapes
 
-Quietly squared. One radius (4px) for exhibits, inputs, buttons, segmented controls, detail panels, callouts, the dropdown and tooltip; 3px for tags; 2px on chart bars and legend swatches. The active spine tab rounds only its left corners, so it reads as a tab cut from the ground into the navy. Borders are 1px hairlines; the only heavy line is the 2px navy rule under each section head.
+Square and near-square. Landing CTAs and the closing band have 0 radius; app buttons, inputs, segmented controls, exhibits and the tooltip use 2px; tags use 1px; chart bars use 2px. Bars in in-table meters and callouts are square. Lines are the main form element: horizontal rules, column hairlines in fact strips and the figure band, and the dotted rule above every source line.
 
 ## Components
 
 ### Buttons
-Compact and firm.
-- **Shape:** 4px radius, 36px tall, 16px side padding, 14px 600 sans.
-- **Primary:** navy fill, white text; hover lifts to navy-rule; press scales to 0.97.
-- **Ghost:** white fill, navy text, strong-hairline border; hover borders in navy. Also used for "Show all N".
-- **Segmented control:** 36px bordered group, white options, the active one navy with white text.
+- **Shape:** near-square (2px app, 0 landing), 36px tall in the app, 15px × 26px padding on the landing.
+- **Primary:** ink fill, paper text, uppercase 12px label at 0.1–0.12em.
+- **Hover / Focus:** fill and border turn claret, text white, in 0.16–0.18s; active presses down 1px. Focus is a 2px claret outline at 3px offset.
+- **Ghost:** transparent with a hairline-strong border and ink text; hover inverts to ink fill and paper text.
+- **Light CTA:** paper fill on the dark closing band; hover goes claret with white text.
+- **Text link CTA:** uppercase 12px ink-tertiary label with a hairline-strong underline border that darkens to ink on hover.
 
-### Exhibit (signature component)
-The unit of the whole system.
-- **Structure:** a number and serif title (`1.2 Measured, not claimed`), an optional tertiary-ink sub line, the body (chart, table, figure row, list or prose, horizontally scrollable if needed), then a source line.
-- **Surface:** page white, 1px hairline, 4px radius, 24px padding, no shadow.
-- **Source line:** 12.5px tertiary ink above a hairline, led by a bold "Source:", ending in a link to the article or Method. Every exhibit carries one.
+### Segmented Control
+- Hairline-strong frame on surface, 13px sentence-case options divided by hairlines; the selected option is ink with paper text; hover is wash.
 
-### Figure row
-The replacement for KPI tiles: a definition list inside a numbered exhibit, four columns between a strong hairline above and a hairline below, separated by vertical hairlines. Each cell has a 12.5px tertiary label and a 22px serif navy figure, with an optional small sans qualifier beneath. Two columns under 780px.
-
-### Results list
-A ruled list of measured claims: description left in secondary ink, a 24px serif figure right, and a 12.5px comparison line ("vs 14% for the … rule") spanning beneath.
-
-### Tables
-- 14px sans, sticky white header (12.5px 600 tertiary ink) over a strong hairline, hairline row rules, 8px/10px cell padding.
-- Numbers right-aligned, tabular, no wrap. Sortable headers show a teal arrow.
-- Row hover in wash; selected row in teal wash; clickable rows show a pointer.
-- Up to 560px tall with internal scroll on desktop; under 780px, wide columns hide and rows cap at 12 behind "Show all N".
+### Cards / Containers (Exhibits)
+- **Corner Style:** 2px.
+- **Background:** surface on paper.
+- **Shadow Strategy:** the plate lip only (see Elevation & Depth).
+- **Border:** 1px hairline.
+- **Internal Padding:** 24px (16px on phones).
+- **Anatomy:** numbered title, optional 13px ink-tertiary sub-caption, body (scrolls horizontally inside the plate if it must), and a dotted-ruled 12px source line beginning with a bold "Source:" and ending in a link to Method.
 
 ### Inputs / Fields
-- **Style:** 36px, white, strong-hairline border, 4px radius, 14px text; labels stacked above in 12.5px 600 tertiary ink.
-- **Hover:** border darkens to tertiary ink.
-- **Focus:** teal border plus a 3px teal-wash halo.
-- **Checkbox:** teal accent colour.
+- **Style:** 36px, hairline-strong border, surface fill, 14px text, 2px radius. Labels above are uppercase 12px ink-tertiary.
+- **Hover:** border darkens to ink-tertiary.
+- **Focus:** border goes ink, fill goes white, claret underline inside. Search uses paper fill at rest and a leading 16px stroked icon.
+- **Checkbox:** claret accent colour, 15px.
+
+### Tables
+- Ink top rule, sticky surface header of uppercase 12px labels over a hairline-strong rule, 13.5px rows on hairlines, numbers right-aligned and tabular. Sortable headers darken on hover and show a claret arrow. Row hover is wash; the selected row is claret wash. Company and article names are claret links.
 
 ### Navigation
-- **Top bar:** navy, serif brand ("Deal Intelligence" in white 19px 600 with a teal-soft subline), raised-navy search field that turns white on focus, quiet shell-ink links.
-- **Spine tabs:** a serif numeral (shell mute, teal when active) and a label with a 12.5px description. Hover raises to navy-raised; the active tab takes the ground colour and navy text, indented 12px and rounded on the left only. Under 780px: a horizontal scrolling row, numerals and labels only.
+- **Landing masthead:** serif wordmark (21px, 600) left; uppercase 12px links right, ink-tertiary with an underline border on hover, the "Open the book" link in claret.
+- **App topbar:** serif wordmark with an uppercase "India tech" sub-label behind a hairline divider; uppercase links whose hover underline is claret.
+- **Spine:** eight numbered entries (serif numeral, 15px name, 12px one-line description). Hover is wash; active is wash, ink text at 600 and a claret numeral. On phones it becomes a single scrolling row with a 2px claret bottom marker on the active tab.
+
+### Section Head
+A 3px ink bar above, a hairline-strong rule below, the section title with its claret superscript numeral, one ink-secondary sentence (max 62ch), and the section's controls aligned bottom-right.
+
+### Figures Band and Fact Strip
+Ruled rows of figures: uppercase 12px caption, a large serif tabular figure, a 12–13px ink-tertiary qualifier underneath, columns divided by hairlines. On the landing the band ends with its own "Source:" line and every value is filled from `data/summary.json` at load; placeholders are an em dash until then.
+
+### Measured-Results List
+Rows on hairlines: what was measured (13.5px), the figure at right (serif 25px), and the comparison baseline underneath in 12px. Accuracy is always shown against a baseline.
 
 ### Charts
-Hand-built SVG: teal bars (slate for the comparison series), 2px bar corners, hairline gridlines, a strong-hairline baseline, tertiary-ink axis text. Range charts draw the interquartile band in teal soft with a 3px navy median tick. Line charts use 1.75px strokes. Hover shows the navy tooltip; bars deepen to teal-deep.
+Hand-built SVG, drawn at the exhibit's pixel width. Ink bars (chart-ink) with stone for the comparison series, tan range bars with an ink median tick, 1.75px polylines, hairline gridlines, an ink baseline, 12px ink-tertiary axis text. Bars turn claret on hover and show an ink tooltip with tabular figures. Legends use 11 × 3px swatches.
 
-### Tags, detail panel, callout
-- **Tag:** 12px, 3px radius, wash fill with hairline; teal and amber variants on their washes without a border.
-- **Detail panel:** teal-wash fill, teal-soft border, serif 18px heading; shows the selected row's reasoning.
-- **Callout:** wash fill, hairline, 14px secondary ink, for a single explanatory sentence.
+### Tool List (landing)
+Five rows on hairlines: claret serif numeral ("01"), serif name, a 15px description, and an arrow. Hover shifts the row 12px right on a surface fill and turns the arrow claret, nudging it 3px.
+
+### Closing Band (landing)
+Full-bleed ink, band headline in paper, one band-text sentence, a light CTA. Every link on the band turns white on hover or focus.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** number every exhibit (section.index) and give it a serif title and a source line that links to the article or the Method view.
-- **Do** present summary figures as a numbered exhibit with a ruled figure row (as in 2.0, 6.0, 7.0), not as tiles.
-- **Do** render charts at the container's measured width with fixed CSS text sizes, and size horizontal label gutters from the longest label.
-- **Do** keep both end ticks when thinning a range or log axis.
-- **Do** align grid items to start so exhibits keep their natural height.
-- **Do** mark secondary table columns as wide so they hide under 780px, and cap mobile lists at 12 rows with a "Show all N" button.
-- **Do** set every aligned number in tabular lining figures, right-aligned.
-- **Do** keep the lede and all titles in navy; spend teal only on numbering, links, selection and the primary series.
+- **Do** number every exhibit (section.item) and close every chart and table with a "Source:" line linking to Method.
+- **Do** read every headline figure from the data at load time; show an em dash until it arrives.
+- **Do** size claims to the data ("each traced to its source", not "every round").
+- **Do** open regions with a heavy ink rule and divide them with hairlines.
+- **Do** keep claret for links, numerals, current state, focus and hover.
+- **Do** keep all text at 12px or larger, including chart text.
+- **Do** animate with transform only (a 7px settle in the app, a 16px rise on landing bands, ease cubic-bezier(0.22, 1, 0.36, 1)) and switch all motion off under prefers-reduced-motion.
+- **Do** hide secondary table columns and cap lists at 12 rows with "Show all" on phones.
+- **Do** make every link on the dark closing band turn white on hover and focus.
 
 ### Don't:
-- **Don't** build strips of identical KPI tile cards.
-- **Don't** put a shadow on an exhibit, panel, table or callout; shadows belong only to the dropdown and tooltip.
-- **Don't** use amber or red for anything but a warning or a contrasting published figure.
-- **Don't** set a figure, chart or table without a source line.
-- **Don't** stretch grid items to equal heights.
-- **Don't** scale chart text with the SVG viewBox; charts take an explicit width instead.
-- **Don't** use a radius other than 4px (3px tags, 2px chart marks), or a thicker line than the 2px section rule.
-
-## Open opportunities (not yet part of the system)
-
-Raised in the finish review and deliberately left unadopted; record here so they are not mistaken for rules:
-- The word "Exhibit" before each number, with a running page head and folio.
-- Footnote markers tied to individual figures, rather than one source line per exhibit.
-- A bound-tab treatment for the spine.
-- Chart annotations (labelled events or callouts on the figure).
-- One authored motion moment beyond the view-enter fade.
+- **Don't** put kicker or eyebrow labels above headings; numbers live inside the heading.
+- **Don't** use cream or yellowed paper; the ground is neutral (paper).
+- **Don't** use a coloured side stripe as a decorative accent on panels, callouts or cards.
+- **Don't** add ambient or drop shadows, glows, gradients or rounded cards.
+- **Don't** introduce a second accent hue or colour charts outside ink, stone, tan (and gold for a reference series).
+- **Don't** type figures into markup; they come from `data/summary.json`.
+- **Don't** fade content in from invisible; a section that has not animated yet is still fully legible.
+- **Don't** let any page scroll sideways at 390px.
