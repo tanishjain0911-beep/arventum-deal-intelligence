@@ -20,7 +20,7 @@ def deals() -> pd.DataFrame:
     with _con() as con:
         df = pd.read_sql("""
             SELECT d.deal_id, d.deal_date, d.deal_type, d.stage, d.amount_usd_m, d.amount_inr_cr,
-                   d.valuation_usd_m, d.confidence, c.company_id, c.name AS company, c.sector, c.city,
+                   d.valuation_usd_m, d.confidence, d.agent, c.company_id, c.name AS company, c.sector, c.city,
                    c.description, a.name AS acquirer, s.url AS source_url, s.title AS source_title
             FROM deals d JOIN companies c USING(company_id)
             LEFT JOIN investors a ON a.investor_id = d.acquirer_id

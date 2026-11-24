@@ -114,11 +114,15 @@ def backtest(start=None, ks=(10, 20, 50)):
     prior data, check if a real participant made the top-k.
     Baseline = rank by overall activity alone (what you'd get from 'most active investors' lists)."""
     fd = funding_deals()
-    if start is None:
-        start = str((fd.deal_date.max() - pd.DateOffset(months=6)).date())
+    if start is None:  # latest 6 months of deals with complete (AI-extracted) investor lists
+        ai = fd[fd.agent != "rules"] if "agent" in fd else fd
+        start = str((ai.deal_date.max() - pd.DateOffset(months=6)).date())
     inv = deal_investors()
     inv = inv[inv.investor_type != "Individual"]
     test = fd[(fd.deal_date >= start) & fd.stage.isin(STAGE_RANK)]
+    # judge only against complete investor lists: rule-extracted deals carry headline investors only
+    if "agent" in test:
+        test = test[test.agent != "rules"]
     test = test[test.deal_id.isin(inv.deal_id)]
     hist_cache = {}
     hits = {k: 0 for k in ks}

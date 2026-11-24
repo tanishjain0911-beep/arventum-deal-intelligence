@@ -21,7 +21,7 @@ The story to tell: **"Your website says Arventum is AI-native. I built what that
 ## 3 · Investor Matchmaker (1.5 min): "Investor Mapping"
 - Enter a realistic client: *Cybersecurity, Series A, $10M, needs a lead*. Then tick **foreign investors only**: "Arventum sells global capital."
 - Open the evidence: "Not a guess. These are the deals this fund actually did."
-- Open "Does it work?": "On **211 real rounds**, an actual investor in the round was in our top 10 **38%** of the time, vs **29%** for a 'most active investors' list. Weights were tuned on an earlier period and tested on a later one."
+- Open "Does it work?": "On **314 real rounds**, an actual investor in the round was in our top 10 **47%** of the time, vs **27%** for a 'most active investors' list. Weights were tuned on an earlier period and tested on a later one."
 
 ## 4 · Buyer Mapping (45 s): "Buyer Mapping"
 - Pick FinTech: "Serial acquirers, ranked by sector relevance and appetite. CRED → Kuvera, Juspay → LotusPay."
@@ -37,7 +37,7 @@ The story to tell: **"Your website says Arventum is AI-native. I built what that
 
 ## 7 · How it was built (45 s)
 - Diagram: "Claude Code was the architect. It orchestrated Codex and OpenCode from the terminal, and when the ChatGPT quota ran out overnight it benchmarked eight free models and used only the ones that scored about 93%."
-- Engineering log: "Real data is messy. Here are 21 problems the pipeline caught and how each was fixed."
+- Engineering log: "Real data is messy. Here are 24 problems the pipeline caught and how each was fixed."
 
 ## Close (30 s)
 - "With your CRM and the founders' 700+ relationships plugged in, the Matchmaker can weight warm relationships, and a network view could suggest warm introductions. That's the next step if I join."
@@ -47,7 +47,7 @@ The story to tell: **"Your website says Arventum is AI-native. I built what that
 ### Questions to expect
 | Question | Answer |
 |---|---|
-| Is the data complete? | ~83–89% of reported capital, ~60% of deals by count. The gap is small undisclosed rounds. A paid database would close it. |
+| Is the data complete? | ~85% of reported capital, ~60% of deals by count. The gap is small undisclosed rounds. A paid database would close it. |
 | What if the AI is wrong? | Four independent checks (agent agreement, rule checks, coverage, manual audit), headline-wins correction, and every record links to its source. |
 | Why not just ask ChatGPT? | It can't give dated, sourced, complete deal lists, and it can't backtest itself. This system has its own data and measured accuracy. |
 | How current is it? | One command refreshes: collect → extract → check → load. |

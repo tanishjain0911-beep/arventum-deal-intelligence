@@ -75,7 +75,8 @@ Every automatic change is written to a **`corrections` audit table** (URL, field
 - Each investor's taste profile comes from its deals, recency-weighted with a 1-year half-life.
 - **Score** = weighted geometric blend of sector fit, stage fit (same or adjacent stage), cheque-size fit, recent activity (18 months) and, optionally, lead propensity.
 - **Empirical-Bayes shrinkage:** an investor with 1 deal cannot "prove" a 100% sector focus. Shares are pulled toward the market average until there is enough evidence.
-- **Backtest:** for every round in 2026, investors are ranked using only data before that month. We check whether a real participant appears in the top 10, 20 or 50. The baseline is "most active investors overall", the list a banker might use today.
+- **Weights** are tuned on a validation window (6–12 months before the test window, `analysis/tune_matching.py`) and evaluated on a later, untouched window.
+- **Backtest:** for every round in the latest 6 months with complete (AI-extracted) investor lists, investors are ranked using only data before that month. We check whether a real participant appears in the top 10, 20 or 50. The baseline is "most active investors overall", the list a banker might use today. **Result on 314 rounds: top-10 47% vs 27%, top-20 60% vs 41%, top-50 77% vs 62%.** Rule-extracted deals are excluded from the test, because they only list headline investors.
 
 ### 6.3 Price Finder (`valuation.py`): what is it worth?
 Three independent methods, shown together as a banker's **football-field chart**:
