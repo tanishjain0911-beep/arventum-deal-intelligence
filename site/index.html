@@ -3,31 +3,120 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Deal Intelligence: Indian technology deals, sourced and measured</title>
-  <meta name="description" content="A sourced, quality-checked database of Indian technology funding rounds and acquisitions, with origination, investor, buyer and valuation tools.">
+  <title>Deal Intelligence: Indian technology deals, traced and tested</title>
+  <meta name="description" content="A sourced, quality-checked book of Indian technology funding rounds and acquisitions, with origination, investor, buyer and valuation tools.">
   <link rel="preload" href="assets/fonts/source-sans-3-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%2313233B'/%3E%3Cpath d='M9 8h6.5a8 8 0 010 16H9z' fill='none' stroke='%239CCBC6' stroke-width='3'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='2' fill='%231A1A16'/%3E%3Cpath d='M10 8h5.5a8 8 0 010 16H10z' fill='none' stroke='%23E8DFCC' stroke-width='2.5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/landing.css">
 </head>
 <body>
-  <div class="shell">
-    <header class="topbar">
-      <a class="brand" href="#/summary">Deal Intelligence <span>India tech</span></a>
-      <div class="search" role="search">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-        <input id="q" type="search" autocomplete="off" placeholder="Search a company or investor" aria-label="Search a company or investor">
-        <div class="results" id="results" role="listbox"></div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="mast">
+    <a class="mark" href="index.html">Deal Intelligence</a>
+    <nav class="mastnav" aria-label="Primary">
+      <a href="app.html#/method">Method</a>
+      <a class="mastcta" href="app.html#/summary">Open the book</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <h1>Every Indian technology round, traced to its source.</h1>
+      <div class="hero-grid">
+        <p class="hero-sub">Deal Intelligence is a working deal book for sell-side and fundraising mandates: <span id="h-deals">—</span> funding rounds and acquisitions, each one linked to the article it came from, with the tools to act on them.</p>
+        <div class="hero-actions">
+          <a class="cta" href="app.html#/summary">Open the deal book</a>
+          <a class="textlink" href="app.html#/method">How the numbers are checked</a>
+        </div>
       </div>
-      <nav class="toplinks"><a href="#/method">Method &amp; quality</a></nav>
-    </header>
-    <aside class="spine">
-      <nav id="tabs" aria-label="Sections"></nav>
-      <div class="spine-foot" id="spinefoot"></div>
-    </aside>
-    <main id="main"><div class="empty">Loading the deal book…</div></main>
-  </div>
-  <div class="tip" id="tip"></div>
-  <script type="module" src="js/app.js"></script>
+    </section>
+
+    <section class="figures" aria-labelledby="figcap">
+      <h2 id="figcap" class="figcap">The book, in four numbers <span class="figcap-range" id="h-range">—</span></h2>
+      <dl class="figrow">
+        <div class="fig">
+          <dt>Deals on record</dt>
+          <dd id="f-deals">—</dd>
+          <p id="f-deals-sub" class="figsub">—</p>
+        </div>
+        <div class="fig">
+          <dt>Companies covered</dt>
+          <dd id="f-companies">—</dd>
+          <p id="f-companies-sub" class="figsub">—</p>
+        </div>
+        <div class="fig">
+          <dt>Radar top-100 precision</dt>
+          <dd id="f-radar">—</dd>
+          <p id="f-radar-sub" class="figsub">—</p>
+        </div>
+        <div class="fig">
+          <dt>Investors named</dt>
+          <dd id="f-investors">—</dd>
+          <p id="f-investors-sub" class="figsub">—</p>
+        </div>
+      </dl>
+      <p class="figsource">Source: the deal book, built only from public articles. Figures as of <span id="f-asof">—</span>; the method and its error rates are documented in <a href="app.html#/method">Method and quality</a>.</p>
+    </section>
+
+    <section class="tools" aria-labelledby="toolcap">
+      <div class="toolhead">
+        <h2 id="toolcap">Five tools, one book</h2>
+        <p>Each section answers one question a banker asks before a pitch. All of them run on the same records.</p>
+      </div>
+      <ol class="toollist">
+        <li>
+          <a href="app.html#/market">
+            <span class="tonum">01</span>
+            <span class="toname">Market</span>
+            <span class="totext">Capital, round counts and round sizes by sector and stage, with the last six months set against the six before.</span>
+          </a>
+        </li>
+        <li>
+          <a href="app.html#/radar">
+            <span class="tonum">02</span>
+            <span class="toname">Origination</span>
+            <span class="totext">Private companies ranked by the chance they announce a round within twelve months, from a model tested on outcomes it never saw.</span>
+          </a>
+        </li>
+        <li>
+          <a href="app.html#/investors">
+            <span class="tonum">03</span>
+            <span class="toname">Investors</span>
+            <span class="totext">Describe a client's sector, stage and cheque size, and get the funds most likely to back it, with the deals behind each match.</span>
+          </a>
+        </li>
+        <li>
+          <a href="app.html#/buyers">
+            <span class="tonum">04</span>
+            <span class="toname">Buyers</span>
+            <span class="totext">Acquirers ranked for a target's sector by relevance, appetite and how recently they have bought.</span>
+          </a>
+        </li>
+        <li>
+          <a href="app.html#/valuation">
+            <span class="tonum">05</span>
+            <span class="toname">Valuation</span>
+            <span class="totext">A value range from listed peers, a growth-and-margin regression and Indian private rounds, drawn as a football field.</span>
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="closing">
+      <p class="close-kicker">Deal Intelligence</p>
+      <h2>A better prepared first meeting.</h2>
+      <p>Company histories, backers, buyers and a defensible value range — all on one page, all traceable to the article it came from.</p>
+      <a class="cta cta-light" href="app.html#/summary">Open the deal book</a>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Public sources only. Decision support, not investment advice.</p>
+    <p><a href="app.html#/method">Method and quality</a> · <a href="app.html#/company">Company lookup</a></p>
+  </footer>
+
+  <script type="module" src="js/landing.js"></script>
 </body>
 </html>
