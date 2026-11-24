@@ -37,7 +37,7 @@ Arventum advises Indian technology companies on fundraising and M&A. This projec
 - **Fallbacks** when the ChatGPT quota ran out: free OpenCode models benchmarked against Codex (used only at ~93% agreement), then a deterministic headline extractor (97.5% deal precision). Both are stored as lower-priority agents, and `pipeline/auto_resume.py` re-queues their articles for the AI when it's available.
 - **GitHub**: version control.
 
-**Current database:** 5,459 deals · 3,947 companies · 5,645 investors · 1,157 company financial records · 2021–2026.
+**Current database:** 5,357 deals · 3,908 companies · 5,590 investors · 1,373 company financial records · 2021–2026.
 
 ## Reproduce
 ```bash
