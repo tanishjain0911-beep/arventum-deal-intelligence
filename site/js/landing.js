@@ -22,7 +22,7 @@ async function fill() {
   put("h-range", `${mon(s.first)} – ${mon(s.last)}`);
 
   put("f-deals", num(s.tables?.deals));
-  put("f-deals-sub", `${num(s.tables?.sources)} articles read, ${num(s.tables?.companies)} companies and ${num(s.investors)} investors named.`);
+  put("f-deals-sub", `${num(s.tables?.sources)} articles read, ${num(s.companies)} companies and ${num(s.investors)} investors named.`);
 
   put("f-companies", num(s.companies));
   put("f-companies-sub", `${num(s.tables?.financials)} annual financial records from public filings coverage.`);

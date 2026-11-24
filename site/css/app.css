@@ -15,14 +15,14 @@
    Bone paper, ink type, one oxblood accent. Rules do the work that boxes
    used to do: nothing glows, nothing floats, nothing is rounded much. */
 :root {
-  --paper: #F2EFE6;
-  --surface: #FBFAF5;
-  --wash: #EAE5D8;
+  --paper: #F1F1EE;
+  --surface: #FBFBF9;
+  --wash: #E7E7E2;
   --ink: #1A1A16;
   --ink-2: #45443B;
   --ink-3: #6B665A;
-  --hair: #DAD3C2;
-  --hair-2: #B5AC99;
+  --hair: #D8D8D1;
+  --hair-2: #B0B0A6;
 
   --claret: #8A2B2B;
   --claret-2: #6B1E1E;
@@ -61,12 +61,12 @@ a:hover { color: var(--claret-2); text-decoration-color: currentColor; }
 
 /* ---------- shell ---------- */
 .shell { display: grid; grid-template-columns: 236px minmax(0, 1fr); grid-template-rows: var(--topbar) 1fr; min-height: 100vh; }
-.topbar { grid-column: 1 / -1; background: var(--surface); display: grid; grid-template-columns: 236px minmax(0, 1fr) auto;
+.topbar { grid-column: 1 / -1; background: var(--surface); display: grid; grid-template-columns: minmax(236px, max-content) minmax(0, 1fr) auto;
   align-items: center; position: sticky; top: 0; z-index: 20; border-bottom: 2px solid var(--ink); }
 .brand { padding: 0 var(--s4); font-family: var(--serif); font-size: 18px; font-weight: 600; letter-spacing: -0.015em;
   color: var(--ink); text-decoration: none; display: flex; align-items: baseline; gap: 8px; white-space: nowrap; min-width: 0; }
-.brand span { font-family: var(--sans); font-size: 9.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--ink-3); padding-left: 8px; border-left: 1px solid var(--hair-2); }
+.brand span { font-family: var(--sans); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-3); padding-left: 8px; margin-right: var(--s4); border-left: 1px solid var(--hair-2); }
 .brand:hover { color: var(--claret); }
 
 .search { position: relative; max-width: 520px; width: 100%; }
@@ -135,7 +135,7 @@ main { padding: var(--s6) var(--s7) var(--s8); min-width: 0; }
   display: flex; flex-direction: column; min-width: 0; box-shadow: 0 1px 0 rgba(26, 26, 22, .04); }
 .exhibit h2 { font-family: var(--serif); font-weight: 600; font-size: 19px; line-height: 1.25; margin: 0 0 var(--s1);
   letter-spacing: -0.012em; color: var(--ink); }
-.exhibit h2 .xn { font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+.exhibit h2 .xn { font-family: var(--sans); font-size: 12px; font-weight: 700; letter-spacing: 0.14em;
   color: var(--claret); margin-right: 9px; vertical-align: 1px; }
 .exhibit .sub { color: var(--ink-3); font-size: 13px; margin: 4px 0 var(--s4); line-height: 1.45; }
 .exhibit .body { flex: 1; min-width: 0; overflow-x: auto; }
@@ -152,7 +152,7 @@ main { padding: var(--s6) var(--s7) var(--s8); min-width: 0; }
 .prose b { color: var(--ink); font-weight: 600; }
 .note { font-size: 12.5px; color: var(--ink-3); margin: var(--s3) 0 0; line-height: 1.5; }
 .note b { color: var(--ink-2); }
-.callout { background: var(--wash); border: 0; border-left: 3px solid var(--gold); border-radius: 0; padding: var(--s3) var(--s4);
+.callout { background: var(--wash); border: 1px solid var(--hair-2); border-radius: 0; padding: var(--s3) var(--s4);
   font-size: 14px; color: var(--ink-2); }
 .callout b { color: var(--ink); }
 
@@ -167,7 +167,7 @@ main { padding: var(--s6) var(--s7) var(--s8); min-width: 0; }
 .results-list .vs { grid-column: 1 / -1; font-size: 12px; color: var(--ink-3); line-height: 1.45; }
 
 /* ---------- controls ---------- */
-label.f { display: flex; flex-direction: column; gap: 5px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+label.f { display: flex; flex-direction: column; gap: 5px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--ink-3); font-weight: 700; }
 select, input[type=number], input[type=text] { height: 36px; border: 1px solid var(--hair-2); border-radius: var(--r);
   background: var(--surface); color: var(--ink); font: inherit; font-size: 14px; letter-spacing: 0; text-transform: none;
@@ -178,7 +178,7 @@ input[type=number] { min-width: 120px; font-variant-numeric: tabular-nums; }
 .check { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--ink-2); height: 36px; cursor: pointer; }
 .check input { accent-color: var(--claret); width: 15px; height: 15px; }
 .btn { height: 36px; padding: 0 var(--s4); border-radius: var(--r); border: 1px solid var(--ink); background: var(--ink);
-  color: var(--paper); font: inherit; font-size: 11.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--paper); font: inherit; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
   cursor: pointer; transition: background .16s var(--ease), color .16s var(--ease), border-color .16s var(--ease);
   display: inline-flex; align-items: center; gap: 8px; text-decoration: none; white-space: nowrap; }
 .btn:hover { background: var(--claret); border-color: var(--claret); color: #fff; }
@@ -195,12 +195,12 @@ input[type=number] { min-width: 120px; font-variant-numeric: tabular-nums; }
 /* ---------- tables ---------- */
 .tablewrap { overflow: auto; max-height: 560px; border-top: 1px solid var(--ink); }
 table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
-th { position: sticky; top: 0; background: var(--surface); text-align: left; font-weight: 700; font-size: 10.5px;
+th { position: sticky; top: 0; background: var(--surface); text-align: left; font-weight: 700; font-size: 12px;
   letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-3); padding: 9px 10px;
   border-bottom: 1px solid var(--hair-2); z-index: 1; vertical-align: bottom; }
 th.sortable { cursor: pointer; user-select: none; }
 th.sortable:hover { color: var(--ink); }
-th .arrow { display: inline-block; width: 10px; color: var(--claret); font-size: 11px; }
+th .arrow { display: inline-block; width: 10px; color: var(--claret); font-size: 12px; }
 td { padding: 8px; border-bottom: 1px solid var(--hair); vertical-align: top; color: var(--ink); overflow-wrap: break-word; }
 td.n, th.n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 td.muted { color: var(--ink-3); }
@@ -211,7 +211,7 @@ tr.click { cursor: pointer; }
 td a { color: var(--claret); }
 .more { margin-top: var(--s3); width: 100%; justify-content: center; }
 .empty { padding: var(--s6) var(--s4); text-align: center; color: var(--ink-3); }
-.tag { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+.tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
   padding: 2px 6px; border-radius: 1px; background: var(--wash); color: var(--ink-2); border: 1px solid var(--hair); white-space: nowrap; }
 .tag.teal { background: var(--claret-wash); color: var(--claret-2); border-color: transparent; }
 .tag.amber { background: var(--gold-wash); color: var(--gold); border-color: transparent; }
@@ -221,9 +221,9 @@ td a { color: var(--claret); }
 
 /* ---------- charts ---------- */
 .chart { width: 100%; height: auto; display: block; overflow: visible; }
-.chart text { font-family: var(--sans); font-size: 11px; fill: var(--ink-3); font-variant-numeric: tabular-nums; }
+.chart text { font-family: var(--sans); font-size: 12px; fill: var(--ink-3); font-variant-numeric: tabular-nums; }
 .chart .lbl { fill: var(--ink-2); font-size: 12px; }
-.chart .val { fill: var(--ink); font-size: 11.5px; }
+.chart .val { fill: var(--ink); font-size: 12px; }
 .chart .grid line { stroke: var(--hair); stroke-width: 1; }
 .chart .axis { stroke: var(--ink); stroke-width: 1; }
 .chart rect.b { fill: #23241D; transition: fill .14s var(--ease); }
@@ -248,10 +248,10 @@ td a { color: var(--claret); }
 .facts div { padding: var(--s3) var(--s4) var(--s3) 0; border-right: 1px solid var(--hair); }
 .facts div + div { padding-left: var(--s4); }
 .facts div:last-child { border-right: 0; }
-.facts dt { font-size: 10.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); line-height: 1.4; }
+.facts dt { font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); line-height: 1.4; }
 .facts dd { margin: 6px 0 0; font-family: var(--serif); font-size: 26px; font-weight: 600; color: var(--ink);
   font-variant-numeric: tabular-nums lining-nums; line-height: 1.1; letter-spacing: -0.02em; }
-.facts dd small { font-family: var(--sans); font-size: 11.5px; font-weight: 400; letter-spacing: 0; color: var(--ink-3);
+.facts dd small { font-family: var(--sans); font-size: 12px; font-weight: 400; letter-spacing: 0; color: var(--ink-3);
   display: block; margin-top: 4px; line-height: 1.4; }
 
 @media (max-width: 1100px) {
@@ -263,7 +263,7 @@ td a { color: var(--claret); }
   .shell { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto 1fr; }
   .topbar { grid-template-columns: minmax(0, 1fr) auto; gap: 0 8px; padding: var(--s2) 0 10px; position: static; }
   .brand { padding: 0 var(--s4); font-size: 18px; grid-column: 1; }
-  .toplinks { display: flex; grid-column: 2; padding: 0 var(--s4) 0 0; gap: var(--s3); font-size: 10px; }
+  .toplinks { display: flex; grid-column: 2; padding: 0 var(--s4) 0 0; gap: var(--s3); font-size: 12px; }
   .toplinks a:last-child { display: none; }
   .search { grid-column: 1 / -1; padding: 6px var(--s4) 0; max-width: none; }
   .search svg { left: 26px; top: 16px; }
