@@ -65,6 +65,11 @@ For each test date the model is trained **only on snapshots whose 12-month outco
 date**, then scores every company as of the test date. We then check who actually raised in the following 12 months.
 Features use only information published before each snapshot (no look-ahead). The benchmark is the rule a banker
 would use by hand: companies whose last round was ~18-24 months ago are "due".
+
+**Model choice.** Three model families were compared on this same backtest. Regularised **logistic regression** beat
+gradient-boosted trees, which overfit the noisy public-coverage labels. Two "due-date" features (distance from the
+company's usual fundraising cycle, and inside the 15-30 month window) let it express that raising peaks near the
+usual cycle. Listed companies are excluded from the target list.
 """)
         st.dataframe(pd.DataFrame(folds).drop(columns=["deciles"], errors="ignore"), hide_index=True,
                      use_container_width=True)
