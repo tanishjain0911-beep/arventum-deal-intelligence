@@ -158,7 +158,7 @@ def run(list_csv: str, tag: str):
     done = {r["url"] for f in (ROOT / "data" / "extracted").glob("*/*.json") for r in _records(f)}
     recs = []
     for row in csv.DictReader((ROOT / list_csv).open(encoding="utf-8")):
-        if row["url"] in done:
+        if row["url"] in done or "inc42.com" in row["url"]:  # Inc42's Title Case headlines defeat the rules
             continue
         p = ROOT / "data" / "raw" / "articles" / (hashlib.md5(row["url"].encode()).hexdigest() + ".json")
         if not p.exists():

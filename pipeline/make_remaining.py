@@ -19,7 +19,7 @@ KINDS = {"deal", "acquisition", "financials"}
 # rule-based records don't count as "done": the AI should still re-extract those articles when available
 done = {r["url"] for f in (ROOT / "data" / "extracted").glob("*/*.json") if f.parent.name != "rules"
         for r in _records(f)}
-lists = ["entrackr_urls.csv", "entrackr_urls_extra.csv"]
+lists = ["entrackr_urls.csv", "entrackr_urls_extra.csv", "inc42_urls_prio.csv"]
 rows, seen = [], set()
 for name in lists:
     for r in csv.DictReader((ROOT / "data" / "raw" / name).open(encoding="utf-8")):
