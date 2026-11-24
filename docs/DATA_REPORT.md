@@ -1,13 +1,13 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T08:24:59._
+_Generated from `db/deals.db` at 2026-11-24T08:25:57._
 
 ## Contents
 
 | table | rows |
 |---|---|
 | sources | 7161 |
-| companies | 3887 |
+| companies | 3886 |
 | investors | 5587 |
 | deals | 5348 |
 | deal_investors | 13823 |
@@ -44,7 +44,7 @@ Articles used, by source:
 |---|---|---|
 | E-commerce & D2C | 862 | 20,180.0 |
 | FinTech & Payments | 632 | 15,710.3 |
-| Unclassified | 400 | 6,071.1 |
+| Unclassified | 399 | 6,021.1 |
 | EV & Auto | 215 | 5,015.9 |
 | EdTech | 170 | 4,918.5 |
 | HealthTech | 371 | 4,519.8 |
@@ -52,7 +52,7 @@ Articles used, by source:
 | Consumer Internet | 129 | 3,375.1 |
 | Media & Gaming | 147 | 2,829.9 |
 | SaaS | 176 | 2,541.2 |
-| Artificial Intelligence | 206 | 2,347.3 |
+| Artificial Intelligence | 207 | 2,397.3 |
 | Industrial Tech | 126 | 2,041.2 |
 | AgriTech | 162 | 1,793.2 |
 | Travel & Hospitality | 106 | 1,650.3 |

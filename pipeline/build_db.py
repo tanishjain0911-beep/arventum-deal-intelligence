@@ -147,7 +147,8 @@ def squash_key(name: str, generic=COMPANY_SUFFIX) -> str:
     import unicodedata
     n = re.sub(r"['’]s\b", "", name)  # possessive first: ascii-folding would delete the curly apostrophe
     n = unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode()
-    return re.sub(r"\s+", "", match_key(n, generic))
+    k = re.sub(r"\s+", "", match_key(n, generic))
+    return re.sub(r"^the(?=\w{4,})", "", k)  # "TheMathCompany" = "The Math Company"
 
 
 class Resolver:
