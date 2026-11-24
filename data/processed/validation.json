@@ -1,25 +1,25 @@
 {
-  "records": 1653,
+  "records": 3358,
   "checks": {
     "headline_amount": {
-      "passed": 729,
-      "checked": 751,
-      "pass_rate": 97.1
+      "passed": 1563,
+      "checked": 1595,
+      "pass_rate": 98.0
     },
     "stage_size": {
-      "passed": 558,
-      "checked": 582,
-      "pass_rate": 95.9
+      "passed": 1096,
+      "checked": 1129,
+      "pass_rate": 97.1
     },
     "missing_core": {
-      "passed": 1022,
-      "checked": 1028,
-      "pass_rate": 99.4
+      "passed": 2157,
+      "checked": 2184,
+      "pass_rate": 98.8
     },
     "company_in_title": {
-      "passed": 1586,
-      "checked": 1590,
-      "pass_rate": 99.7
+      "passed": 3209,
+      "checked": 3216,
+      "pass_rate": 99.8
     }
   }
 }

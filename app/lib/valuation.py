@@ -10,6 +10,7 @@ Three independent methods, shown together as a banker's "football field":
 All inputs and every comparable are shown so a banker can audit the number.
 """
 from dataclasses import dataclass, field
+from functools import lru_cache
 
 import numpy as np
 import pandas as pd
@@ -58,24 +59,29 @@ def sector_gross_margin(sector: str) -> float:
     return float(s.median()) if len(s) else float(c.gross.median())
 
 
+@lru_cache(maxsize=1)
+def _private_multiples_all() -> pd.DataFrame:
+    """Vectorised: each valued round joined to the latest revenue published within ~6 months of it."""
+    d = deals()
+    d = d[d.valuation_usd_m.notna()][["deal_id", "company_id", "company", "sector", "deal_date", "stage",
+                                       "valuation_usd_m", "source_url"]]
+    fin = financials().dropna(subset=["revenue_inr_cr"])
+    fin = fin[fin.revenue_inr_cr > 1][["company_id", "fy", "fiscal_year", "revenue_inr_cr", "published"]]
+    m = d.merge(fin, on="company_id")
+    m = m[m.published <= m.deal_date + pd.Timedelta(days=200)]
+    if m.empty:
+        return pd.DataFrame()
+    m = m.sort_values("fy").groupby("deal_id").tail(1)
+    m["valuation_inr_cr"] = (m.valuation_usd_m * USD_INR / 10).round()
+    m["ev_revenue"] = m.valuation_inr_cr / m.revenue_inr_cr
+    m["deal_date"] = m.deal_date.dt.date
+    return m[["company", "sector", "deal_date", "stage", "valuation_inr_cr", "revenue_inr_cr", "fiscal_year",
+              "ev_revenue", "source_url"]].reset_index(drop=True)
+
+
 def private_multiples(sector: str | None):
     """EV/Revenue implied by private rounds with a disclosed valuation and a reported revenue."""
-    d = deals()
-    d = d[d.valuation_usd_m.notna()].copy()
-    fin = financials().dropna(subset=["revenue_inr_cr"])
-    fin = fin[fin.revenue_inr_cr > 1]
-    rows = []
-    for _, r in d.iterrows():
-        f = fin[(fin.company_id == r.company_id) & (fin.published <= r.deal_date + pd.Timedelta(days=200))]
-        if f.empty:
-            continue
-        f = f.sort_values("fy").iloc[-1]
-        val_cr = r.valuation_usd_m * USD_INR / 10
-        rows.append({"company": r.company, "sector": r.sector, "deal_date": r.deal_date.date(),
-                     "stage": r.stage, "valuation_inr_cr": round(val_cr), "revenue_inr_cr": f.revenue_inr_cr,
-                     "fiscal_year": f.fiscal_year, "ev_revenue": val_cr / f.revenue_inr_cr,
-                     "source_url": r.source_url})
-    out = pd.DataFrame(rows)
+    out = _private_multiples_all()
     if out.empty:
         return out
     out = out[(out.ev_revenue > 0.2) & (out.ev_revenue < 80)]

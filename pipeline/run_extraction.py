@@ -87,7 +87,7 @@ def make_batches():
                     slim = {k: a.get(k) for k in ("url", "date", "title", "description", "company_kw")}
                     # financial stories mention the loss/profit later in the text -> send more of it
                     limit = 2000 if a.get("kind") == "financials" or re.search(r"revenue|loss|profit|fy\d\d",
-                                                                                 (a.get("title") or "").lower()) else 1000
+                                                                                 (a.get("title") or "").lower()) else 700
                     slim["body"] = " ".join(a.get("body") or [])[:limit]
                     f.write(json.dumps(slim, ensure_ascii=False) + "\n")
         batches.append(path)
@@ -152,6 +152,10 @@ FREE_MODELS = {
     "deepseek": "opencode/deepseek-v4.1-flash-free",
     "nemotron": "opencode/nemotron-3.5-super-vl-free",
     "mimo": "opencode/mimo-v2.6-flash-free",
+    "beam": "opencode/beam-free",
+    "hy4": "opencode/hy4-flash-free",
+    "flint": "opencode/flint-40b-free",
+    "lightning": "opencode/nemotron-3.5-lightning-free",
 }
 AGENTS = {"codex": run_codex, "opencode": run_opencode,
           **{k: partial(run_opencode, model=v) for k, v in FREE_MODELS.items()}}

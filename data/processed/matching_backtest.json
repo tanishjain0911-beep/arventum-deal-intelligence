@@ -1,6 +1,14 @@
 {
-  "test_deals": 0,
-  "period_start": "2026-01-01",
-  "model_hit_rate": {},
-  "baseline_hit_rate": {}
+  "test_deals": 211,
+  "period_start": "2024-09-26",
+  "model_hit_rate": {
+    "10": 0.256,
+    "20": 0.384,
+    "50": 0.578
+  },
+  "baseline_hit_rate": {
+    "10": 0.289,
+    "20": 0.389,
+    "50": 0.54
+  }
 }

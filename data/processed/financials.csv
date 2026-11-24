@@ -1,455 +1,578 @@
 name,sector,company_id,fiscal_year,revenue_inr_cr,profit_inr_cr,source_id
-ShareChat,Consumer Internet,1114,FY22,347.0,,1508
-Swiggy,Consumer Internet,608,FY22,5705.0,,1509
-Fi,Digital Banking,876,FY22,21.0,,1510
-CarDekho,EV & Auto,584,FY22,1597.0,,1511
-Pine Labs,FinTech & Payments,1147,FY22,1017.0,,1512
-Zerodha,FinTech & Payments,1333,FY22,4964.0,2094.0,1513
-FamPay,Digital Banking,99,FY22,3.06,,1514
-BrowserStack,Developer Tools,1112,FY22,418.4,,1515
-Unicommerce,SaaS,793,FY22,59.0,,1516
-Cashify,E-commerce & D2C,440,FY22,498.0,,1517
-WazirX,FinTech & Payments,1246,FY22,823.0,,1518
-Koo,Consumer Internet,771,FY22,0.14,,1519
-Heads Up For Tails,E-commerce & D2C,1170,FY22,125.5,,1520
-Noise,E-commerce & D2C,834,FY22,793.0,,1521
-WebEngage,SaaS,175,FY22,98.0,,1522
-EatClub,Travel & Hospitality,539,FY22,210.0,,1523
-Zeta,Digital Banking,1030,FY22,615.0,,1524
-Dream11,Media & Gaming,1369,FY22,3841.0,,1525
-WayCool,AgriTech,897,FY22,927.0,,1526
-Travel Boutique,Travel & Hospitality,258,FY22,483.0,,1527
-boAt,E-commerce & D2C,949,FY22,2873.0,,1528
-Acko,FinTech & Payments,578,FY22,1344.0,,1529
-ReshaMandi,AgriTech,642,FY22,413.8,,1530
-Rapido,Logistics & Mobility,1201,FY22,144.8,,1531
-TVF,Media & Gaming,20,FY22,76.8,,1532
-BharatPe,FinTech & Payments,89,FY22,456.8,,1533
-Cars24,EV & Auto,755,FY22,6072.0,-1800.0,1534
-Zoho,SaaS,873,FY22,6711.0,2700.0,1535
-Smallcase,FinTech & Payments,358,FY22,29.17,-95.0,1536
-Gameskraft,Media & Gaming,924,FY22,2112.0,900.0,1537
-Vedantu,EdTech,848,FY22,169.0,-696.0,1538
-Bluestone,E-commerce & D2C,1278,FY22,461.0,,1539
-Magicpin,Consumer Internet,825,FY22,233.0,,1540
-DailyRounds,EdTech,1193,FY22,402.0,198.0,1541
-Darwinbox,HR & Workforce,1287,FY22,116.7,,1542
-Stanza Living,PropTech & Real Estate,57,FY22,115.0,,1543
-iNurture,EdTech,356,FY22,101.88,,1544
-Bounce,EV & Auto,1266,FY22,15.0,,1545
-CRED,FinTech & Payments,1385,FY22,393.6,,1546
-Livspace,PropTech & Real Estate,752,FY22,570.0,-645.0,1547
-Perfios,FinTech & Payments,1252,FY22,136.4,,1548
-A23,Media & Gaming,94,FY22,722.0,,1549
-Porter,Logistics & Mobility,1189,FY22,843.89,,1550
-Soothe Healthcare,E-commerce & D2C,204,FY22,139.4,,1551
-Uniphore,SaaS,1350,FY22,674.6,33.0,1552
-Beardo,E-commerce & D2C,471,FY22,95.0,,1553
-Simsim,E-commerce & D2C,742,FY22,18.21,-155.0,1554
-InShorts,Media & Gaming,146,FY22,143.94,,1555
-Ampere,EV & Auto,52,FY22,522.3,,1556
-Euler Motors,EV & Auto,1381,FY22,17.6,,1557
-VilCart,E-commerce & D2C,829,FY22,209.7,,1558
-Razorpay,FinTech & Payments,860,FY22,1481.2,,1559
-WinZO,Media & Gaming,921,FY22,234.0,,1560
-HomeLane,PropTech & Real Estate,235,FY22,426.0,-153.0,1561
-Blinkit,E-commerce & D2C,381,FY22,2324.0,-1440.0,1562
-Simplilearn,EdTech,450,FY22,480.0,-150.0,1563
-BeatO,HealthTech,878,FY22,19.4,,1564
-mFine,HealthTech,638,FY22,50.5,,1565
-The Math Company,Artificial Intelligence,541,FY22,227.31,,1566
-Joy e-bike,EV & Auto,998,FY22,184.56,,1567
-Otipy,AgriTech,93,FY22,61.8,,1568
-BillDesk,FinTech & Payments,192,FY22,2443.0,,1569
-Doubtnut,EdTech,982,FY22,10.83,-179.24,1570
-Testbook,EdTech,696,FY22,35.3,,1571
-Clover Ventures,AgriTech,659,FY22,44.34,,1572
-Square Yards,PropTech & Real Estate,27,FY22,382.13,-225.0,1573
-The Good Glamm Group,E-commerce & D2C,1055,FY22,240.0,,1574
-Open,Digital Banking,205,FY22,40.9,,1575
-Mylab,HealthTech,77,FY22,260.71,,1576
-Battery Smart,EV & Auto,494,FY22,7.95,,1577
-PlanetSpark,EdTech,516,FY22,30.0,,1578
-Brick&Bolt,PropTech & Real Estate,1279,FY22,13.8,,1579
-Awfis,PropTech & Real Estate,927,FY22,257.04,,1580
-Park+,EV & Auto,586,FY22,36.4,,1581
-Purplle,E-commerce & D2C,567,FY22,219.88,,1582
-Medikabazaar,HealthTech,50,FY22,1552.53,,1583
-PagarBook,HR & Workforce,335,FY22,4.55,-69.0,1584
-FreshToHome,E-commerce & D2C,864,FY22,102.5,-500.0,1585
-Slice,FinTech & Payments,509,FY22,283.08,,1586
-Bijnis,E-commerce & D2C,861,FY22,25.12,,1587
-CashKaro,Consumer Internet,714,FY22,216.22,,1588
-ePayLater,FinTech & Payments,1265,FY22,7.68,,1589
-Eruditus,EdTech,928,FY22,1859.0,,1590
-Animall,AgriTech,657,FY22,7.4,,1591
-The Souled Store,E-commerce & D2C,671,FY22,145.1,,1592
-Pepper Content,SaaS,606,FY22,19.03,,1593
-Pocket FM,Media & Gaming,802,FY22,17.0,,1594
-Upstox,FinTech & Payments,703,FY22,765.6,,1595
-IndiQube,PropTech & Real Estate,1089,FY22,351.43,,1596
-WheelsEye,Logistics & Mobility,1326,FY22,156.93,,1597
-Bike Bazaar,FinTech & Payments,54,FY22,149.72,,1598
-Fittr,HealthTech,624,FY22,89.19,,1599
-Kuku FM,Media & Gaming,679,FY22,4.41,,1600
-Purple Style Labs,E-commerce & D2C,42,FY22,174.56,,1601
-BankBazaar,FinTech & Payments,595,FY22,95.52,,1602
-Zypp Electric,EV & Auto,529,FY22,21.47,,1603
-ACT,Other,1330,FY22,2157.0,,1604
-Bewakoof,E-commerce & D2C,816,FY22,160.46,,1605
-Mintifi,FinTech & Payments,603,FY22,56.8,,1606
-Jaro Education,EdTech,255,FY22,85.0,,1607
-FarEye,SaaS,1230,FY22,97.7,-235.0,1608
-Kutumb,Consumer Internet,268,FY22,0.00078,-18.21,1609
-Garuda Aerospace,DeepTech,908,FY22,15.31,,1610
-Coding Ninjas,EdTech,631,FY22,27.96,,1611
-Square Yards,PropTech & Real Estate,27,FY23,663.68,,1612
-Cuemath,EdTech,614,FY22,148.05,,1613
-Wiz Freight,Logistics & Mobility,411,FY22,327.51,,1614
-RENEE Cosmetics,E-commerce & D2C,545,FY22,32.2,,1615
-Furlenco,E-commerce & D2C,70,FY22,129.24,,1616
-Vegrow,AgriTech,447,FY22,100.83,,1617
-Rooter,Media & Gaming,570,FY22,11.38,-40.72,1618
-Progcap,FinTech & Payments,454,FY22,26.41,,1619
-NestAway,PropTech & Real Estate,1321,FY22,57.87,-95.0,1620
-ShopClues,E-commerce & D2C,385,FY22,59.9,,1621
-Rivigo,Logistics & Mobility,720,FY22,600.0,,1622
-NPCI,FinTech & Payments,762,FY22,1629.5,773.0,1623
-Paytm,FinTech & Payments,290,FY23,7990.0,,1624
-Juspay,FinTech & Payments,139,FY22,112.7,,1625
-LetsTransport,Logistics & Mobility,784,FY22,403.37,,1626
-CASHe,FinTech & Payments,1126,FY22,247.91,,1627
-FirstCry,E-commerce & D2C,337,FY22,2401.0,,1628
-mCaffeine,E-commerce & D2C,1204,FY22,135.23,,1629
-AgroStar,AgriTech,828,FY22,260.0,,1630
-Vahdam Teas,E-commerce & D2C,160,FY22,200.48,,1631
-Happilo,E-commerce & D2C,1334,FY22,190.0,,1632
-Delhivery,Logistics & Mobility,1123,FY23,7225.0,,1633
-Zomato,Consumer Internet,753,FY23,7079.0,-971.0,1634
-LoadShare,Logistics & Mobility,208,FY22,361.0,,1635
-PolicyBazaar,FinTech & Payments,327,FY23,2558.0,,1636
-Jumbotail,E-commerce & D2C,884,FY22,377.0,,1637
-Unnati Agri,AgriTech,1324,FY23,398.0,,1638
-Nykaa,E-commerce & D2C,451,FY23,5144.0,,1639
-GoBOLT,Logistics & Mobility,655,FY22,275.2,,1640
-Xoxoday,FinTech & Payments,827,FY22,680.2,,1641
-Info Edge,Consumer Internet,1098,FY23,2345.0,-70.0,1642
-Infibeam Avenues,FinTech & Payments,1153,FY23,1962.0,,1643
-Paper Boat,E-commerce & D2C,1301,FY22,330.0,,1644
-IncNut Digital,E-commerce & D2C,1231,FY22,204.1,,1645
-Minimalist,E-commerce & D2C,333,FY22,108.1,,1646
-Pickrr,Logistics & Mobility,244,FY22,204.2,,1647
-SmartCoin,FinTech & Payments,1027,FY22,87.03,,1648
-Smartworks,PropTech & Real Estate,957,FY22,360.2,,1649
-Mosaic Wellness,HealthTech,808,FY22,78.3,,1650
-Livpure,E-commerce & D2C,747,FY22,217.4,,1651
-Smytten,E-commerce & D2C,386,FY22,59.19,,1652
-DaMENSCH,E-commerce & D2C,1335,FY22,59.4,,1653
-Cogoport,Logistics & Mobility,444,FY22,741.0,,1654
-Ecozen,ClimateTech,853,FY22,122.58,,1655
-OneAssist,FinTech & Payments,121,FY22,308.8,-59.7,1656
-Atomberg,E-commerce & D2C,724,FY22,355.9,,1657
-Vogo,Logistics & Mobility,1374,FY22,45.2,-73.4,1658
-CarTrade,EV & Auto,1130,FY23,363.7,,1659
-Eupheus Learning,EdTech,249,FY22,68.22,,1660
-BlissClub,E-commerce & D2C,87,FY22,14.82,-8.9,1661
-Safexpay,FinTech & Payments,1440,FY22,152.87,29.0,1662
-Intrcity,Travel & Hospitality,273,FY23,288.0,,1663
-Core Integra,HR & Workforce,1139,FY23,330.0,,1664
-Aquaconnect,AgriTech,263,FY22,34.46,-11.18,1665
-Clinikk,HealthTech,348,FY22,73.21,,1666
-BluSmart,EV & Auto,460,FY22,29.0,-65.4,1667
-Otipy,AgriTech,93,FY23,115.0,,1668
-Garuda Aerospace,DeepTech,908,FY23,46.8,,1669
-NeoGrowth,FinTech & Payments,502,FY23,381.0,,1670
-Settl,PropTech & Real Estate,1176,FY23,16.33,,1671
-Easebuzz,FinTech & Payments,782,FY23,236.0,,1672
-Akumentis Healthcare,HealthTech,943,FY23,387.0,,1673
-Oziva,E-commerce & D2C,213,FY23,99.32,,1674
-Growpital,AgriTech,534,FY23,55.66,,1675
-Travel Boutique,Travel & Hospitality,258,FY23,1051.0,,1676
-Varthana Finance,FinTech & Payments,542,FY23,183.5,,1677
-1mg,HealthTech,951,FY23,1627.0,,1678
-Ola,Logistics & Mobility,1122,FY22,1970.0,-1522.0,1679
-Ola Electric,EV & Auto,313,FY22,373.0,,1680
-Indifi,FinTech & Payments,1181,FY23,198.0,,1681
-Country Delight,E-commerce & D2C,654,FY22,543.0,,1682
-Urban Company,Consumer Internet,1465,FY23,637.0,,1683
-M1xchange,FinTech & Payments,420,FY23,29.52,,1684
-RapiPay,FinTech & Payments,1014,FY23,439.0,,1685
-Prodo,Industrial Tech,64,FY23,32.0,-5.7,1686
-Quikr,Consumer Internet,967,FY22,49.1,,1687
-ZunRoof,ClimateTech,804,FY23,29.85,,1688
-Beardo,E-commerce & D2C,471,FY23,106.6,,1689
-True Balance,FinTech & Payments,1223,FY23,431.0,,1690
-MyGate,Consumer Internet,1323,FY23,71.1,,1691
-Porter,Logistics & Mobility,1189,FY23,1753.8,-175.0,1692
-BankBazaar,FinTech & Payments,595,FY23,159.0,,1693
-Kuku FM,Media & Gaming,679,FY23,41.2,,1694
-ZappFresh,E-commerce & D2C,775,FY23,70.0,,1695
-Neuron Energy,EV & Auto,684,FY23,30.0,0.3,1696
-Recykal,ClimateTech,1376,FY23,745.0,,1697
-HomeLane,PropTech & Real Estate,235,FY23,574.0,,1698
-LEAD,EdTech,923,FY23,273.2,,1699
-RXIL,FinTech & Payments,857,FY23,30.0,8.5,1700
-Daalchini,Consumer Internet,388,FY23,25.0,,1701
-New Street Technologies,Enterprise Software,68,FY23,36.9,,1702
-InsuranceDekho,FinTech & Payments,959,FY23,96.5,,1703
-Innoviti,FinTech & Payments,988,FY23,110.2,,1704
-NimbusPost,Logistics & Mobility,38,FY23,116.0,,1705
-FlexiLoans,FinTech & Payments,1298,FY23,108.5,,1706
-Livspace,PropTech & Real Estate,752,FY23,1148.0,-621.0,1707
-Ather Energy,EV & Auto,1215,FY23,1784.0,,1708
-OlaMoney,FinTech & Payments,766,FY22,110.0,,1709
-Leegality,Enterprise Software,1234,FY23,33.5,,1710
-Zerodha,FinTech & Payments,1333,FY23,6875.0,2907.0,1711
-Paytm Money,FinTech & Payments,1423,FY23,131.3,40.0,1712
-Skyroot Aerospace,SpaceTech,754,FY23,0.4,-55.0,1713
-Licious,E-commerce & D2C,1422,FY23,747.7,-500.0,1714
-DeHaat,AgriTech,685,FY23,1965.0,-371.0,1715
-CRED,FinTech & Payments,1385,FY23,1400.6,,1716
-Acko,FinTech & Payments,578,FY23,1759.0,,1717
-Rupeek,FinTech & Payments,552,FY23,89.0,,1718
-Pocket FM,Media & Gaming,802,FY23,148.7,,1719
-Udaan,E-commerce & D2C,580,FY23,5629.0,,1720
-Classplus,SaaS,421,FY23,102.0,,1721
-Moglix,E-commerce & D2C,1002,FY23,4595.0,,1722
-PhonePe,FinTech & Payments,1484,FY23,2914.0,-1755.0,1723
-RENEE Cosmetics,E-commerce & D2C,545,FY23,100.4,,1724
-Blinkit,E-commerce & D2C,381,FY23,724.2,,1725
-Fractal,Artificial Intelligence,665,FY23,1985.0,194.0,1726
-VerSe Innovation,Media & Gaming,1013,FY23,1457.0,,1727
-LeadSquared,SaaS,210,FY23,256.0,,1728
-Coding Ninjas,EdTech,631,FY23,58.9,,1729
-Wingify,SaaS,1286,FY23,223.0,51.0,1730
-Honasa Consumer,E-commerce & D2C,303,FY23,1493.0,,1731
-OnEMi Technologies,FinTech & Payments,1068,FY23,1020.9,,1732
-Zepto,E-commerce & D2C,475,FY23,2024.0,-1272.0,1733
-OneCard,FinTech & Payments,1119,FY23,541.0,,1734
-Oyo,Travel & Hospitality,835,FY23,5464.0,,1735
-Wow Skin Science,E-commerce & D2C,779,FY23,258.0,,1736
-Zeta,Digital Banking,1030,FY23,816.0,,1737
-Cars24,EV & Auto,755,FY23,5535.0,,1738
-Ninjacart,AgriTech,977,FY23,1600.0,,1739
-Cuemath,EdTech,614,FY23,120.5,,1740
-Whatfix,SaaS,704,FY23,285.0,,1741
-DailyRounds,EdTech,1193,FY23,515.0,281.0,1742
-Allen Career Institute,EdTech,463,FY23,2277.0,429.0,1743
-Cult.fit,HealthTech,1342,FY23,694.0,,1744
-Byju's,EdTech,639,FY22,5015.0,-8245.0,1745
-Noise,E-commerce & D2C,834,FY23,1426.0,,1746
-Dunzo,Logistics & Mobility,498,FY23,226.0,-1800.0,1747
-Bira 91,E-commerce & D2C,23,FY23,824.0,-445.0,1748
-Jar,FinTech & Payments,1243,FY23,8.7,-123.0,1749
-Perfios,FinTech & Payments,1252,FY23,407.0,,1750
-Ixigo,Travel & Hospitality,1419,FY23,501.0,23.0,1751
-Great Learning,EdTech,1414,FY23,391.0,,1752
-Ustraa,E-commerce & D2C,486,FY23,97.0,-40.0,1753
-The Ayurveda Experience,E-commerce & D2C,1024,FY23,259.0,,1754
-Darwinbox,HR & Workforce,1287,FY23,224.0,-158.0,1755
-IndiQube,PropTech & Real Estate,1089,FY23,592.0,21.0,1756
-Everest Fleet,Logistics & Mobility,663,FY23,466.5,41.0,1757
-Servify,Consumer Internet,1146,FY23,611.0,,1758
-ShareChat,Consumer Internet,1114,FY23,533.0,,1759
-Honasa Consumer,E-commerce & D2C,303,FY24,496.0,29.0,1760
-Chaayos,Travel & Hospitality,270,FY23,237.0,,1761
-WheelsEye,Logistics & Mobility,1326,FY23,208.0,-96.0,1762
-GIVA,E-commerce & D2C,1108,FY23,165.0,,1763
-Wakefit,E-commerce & D2C,214,FY23,813.0,-150.0,1764
-Unicommerce,SaaS,793,FY23,90.0,6.5,1765
-Clear,FinTech & Payments,368,FY23,109.0,,1766
-InShorts,Media & Gaming,146,FY23,181.0,-310.0,1767
-Gameberry,Media & Gaming,119,FY23,314.0,37.0,1768
-AstroTalk,Consumer Internet,165,FY23,283.0,,1769
-Animall,AgriTech,657,FY23,30.45,,1770
-Practo,HealthTech,31,FY23,204.4,,1771
-upGrad,EdTech,823,FY23,1194.0,,1772
-Xoxoday,FinTech & Payments,827,FY23,816.0,,1773
-Arya.ag,AgriTech,1075,FY23,290.0,,1774
-Park+,EV & Auto,586,FY23,96.0,,1775
-Minimalist,E-commerce & D2C,333,FY23,184.0,,1776
-BookMyShow,Media & Gaming,566,FY23,976.0,85.0,1777
-Gameskraft,Media & Gaming,924,FY23,2662.0,1062.0,1778
-FIITJEE,EdTech,890,FY23,542.0,-69.0,1779
-Blackbuck,Logistics & Mobility,156,FY23,704.0,,1780
-Vahdam,E-commerce & D2C,962,FY23,204.0,,1781
-Starbucks India,Travel & Hospitality,1099,FY23,1087.0,,1782
-Pepperfry,E-commerce & D2C,508,FY23,272.0,,1783
-Purple Style Labs,E-commerce & D2C,42,FY23,372.0,,1784
-BharatPe,FinTech & Payments,89,FY23,1029.0,,1785
-Zupee,Media & Gaming,1404,FY23,832.0,,1786
-Jumbotail,E-commerce & D2C,884,FY23,819.0,,1787
-Rario,Media & Gaming,867,FY23,39.0,,1788
-Lendingkart,FinTech & Payments,783,FY23,798.0,118.0,1789
-Mswipe,FinTech & Payments,1466,FY23,274.0,,1790
-A23,Media & Gaming,94,FY23,1050.0,,1791
-FirstCry,E-commerce & D2C,337,FY23,5632.0,,1792
-NoBroker,PropTech & Real Estate,883,FY22,326.0,,1793
-Snapdeal,E-commerce & D2C,1247,FY23,388.0,-282.0,1794
-PhysicsWallah,EdTech,130,FY23,771.76,,1795
-Meesho,E-commerce & D2C,980,FY23,5735.0,-1675.0,1796
-Pine Labs,FinTech & Payments,1147,FY23,1588.0,,1797
-Pristyn Care,HealthTech,433,FY23,453.0,,1798
-Unacademy,EdTech,1087,FY23,907.0,,1799
-Gupshup,Enterprise Software,1431,FY23,1619.0,49.0,1800
-Cashfree,FinTech & Payments,581,FY23,614.0,-133.0,1801
-Sugar Cosmetics,E-commerce & D2C,1071,FY23,420.0,-76.0,1802
-Simplilearn,EdTech,450,FY23,684.0,,1803
-Uber India,Logistics & Mobility,1461,FY23,2666.0,,1804
-InCred,FinTech & Payments,737,FY23,866.0,109.0,1805
-Slice,FinTech & Payments,509,FY23,847.0,,1806
-Ola,Logistics & Mobility,1122,FY23,2799.0,-772.0,1807
-Amagi,SaaS,298,FY23,680.0,,1808
-Digit Insurance,FinTech & Payments,1430,FY23,5164.0,338.0,1809
-Ullu,Media & Gaming,248,FY23,93.1,,1810
-Zoomcar India,Logistics & Mobility,859,FY23,69.0,-237.0,1811
-Rapido,Logistics & Mobility,1201,FY23,443.0,,1812
-MathCo,Artificial Intelligence,907,FY23,420.0,,1813
-Aakash Institute,EdTech,271,FY22,1421.0,,1814
-Adda247,EdTech,361,FY23,115.0,,1815
-Upstox,FinTech & Payments,703,FY23,1000.0,25.0,1816
-Kapiva,E-commerce & D2C,940,FY23,114.5,,1817
-Soothe Healthcare,E-commerce & D2C,204,FY23,172.0,-97.0,1818
-Newton School,EdTech,442,FY23,16.8,,1819
-Dream11,Media & Gaming,1369,FY23,6384.0,188.0,1820
-Duroflex,E-commerce & D2C,1145,FY23,1057.0,,1821
-Eruditus,EdTech,928,FY23,3343.0,,1822
-CashKaro,Consumer Internet,714,FY23,249.0,,1823
-Ferns N Petals,E-commerce & D2C,1457,FY23,607.0,-110.0,1824
-Chai Point,Travel & Hospitality,6,FY23,200.0,,1825
-DealShare,E-commerce & D2C,1064,FY23,1963.5,-1043.0,1826
-Neeman's,E-commerce & D2C,1101,FY23,69.0,,1827
-PharmEasy,HealthTech,854,FY23,6644.0,,1828
-Swiggy,Consumer Internet,608,FY23,8264.6,,1829
-Zoho,SaaS,873,FY23,8703.6,2800.0,1830
-Chingari,Media & Gaming,1356,FY23,113.0,,1831
-Hike,Media & Gaming,1197,FY23,150.5,-150.0,1832
-Infra.Market,Industrial Tech,900,FY23,11846.0,,1833
-FabHotels,Travel & Hospitality,17,FY23,219.0,-5.0,1834
-Leverage Edu,EdTech,116,FY23,69.0,,1835
-Bloom Hotels,Travel & Hospitality,973,FY23,144.0,,1836
-Smartworks,PropTech & Real Estate,957,FY23,711.0,,1837
-Miko,Automation & Robotics,1353,FY23,225.6,,1838
-Tractor Junction,AgriTech,814,FY23,26.84,-7.5,1839
-CASHe,FinTech & Payments,1126,FY23,560.6,,1840
-Quikr,Consumer Internet,967,FY23,51.36,,1841
-Spalba,SaaS,513,FY23,18.2,,1842
-EatClub,Travel & Hospitality,539,FY23,315.0,-69.0,1843
-EasyEcom,SaaS,538,FY23,6.71,,1844
-Smallcase,FinTech & Payments,358,FY23,31.0,-133.0,1845
-Baazi Games,Media & Gaming,1378,FY23,232.0,,1846
-RailYatri,Travel & Hospitality,550,FY23,273.73,,1847
-Bizongo,Enterprise Software,983,FY23,166.86,-300.0,1848
-WeWork India,PropTech & Real Estate,397,FY23,1314.0,,1849
-Razorpay,FinTech & Payments,860,FY23,2279.0,,1850
-Scaler,EdTech,716,FY23,317.0,,1851
-ApnaKlub,E-commerce & D2C,1347,FY23,278.0,,1852
-Healthians,HealthTech,124,FY23,224.0,-184.0,1853
-BigHaat,AgriTech,1109,FY23,643.0,,1854
-Trell,Consumer Internet,796,FY23,4.77,-59.0,1855
-Yubi,FinTech & Payments,467,FY23,328.0,-482.0,1856
-Ergos,AgriTech,749,FY23,224.0,,1857
-CityMall,Consumer Internet,1000,FY23,352.0,,1858
-Stanza Living,PropTech & Real Estate,57,FY23,442.0,-495.0,1859
-Juspay,FinTech & Payments,139,FY23,213.0,,1860
-KaarTech,Digital Engineering,1169,FY23,359.0,,1861
-CoinSwitch,FinTech & Payments,693,FY23,45.6,-385.0,1862
-MakeO,HealthTech,634,FY23,168.0,-220.0,1863
-Table Space,PropTech & Real Estate,1399,FY23,678.5,,1864
-PlanetSpark,EdTech,516,FY23,42.0,-90.0,1865
-High Street Essentials,E-commerce & D2C,398,FY23,185.0,-45.0,1866
-Safegold,FinTech & Payments,60,FY23,4498.0,,1867
-Eupheus Learning,EdTech,249,FY23,99.0,,1868
-BetterPlace,HR & Workforce,301,FY23,523.0,,1869
-Advantage Club,HR & Workforce,195,FY23,323.0,,1870
-ZingHR,HR & Workforce,676,FY23,84.48,-21.0,1871
-BattRE,EV & Auto,1464,FY23,87.0,,1872
-Swiggy,Consumer Internet,608,FY24,11247.0,-2350.0,1873
-BillDesk,FinTech & Payments,192,FY23,2678.0,,1874
-Mosaic Wellness,HealthTech,808,FY23,207.0,-62.0,1875
-Bounce,EV & Auto,1266,FY23,91.0,,1876
-WeRize,FinTech & Payments,350,FY23,68.14,,1877
-Bijnis,E-commerce & D2C,861,FY23,52.0,-100.0,1878
-Bambrew,ClimateTech,838,FY23,43.52,,1879
-Probo,FinTech & Payments,254,FY23,86.37,,1880
-WinZO,Media & Gaming,921,FY23,674.0,126.0,1881
-Wiz Freight,Logistics & Mobility,411,FY23,1243.0,-90.0,1882
-LS Digital,IT Services,763,FY23,696.0,,1883
-M2P Fintech,Digital Banking,91,FY23,440.7,,1884
-Moneyview,FinTech & Payments,869,FY23,577.0,,1885
-Portea,HealthTech,286,FY23,145.0,,1886
-Power2SME,E-commerce & D2C,727,FY23,1056.0,,1887
-Ripplr,Logistics & Mobility,1094,FY23,740.0,,1888
-Otipy,AgriTech,93,FY24,175.0,,1889
-Glance,Consumer Internet,399,FY23,317.0,,1890
-Heads Up For Tails,E-commerce & D2C,1170,FY23,312.8,,1891
-LoadShare,Logistics & Mobility,208,FY23,384.5,,1892
-Apna Mart,E-commerce & D2C,75,FY23,32.2,,1893
-FarEye,SaaS,1230,FY23,139.0,-243.0,1894
-Groyyo,Industrial Tech,1380,FY23,492.0,,1895
-Lenskart,E-commerce & D2C,618,FY23,3788.0,,1896
-Third Wave Coffee,Travel & Hospitality,647,FY23,144.0,,1897
-Captain Fresh,AgriTech,1296,FY23,773.0,-252.0,1898
-Bijak,AgriTech,105,FY23,807.0,,1899
-Ecom Express,Logistics & Mobility,896,FY23,2548.0,,1900
-Square Yards,PropTech & Real Estate,27,FY24,996.13,,1901
-CitiusTech,HealthTech,112,FY23,3499.0,,1902
-Magicpin,Consumer Internet,825,FY23,297.0,,1903
-FreshToHome,E-commerce & D2C,864,FY23,25.0,,1904
-Goat Brand Labs,E-commerce & D2C,1478,FY23,139.6,,1905
-WoodenStreet,E-commerce & D2C,812,FY23,194.0,,1906
-Gramophone,AgriTech,71,FY23,316.0,-58.0,1907
-Zomato,Consumer Internet,753,FY24,3562.0,175.0,1908
-Wow! Momo,Travel & Hospitality,218,FY23,413.0,,1909
-Infibeam Avenues,FinTech & Payments,1153,FY24,727.0,49.0,1910
-Info Edge,Consumer Internet,1098,FY24,2536.0,594.0,1911
-Awfis,PropTech & Real Estate,927,FY24,849.0,-17.8,1912
-Tracxn,Data Infrastructure,59,FY24,82.7,,1913
-Nykaa,E-commerce & D2C,451,FY24,6386.0,40.0,1914
-Paytm,FinTech & Payments,290,FY24,9978.0,,1915
-Honasa,E-commerce & D2C,26,FY24,1920.0,110.0,1916
-Nazara,Media & Gaming,1166,FY24,1138.0,,1917
-Oziva,E-commerce & D2C,213,FY24,104.0,-44.0,1918
-Vedantu,EdTech,848,FY23,153.0,,1919
-Travel Boutique Online,Travel & Hospitality,438,FY24,1393.0,,1920
-Oxyzo,FinTech & Payments,1008,FY24,903.0,291.0,1921
-Molbio,HealthTech,446,FY23,332.0,-3.4,1922
-Ather Energy,EV & Auto,1215,FY24,1754.0,,1923
-InCred,FinTech & Payments,737,FY24,1267.0,316.0,1924
-Go Digit,FinTech & Payments,487,FY24,7096.0,,1925
-Games24x7,Media & Gaming,199,FY23,1988.0,,1926
-NoBroker,PropTech & Real Estate,883,FY23,609.0,,1927
-Mylab,HealthTech,77,FY23,95.0,,1928
-Ixigo,Travel & Hospitality,1419,FY24,656.0,73.0,1929
-Akumentis Healthcare,HealthTech,943,FY24,398.0,57.0,1930
-OfBusiness,Industrial Tech,1152,FY24,19296.0,,1931
-Tata 1mg,HealthTech,431,FY24,1968.0,,1932
-Exotel,Cloud Infrastructure,1213,FY23,420.0,,1933
-Jio Financial Services,FinTech & Payments,1349,FY25,418.0,313.0,1934
-Paytm,FinTech & Payments,290,FY25,1501.6,-840.0,1935
-WayCool,AgriTech,897,FY23,1251.0,-686.0,1936
-Urban Company,Consumer Internet,1465,FY24,827.0,-93.0,1937
-FirstCry,E-commerce & D2C,337,FY24,6481.0,,1938
-Auxilo,FinTech & Payments,352,FY24,356.68,,1939
-Fasal,AgriTech,380,FY24,34.0,,1940
-PB Fintech,FinTech & Payments,981,FY25,1010.0,,1941
-MamaEarth,E-commerce & D2C,1364,FY25,554.0,,1942
-MapMyIndia,Data Infrastructure,78,FY25,101.5,35.86,1943
-TBO,Travel & Hospitality,1070,FY25,418.46,61.0,1944
-Awfis,PropTech & Real Estate,927,FY25,258.0,,1945
-Nykaa,E-commerce & D2C,451,FY25,1746.0,,1946
-EaseMyTrip,Travel & Hospitality,739,FY25,152.6,33.92,1947
-Yatra,Travel & Hospitality,1156,FY25,100.8,4.04,1948
-True Balance,FinTech & Payments,1223,FY24,667.0,138.0,1949
-Ola Electric,EV & Auto,313,FY25,1644.0,-347.0,1950
-Oyo,Travel & Hospitality,835,FY24,5389.0,230.0,1951
-Nazara,Media & Gaming,1166,FY25,250.0,23.62,1952
-MobiKwik,FinTech & Payments,422,FY24,875.0,14.0,1953
-CaratLane,E-commerce & D2C,1140,FY24,3081.0,,1954
-Square Yards,PropTech & Real Estate,27,FY25,261.0,,1955
-Rebel Foods,Travel & Hospitality,206,FY24,1420.0,,1956
-BigBasket,E-commerce & D2C,1061,FY24,10061.9,,1957
-Starbucks India,Travel & Hospitality,1099,FY24,1218.0,,1958
-Porter,Logistics & Mobility,1189,FY24,2733.8,,1959
-Purplle,E-commerce & D2C,567,FY24,680.0,,1960
-NPCI,FinTech & Payments,762,FY24,2876.0,1134.0,1961
+ShareChat,Consumer Internet,621,FY22,347.0,,1932
+Swiggy,Consumer Internet,580,FY22,5705.0,,1933
+Fi,Digital Banking,1536,FY22,21.0,,1934
+CarDekho,EV & Auto,1681,FY22,1597.0,,1935
+Pine Labs,FinTech & Payments,1617,FY22,1017.0,,1936
+Zerodha,FinTech & Payments,90,FY22,4964.0,2094.0,1937
+FamPay,Digital Banking,125,FY22,3.06,,1938
+BrowserStack,Developer Tools,608,FY22,418.4,,1939
+Unicommerce,SaaS,190,FY22,59.0,,1940
+Cashify,E-commerce & D2C,1336,FY22,498.0,,1941
+WazirX,FinTech & Payments,210,FY22,823.0,,1942
+Koo,Consumer Internet,871,FY22,0.14,,1943
+Heads Up For Tails,E-commerce & D2C,1745,FY22,125.5,,1944
+Noise,E-commerce & D2C,421,FY22,793.0,,1945
+WebEngage,SaaS,253,FY22,98.0,,1946
+EatClub,Travel & Hospitality,623,FY22,210.0,,1947
+Zeta,Digital Banking,694,FY22,615.0,,1948
+Dream11,Media & Gaming,884,FY22,3841.0,,1949
+Waycool,AgriTech,1261,FY22,927.0,,1950
+Travel Boutique,Travel & Hospitality,179,FY22,483.0,,1951
+boAt,E-commerce & D2C,399,FY22,2873.0,,1952
+Acko,FinTech & Payments,1407,FY22,1344.0,,1953
+ReshaMandi,AgriTech,516,FY22,413.8,,1954
+Rapido,Logistics & Mobility,370,FY22,144.8,,1955
+TVF,Media & Gaming,932,FY22,76.8,,1956
+BharatPe,FinTech & Payments,984,FY22,456.8,,1957
+Cars24,EV & Auto,1339,FY22,6072.0,-1800.0,1958
+Zoho,SaaS,291,FY22,6711.0,2700.0,1959
+Smallcase,FinTech & Payments,822,FY22,29.17,-95.0,1960
+Gameskraft,Media & Gaming,565,FY22,2112.0,900.0,1961
+Vedantu,EdTech,669,FY22,169.0,-696.0,1962
+Bluestone,E-commerce & D2C,784,FY22,461.0,,1963
+Magicpin,Consumer Internet,1254,FY22,233.0,,1964
+DailyRounds,EdTech,1306,FY22,402.0,198.0,1965
+Darwinbox,HR & Workforce,1290,FY22,116.7,,1966
+Stanza Living,PropTech & Real Estate,547,FY22,115.0,,1967
+iNurture,EdTech,1418,FY22,101.88,,1968
+Bounce,EV & Auto,1237,FY22,15.0,,1969
+CRED,FinTech & Payments,401,FY22,393.6,,1970
+Livspace,PropTech & Real Estate,530,FY22,570.0,-645.0,1971
+Perfios,FinTech & Payments,1590,FY22,136.4,,1972
+A23,Media & Gaming,25,FY22,722.0,,1973
+Porter,Logistics & Mobility,558,FY22,843.89,,1974
+Soothe Healthcare,E-commerce & D2C,367,FY22,139.4,,1975
+Uniphore,SaaS,762,FY22,674.6,33.0,1976
+Beardo,E-commerce & D2C,1790,FY22,95.0,,1977
+Simsim,E-commerce & D2C,86,FY22,18.21,-155.0,1978
+InShorts,Media & Gaming,1225,FY22,143.94,,1979
+Ampere,EV & Auto,261,FY22,522.3,,1980
+Euler Motors,EV & Auto,1720,FY22,17.6,,1981
+VilCart,E-commerce & D2C,720,FY22,209.7,,1982
+Razorpay,FinTech & Payments,176,FY22,1481.2,,1983
+WinZO,Media & Gaming,1696,FY22,234.0,,1984
+HomeLane,PropTech & Real Estate,625,FY22,426.0,-153.0,1985
+Blinkit,E-commerce & D2C,867,FY22,2324.0,-1440.0,1986
+Simplilearn,EdTech,732,FY22,480.0,-150.0,1987
+BeatO,HealthTech,1730,FY22,19.4,,1988
+mFine,HealthTech,1247,FY22,50.5,,1989
+The Math Company,Artificial Intelligence,612,FY22,227.31,,1990
+Joy e-bike,EV & Auto,150,FY22,184.56,,1991
+Otipy,AgriTech,1255,FY22,61.8,,1992
+BillDesk,FinTech & Payments,1569,FY22,2443.0,,1993
+Doubtnut,EdTech,1452,FY22,10.83,-179.24,1994
+Testbook,EdTech,1094,FY22,35.3,,1995
+Clover Ventures,AgriTech,887,FY22,44.34,,1996
+Square Yards,PropTech & Real Estate,1365,FY22,382.13,-225.0,1997
+The Good Glamm Group,E-commerce & D2C,1725,FY22,240.0,,1998
+Open,Digital Banking,776,FY22,40.9,,1999
+Mylab,HealthTech,1660,FY22,260.71,,2000
+Battery Smart,EV & Auto,832,FY22,7.95,,2001
+PlanetSpark,EdTech,1026,FY22,30.0,,2002
+Brick&Bolt,PropTech & Real Estate,677,FY22,13.8,,2003
+Awfis,PropTech & Real Estate,1456,FY22,257.04,,2004
+Park+,EV & Auto,1340,FY22,36.4,,2005
+Purplle,E-commerce & D2C,610,FY22,219.88,,2006
+Medikabazaar,HealthTech,1417,FY22,1552.53,,2007
+PagarBook,HR & Workforce,1042,FY22,4.55,-69.0,2008
+FreshToHome,E-commerce & D2C,1274,FY22,102.5,-500.0,2009
+Slice,FinTech & Payments,169,FY22,283.08,,2010
+Bijnis,E-commerce & D2C,376,FY22,25.12,,2011
+CashKaro,Consumer Internet,1438,FY22,216.22,,2012
+ePayLater,FinTech & Payments,89,FY22,7.68,,2013
+Eruditus,EdTech,393,FY22,1859.0,,2014
+Animall,AgriTech,909,FY22,7.4,,2015
+The Souled Store,E-commerce & D2C,1316,FY22,145.1,,2016
+Pepper Content,SaaS,267,FY22,19.03,,2017
+Pocket FM,Media & Gaming,231,FY22,17.0,,2018
+Upstox,FinTech & Payments,965,FY22,765.6,,2019
+IndiQube,PropTech & Real Estate,429,FY22,351.43,,2020
+WheelsEye,Logistics & Mobility,1602,FY22,156.93,,2021
+Bike Bazaar,FinTech & Payments,66,FY22,149.72,,2022
+Fittr,HealthTech,974,FY22,89.19,,2023
+Kuku FM,Media & Gaming,1457,FY22,4.41,,2024
+Purple Style Labs,E-commerce & D2C,1353,FY22,174.56,,2025
+BankBazaar,FinTech & Payments,110,FY22,95.52,,2026
+Zypp Electric,EV & Auto,455,FY22,21.47,,2027
+ACT,Other,508,FY22,2157.0,,2028
+Bewakoof,E-commerce & D2C,1298,FY22,160.46,,2029
+Mintifi,FinTech & Payments,1610,FY22,56.8,,2030
+Jaro Education,EdTech,634,FY22,85.0,,2031
+FarEye,SaaS,1641,FY22,97.7,-235.0,2032
+Kutumb,Consumer Internet,196,FY22,0.00078,-18.21,2033
+Garuda Aerospace,DeepTech,446,FY22,15.31,,2034
+Coding Ninjas,EdTech,1013,FY22,27.96,,2035
+Square Yards,PropTech & Real Estate,1365,FY23,663.68,,2036
+Cuemath,EdTech,315,FY22,148.05,,2037
+Wiz Freight,Logistics & Mobility,1424,FY22,327.51,,2038
+RENEE Cosmetics,E-commerce & D2C,885,FY22,32.2,,2039
+Furlenco,E-commerce & D2C,1098,FY22,129.24,,2040
+Vegrow,AgriTech,226,FY22,100.83,,2041
+Rooter,Media & Gaming,30,FY22,11.38,-40.72,2042
+Progcap,FinTech & Payments,1552,FY22,26.41,,2043
+NestAway,PropTech & Real Estate,1743,FY22,57.87,-95.0,2044
+ShopClues,E-commerce & D2C,1232,FY22,59.9,,2045
+Rivigo,Logistics & Mobility,417,FY22,600.0,,2046
+NPCI,FinTech & Payments,58,FY22,1629.5,773.0,2047
+Paytm,FinTech & Payments,1381,FY23,7990.0,,2048
+Juspay,FinTech & Payments,839,FY22,112.7,,2049
+LetsTransport,Logistics & Mobility,187,FY22,403.37,,2050
+CASHe,FinTech & Payments,1544,FY22,247.91,,2051
+FirstCry,E-commerce & D2C,419,FY22,2401.0,,2052
+mCaffeine,E-commerce & D2C,802,FY22,135.23,,2053
+AgroStar,AgriTech,1547,FY22,260.0,,2054
+Vahdam Teas,E-commerce & D2C,976,FY22,200.48,,2055
+Happilo,E-commerce & D2C,1374,FY22,190.0,,2056
+Delhivery,Logistics & Mobility,217,FY23,7225.0,,2057
+Zomato,Consumer Internet,1349,FY23,7079.0,-971.0,2058
+LoadShare,Logistics & Mobility,918,FY22,361.0,,2059
+PolicyBazaar,FinTech & Payments,1100,FY23,2558.0,,2060
+Jumbotail,E-commerce & D2C,21,FY22,377.0,,2061
+Unnati Agri,AgriTech,874,FY23,398.0,,2062
+Nykaa,E-commerce & D2C,1090,FY23,5144.0,,2063
+GoBOLT,Logistics & Mobility,1774,FY22,275.2,,2064
+Xoxoday,FinTech & Payments,1591,FY22,680.2,,2065
+Info Edge,Consumer Internet,1079,FY23,2345.0,-70.0,2066
+Infibeam Avenues,FinTech & Payments,899,FY23,1962.0,,2067
+Paper Boat,E-commerce & D2C,1052,FY22,330.0,,2068
+IncNut Digital,E-commerce & D2C,1130,FY22,204.1,,2069
+Minimalist,E-commerce & D2C,1140,FY22,108.1,,2070
+Pickrr,Logistics & Mobility,327,FY22,204.2,,2071
+SmartCoin,FinTech & Payments,276,FY22,87.03,,2072
+Smartworks,PropTech & Real Estate,1242,FY22,360.2,,2073
+Mosaic Wellness,HealthTech,1177,FY22,78.3,,2074
+Livpure,E-commerce & D2C,1347,FY22,217.4,,2075
+Smytten,E-commerce & D2C,274,FY22,59.19,,2076
+DaMENSCH,E-commerce & D2C,491,FY22,59.4,,2077
+Cogoport,Logistics & Mobility,1567,FY22,741.0,,2078
+Ecozen,ClimateTech,923,FY22,122.58,,2079
+OneAssist,FinTech & Payments,1404,FY22,308.8,-59.7,2080
+Atomberg,E-commerce & D2C,1056,FY22,355.9,,2081
+Vogo,Logistics & Mobility,714,FY22,45.2,-73.4,2082
+CarTrade,EV & Auto,676,FY23,363.7,,2083
+Eupheus Learning,EdTech,1554,FY22,68.22,,2084
+BlissClub,E-commerce & D2C,1441,FY22,14.82,-8.9,2085
+Safexpay,FinTech & Payments,1757,FY22,152.87,29.0,2086
+IntrCity,Logistics & Mobility,588,FY23,288.0,,2087
+Core Integra,HR & Workforce,479,FY23,330.0,,2088
+Aquaconnect,AgriTech,680,FY22,34.46,-11.18,2089
+Clinikk,HealthTech,1619,FY22,73.21,,2090
+BluSmart,EV & Auto,1148,FY22,29.0,-65.4,2091
+Otipy,AgriTech,1255,FY23,115.0,,2092
+Garuda Aerospace,DeepTech,446,FY23,46.8,,2093
+NeoGrowth,FinTech & Payments,118,FY23,381.0,,2094
+Settl,PropTech & Real Estate,1039,FY23,16.33,,2095
+Easebuzz,FinTech & Payments,943,FY23,236.0,,2096
+Akumentis Healthcare,HealthTech,1023,FY23,387.0,,2097
+Oziva,E-commerce & D2C,972,FY23,99.32,,2098
+Growpital,AgriTech,656,FY23,55.66,,2099
+Travel Boutique,Travel & Hospitality,179,FY23,1051.0,,2100
+Varthana Finance,FinTech & Payments,797,FY23,183.5,,2101
+1mg,HealthTech,104,FY23,1627.0,,2102
+Ola,Logistics & Mobility,358,FY22,1970.0,-1522.0,2103
+Ola Electric,EV & Auto,1752,FY22,373.0,,2104
+Indifi,FinTech & Payments,1771,FY23,198.0,,2105
+Country Delight,E-commerce & D2C,1402,FY22,543.0,,2106
+Urban Company,Consumer Internet,1282,FY23,637.0,,2107
+M1xchange,FinTech & Payments,933,FY23,29.52,,2108
+RapiPay,FinTech & Payments,1677,FY23,439.0,,2109
+Prodo,Industrial Tech,1178,FY23,32.0,-5.7,2110
+Quikr,Consumer Internet,1257,FY22,49.1,,2111
+ZunRoof,Energy Transition,1758,FY23,29.85,,2112
+Beardo,E-commerce & D2C,1790,FY23,106.6,,2113
+True Balance,FinTech & Payments,1367,FY23,431.0,,2114
+MyGate,Consumer Internet,186,FY23,71.1,,2115
+Porter,Logistics & Mobility,558,FY23,1753.8,-175.0,2116
+BankBazaar,FinTech & Payments,110,FY23,159.0,,2117
+Kuku FM,Media & Gaming,1457,FY23,41.2,,2118
+ZappFresh,E-commerce & D2C,640,FY23,70.0,,2119
+Neuron Energy,EV & Auto,1568,FY23,30.0,0.3,2120
+Recykal,ClimateTech,649,FY23,745.0,,2121
+HomeLane,PropTech & Real Estate,625,FY23,574.0,,2122
+LEAD,EdTech,191,FY23,273.2,,2123
+RXIL,FinTech & Payments,1744,FY23,30.0,8.5,2124
+Daalchini,Consumer Internet,937,FY23,25.0,,2125
+New Street Technologies,Enterprise Software,766,FY23,36.9,,2126
+InsuranceDekho,FinTech & Payments,1191,FY23,96.5,,2127
+Innoviti,FinTech & Payments,1408,FY23,110.2,,2128
+NimbusPost,Logistics & Mobility,754,FY23,116.0,,2129
+FlexiLoans,FinTech & Payments,1693,FY23,108.5,,2130
+Livspace,PropTech & Real Estate,530,FY23,1148.0,-621.0,2131
+Ather Energy,EV & Auto,1213,FY23,1784.0,,2132
+OlaMoney,FinTech & Payments,1711,FY22,110.0,,2133
+Leegality,Enterprise Software,644,FY23,33.5,,2134
+Zerodha,FinTech & Payments,90,FY23,6875.0,2907.0,2135
+Paytm Money,FinTech & Payments,1196,FY23,131.3,40.0,2136
+Skyroot Aerospace,SpaceTech,1076,FY23,0.4,-55.0,2137
+Licious,E-commerce & D2C,807,FY23,747.7,-500.0,2138
+DeHaat,AgriTech,300,FY23,1965.0,-371.0,2139
+CRED,FinTech & Payments,401,FY23,1400.6,,2140
+Acko,FinTech & Payments,1407,FY23,1759.0,,2141
+Rupeek,FinTech & Payments,68,FY23,89.0,,2142
+Pocket FM,Media & Gaming,231,FY23,148.7,,2143
+Udaan,E-commerce & D2C,1150,FY23,5629.0,,2144
+Classplus,EdTech,652,FY23,102.0,,2145
+Moglix,E-commerce & D2C,980,FY23,4595.0,,2146
+PhonePe,FinTech & Payments,1137,FY23,2914.0,-1755.0,2147
+RENEE Cosmetics,E-commerce & D2C,885,FY23,100.4,,2148
+Blinkit,E-commerce & D2C,867,FY23,724.2,,2149
+Fractal,Artificial Intelligence,829,FY23,1985.0,194.0,2150
+VerSe Innovation,Media & Gaming,1570,FY23,1457.0,,2151
+LeadSquared,SaaS,14,FY23,256.0,,2152
+Coding Ninjas,EdTech,1013,FY23,58.9,,2153
+Wingify,SaaS,1201,FY23,223.0,51.0,2154
+Honasa Consumer,E-commerce & D2C,126,FY23,1493.0,,2155
+OnEMi Technologies,FinTech & Payments,364,FY23,1020.9,,2156
+Zepto,E-commerce & D2C,338,FY23,2024.0,-1272.0,2157
+OneCard,FinTech & Payments,256,FY23,541.0,,2158
+Oyo,Travel & Hospitality,1760,FY23,5464.0,,2159
+Wow Skin Science,E-commerce & D2C,96,FY23,258.0,,2160
+Zeta,Digital Banking,694,FY23,816.0,,2161
+Cars24,EV & Auto,1339,FY23,5535.0,,2162
+Ninjacart,AgriTech,559,FY23,1600.0,,2163
+Cuemath,EdTech,315,FY23,120.5,,2164
+Whatfix,SaaS,641,FY23,285.0,,2165
+DailyRounds,EdTech,1306,FY23,515.0,281.0,2166
+Allen Career Institute,EdTech,1060,FY23,2277.0,429.0,2167
+Cult.fit,HealthTech,83,FY23,694.0,,2168
+Byju's,EdTech,826,FY22,5015.0,-8245.0,2169
+Noise,E-commerce & D2C,421,FY23,1426.0,,2170
+Dunzo,Logistics & Mobility,1181,FY23,226.0,-1800.0,2171
+Bira 91,E-commerce & D2C,1218,FY23,824.0,-445.0,2172
+Jar,FinTech & Payments,743,FY23,8.7,-123.0,2173
+Perfios,FinTech & Payments,1590,FY23,407.0,,2174
+Ixigo,Travel & Hospitality,1537,FY23,501.0,23.0,2175
+Great Learning,EdTech,1256,FY23,391.0,,2176
+Ustraa,E-commerce & D2C,124,FY23,97.0,-40.0,2177
+The Ayurveda Experience,E-commerce & D2C,1314,FY23,259.0,,2178
+Darwinbox,HR & Workforce,1290,FY23,224.0,-158.0,2179
+IndiQube,PropTech & Real Estate,429,FY23,592.0,21.0,2180
+Everest Fleet,Logistics & Mobility,961,FY23,466.5,41.0,2181
+Servify,Consumer Internet,925,FY23,611.0,,2182
+ShareChat,Consumer Internet,621,FY23,533.0,,2183
+Honasa Consumer,E-commerce & D2C,126,FY24,496.0,29.0,2184
+Chaayos,Travel & Hospitality,44,FY23,237.0,,2185
+WheelsEye,Logistics & Mobility,1602,FY23,208.0,-96.0,2186
+Giva,E-commerce & D2C,1018,FY23,165.0,,2187
+Wakefit,E-commerce & D2C,912,FY23,813.0,-150.0,2188
+Unicommerce,SaaS,190,FY23,90.0,6.5,2189
+Clear,FinTech & Payments,108,FY23,109.0,,2190
+InShorts,Media & Gaming,1225,FY23,181.0,-310.0,2191
+Gameberry,Media & Gaming,1305,FY23,314.0,37.0,2192
+AstroTalk,Consumer Internet,604,FY23,283.0,,2193
+Animall,AgriTech,909,FY23,30.45,,2194
+Practo,HealthTech,894,FY23,204.4,,2195
+upGrad,EdTech,324,FY23,1194.0,,2196
+Xoxoday,FinTech & Payments,1591,FY23,816.0,,2197
+Arya.ag,AgriTech,805,FY23,290.0,,2198
+Park+,EV & Auto,1340,FY23,96.0,,2199
+Minimalist,E-commerce & D2C,1140,FY23,184.0,,2200
+BookMyShow,Media & Gaming,673,FY23,976.0,85.0,2201
+Gameskraft,Media & Gaming,565,FY23,2662.0,1062.0,2202
+FIITJEE,EdTech,1521,FY23,542.0,-69.0,2203
+Blackbuck,Logistics & Mobility,1118,FY23,704.0,,2204
+Vahdam,E-commerce & D2C,439,FY23,204.0,,2205
+Starbucks India,Travel & Hospitality,20,FY23,1087.0,,2206
+Pepperfry,E-commerce & D2C,435,FY23,272.0,,2207
+Purple Style Labs,E-commerce & D2C,1353,FY23,372.0,,2208
+BharatPe,FinTech & Payments,984,FY23,1029.0,,2209
+Zupee,Media & Gaming,55,FY23,832.0,,2210
+Jumbotail,E-commerce & D2C,21,FY23,819.0,,2211
+Rario,Media & Gaming,359,FY23,39.0,,2212
+Lendingkart,FinTech & Payments,999,FY23,798.0,118.0,2213
+Mswipe,FinTech & Payments,1304,FY23,274.0,,2214
+A23,Media & Gaming,25,FY23,1050.0,,2215
+FirstCry,E-commerce & D2C,419,FY23,5632.0,,2216
+NoBroker,PropTech & Real Estate,908,FY22,326.0,,2217
+Snapdeal,E-commerce & D2C,41,FY23,388.0,-282.0,2218
+PhysicsWallah,EdTech,98,FY23,771.76,,2219
+Meesho,E-commerce & D2C,307,FY23,5735.0,-1675.0,2220
+Pine Labs,FinTech & Payments,1617,FY23,1588.0,,2221
+Pristyn Care,HealthTech,16,FY23,453.0,,2222
+Unacademy,EdTech,293,FY23,907.0,,2223
+Gupshup,Enterprise Software,1485,FY23,1619.0,49.0,2224
+Cashfree,FinTech & Payments,591,FY23,614.0,-133.0,2225
+Sugar Cosmetics,E-commerce & D2C,228,FY23,420.0,-76.0,2226
+Simplilearn,EdTech,732,FY23,684.0,,2227
+Uber India,Logistics & Mobility,1603,FY23,2666.0,,2228
+InCred,FinTech & Payments,1086,FY23,866.0,109.0,2229
+Slice,FinTech & Payments,169,FY23,847.0,,2230
+Ola,Logistics & Mobility,358,FY23,2799.0,-772.0,2231
+Amagi,SaaS,1146,FY23,680.0,,2232
+Digit Insurance,FinTech & Payments,45,FY23,5164.0,338.0,2233
+Ullu,Media & Gaming,1507,FY23,93.1,,2234
+Zoomcar India,Logistics & Mobility,618,FY23,69.0,-237.0,2235
+Rapido,Logistics & Mobility,370,FY23,443.0,,2236
+MathCo,Artificial Intelligence,234,FY23,420.0,,2237
+Aakash Institute,EdTech,1066,FY22,1421.0,,2238
+Adda247,EdTech,601,FY23,115.0,,2239
+Upstox,FinTech & Payments,965,FY23,1000.0,25.0,2240
+Kapiva,E-commerce & D2C,537,FY23,114.5,,2241
+Soothe Healthcare,E-commerce & D2C,367,FY23,172.0,-97.0,2242
+Newton School,EdTech,15,FY23,16.8,,2243
+Dream11,Media & Gaming,884,FY23,6384.0,188.0,2244
+Duroflex,E-commerce & D2C,1422,FY23,1057.0,,2245
+Eruditus,EdTech,393,FY23,3343.0,,2246
+CashKaro,Consumer Internet,1438,FY23,249.0,,2247
+Ferns N Petals,E-commerce & D2C,1134,FY23,607.0,-110.0,2248
+Chai Point,Travel & Hospitality,106,FY23,200.0,,2249
+DealShare,E-commerce & D2C,1672,FY23,1963.5,-1043.0,2250
+Neeman's,E-commerce & D2C,607,FY23,69.0,,2251
+PharmEasy,HealthTech,374,FY23,6644.0,,2252
+Swiggy,Consumer Internet,580,FY23,8264.6,,2253
+Zoho,SaaS,291,FY23,8703.6,2800.0,2254
+Chingari,Media & Gaming,1198,FY23,113.0,,2255
+Hike,Media & Gaming,408,FY23,150.5,-150.0,2256
+Infra.Market,Industrial Tech,1036,FY23,11846.0,,2257
+FabHotels,Travel & Hospitality,648,FY23,219.0,-5.0,2258
+Leverage Edu,EdTech,1334,FY23,69.0,,2259
+Bloom Hotels,Travel & Hospitality,986,FY23,144.0,,2260
+Smartworks,PropTech & Real Estate,1242,FY23,711.0,,2261
+Miko,Automation & Robotics,362,FY23,225.6,,2262
+Tractor Junction,AgriTech,635,FY23,26.84,-7.5,2263
+CASHe,FinTech & Payments,1544,FY23,560.6,,2264
+Quikr,Consumer Internet,1257,FY23,51.36,,2265
+Spalba,SaaS,115,FY23,18.2,,2266
+EatClub,Travel & Hospitality,623,FY23,315.0,-69.0,2267
+EasyEcom,SaaS,433,FY23,6.71,,2268
+Smallcase,FinTech & Payments,822,FY23,31.0,-133.0,2269
+Baazi Games,Media & Gaming,1195,FY23,232.0,,2270
+RailYatri,Travel & Hospitality,340,FY23,273.73,,2271
+Bizongo,Enterprise Software,167,FY23,166.86,-300.0,2272
+WeWork India,PropTech & Real Estate,672,FY23,1314.0,,2273
+Razorpay,FinTech & Payments,176,FY23,2279.0,,2274
+Scaler,EdTech,1657,FY23,317.0,,2275
+ApnaKlub,E-commerce & D2C,356,FY23,278.0,,2276
+Healthians,HealthTech,1268,FY23,224.0,-184.0,2277
+BigHaat,AgriTech,1429,FY23,643.0,,2278
+Trell,Consumer Internet,247,FY23,4.77,-59.0,2279
+Yubi,FinTech & Payments,215,FY23,328.0,-482.0,2280
+Ergos,AgriTech,1545,FY23,224.0,,2281
+CityMall,Consumer Internet,1614,FY23,352.0,,2282
+Stanza Living,PropTech & Real Estate,547,FY23,442.0,-495.0,2283
+Juspay,FinTech & Payments,839,FY23,213.0,,2284
+KaarTech,Digital Engineering,238,FY23,359.0,,2285
+CoinSwitch,FinTech & Payments,1526,FY23,45.6,-385.0,2286
+MakeO,HealthTech,292,FY23,168.0,-220.0,2287
+Table Space,PropTech & Real Estate,1132,FY23,678.5,,2288
+PlanetSpark,EdTech,1026,FY23,42.0,-90.0,2289
+High Street Essentials,E-commerce & D2C,222,FY23,185.0,-45.0,2290
+Safegold,FinTech & Payments,1508,FY23,4498.0,,2291
+Eupheus Learning,EdTech,1554,FY23,99.0,,2292
+BetterPlace,HR & Workforce,1546,FY23,523.0,,2293
+Advantage Club,HR & Workforce,1048,FY23,323.0,,2294
+ZingHR,HR & Workforce,749,FY23,84.48,-21.0,2295
+BattRE,EV & Auto,1164,FY23,87.0,,2296
+Swiggy,Consumer Internet,580,FY24,11247.0,-2350.0,2297
+BillDesk,FinTech & Payments,1569,FY23,2678.0,,2298
+Mosaic Wellness,HealthTech,1177,FY23,207.0,-62.0,2299
+Bounce,EV & Auto,1237,FY23,91.0,,2300
+WeRize,FinTech & Payments,1748,FY23,68.14,,2301
+Bijnis,E-commerce & D2C,376,FY23,52.0,-100.0,2302
+Bambrew,ClimateTech,1765,FY23,43.52,,2303
+Probo,FinTech & Payments,181,FY23,86.37,,2304
+WinZO,Media & Gaming,1696,FY23,674.0,126.0,2305
+Wiz Freight,Logistics & Mobility,1424,FY23,1243.0,-90.0,2306
+LS Digital,IT Services,1555,FY23,696.0,,2307
+M2P Fintech,FinTech & Payments,1578,FY23,440.7,,2308
+Moneyview,FinTech & Payments,308,FY23,577.0,,2309
+Portea,HealthTech,913,FY23,145.0,,2310
+Power2SME,E-commerce & D2C,1015,FY23,1056.0,,2311
+Ripplr,Logistics & Mobility,759,FY23,740.0,,2312
+Otipy,AgriTech,1255,FY24,175.0,,2313
+Glance,Consumer Internet,1072,FY23,317.0,,2314
+Heads Up For Tails,E-commerce & D2C,1745,FY23,312.8,,2315
+LoadShare,Logistics & Mobility,918,FY23,384.5,,2316
+Apna Mart,E-commerce & D2C,373,FY23,32.2,,2317
+FarEye,SaaS,1641,FY23,139.0,-243.0,2318
+Groyyo,Industrial Tech,1533,FY23,492.0,,2319
+Lenskart,E-commerce & D2C,1450,FY23,3788.0,,2320
+Third Wave Coffee,Travel & Hospitality,1095,FY23,144.0,,2321
+Captain Fresh,AgriTech,430,FY23,773.0,-252.0,2322
+Bijak,AgriTech,203,FY23,807.0,,2323
+Ecom Express,Logistics & Mobility,375,FY23,2548.0,,2324
+Square Yards,PropTech & Real Estate,1365,FY24,996.13,,2325
+CitiusTech,HealthTech,91,FY23,3499.0,,2326
+Magicpin,Consumer Internet,1254,FY23,297.0,,2327
+FreshToHome,E-commerce & D2C,1274,FY23,25.0,,2328
+Goat Brand Labs,E-commerce & D2C,865,FY23,139.6,,2329
+Wooden Street,E-commerce & D2C,151,FY23,194.0,,2330
+Gramophone,AgriTech,157,FY23,316.0,-58.0,2331
+Zomato,Consumer Internet,1349,FY24,3562.0,175.0,2332
+Wow! Momo,Travel & Hospitality,761,FY23,413.0,,2333
+Infibeam Avenues,FinTech & Payments,899,FY24,727.0,49.0,2334
+Info Edge,Consumer Internet,1079,FY24,2536.0,594.0,2335
+Awfis,PropTech & Real Estate,1456,FY24,849.0,-17.8,2336
+Tracxn,Data Infrastructure,444,FY24,82.7,,2337
+Nykaa,E-commerce & D2C,1090,FY24,6386.0,40.0,2338
+Paytm,FinTech & Payments,1381,FY24,9978.0,,2339
+Honasa,E-commerce & D2C,1446,FY24,1920.0,110.0,2340
+Nazara,Media & Gaming,341,FY24,1138.0,,2341
+Oziva,E-commerce & D2C,972,FY24,104.0,-44.0,2342
+Vedantu,EdTech,669,FY23,153.0,,2343
+Travel Boutique Online,Travel & Hospitality,1346,FY24,1393.0,,2344
+Oxyzo,FinTech & Payments,1110,FY24,903.0,291.0,2345
+Molbio,HealthTech,1330,FY23,332.0,-3.4,2346
+Ather Energy,EV & Auto,1213,FY24,1754.0,,2347
+InCred,FinTech & Payments,1086,FY24,1267.0,316.0,2348
+Go Digit,FinTech & Payments,981,FY24,7096.0,,2349
+Games24x7,Media & Gaming,156,FY23,1988.0,,2350
+NoBroker,PropTech & Real Estate,908,FY23,609.0,,2351
+Mylab,HealthTech,1660,FY23,95.0,,2352
+Ixigo,Travel & Hospitality,1537,FY24,656.0,73.0,2353
+Akumentis Healthcare,HealthTech,1023,FY24,398.0,57.0,2354
+OfBusiness,Industrial Tech,560,FY24,19296.0,,2355
+Tata 1mg,HealthTech,1400,FY24,1968.0,,2356
+Exotel,Cloud Infrastructure,404,FY23,420.0,,2357
+Jio Financial Services,FinTech & Payments,1047,FY25,418.0,313.0,2358
+Paytm,FinTech & Payments,1381,FY25,1501.6,-840.0,2359
+Waycool,AgriTech,1261,FY23,1251.0,-686.0,2360
+Urban Company,Consumer Internet,1282,FY24,827.0,-93.0,2361
+FirstCry,E-commerce & D2C,419,FY24,6481.0,,2362
+Auxilo,FinTech & Payments,489,FY24,356.68,,2363
+Fasal,AgriTech,62,FY24,34.0,,2364
+PB Fintech,FinTech & Payments,922,FY25,1010.0,,2365
+MamaEarth,E-commerce & D2C,576,FY25,554.0,,2366
+MapMyIndia,Data Infrastructure,1245,FY25,101.5,35.86,2367
+TBO,Travel & Hospitality,1064,FY25,418.46,61.0,2368
+Awfis,PropTech & Real Estate,1456,FY25,292.38,38.67,2369
+Nykaa,E-commerce & D2C,1090,FY25,1746.0,,2370
+EaseMyTrip,Travel & Hospitality,817,FY25,152.6,33.92,2371
+Yatra,Travel & Hospitality,1728,FY25,100.8,4.04,2372
+True Balance,FinTech & Payments,1367,FY24,667.0,138.0,2373
+Ola Electric,EV & Auto,1752,FY25,1644.0,-347.0,2374
+Oyo,Travel & Hospitality,1760,FY24,5389.0,230.0,2375
+Nazara,Media & Gaming,341,FY25,250.0,23.62,2376
+MobiKwik,FinTech & Payments,1493,FY24,875.0,14.0,2377
+CaratLane,E-commerce & D2C,130,FY24,3081.0,,2378
+Square Yards,PropTech & Real Estate,1365,FY25,261.0,,2379
+Rebel Foods,Travel & Hospitality,3,FY24,1420.0,,2380
+BigBasket,E-commerce & D2C,77,FY24,10061.9,,2381
+Starbucks India,Travel & Hospitality,20,FY24,1218.0,,2382
+Porter,Logistics & Mobility,558,FY24,2733.8,,2383
+Purplle,E-commerce & D2C,610,FY24,680.0,,2384
+NPCI,FinTech & Payments,58,FY24,2876.0,1134.0,2385
+WROGN,E-commerce & D2C,1636,FY24,243.75,-57.0,2386
+ProcMart,Enterprise Software,1358,FY24,621.5,,2387
+Livspace,PropTech & Real Estate,530,FY24,1185.7,,2388
+Krazybee,FinTech & Payments,165,FY24,1399.0,200.0,2389
+Open,Digital Banking,776,FY24,24.81,-1831.0,2390
+Zerodha,FinTech & Payments,90,FY24,8370.0,4700.0,2391
+Coding Ninjas,EdTech,1013,FY24,53.3,,2392
+Unacademy,EdTech,293,FY24,988.4,-631.0,2393
+uppercase,E-commerce & D2C,416,FY24,62.2,,2394
+Josh Talks,Media & Gaming,139,FY24,18.7,,2395
+Minimalist,E-commerce & D2C,1140,FY24,347.0,,2396
+CRED,FinTech & Payments,401,FY24,2473.0,-609.0,2397
+Groww Invest-Tech,FinTech & Payments,1766,FY24,2900.0,298.0,2398
+Classplus,EdTech,652,FY24,213.0,,2399
+Navi,FinTech & Payments,1755,FY24,1906.0,668.0,2400
+Wealthy,FinTech & Payments,434,FY24,14.5,-24.2,2401
+Your-Space,PropTech & Real Estate,1112,FY24,142.7,,2402
+Info Edge,Consumer Internet,1079,FY25,1229.6,,2403
+Leegality,Enterprise Software,644,FY24,62.0,,2404
+boAt,E-commerce & D2C,399,FY24,3122.0,-53.5,2405
+Pine Labs,FinTech & Payments,1617,FY24,1317.0,,2406
+DCGpac,Industrial Tech,1609,FY24,96.5,0.19,2407
+Kuku FM,Media & Gaming,1457,FY24,88.0,,2408
+Servify,Consumer Internet,925,FY24,755.0,,2409
+Zypp Electric,EV & Auto,455,FY24,293.0,,2410
+Acko,FinTech & Payments,1407,FY24,2106.0,,2411
+Rentomojo,E-commerce & D2C,1509,FY24,193.0,22.0,2412
+Tractor Junction,AgriTech,635,FY24,62.0,-3.6,2413
+Licious,E-commerce & D2C,807,FY24,685.0,-294.0,2414
+BharatPe,FinTech & Payments,984,FY24,1426.0,-474.0,2415
+Qure.ai,HealthTech,809,FY24,141.0,,2416
+PhonePe,FinTech & Payments,1137,FY24,5064.0,-1996.0,2417
+Groww,FinTech & Payments,298,FY24,3145.0,-805.0,2418
+DriveU,Logistics & Mobility,390,FY24,24.5,0.1135,2419
+Shiprocket,Logistics & Mobility,1731,FY24,1316.0,,2420
+Moglix,E-commerce & D2C,980,FY24,4964.0,,2421
+X India,Consumer Internet,1300,FY24,21.16,3.18,2422
+AquaExchange,AgriTech,39,FY24,104.88,-9.35,2423
+Flipkart,E-commerce & D2C,1337,FY24,70542.0,,2424
+Atomberg,E-commerce & D2C,1056,FY24,848.0,-138.0,2425
+Cuemath,EdTech,315,FY24,126.42,,2426
+Udaan,E-commerce & D2C,1150,FY24,5706.6,,2427
+DeHaat,AgriTech,300,FY24,2674.8,,2428
+AstroTalk,Consumer Internet,604,FY24,651.12,99.99,2429
+Lenskart,E-commerce & D2C,1450,FY24,5427.7,-10.0,2430
+Jar,FinTech & Payments,743,FY24,49.0,,2431
+MPL,Media & Gaming,1220,FY24,1068.0,,2432
+Ustraa,E-commerce & D2C,124,FY24,94.02,-50.32,2433
+CoinSwitch,FinTech & Payments,1526,FY24,38.0,,2434
+Amazon India,E-commerce & D2C,1709,FY24,25406.0,,2435
+Bold Care,HealthTech,846,FY24,32.9,,2436
+WebEngage,SaaS,253,FY24,140.69,-70.71,2437
+Rapido,Logistics & Mobility,370,FY24,648.0,,2438
+Paper Boat,E-commerce & D2C,1052,FY24,585.0,,2439
+Biryani By Kilo,Travel & Hospitality,448,FY24,268.0,,2440
+Third Wave Coffee,Travel & Hospitality,1095,FY24,241.3,,2441
+Bounce,EV & Auto,1237,FY24,35.88,-44.0,2442
+Lendingkart,FinTech & Payments,999,FY24,1090.0,,2443
+HealthKart,E-commerce & D2C,1307,FY24,1021.0,37.0,2444
+Cars24,EV & Auto,1339,FY24,6917.0,-498.4,2445
+ShareChat,Consumer Internet,621,FY24,718.1,,2446
+ApnaKlub,E-commerce & D2C,356,FY24,536.78,-47.93,2447
+Beardo,E-commerce & D2C,1790,FY24,173.2,3.63,2448
+Pocket FM,Media & Gaming,231,FY24,1051.97,-165.0,2449
+DailyObjects,E-commerce & D2C,1742,FY24,84.4,-3.92,2450
+Pratilipi,Media & Gaming,71,FY24,57.8,,2451
+Bloom Hotels,Travel & Hospitality,986,FY24,250.0,,2452
+CitiusTech,HealthTech,91,FY24,3536.0,350.28,2453
+Gramophone,AgriTech,157,FY24,98.0,-34.0,2454
+Cleartrip,Travel & Hospitality,1594,FY24,97.0,-800.0,2455
+Swiggy,Consumer Internet,580,FY25,3601.0,,2456
+CarDekho,EV & Auto,1681,FY24,2250.0,,2457
+Shadowfax,Logistics & Mobility,755,FY24,1884.8,,2458
+Mosambee,FinTech & Payments,171,FY24,240.0,28.0,2459
+Apna Mart,E-commerce & D2C,373,FY24,59.4,,2460
+K12 Techno,EdTech,1415,FY24,429.2,,2461
+HomeLane,PropTech & Real Estate,625,FY24,613.6,-121.66,2462
+Allen,EdTech,345,FY24,3244.7,135.9,2463
+Wakefit,E-commerce & D2C,912,FY24,986.4,-15.0,2464
+Plum Insurance,HealthTech,1366,FY24,41.3,,2465
+Headsup B2B,Industrial Tech,1167,FY24,43.4,0.64,2466
+Myntra,E-commerce & D2C,555,FY24,5121.8,30.9,2467
+BookMyShow,Media & Gaming,673,FY24,1396.86,,2468
+CASHe,FinTech & Payments,1544,FY24,650.9,1.44,2469
+Redcliffe Labs,HealthTech,1542,FY24,348.38,-250.0,2470
+Scripbox,FinTech & Payments,763,FY24,84.33,,2471
+ToneTag,FinTech & Payments,695,FY24,47.78,,2472
+Zepto,E-commerce & D2C,338,FY24,4454.0,,2473
+Clear,FinTech & Payments,108,FY24,209.84,,2474
+Ullu,Media & Gaming,1507,FY24,99.7,12.68,2475
+Cashify,E-commerce & D2C,1336,FY24,935.0,,2476
+upGrad,EdTech,324,FY24,1876.0,-560.0,2477
+Mokobara,E-commerce & D2C,302,FY24,117.4,-4.24,2478
+Gameberry,Media & Gaming,1305,FY24,461.7,92.8,2479
+Cult.fit,HealthTech,83,FY24,927.0,,2480
+Bombay Shaving Company,E-commerce & D2C,1053,FY24,225.85,-62.15,2481
+Keka,HR & Workforce,1687,FY24,78.0,,2482
+Vedantu,EdTech,669,FY24,185.0,,2483
+Ampere,EV & Auto,261,FY24,612.0,,2484
+IntrCity,Logistics & Mobility,588,FY24,317.34,,2485
+Simplilearn,EdTech,732,FY24,749.77,,2486
+Curefoods,E-commerce & D2C,729,FY24,585.0,-172.6,2487
+Mintifi,FinTech & Payments,1610,FY24,384.0,92.0,2488
+ShopKirana,E-commerce & D2C,1017,FY24,639.16,-55.25,2489
+LEAD,EdTech,191,FY24,351.0,,2490
+Exotel,Cloud Infrastructure,404,FY24,444.0,,2491
+Snapdeal,E-commerce & D2C,41,FY24,379.76,-160.38,2492
+Pristyn Care,HealthTech,16,FY24,601.0,,2493
+Mswipe,FinTech & Payments,1304,FY24,276.9,-46.2,2494
+Treebo,Travel & Hospitality,470,FY24,109.0,-28.0,2495
+Chaayos,Travel & Hospitality,44,FY24,248.5,,2496
+Traya,HealthTech,339,FY24,236.0,9.0,2497
+Arya.ag,AgriTech,805,FY24,340.0,19.0,2498
+Fittr,HealthTech,974,FY24,85.0,,2499
+PokerBaazi,Media & Gaming,405,FY24,415.0,24.0,2500
+Vahdam,E-commerce & D2C,439,FY24,225.2,-18.0,2501
+Bakingo,E-commerce & D2C,1239,FY24,208.7,-5.3,2502
+Drishti IAS,EdTech,1369,FY24,405.0,90.0,2503
+Practo,HealthTech,894,FY24,240.0,,2504
+Wonderchef,E-commerce & D2C,651,FY24,377.6,1.5,2505
+Isprava,PropTech & Real Estate,1556,FY24,452.0,,2506
+PlanetSpark,EdTech,1026,FY24,67.0,,2507
+Fisdom,FinTech & Payments,1495,FY24,82.9,-57.4,2508

@@ -15,6 +15,14 @@ import pandas as pd
 from .data import STAGE_RANK, deal_investors, funding_deals
 
 W = {"sector": 0.35, "stage": 0.2, "cheque": 0.15, "activity": 0.25, "lead": 0.05}
+try:  # weights tuned on a validation window by analysis/tune_matching.py (test window kept separate)
+    import json as _json
+    from pathlib import Path as _P
+    _wf = _P(__file__).resolve().parents[2] / "data" / "processed" / "matching_weights.json"
+    if _wf.exists():
+        W = _json.loads(_wf.read_text(encoding="utf-8"))
+except Exception:  # noqa: BLE001
+    pass
 HALF_LIFE_DAYS = 365
 
 
@@ -101,10 +109,13 @@ def reasons(row: pd.Series, sector: str, history: pd.DataFrame) -> tuple[str, pd
     return " · ".join(parts), ex[["deal_date", "company", "stage", "amount_usd_m"]].head(5)
 
 
-def backtest(start="2026-01-01", ks=(10, 20, 50)):
-    """For each 2026 round: rank investors using ONLY prior data, check if a real participant made the top-k.
+def backtest(start=None, ks=(10, 20, 50)):
+    """For each round in the test window (default: the latest 6 months of data): rank investors using ONLY
+    prior data, check if a real participant made the top-k.
     Baseline = rank by overall activity alone (what you'd get from 'most active investors' lists)."""
     fd = funding_deals()
+    if start is None:
+        start = str((fd.deal_date.max() - pd.DateOffset(months=6)).date())
     inv = deal_investors()
     inv = inv[inv.investor_type != "Individual"]
     test = fd[(fd.deal_date >= start) & fd.stage.isin(STAGE_RANK)]

@@ -1,128 +1,128 @@
 {
-  "built": "2026-11-24T03:03:44",
+  "built": "2026-11-24T06:04:13",
   "tables": {
-    "sources": 2100,
-    "companies": 1488,
-    "investors": 2553,
-    "deals": 1476,
-    "deal_investors": 4748,
-    "deal_sources": 1507,
-    "financials": 454,
-    "weekly_totals": 139,
-    "corrections": 53
+    "sources": 2680,
+    "companies": 1792,
+    "investors": 3063,
+    "deals": 1868,
+    "deal_investors": 5913,
+    "deal_sources": 1931,
+    "financials": 577,
+    "weekly_totals": 172,
+    "corrections": 55
   },
-  "deal_records_before_dedupe": 1507,
-  "duplicate_reports_merged": 31,
+  "deal_records_before_dedupe": 1931,
+  "duplicate_reports_merged": 63,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
-    "headline-wins": 29,
+    "headline-wins": 31,
     "implausible amount dropped": 2
   },
   "deals_by_type": {
-    "equity": "1231",
-    "acquisition": "110",
-    "debt": "79",
-    "secondary": "34",
-    "ipo": "22"
+    "equity": "1538",
+    "acquisition": "157",
+    "debt": "99",
+    "secondary": "46",
+    "ipo": "28"
   },
   "deals_by_year": {
     "2023": 638,
-    "2024": 726,
-    "2025": 112
+    "2024": 995,
+    "2025": 235
   },
-  "amount_disclosed_pct": 90.4,
-  "with_named_investor_pct": 89.4,
-  "multi_source_deals": 28,
+  "amount_disclosed_pct": 89.7,
+  "with_named_investor_pct": 87.9,
+  "multi_source_deals": 60,
   "top_investors": [
     {
       "name": "Inflection Point Ventures",
       "type": "Institutional",
-      "n_deals": 62,
-      "n_led": 49.0
+      "n_deals": 73,
+      "n_led": 56.0
     },
     {
       "name": "Venture Catalysts",
       "type": "Institutional",
-      "n_deals": 48,
-      "n_led": 24.0
+      "n_deals": 60,
+      "n_led": 27.0
     },
     {
       "name": "Blume Ventures",
       "type": "Institutional",
-      "n_deals": 42,
-      "n_led": 16.0
+      "n_deals": 52,
+      "n_led": 20.0
     },
     {
       "name": "Peak XV Partners",
       "type": "Institutional",
-      "n_deals": 42,
-      "n_led": 27.0
+      "n_deals": 49,
+      "n_led": 29.0
     },
     {
       "name": "Kunal Shah",
       "type": "Individual",
-      "n_deals": 38,
+      "n_deals": 41,
       "n_led": 0.0
-    },
-    {
-      "name": "Alteria Capital",
-      "type": "Debt / Bank",
-      "n_deals": 31,
-      "n_led": 5.0
-    },
-    {
-      "name": "Z47",
-      "type": "Institutional",
-      "n_deals": 30,
-      "n_led": 17.0
-    },
-    {
-      "name": "Lightspeed",
-      "type": "Institutional",
-      "n_deals": 29,
-      "n_led": 16.0
-    },
-    {
-      "name": "Elevation Capital",
-      "type": "Institutional",
-      "n_deals": 26,
-      "n_led": 14.0
     },
     {
       "name": "Accel",
       "type": "Institutional",
-      "n_deals": 26,
-      "n_led": 16.0
+      "n_deals": 40,
+      "n_led": 24.0
+    },
+    {
+      "name": "Lightspeed",
+      "type": "Institutional",
+      "n_deals": 36,
+      "n_led": 20.0
+    },
+    {
+      "name": "Z47",
+      "type": "Institutional",
+      "n_deals": 34,
+      "n_led": 18.0
+    },
+    {
+      "name": "Alteria Capital",
+      "type": "Debt / Bank",
+      "n_deals": 34,
+      "n_led": 7.0
+    },
+    {
+      "name": "Elevation Capital",
+      "type": "Institutional",
+      "n_deals": 33,
+      "n_led": 17.0
     },
     {
       "name": "Trifecta Capital",
       "type": "Debt / Bank",
-      "n_deals": 23,
-      "n_led": 7.0
+      "n_deals": 25,
+      "n_led": 8.0
     },
     {
       "name": "Stride Ventures",
       "type": "Debt / Bank",
-      "n_deals": 23,
-      "n_led": 7.0
+      "n_deals": 25,
+      "n_led": 8.0
     },
     {
       "name": "Nexus Venture Partners",
       "type": "Institutional",
-      "n_deals": 22,
-      "n_led": 10.0
+      "n_deals": 25,
+      "n_led": 12.0
     },
     {
       "name": "Anicut Capital",
       "type": "Institutional",
-      "n_deals": 22,
+      "n_deals": 25,
       "n_led": 10.0
     },
     {
-      "name": "Fireside Ventures",
+      "name": "Rainmatter",
       "type": "Institutional",
-      "n_deals": 19,
-      "n_led": 12.0
+      "n_deals": 25,
+      "n_led": 14.0
     }
   ]
 }
