@@ -47,7 +47,7 @@ The story to tell: **"Your website says Arventum is AI-native. I built what that
 ### Questions to expect
 | Question | Answer |
 |---|---|
-| Is the data complete? | ~85% of reported capital, ~60% of deals by count. The gap is small undisclosed rounds. A paid database would close it. |
+| Is the data complete? | ~80% of reported startup capital, ~60% of deals by count (listed-company raises like QIPs are excluded, as in the published totals). The gap is small undisclosed rounds. A paid database would close it. |
 | What if the AI is wrong? | Four independent checks (agent agreement, rule checks, coverage, manual audit), headline-wins correction, and every record links to its source. |
 | Why not just ask ChatGPT? | It can't give dated, sourced, complete deal lists, and it can't backtest itself. This system has its own data and measured accuracy. |
 | How current is it? | One command refreshes: collect → extract → check → load. |

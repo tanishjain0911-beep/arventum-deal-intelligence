@@ -35,6 +35,9 @@ PROCESSED = ROOT / "data" / "processed"
 
 DEAL_TYPES = {"funding": "equity", "acquisition": "acquisition", "secondary": "secondary", "ipo": "ipo"}
 ROUNDUP = re.compile(r"this-week|weekly-funding|monthly-funding|funding-galore")
+PUBLIC_MARKET = re.compile(r"\b(QIP|qualified institution\w*|anchor (?:investors?|book|round)|preferential "
+                           r"(?:issue|allotment)|rights issue|block deal|offer for sale|\bOFS\b|follow-on public)",
+                           re.I)
 
 # Known renames / spellings that fuzzy matching alone won't catch
 MANUAL_ALIASES = {
@@ -238,6 +241,10 @@ def main():
                 val = None
             stage = r.get("stage") if r.get("stage") in STAGES else None
             dtype = DEAL_TYPES[r["record_type"]]
+            if PUBLIC_MARKET.search(a.get("title") or ""):
+                # listed-company capital raises are not private startup rounds (published market totals exclude them)
+                corrections.append((r["url"], "deal_type", dtype, "public_market", "public-market raise"))
+                dtype = "public_market"
             if dtype == "equity" and stage == "debt":
                 dtype = "debt"
             deal_rows.append({

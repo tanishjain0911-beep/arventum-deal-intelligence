@@ -42,7 +42,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 239,Abhishek Goyal,Individual,,Angel investor (individual),India,0.0,0.99,35,0.0
 3,Temasek,Institutional,,Sovereign / Pension / DFI / Government,Singapore,1.0,1.0,34,20.0
 216,Sauce VC,Institutional,,Venture Capital,India,0.0,0.99,34,17.0
-1256,Bessemer Venture Partners,Institutional,,Venture Capital,United States,1.0,0.99,33,24.0
+1256,Bessemer Venture Partners,Institutional,,Venture Capital,United States,1.0,0.99,34,24.0
 356,India Quotient,Individual,,Venture Capital,India,0.0,0.99,32,14.0
 382,Vertex Ventures SEA & India,Institutional,,Venture Capital,Singapore,1.0,0.98,31,22.0
 419,Jungle Ventures,Institutional,,Venture Capital,Singapore,1.0,0.99,31,23.0
@@ -80,11 +80,11 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 183,Axilor Ventures,Institutional,,Accelerator / Incubator,India,0.0,0.95,21,8.0
 193,Artha Venture Fund,Institutional,,Venture Capital,India,0.0,0.98,21,12.0
 787,Eight Roads Ventures,Institutional,,Venture Capital,United Kingdom,1.0,0.98,21,9.0
+71,SBI,Institutional,,,,,,20,8.0
 79,IAN Alpha Fund,Institutional,,,,,,20,14.0
 207,Pravega Ventures,Institutional,,Venture Capital,India,0.0,0.99,20,9.0
 259,Blume Founders Fund,Institutional,,Venture Capital,India,0.0,0.9,20,2.0
 672,Sharrp Ventures,Institutional,,Family office,India,0.0,0.97,20,5.0
-71,SBI,Institutional,,,,,,19,8.0
 83,Lumikai,Institutional,,Venture Capital,India,0.0,0.98,19,17.0
 26,NB Ventures,Institutional,,Venture Capital,India,0.0,0.61,18,2.0
 44,Goodwater Capital,Institutional,,Venture Capital,United States,1.0,0.98,18,4.0
@@ -112,6 +112,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 421,Steadview Capital,Institutional,,Hedge fund / Crossover / Asset manager,Hong Kong,1.0,0.96,16,4.0
 646,Eximius Ventures,Institutional,,,,,,16,6.0
 848,India Accelerator,Accelerator,,,,,,16,8.0
+1049,Ankur Capital,Institutional,,,,,,16,5.0
 1967,Titan Capital Winners Fund,Institutional,,,,,,16,0.0
 1997,Zeropearl VC,Institutional,,,,,,16,12.0
 39,NABVENTURES,Institutional,,,,,,15,10.0
@@ -123,7 +124,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 573,B Capital,Institutional,,Venture Capital,United States,1.0,0.98,15,7.0
 878,Arali Ventures,Institutional,,Venture Capital,India,0.0,0.97,15,9.0
 948,Mela Ventures,Institutional,,Venture Capital,India,0.0,0.95,15,11.0
-1049,Ankur Capital,Institutional,,,,,,15,5.0
 1466,Nikhil Kamath,Individual,,Angel investor (individual),India,0.0,0.99,15,6.0
 2225,GVFL,Institutional,,Venture Capital,India,0.0,0.99,15,9.0
 1,Elevar Equity,Institutional,,Venture Capital,United States,1.0,0.96,14,8.0
@@ -134,6 +134,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 281,Java Capital,Institutional,,Venture Capital,India,0.0,0.98,14,0.0
 298,Turbostart,Institutional,,Accelerator / Incubator,India,0.0,0.96,14,10.0
 308,Aavishkaar Capital,Institutional,,Venture Capital,India,0.0,0.98,14,8.0
+556,Quona Capital,Institutional,,Venture Capital,United States,1.0,0.98,14,5.0
 594,PedalStart,Institutional,,Accelerator / Incubator,India,0.0,0.93,14,13.0
 666,TDV Partners,Institutional,,Venture Capital,India,0.0,0.8,14,6.0
 1021,SoftBank,Institutional,,,,,,14,6.0
@@ -146,7 +147,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 314,Powerhouse Ventures,Institutional,,Venture Capital,India,0.0,0.82,13,10.0
 373,GSF,Institutional,,Accelerator / Incubator,India,0.0,0.94,13,5.0
 478,Unilever Ventures,Institutional,,Corporate / CVC,United Kingdom,1.0,0.98,13,8.0
-556,Quona Capital,Institutional,,Venture Capital,United States,1.0,0.98,13,5.0
 631,Bharat Founders Fund,Institutional,,Venture Capital,India,0.0,0.96,13,2.0
 695,GIC,Institutional,,Sovereign / Pension / DFI / Government,Singapore,1.0,1.0,13,10.0
 748,Soonicorn Ventures,Institutional,,Angel network / platform,India,0.0,0.73,13,1.0
@@ -195,6 +195,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1045,Merak Ventures,Institutional,,Venture Capital,India,0.0,0.98,11,9.0
 1264,Capital 2B,Institutional,,Venture Capital,India,0.0,0.91,11,7.0
 1329,Gaurav Munjal,Individual,,Angel investor (individual),India,0.0,0.99,11,0.0
+1609,Morgan Stanley,Individual,,,,,,11,1.0
 1679,Think Investments,Institutional,,,,,,11,3.0
 2591,Equanimity Ventures,Institutional,,,,,,11,8.0
 2631,Singularity AMC,Individual,,,,,,11,6.0
@@ -225,7 +226,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1252,Multiply Ventures,Institutional,,Venture Capital,India,0.0,0.85,10,3.0
 1324,Fundamentum,Institutional,,,,,,10,6.0
 1419,Spectrum Impact,Individual,,Venture Capital,India,0.0,0.74,10,2.0
-1609,Morgan Stanley,Individual,,,,,,10,1.0
+1564,Aditya Birla Ventures,Institutional,,Corporate / CVC,India,0.0,0.99,10,0.0
 1622,Susquehanna Asia Venture Capital,Institutional,,,,,,10,6.0
 1699,Bestvantage Investments,Institutional,,,,,,10,7.0
 2003,Atomic Capital,Institutional,,,,,,10,10.0
@@ -257,7 +258,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1220,Elev8,Institutional,,,,,,9,6.0
 1387,Motilal Oswal,Individual,,,,,,9,0.0
 1474,Eternal Capital,Institutional,,,,,,9,5.0
-1564,Aditya Birla Ventures,Institutional,,Corporate / CVC,India,0.0,0.99,9,0.0
 1567,Ghazal Alagh,Individual,,,,,,9,0.0
 1620,Sunicon Ventures,Institutional,,,,,,9,1.0
 1731,2am VC,Institutional,,,,,,9,1.0
@@ -277,6 +277,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 439,Keiretsu Forum,Individual,,Angel network / platform,United States,1.0,0.97,8,1.0
 440,Panthera Peak Capital,Institutional,,Venture Capital,India,0.0,0.89,8,0.0
 471,Climber Capital,Institutional,,Venture Capital,India,0.0,0.82,8,0.0
+495,ICICI Venture,Institutional,,,,,,8,3.0
 563,First Cheque,Individual,,Accelerator / Incubator,India,0.0,0.9,8,4.0
 590,Good Capital,Institutional,,,,,,8,2.0
 625,Arjun Purkayastha,Individual,,,,,,8,0.0
@@ -317,7 +318,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 453,Golden Sparrow Ventures,Institutional,,,,,,7,0.0
 455,Lowercarbon Capital,Institutional,,,,,,7,3.0
 465,M Venture Partners,Institutional,,,,,,7,1.0
-495,ICICI Venture,Institutional,,,,,,7,3.0
 513,Endurance Capital,Institutional,,,,,,7,1.0
 527,Aprameya Radhakrishna,Individual,,Angel investor (individual),India,0.0,0.98,7,0.0
 648,Capri Global,Individual,,Venture debt / NBFC / Bank,India,0.0,0.95,7,0.0
@@ -325,6 +325,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 725,KRS Jamwal,Individual,,Angel investor (individual),India,0.0,0.95,7,0.0
 802,Alumni Ventures,Institutional,,,,,,7,0.0
 867,Aditya Birla Sun Life,Individual,,,,,,7,0.0
+868,Nippon,Institutional,,,,,,7,0.0
 869,Axis Mutual Fund,Institutional,,,,,,7,0.0
 871,Invesco,Institutional,,,,,,7,1.0
 935,PeerCheque,Institutional,,,,,,7,1.0
@@ -335,6 +336,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1397,Gruhas Proptech,Individual,,,,,,7,0.0
 1475,Peyush Bansal,Individual,,,,,,7,1.0
 1578,SMBC Asia Rising Fund,Institutional,,,,,,7,5.0
+1611,HDFC,Institutional,,,,,,7,0.0
 1618,Mithun Sacheti,Individual,,,,,,7,2.0
 1619,Siddhartha Sacheti,Individual,,,,,,7,1.0
 1692,Colossa Ventures,Institutional,,,,,,7,5.0
@@ -379,7 +381,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 789,Varanium Capital,Institutional,,,,,,6,1.0
 813,StepStone,Institutional,,,,,,6,2.0
 840,Three State Capital,Institutional,,Venture Capital,India,0.0,0.64,6,4.0
-868,Nippon,Institutional,,,,,,6,0.0
 901,Hero Enterprise Partner Ventures,Institutional,,,,,,6,2.0
 905,The Ecosystem Integrity Fund,Institutional,,,,,,6,0.0
 930,Astir Ventures,Institutional,,,,,,6,0.0
@@ -402,7 +403,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1507,Warmup Ventures,Institutional,,,,,,6,1.0
 1528,Malpani Ventures,Institutional,,,,,,6,5.0
 1563,RevX Capital,Institutional,,Venture Capital,India,0.0,0.78,6,2.0
-1611,HDFC,Institutional,,,,,,6,0.0
 1651,Prajay Advisors,Institutional,,,,,,6,5.0
 1670,Balaji Srinivasan,Individual,,,,,,6,0.0
 1673,Sandeep Nailwal,Individual,,,,,,6,1.0
@@ -583,6 +583,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1548,Alluvium Capital,Institutional,,,,,,4,1.0
 1556,QED Investors,Individual,,Venture Capital,United States,1.0,0.99,4,3.0
 1565,Mohit Gupta,Individual,,,,,,4,0.0
+1610,Kotak,Institutional,,,,,,4,0.0
 1623,Fidelity,Institutional,,,,,,4,0.0
 1641,Siana Capital,Institutional,,,,,,4,4.0
 1659,Mukesh Bansal,Individual,,,,,,4,0.0
@@ -769,7 +770,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1600,EDBI,Institutional,,,,,,3,1.0
 1602,Accion,Institutional,,,,,,3,2.0
 1606,Ramesh Damani,Individual,,,,,,3,0.0
-1610,Kotak,Institutional,,,,,,3,0.0
 1615,Yatin Shah,Individual,,,,,,3,0.0
 1631,UBS Optimus Foundation,Institutional,,,,,,3,3.0
 1633,MIXI Global Investments,Institutional,,,,,,3,2.0
@@ -1113,6 +1113,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1592,Ravi Bhushan,Individual,,,,,,2,0.0
 1593,Akshay Saxena,Individual,,,,,,2,0.0
 1601,Crystal Investment,Institutional,,,,,,2,2.0
+1612,Franklin India,Individual,,,,,,2,0.0
 1613,Chona Family,Individual,,,,,,2,1.0
 1614,Karan Bhagat,Individual,,,,,,2,0.0
 1624,Bajaj Allianz,Individual,,,,,,2,0.0
@@ -1127,6 +1128,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1702,Ajay Kumar,Individual,,,,,,2,0.0
 1704,Maj Invest,Individual,,,,,,2,1.0
 1721,Hitesh Dhingra,Individual,,,,,,2,0.0
+1725,Axana Estates,Individual,,,,,,2,2.0
 1726,Samir Kalia,Individual,,,,,,2,0.0
 1728,Nitin Zamre,Individual,,,,,,2,0.0
 1745,Sagana,Institutional,,,,,,2,0.0
@@ -2299,7 +2301,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1605,Freeflow Ventures,Institutional,,,,,,1,1.0
 1607,Ajaya Jain,Individual,,,,,,1,0.0
 1608,Hatcher+,Institutional,,,,,,1,0.0
-1612,Franklin India,Individual,,,,,,1,0.0
 1616,Kiran Shetty,Individual,,,,,,1,0.0
 1617,Akhilesh Agarwal,Individual,,,,,,1,0.0
 1625,Max Life,Individual,,,,,,1,0.0
@@ -2368,7 +2369,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1720,Manoj Meena,Individual,,,,,,1,0.0
 1722,Aurinko Partners,Institutional,,,,,,1,0.0
 1724,Pavilion Capital,Institutional,,,,,,1,0.0
-1725,Axana Estates,Individual,,,,,,1,1.0
 1730,Vishwang Desai,Individual,,,,,,1,0.0
 1732,Nikita Gupta,Individual,,,,,,1,0.0
 1733,Emmanuel Suraj,Individual,,,,,,1,0.0

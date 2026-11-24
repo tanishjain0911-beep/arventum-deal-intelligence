@@ -1,6 +1,6 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T07:50:27._
+_Generated from `db/deals.db` at 2026-11-24T07:54:55._
 
 ## Contents
 
@@ -9,12 +9,12 @@ _Generated from `db/deals.db` at 2026-11-24T07:50:27._
 | sources | 7291 |
 | companies | 3908 |
 | investors | 5590 |
-| deals | 5348 |
-| deal_investors | 13811 |
+| deals | 5357 |
+| deal_investors | 13823 |
 | deal_sources | 5619 |
 | financials | 1373 |
 | weekly_totals | 299 |
-| corrections | 150 |
+| corrections | 204 |
 
 Articles used, by source:
 
@@ -23,9 +23,9 @@ Articles used, by source:
 | entrackr | 7065 |
 | inc42 | 226 |
 
-- Deal records before de-duplication: **5619**; duplicate reports merged: **271**; deals confirmed by 2+ articles: **258**
-- Amount disclosed: **90.8%** of deals; at least one named investor: **78.2%**
-- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 124, 'implausible amount dropped': 4}
+- Deal records before de-duplication: **5619**; duplicate reports merged: **262**; deals confirmed by 2+ articles: **251**
+- Amount disclosed: **90.7%** of deals; at least one named investor: **78.1%**
+- Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 124, 'public-market raise': 54, 'implausible amount dropped': 4}
 
 ## Primary rounds by year
 
@@ -34,26 +34,26 @@ Articles used, by source:
 | 2021 | 451 | 22,255.2 | 8.0 |
 | 2022 | 769 | 18,172.1 | 5.0 |
 | 2023 | 622 | 9,632.6 | 3.4 |
-| 2024 | 919 | 13,848.1 | 4.0 |
-| 2025 | 1137 | 15,447.2 | 4.0 |
-| 2026 | 869 | 12,106.9 | 4.2 |
+| 2024 | 916 | 12,132.5 | 4.0 |
+| 2025 | 1136 | 15,389.4 | 3.9 |
+| 2026 | 866 | 11,645.6 | 4.1 |
 
 ## Top sectors by capital raised
 
 | sector | deals | usd_m |
 |---|---|---|
 | E-commerce & D2C | 824 | 19,752.4 |
-| FinTech & Payments | 603 | 15,064.5 |
+| FinTech & Payments | 602 | 15,018.6 |
 | Unclassified | 616 | 10,226.4 |
-| EV & Auto | 209 | 5,053.6 |
-| Consumer Internet | 129 | 4,985.9 |
+| EV & Auto | 208 | 4,964.9 |
 | Logistics & Mobility | 143 | 4,470.9 |
 | HealthTech | 354 | 4,438.6 |
+| Consumer Internet | 127 | 3,370.4 |
 | EdTech | 148 | 3,342.1 |
-| Media & Gaming | 133 | 2,793.5 |
-| Industrial Tech | 126 | 2,368.0 |
+| Media & Gaming | 132 | 2,693.5 |
 | SaaS | 149 | 2,306.9 |
 | Artificial Intelligence | 191 | 2,122.6 |
+| Industrial Tech | 125 | 2,041.2 |
 | AgriTech | 152 | 1,698.3 |
 | Travel & Hospitality | 103 | 1,687.3 |
 | Cloud Infrastructure | 21 | 1,440.8 |
@@ -111,9 +111,9 @@ Articles used, by source:
 {
   "weeks_compared": 296,
   "reported_deals_total": 7808,
-  "our_deals_total": 4655,
-  "deal_recall_pct": 59.6,
-  "usd_recall_pct": 81.6,
+  "our_deals_total": 4648,
+  "deal_recall_pct": 59.5,
+  "usd_recall_pct": 79.6,
   "median_weekly_deal_recall_pct": 64.5
 }
 ```

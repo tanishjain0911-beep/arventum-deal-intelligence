@@ -37,4 +37,6 @@ Real-world data is messy. Each entry below was **detected by a check built into 
 
 | 27 | Some 2021–22 weeks showed *more* capital captured than the published market total | Unacademy recorded at $3.44B (its **valuation**: "valuation spikes over 70% to $3.44 Bn as it raises $440 Mn"), because digits between the keyword and the amount defeated the skip rule; "OfBusiness **closes** FY21 with…" read as a funding round | Valuation-context window now allows digits; "closes" counts as a raise only next to "round/funding/series/seed"; both added as regression tests (20/20 and 14/14). Found by reading the captured-vs-published chart, where capturing more than 100% of the market is impossible |
 
+| 28 | Several weeks still captured 3–20× the published total | **Listed-company raises** (Zomato's ₹8,500 Cr QIP, Nazara's preferential issue, Swiggy's IPO anchor book) were counted as startup rounds; published startup totals exclude them | New `public_market` deal type for QIP, preferential issue, anchor book, rights issue, block deal and OFS (54 reclassified), kept out of private-funding analytics. Capital coverage fell from 84.8% to **79.6%**: lower, but now measured like-for-like |
+
 **Takeaway:** every fix is enforced by a check that runs on each rebuild (`python pipeline/run_all.py`): validation, the coverage audit, two-agent agreement, and regression tests.
