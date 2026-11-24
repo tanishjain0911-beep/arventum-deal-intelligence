@@ -1,47 +1,47 @@
 {
-  "built": "2026-11-24T07:31:57",
+  "built": "2026-11-24T07:37:55",
   "tables": {
-    "sources": 7079,
-    "companies": 3870,
+    "sources": 7294,
+    "companies": 3909,
     "investors": 5590,
-    "deals": 5359,
-    "deal_investors": 13819,
+    "deals": 5352,
+    "deal_investors": 13814,
     "deal_sources": 5623,
-    "financials": 1157,
+    "financials": 1372,
     "weekly_totals": 299,
     "corrections": 151
   },
   "deal_records_before_dedupe": 5623,
-  "duplicate_reports_merged": 264,
+  "duplicate_reports_merged": 271,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
     "headline-wins": 125,
     "implausible amount dropped": 4
   },
   "deals_by_type": {
-    "equity": "4562",
+    "equity": "4555",
     "acquisition": "331",
     "debt": "216",
     "secondary": "135",
     "ipo": "115"
   },
   "deals_by_year": {
-    "2021": 472,
-    "2022": 817,
+    "2021": 466,
+    "2022": 816,
     "2023": 700,
     "2024": 1046,
     "2025": 1361,
     "2026": 963
   },
-  "amount_disclosed_pct": 90.7,
+  "amount_disclosed_pct": 90.8,
   "with_named_investor_pct": 78.1,
-  "multi_source_deals": 252,
+  "multi_source_deals": 258,
   "top_investors": [
     {
       "name": "Inflection Point Ventures",
       "type": "Institutional",
-      "n_deals": 158,
-      "n_led": 129.0
+      "n_deals": 156,
+      "n_led": 127.0
     },
     {
       "name": "Peak XV Partners",
@@ -94,8 +94,8 @@
     {
       "name": "Info Edge Ventures",
       "type": "Institutional",
-      "n_deals": 69,
-      "n_led": 38.0
+      "n_deals": 68,
+      "n_led": 37.0
     },
     {
       "name": "Alteria Capital",

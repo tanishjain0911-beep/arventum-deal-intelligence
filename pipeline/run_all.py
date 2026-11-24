@@ -41,6 +41,7 @@ def main():
     step("coverage audit", ["pipeline/coverage.py"])
     step("tests: headline parser", ["tests/test_headline_parser.py"])
     step("tests: entity resolution", ["tests/test_resolver.py"])
+    step("tests: rule extractor", ["tests/test_rule_extract.py"])
     step("analytics engines", ["analysis/run_engines.py"])
     step("data report", ["analysis/data_report.py"])
 

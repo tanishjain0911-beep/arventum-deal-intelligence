@@ -101,6 +101,9 @@ def extract(a: dict) -> dict:
     desc = a.get("description") or ""
     kws = [k.strip() for k in (a.get("company_kw") or "").split(",") if k.strip()]
     kw = company_from(title, kws)
+    if not kw:  # no "raises" verb (e.g. financial results): possessive name in headline, else first real keyword
+        pm = re.match(r"^(?:exclusive:\s*)?([A-Z][\w.&\- ]{1,40}?)[’']s\b", title)
+        kw = pm.group(1).strip() if pm else next((k for k in kws if not GENERIC_KW.match(k)), None)
     rec = {"url": a["url"], "record_type": "not_a_deal", "company": kw, "company_description": None, "sector": None,
            "city": None, "stage": None, "amount_value": None, "amount_currency": None, "amount_unit": None,
            "valuation_value": None, "valuation_currency": None, "valuation_unit": None, "lead_investors": [],

@@ -1,18 +1,18 @@
 # Data report
 
-_Generated from `db/deals.db` at 2026-11-24T07:31:57._
+_Generated from `db/deals.db` at 2026-11-24T07:37:55._
 
 ## Contents
 
 | table | rows |
 |---|---|
-| sources | 7079 |
-| companies | 3870 |
+| sources | 7294 |
+| companies | 3909 |
 | investors | 5590 |
-| deals | 5359 |
-| deal_investors | 13819 |
+| deals | 5352 |
+| deal_investors | 13814 |
 | deal_sources | 5623 |
-| financials | 1157 |
+| financials | 1372 |
 | weekly_totals | 299 |
 | corrections | 151 |
 
@@ -20,19 +20,19 @@ Articles used, by source:
 
 | site | articles |
 |---|---|
-| entrackr | 6853 |
+| entrackr | 7068 |
 | inc42 | 226 |
 
-- Deal records before de-duplication: **5623**; duplicate reports merged: **264**; deals confirmed by 2+ articles: **252**
-- Amount disclosed: **90.7%** of deals; at least one named investor: **78.1%**
+- Deal records before de-duplication: **5623**; duplicate reports merged: **271**; deals confirmed by 2+ articles: **258**
+- Amount disclosed: **90.8%** of deals; at least one named investor: **78.1%**
 - Automatic corrections applied: {'two-agent merge: filled gap': 22, 'headline-wins': 125, 'implausible amount dropped': 4}
 
 ## Primary rounds by year
 
 | year | deals | usd_m | median_usd_m |
 |---|---|---|---|
-| 2021 | 457 | 25,319.7 | 8.0 |
-| 2022 | 770 | 18,172.1 | 5.0 |
+| 2021 | 451 | 25,255.2 | 8.0 |
+| 2022 | 769 | 18,172.1 | 5.0 |
 | 2023 | 622 | 9,632.6 | 3.4 |
 | 2024 | 919 | 13,848.1 | 4.0 |
 | 2025 | 1138 | 15,747.2 | 4.0 |
@@ -42,27 +42,27 @@ Articles used, by source:
 
 | sector | deals | usd_m |
 |---|---|---|
-| E-commerce & D2C | 830 | 19,763.5 |
-| FinTech & Payments | 610 | 15,552.1 |
-| Unclassified | 605 | 10,010.6 |
-| EdTech | 149 | 6,344.6 |
-| EV & Auto | 210 | 5,088.6 |
-| Consumer Internet | 130 | 5,011.9 |
-| Logistics & Mobility | 144 | 4,710.9 |
-| HealthTech | 357 | 4,480.6 |
-| Media & Gaming | 133 | 2,685.4 |
+| E-commerce & D2C | 824 | 19,752.4 |
+| FinTech & Payments | 606 | 15,443.6 |
+| Unclassified | 617 | 10,356.4 |
+| EdTech | 148 | 6,342.1 |
+| EV & Auto | 209 | 5,053.6 |
+| Consumer Internet | 129 | 4,985.9 |
+| Logistics & Mobility | 143 | 4,470.9 |
+| HealthTech | 354 | 4,438.6 |
+| Media & Gaming | 133 | 2,793.5 |
 | Industrial Tech | 126 | 2,368.0 |
 | SaaS | 149 | 2,306.9 |
-| Artificial Intelligence | 191 | 2,110.1 |
-| AgriTech | 153 | 1,710.8 |
-| Travel & Hospitality | 102 | 1,680.6 |
+| Artificial Intelligence | 191 | 2,122.6 |
+| AgriTech | 152 | 1,698.3 |
+| Travel & Hospitality | 103 | 1,687.3 |
 | Cloud Infrastructure | 21 | 1,440.8 |
 
 ## Most active institutional investors
 
 | name | type | ai_type | hq_country | deals | led |
 |---|---|---|---|---|---|
-| Inflection Point Ventures | Institutional | Angel network / platform | India | 158 | 129 |
+| Inflection Point Ventures | Institutional | Angel network / platform | India | 156 | 127 |
 | Peak XV Partners | Institutional | Venture Capital | Singapore | 145 | 86 |
 | Accel | Institutional | Venture Capital | United States | 129 | 84 |
 | Venture Catalysts | Institutional | Angel network / platform | India | 114 | 48 |
@@ -70,7 +70,7 @@ Articles used, by source:
 | Elevation Capital | Institutional | Venture Capital | India | 96 | 50 |
 | Lightspeed | Institutional | Venture Capital | United States | 86 | 45 |
 | Z47 | Institutional | Venture Capital | India | 84 | 39 |
-| Info Edge Ventures | Institutional | Corporate / CVC | India | 69 | 38 |
+| Info Edge Ventures | Institutional | Corporate / CVC | India | 68 | 37 |
 | Alteria Capital | Debt / Bank | Venture debt / NBFC / Bank | India | 67 | 20 |
 | Fireside Ventures | Institutional | Venture Capital | India | 64 | 41 |
 | Nexus Venture Partners | Institutional | Venture Capital | United States | 62 | 34 |
@@ -111,8 +111,8 @@ Articles used, by source:
 {
   "weeks_compared": 296,
   "reported_deals_total": 7808,
-  "our_deals_total": 4666,
-  "deal_recall_pct": 59.8,
+  "our_deals_total": 4659,
+  "deal_recall_pct": 59.7,
   "usd_recall_pct": 84.8,
   "median_weekly_deal_recall_pct": 64.5
 }
@@ -138,9 +138,9 @@ Articles used, by source:
     "pass_rate": 97.8
   },
   "company_in_title": {
-    "passed": 8188,
-    "checked": 8201,
-    "pass_rate": 99.8
+    "passed": 9215,
+    "checked": 9278,
+    "pass_rate": 99.3
   }
 }
 ```

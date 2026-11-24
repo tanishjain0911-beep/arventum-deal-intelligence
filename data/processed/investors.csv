@@ -1,5 +1,5 @@
 investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deals,n_led
-51,Inflection Point Ventures,Institutional,,Angel network / platform,India,0.0,0.98,158,129.0
+51,Inflection Point Ventures,Institutional,,Angel network / platform,India,0.0,0.98,156,127.0
 60,Peak XV Partners,Institutional,,Venture Capital,Singapore,1.0,0.94,145,86.0
 41,Accel,Institutional,,Venture Capital,United States,1.0,0.98,129,84.0
 43,Venture Catalysts,Institutional,,Angel network / platform,India,0.0,0.96,114,48.0
@@ -8,7 +8,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 202,Lightspeed,Institutional,,Venture Capital,United States,1.0,0.98,86,45.0
 63,Z47,Institutional,,Venture Capital,India,0.0,0.97,84,39.0
 18,Kunal Shah,Individual,,Angel investor (individual),India,0.0,0.99,71,0.0
-872,Info Edge Ventures,Institutional,,Corporate / CVC,India,0.0,0.99,69,38.0
+872,Info Edge Ventures,Institutional,,Corporate / CVC,India,0.0,0.99,68,37.0
 66,Alteria Capital,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,67,20.0
 84,Fireside Ventures,Institutional,,Venture Capital,India,0.0,0.99,64,41.0
 182,Nexus Venture Partners,Institutional,,Venture Capital,United States,1.0,0.95,62,34.0
@@ -114,7 +114,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 848,India Accelerator,Accelerator,,,,,,16,8.0
 1967,Titan Capital Winners Fund,Institutional,,,,,,16,0.0
 1997,Zeropearl VC,Institutional,,,,,,16,12.0
-1,Elevar Equity,Institutional,,Venture Capital,United States,1.0,0.96,15,9.0
 39,NABVENTURES,Institutional,,,,,,15,10.0
 215,RPSG Capital Ventures,Institutional,,Corporate / CVC,India,0.0,0.98,15,11.0
 238,Sujeet Kumar,Individual,,Angel investor (individual),India,0.0,0.99,15,1.0
@@ -127,6 +126,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1049,Ankur Capital,Institutional,,,,,,15,5.0
 1466,Nikhil Kamath,Individual,,Angel investor (individual),India,0.0,0.99,15,6.0
 2225,GVFL,Institutional,,Venture Capital,India,0.0,0.99,15,9.0
+1,Elevar Equity,Institutional,,Venture Capital,United States,1.0,0.96,14,8.0
 28,Supermorpheus,Institutional,,Venture Capital,India,0.0,0.84,14,0.0
 32,Cactus Partners,Institutional,,Venture Capital,India,0.0,0.93,14,9.0
 88,PointOne Capital,Institutional,,Venture Capital,India,0.0,0.96,14,2.0
@@ -905,7 +905,6 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 4570,Notion Capital,Institutional,,,,,,3,1.0
 4958,NTTVC,Institutional,,,,,,3,3.0
 5033,Mirova,Institutional,,,,,,3,2.0
-5581,Exclusive: Tiger Global,Individual,,,,,,3,3.0
 20,Charlie Songhurst,Individual,,,,,,2,0.0
 31,J&A Partners,Institutional,,,,,,2,0.0
 45,Magic Fund,Institutional,,,,,,2,0.0
@@ -1528,6 +1527,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 5504,AJ VC,Institutional,,,,,,2,2.0
 5561,SoftBank at $1.4 Bn valuation,Institutional,,,,,,2,2.0
 5577,AWI,Institutional,,,,,,2,2.0
+5581,Exclusive: Tiger Global,Individual,,,,,,2,2.0
 6,West Street Global,Individual,,,,,,1,1.0
 7,Investcorp Private Equity,Institutional,,,,,,1,0.0
 9,Alstroemeria Investments,Institutional,,,,,,1,0.0

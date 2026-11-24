@@ -1,9 +1,9 @@
 {
   "articles": 3000,
-  "record_type_pct": 78.9,
-  "deals_compared": 1549,
+  "record_type_pct": 75.4,
+  "deals_compared": 1440,
   "company_pct": 91.0,
-  "amount_pct": 87.7,
-  "lead_precision_pct": 85.2,
-  "stage_pct": 91.2
+  "amount_pct": 87.9,
+  "lead_precision_pct": 84.0,
+  "stage_pct": 90.6
 }
