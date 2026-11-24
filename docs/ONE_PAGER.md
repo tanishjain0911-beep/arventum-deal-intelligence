@@ -7,7 +7,7 @@
 | Engine | Arventum process step | Validated how |
 |---|---|---|
 | Market Pulse | Industry Intelligence | Captured capital tracks published weekly totals |
-| Origination Radar | Market Mapping, Target Identification | Walk-forward backtest: top-100 precision 30% vs 14% for a banker's rule of thumb |
+| Origination Radar | Market Mapping, Target Identification | Walk-forward backtest: top-100 precision 32% vs 14% for a banker's rule of thumb |
 | Investor Matchmaker | Investor Mapping | 314 real rounds: top-10 hit rate 47% vs 27% baseline |
 | Buyer Mapping | Buyer Mapping | Sector- and recency-weighted acquirer appetite |
 | Price Finder | Valuation Benchmarking | Model chosen by leave-one-out CV; listed peers + Indian private rounds |
