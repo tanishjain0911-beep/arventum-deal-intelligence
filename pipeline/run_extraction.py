@@ -198,6 +198,12 @@ def _post_json(url: str, headers: dict, body: dict, timeout=CALL_TIMEOUT, tries=
                 time.sleep(min(wait, 60))
                 continue
             raise RuntimeError(f"HTTP {e.code}: {e.read()[:200]!r}") from e
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            # network blip (DNS failure, reset): wait it out instead of burning through the queue
+            if attempt < tries - 1:
+                time.sleep(30 * (attempt + 1))
+                continue
+            raise RuntimeError(f"network: {e}") from e
 
 
 GROQ_MODEL = "openai/gpt-oss-120b"
