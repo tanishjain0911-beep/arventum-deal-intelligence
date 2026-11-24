@@ -21,7 +21,7 @@ The story to tell: **"Your website says Arventum is AI-native. I built what that
 ## 3 · Investor Matchmaker (1.5 min): "Investor Mapping"
 - Enter a realistic client: *Cybersecurity, Series A, $10M, needs a lead*. Then tick **foreign investors only**: "Arventum sells global capital."
 - Open the evidence: "Not a guess. These are the deals this fund actually did."
-- Open "Does it work?": "On **314 real rounds**, an actual investor in the round was in our top 10 **47%** of the time, vs **27%** for a 'most active investors' list. Weights were tuned on an earlier period and tested on a later one."
+- Open "Does it work?": "On **333 real rounds**, an actual investor in the round was in our top 10 **43%** of the time, vs **28%** for a 'most active investors' list. Weights were tuned on an earlier period and tested on a later one."
 
 ## 4 · Buyer Mapping (45 s): "Buyer Mapping"
 - Pick FinTech: "Serial acquirers, ranked by sector relevance and appetite. CRED → Kuvera, Juspay → LotusPay."
@@ -47,7 +47,7 @@ The story to tell: **"Your website says Arventum is AI-native. I built what that
 ### Questions to expect
 | Question | Answer |
 |---|---|
-| Is the data complete? | ~80% of reported startup capital, ~60% of deals by count (listed-company raises like QIPs are excluded, as in the published totals). The gap is small undisclosed rounds. A paid database would close it. |
+| Is the data complete? | Capital matches the published weekly totals (the book also carries Inc42 rounds the round-ups leave out); about 68% of deals by count (listed-company raises like QIPs are excluded, as in the published totals). The gap is small undisclosed rounds. A paid database would close it. |
 | What if the AI is wrong? | Four independent checks (agent agreement, rule checks, coverage, manual audit), headline-wins correction, and every record links to its source. |
 | Why not just ask ChatGPT? | It can't give dated, sourced, complete deal lists, and it can't backtest itself. This system has its own data and measured accuracy. |
 | How current is it? | One command refreshes: collect → extract → check → load. |

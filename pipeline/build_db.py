@@ -115,6 +115,12 @@ FUND_WORDS = re.compile(r"capital|ventures?|partners|fund|vc|investments?|holdin
                         r"bank|labs|securities|family office|trust|foundation|corp", re.I)
 
 
+# not startups: corporates and listed companies whose capital moves Inc42 reports alongside startup rounds
+NON_STARTUP = re.compile(r"^(makemytrip|hypervault|foxconn|reliance retail|reliance jio|bharti airtel|vinfast|"
+                         r"tata (motors|steel|electronics|sons)|adani|infosys|wipro|hcl|tcs\b)", re.I)
+STUDY_START = date(2021, 1, 1)
+
+
 def norm_key(name: str) -> str:
     k = name.lower().replace("&", " and ").replace("’", "'")
     k = re.sub(r"[^a-z0-9 ]", " ", k)
@@ -147,7 +153,7 @@ def squash_key(name: str, generic=COMPANY_SUFFIX) -> str:
     """Company key that ignores spacing, possessives and accents: 'Money View' = 'Moneyview', "Byju's" = 'Byju',
     'RENÉE' = 'RENEE'."""
     import unicodedata
-    n = re.sub(r"['’]s\b", "", name)  # possessive first: ascii-folding would delete the curly apostrophe
+    n = re.sub(r"['’][sS]\b", "", name)  # possessive first ("BYJU'S" too): ascii-folding would delete the curly apostrophe
     n = unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode()
     k = re.sub(r"\s+", "", match_key(n, generic))
     return re.sub(r"^the(?=\w{4,})", "", k)  # "TheMathCompany" = "The Math Company"
@@ -271,6 +277,16 @@ def main():
                 # listed-company capital raises are not private startup rounds (published market totals exclude them)
                 corrections.append((r["url"], "deal_type", dtype, "public_market", "public-market raise"))
                 dtype = "public_market"
+            if dtype in ("equity", "debt") and stage == "ipo":
+                corrections.append((r["url"], "deal_type", dtype, "public_market", "IPO is a public-market event"))
+                dtype = "public_market"
+            if dtype in ("equity", "debt") and NON_STARTUP.search(r["company"]):
+                # corporate or listed-company transactions reported by Inc42 (published startup totals exclude them)
+                corrections.append((r["url"], "deal_type", dtype, "public_market", "corporate / listed-company deal"))
+                dtype = "public_market"
+            if d < STUDY_START:
+                corrections.append((r["url"], "deal_date", d.isoformat(), None, "before study period dropped"))
+                continue
             if dtype == "equity" and stage == "debt":
                 dtype = "debt"
             deal_rows.append({
@@ -304,6 +320,32 @@ def main():
                              "revenue_inr_cr": r.get("revenue_inr_cr"), "profit_inr_cr": r.get("profit_inr_cr"),
                              "url": r["url"], "title": a.get("title"), "kind": a.get("kind"),
                              "sector": sector, "city": r.get("city"), "desc": r.get("company_description")})
+
+    # ---- name variants of one company ("Agnikul" / "Agnikul Cosmos"): when one key is a prefix of another and
+    # both report a round of the same size within 10 days, fold the longer name into the shorter
+    alias = {}
+    by_amt = defaultdict(list)
+    for row in deal_rows:
+        if row["amount_usd_m"]:
+            by_amt[round(row["amount_usd_m"], 1)].append(row)
+    for rows in by_amt.values():
+        for a in rows:
+            for b in rows:
+                ka, kb = a["company_key"], b["company_key"]
+                if ka != kb and len(ka) >= 4 and kb.startswith(ka) and abs(
+                        (date.fromisoformat(a["deal_date"]) - date.fromisoformat(b["deal_date"])).days) <= 10:
+                    alias[kb] = ka
+    for row in deal_rows:
+        if row["company_key"] in alias:
+            k = row["company_key"]
+            while k in alias:
+                k = alias[k]
+            corrections.append((row["urls"][0], "company", companies.canonical(row["company_key"]),
+                                companies.canonical(k), "company name variant merged"))
+            row["company_key"] = k
+    for row in fin_rows:
+        while row["company_key"] in alias:
+            row["company_key"] = alias[row["company_key"]]
 
     # ---- cross-source de-duplication
     deal_rows.sort(key=lambda x: (x["company_key"], x["deal_date"]))

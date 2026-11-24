@@ -6,8 +6,8 @@ Arventum advises Indian technology companies on fundraising and M&A. This projec
 
 | Engine | Arventum process step | Question it answers | How it is validated |
 |---|---|---|---|
-| **Origination Radar** | Market Mapping, Target Identification | Which private companies are likely to raise in the next 12 months? (plus a downloadable weekly "top 10 to call" brief) | Rolling walk-forward backtest over 4 quarters: top-100 precision **34% vs 14%** for the banker heuristic (2.5× lift over random) |
-| **Investor Matchmaker** | Investor Mapping | Which funds are most likely to back this company, and why? | Weights tuned on a validation window; on **314 later rounds** a real investor is in the top 10 **47%** of the time vs **27%** for "most active investors" |
+| **Origination Radar** | Market Mapping, Target Identification | Which private companies are likely to raise in the next 12 months? (plus a downloadable weekly "top 10 to call" brief) | Rolling walk-forward backtest over 4 quarters: top-100 precision **43% vs 16%** for the banker heuristic (3.0× lift over random) |
+| **Investor Matchmaker** | Investor Mapping | Which funds are most likely to back this company, and why? | Weights tuned on a validation window; on **333 later rounds** a real investor is in the top 10 **43%** of the time vs **28%** for "most active investors" |
 | **Buyer Mapping** | Buyer Mapping | Who acquires companies like this one? | Recency- and sector-weighted acquirer appetite |
 | **Price Finder** | Valuation Benchmarking | What is it worth? | Listed peers, CV-selected regression, Indian private rounds (football field) |
 | **Market Pulse** | Industry Intelligence | What is happening in each of Arventum's 20 sectors? | Coverage audited against published weekly totals |
@@ -37,7 +37,7 @@ Arventum advises Indian technology companies on fundraising and M&A. This projec
 - **Fallbacks** when the ChatGPT quota ran out: free OpenCode models benchmarked against Codex (used only at ~93% agreement), then a deterministic headline extractor (97.5% deal precision). Both are stored as lower-priority agents, and `pipeline/auto_resume.py` re-queues their articles for the AI when it's available.
 - **GitHub**: version control.
 
-**Current database:** 5,348 deals · 3,886 companies · 5,587 investors · 1,252 company financial records (full fiscal years only) · 2021–2026.
+**Current database:** 6,656 deals · 4,300 companies · 7,559 investors · 1,476 company financial records (full fiscal years only) · 2021–2026.
 
 ## Reproduce
 ```bash

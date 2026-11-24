@@ -1,8 +1,8 @@
 {
   "weeks_compared": 296,
   "reported_deals_total": 7808,
-  "our_deals_total": 4647,
-  "deal_recall_pct": 59.5,
-  "usd_recall_pct": 79.8,
-  "median_weekly_deal_recall_pct": 64.5
+  "our_deals_total": 5341,
+  "deal_recall_pct": 68.4,
+  "usd_recall_pct": 100.5,
+  "median_weekly_deal_recall_pct": 75.0
 }

@@ -21,11 +21,11 @@
       "multiple": "7.7x implied EV/Revenue (R\u00b2 0.30, n=85)"
     },
     {
-      "method": "Indian private rounds (all sectors, n=140)",
-      "low": 795.0720061946057,
-      "mid": 1339.459769312457,
-      "high": 2388.3139298768106,
-      "multiple": "5.3x - 15.9x valuation/revenue (median 8.9x)"
+      "method": "Indian private rounds (all sectors, n=232)",
+      "low": 799.5565410199556,
+      "mid": 1488.9719996574445,
+      "high": 2947.411050789823,
+      "multiple": "5.3x - 19.6x valuation/revenue (median 9.9x)"
     }
   ],
   "regression": {
@@ -41,5 +41,5 @@
   "notes": [
     "Gross margin not given; using the SaaS peer median of 69%."
   ],
-  "n_private_comps": 140
+  "n_private_comps": 232
 }

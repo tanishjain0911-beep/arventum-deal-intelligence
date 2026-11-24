@@ -30,7 +30,7 @@ Used on a laptop during a live demo or meeting preparation. Viewers are senior b
 
 ## Capabilities and Constraints
 
-- Data: ~5,350 deals, ~3,900 companies, ~5,600 investors, ~1,250 annual financial records (2021–2026), from Entrackr and Inc42; 92 listed comparables from Yahoo Finance. Exported from `db/deals.db` and `data/processed/`.
+- Data: ~6,650 deals, ~4,300 companies, ~7,550 investors, ~1,480 annual financial records (2021–2026), from Entrackr and Inc42; 92 listed comparables from Yahoo Finance. Exported from `db/deals.db` and `data/processed/`.
 - Engines and their measured results live in `data/processed/*.json` (radar_backtest, matching_backtest, coverage, validation, crosscheck, model_eval).
 - Coverage is partial and must be stated honestly: ~80% of reported startup capital, ~60% of deals by count.
 - No server or API keys at runtime; everything ships as static files.

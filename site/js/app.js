@@ -56,7 +56,7 @@ async function viewSummary() {
         <li><span class="what">Origination Radar: its top 100 picks that raised within 12 months</span><span class="fig">${pct(r.mean_precision_top100)}</span><span class="vs">vs ${pct(r.mean_precision_top100_heuristic)} for the "raised 18–24 months ago" rule; ${r.mean_lift_top100}× random</span></li>
         <li><span class="what">Investor Matchmaker: a real investor in its top 10</span><span class="fig">${pct(m.model_hit_rate?.["10"])}</span><span class="vs">vs ${pct(m.baseline_hit_rate?.["10"])} for a "most active investors" list; ${m.test_deals} rounds</span></li>
         <li><span class="what">Two AI agents agree on the company</span><span class="fig">${cc.company}%</span><span class="vs">${s.crosscheck_n} articles read independently by both</span></li>
-        <li><span class="what">Reported startup capital captured</span><span class="fig">${cov.usd_recall_pct}%</span><span class="vs">${cov.deal_recall_pct}% of deals by count; small undisclosed rounds are the gap</span></li></ul>`,
+        <li><span class="what">Deals captured against published weekly counts</span><span class="fig">${Math.round(cov.deal_recall_pct)}%</span><span class="vs">capital in the book matches the published weekly totals (${Math.round(cov.usd_recall_pct)}%); the missing deals are mostly small undisclosed rounds</span></li></ul>`,
       source: sourceLine("walk-forward backtests and quality checks in this repository.") })}
     ${exhibit({ n: "1.3", title: "What is in this book", cls: "c12",
       body: `<table><thead><tr><th>Section</th><th>Question it answers</th><th class="wide-only">Built on</th></tr></thead><tbody>
@@ -106,7 +106,7 @@ async function viewMarket() {
       ${exhibit({ n: "2.1", title: `Capital raised per quarter, ${label}`, cls: "c6", body: barChart(capItems, { w: colW(6), fmt: v => usd(v, 0), height: 230 }), source: sourceLine("equity and venture-debt rounds with disclosed amounts.") })}
       ${exhibit({ n: "2.2", title: `Rounds per quarter, ${label}`, cls: "c6", body: barChart(cntItems, { w: colW(6), fmt: v => int(v), height: 230 }), source: sourceLine("all primary rounds, disclosed or not.") })}
       ${exhibit({ n: "2.3", title: "Where the money went in the last six months", sub: `<span class="legend"><span><i style="background:var(--teal)"></i>Arventum focus sector</span><span><i style="background:var(--slate)"></i>Other sector</span></span>`, cls: "c7",
-        body: hbarChart(heat, { w: colW(7), labelW: lw(7, 160), row: 24, fmt: v => usd(v, 0) }), source: sourceLine("capital in disclosed rounds; hover a bar for the change versus the prior six months.") })}
+        body: hbarChart(heat, { w: colW(7), labelW: lw(7, 160), row: 24, fmt: v => usd(v, v >= 1000 ? 1 : 0) }), source: sourceLine("capital in disclosed rounds; hover a bar for the change versus the prior six months.") })}
       ${exhibit({ n: "2.4", title: "What a round looks like now, by stage", sub: "Middle half of disclosed rounds in the last two years; the dark tick is the median.", cls: "c5",
         body: bench.length ? rangeChart(bench, { log: true, fmt: v => usd(v, 0), ticksAt: [0.1, 1, 10, 100], labelW: 96, w: colW(5), row: 30 }) : `<div class="empty">Too few disclosed rounds.</div>`,
         source: sourceLine("stage as reported in the source article.") })}
@@ -121,7 +121,7 @@ async function viewMarket() {
     const rows = Object.entries(counts).filter(([n]) => kind[n] && kind[n].type !== "Individual").map(([n, c]) => ({ name: n, rounds: c.n, led: c.led, hq: kind[n]?.hq || "" }))
       .sort((a, b) => b.rounds - a.rounds).slice(0, 25);
     table(document.getElementById("m-inv"), rows, [{ key: "name", label: "Investor" }, { key: "rounds", label: "Rounds", n: true }, { key: "led", label: "Led", n: true }, { key: "hq", label: "HQ", muted: true, wide: true }], { sortKey: "rounds" });
-    const latest = ds.filter(d => pick(d) && d.type !== "public_market").slice(0, 60);
+    const latest = ds.filter(d => pick(d) && d.type !== "public_market" && d.type !== "ipo").slice(0, 60);
     table(document.getElementById("m-deals"), latest, [
       { key: "date", label: "Date", fmt: r => date(r.date), sort: r => r.date },
       { key: "company", label: "Company", fmt: r => `<a href="#/company/${r.cid}">${esc(r.company)}</a>` },
@@ -420,7 +420,7 @@ async function viewMethod() {
       ${weeks.length ? exhibit({ n: "8.5", title: "Capital per month: published weekly totals and what the book captured", sub: `<span class="legend"><span><i style="background:var(--amber)"></i>Published weekly total</span><span><i style="background:var(--teal)"></i>Captured in the book</span></span>`, cls: "c12",
         body: lineChart([{ name: "published", color: "var(--amber)", values: weeks.map(w => ({ x: month(w.week_end), v: w.reported_usd_m })) },
           { name: "captured", color: "var(--teal)", values: weeks.map(w => ({ x: month(w.week_end), v: w.our_usd_m })) }], { w: colW(12), fmt: x => usd(x, 1), height: 240, labelEvery: innerWidth < 780 ? 12 : 6 }),
-        source: sourceLine(`Entrackr weekly round-ups parsed by rules, summed by month; last 36 months shown. Overall ${cov.usd_recall_pct}% of reported capital and ${cov.deal_recall_pct}% of reported deals captured, over ${cov.weeks_compared} weeks; small undisclosed rounds are the gap.`) }) : ""}
+        source: sourceLine(`Entrackr weekly round-ups parsed by rules, summed by month; last 36 months shown. Over ${cov.weeks_compared} weeks the book holds ${Math.round(cov.deal_recall_pct)}% of the deals the round-ups count and ${Math.round(cov.usd_recall_pct)}% of their capital: it also carries Inc42-reported rounds the round-ups leave out, while missing small undisclosed ones.`) }) : ""}
       ${exhibit({ n: "8.6", title: "Independent manual audit", cls: "c12", body: `<p class="prose">A random sample of 40 records was graded field by field against the source articles by a reviewer that was not one of the extraction agents: deal type 40 of 40, company 40 of 40, investors 40 of 40, amount 39 of 40, revenue 9 of 9. The weakest field, profit and loss (6 of 9), led to a pipeline fix.</p>`,
         source: sourceLine("docs/MANUAL_AUDIT.md in the repository.") })}
     </div>`;
