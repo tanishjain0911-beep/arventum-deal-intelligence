@@ -1,0 +1,29 @@
+{
+  "GBM (current)": {
+    "mean_auc": 0.547,
+    "sd_auc": 0.021,
+    "mean_auc_heuristic": 0.45,
+    "mean_precision_top100": 0.278,
+    "mean_precision_top100_heuristic": 0.125,
+    "mean_base_rate": 0.155,
+    "mean_lift_top100": 1.79
+  },
+  "GBM regularised": {
+    "mean_auc": 0.602,
+    "sd_auc": 0.006,
+    "mean_auc_heuristic": 0.45,
+    "mean_precision_top100": 0.32,
+    "mean_precision_top100_heuristic": 0.125,
+    "mean_base_rate": 0.155,
+    "mean_lift_top100": 2.07
+  },
+  "Logistic regression": {
+    "mean_auc": 0.625,
+    "sd_auc": 0.008,
+    "mean_auc_heuristic": 0.45,
+    "mean_precision_top100": 0.338,
+    "mean_precision_top100_heuristic": 0.125,
+    "mean_base_rate": 0.155,
+    "mean_lift_top100": 2.17
+  }
+}

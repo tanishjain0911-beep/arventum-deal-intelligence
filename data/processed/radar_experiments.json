@@ -1,0 +1,38 @@
+{
+  "equity+debt, from 2021": {
+    "mean_auc": 0.547,
+    "sd_auc": 0.021,
+    "mean_auc_heuristic": 0.45,
+    "mean_precision_top100": 0.278,
+    "mean_precision_top100_heuristic": 0.125,
+    "mean_base_rate": 0.155,
+    "mean_lift_top100": 1.79
+  },
+  "equity only, from 2021": {
+    "mean_auc": 0.519,
+    "sd_auc": 0.015,
+    "mean_auc_heuristic": 0.463,
+    "mean_precision_top100": 0.203,
+    "mean_precision_top100_heuristic": 0.122,
+    "mean_base_rate": 0.143,
+    "mean_lift_top100": 1.41
+  },
+  "equity+debt, from 2023": {
+    "mean_auc": 0.548,
+    "sd_auc": 0.016,
+    "mean_auc_heuristic": 0.45,
+    "mean_precision_top100": 0.278,
+    "mean_precision_top100_heuristic": 0.125,
+    "mean_base_rate": 0.155,
+    "mean_lift_top100": 1.79
+  },
+  "equity only, from 2023": {
+    "mean_auc": 0.516,
+    "sd_auc": 0.028,
+    "mean_auc_heuristic": 0.463,
+    "mean_precision_top100": 0.21,
+    "mean_precision_top100_heuristic": 0.122,
+    "mean_base_rate": 0.143,
+    "mean_lift_top100": 1.46
+  }
+}

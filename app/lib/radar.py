@@ -11,8 +11,11 @@ from dataclasses import dataclass
 
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import HistGradientBoostingClassifier
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 
 from .data import STAGE_RANK, deal_investors, financials, funding_deals
 
@@ -22,6 +25,7 @@ FEATURES = [
     "avg_gap_months", "log_total_raised", "n_investors", "has_top_investor",
     "last_had_lead", "sector_heat", "sector_deals_6m", "last_round_debt",
     "has_financials", "log_revenue", "rev_growth", "is_profitable",
+    "cycle_distance", "in_window",
 ]
 FEATURE_LABELS = {
     "months_since_last": "Months since last round",
@@ -40,6 +44,8 @@ FEATURE_LABELS = {
     "log_revenue": "Latest revenue",
     "rev_growth": "Revenue growth",
     "is_profitable": "Profitable",
+    "cycle_distance": "Distance from its usual fundraising cycle",
+    "in_window": "Inside the 15-30 month window",
 }
 
 
@@ -69,6 +75,10 @@ def snapshot(cutoff: pd.Timestamp, fd: pd.DataFrame, inv: pd.DataFrame, fin: pd.
     span = (dates.max() - dates.min()).dt.days / 30.44
     out["avg_gap_months"] = (span / (out.n_prior_rounds - 1)).where(out.n_prior_rounds > 1)
     out["log_total_raised"] = np.log1p(past.groupby("company_id").amount_usd_m.sum(min_count=1))
+    # "due-date" features: lets a linear model express that raising is most likely near the usual cycle
+    usual = out.avg_gap_months.fillna(21.0).clip(6, 36)
+    out["cycle_distance"] = (out.months_since_last - usual).abs()
+    out["in_window"] = out.months_since_last.between(15, 30).astype(int)
 
     pinv = inv[inv.deal_id.isin(past.deal_id)].merge(past[["deal_id", "company_id"]], on="deal_id")
     out["n_investors"] = pinv.groupby("company_id").investor_id.nunique().reindex(out.index).fillna(0)
@@ -99,9 +109,14 @@ def snapshot(cutoff: pd.Timestamp, fd: pd.DataFrame, inv: pd.DataFrame, fin: pd.
     return out
 
 
+LABEL_TYPES = ("equity", "debt")   # which future rounds count as "raised" (configurable, see experiments)
+TRAIN_START = None                 # earliest snapshot date (None = 9 months after the first deal)
+
+
 def label(snap: pd.DataFrame, cutoff: pd.Timestamp, fd: pd.DataFrame) -> pd.Series:
     end = cutoff + pd.DateOffset(months=HORIZON_M)
-    nxt = fd[(fd.deal_date >= cutoff) & (fd.deal_date < end)].company_id.unique()
+    fut = fd[(fd.deal_date >= cutoff) & (fd.deal_date < end) & fd.deal_type.isin(LABEL_TYPES)]
+    nxt = fut.company_id.unique()
     return snap.index.isin(nxt).astype(int)
 
 
@@ -143,8 +158,11 @@ def _X(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _model():
-    return HistGradientBoostingClassifier(max_iter=300, learning_rate=0.05, max_leaf_nodes=15,
-                                          min_samples_leaf=40, l2_regularization=1.0, random_state=7)
+    """Regularised logistic regression. Chosen over gradient-boosted trees by the rolling backtest
+    (analysis/radar_model_variants.py): AUC 0.625 vs 0.547, top-100 precision 34% vs 28%. Trees overfit
+    noisy public-coverage labels; the linear model generalises better and is easier to explain."""
+    return make_pipeline(SimpleImputer(strategy="median"), StandardScaler(),
+                         LogisticRegression(C=0.3, max_iter=2000))
 
 
 def run(today: pd.Timestamp | None = None) -> RadarResult:
@@ -157,6 +175,8 @@ def run(today: pd.Timestamp | None = None) -> RadarResult:
     # ---- rolling walk-forward backtest: several test dates, each model trained ONLY on cut-offs whose
     #      12-month outcome window closed before that test date. Compared with a simple banker heuristic.
     first = fd.deal_date.min() + pd.DateOffset(months=9)
+    if TRAIN_START is not None:
+        first = max(first, pd.Timestamp(TRAIN_START))
     last_test = latest_labelled.to_period("M").to_timestamp()
     test_cuts = [last_test - pd.DateOffset(months=3 * i) for i in range(4)][::-1]
     folds = []
