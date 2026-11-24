@@ -103,7 +103,7 @@ st.dataframe(
         "last_date": st.column_config.DateColumn("last round", format="MMM YYYY"),
         "months_since_last": st.column_config.NumberColumn("months since", format="%.0f"),
         "last_round_usd_m": st.column_config.NumberColumn("last round ($M)", format="%.1f"),
-        "n_prior_rounds": st.column_config.NumberColumn("rounds since 2023"),
+        "n_prior_rounds": st.column_config.NumberColumn("rounds tracked"),
         "last_stage": "stage",
     })
 st.caption("Likelihood = the model's estimated probability of a new primary round within 12 months.")

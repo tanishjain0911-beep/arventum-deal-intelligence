@@ -31,7 +31,7 @@ FEATURE_LABELS = {
     "months_since_last": "Months since last round",
     "last_stage_rank": "Stage of last round",
     "log_last_amount": "Size of last round",
-    "n_prior_rounds": "Rounds raised (since 2023)",
+    "n_prior_rounds": "Rounds raised (tracked since 2021)",
     "avg_gap_months": "Typical gap between rounds",
     "log_total_raised": "Total raised",
     "n_investors": "Number of backers",
@@ -229,6 +229,11 @@ def run(today: pd.Timestamp | None = None) -> RadarResult:
 
     now = _build([today], fd, inv, fin, labelled=False)
     now["probability"] = model.predict_proba(now.pipe(_X))[:, 1]
+    # companies that have IPO'd are listed, so not private-funding targets for an advisory pitch
+    from .data import deals as _deals
+    d_all = _deals()
+    listed = set(d_all[d_all.deal_type == "ipo"].company_id)
+    now = now[~now.index.isin(listed)]
 
     # importance via permutation on the training data (cheap version: AUC drop)
     rng = np.random.default_rng(0)
@@ -263,7 +268,7 @@ def explain_row(r: pd.Series) -> list[str]:
     if r.get("has_top_investor", 0) >= 1:
         out.append("Backed by one of the 30 most active investors (strong follow-on support)")
     if r.get("n_prior_rounds", 0) >= 2:
-        out.append(f"{int(r.n_prior_rounds)} rounds since 2023 — a repeat fundraiser")
+        out.append(f"{int(r.n_prior_rounds)} rounds tracked since 2021, a repeat fundraiser")
     if pd.notna(r.get("rev_growth")) and r.rev_growth > 0.3:
         out.append(f"Revenue grew {100 * r.rev_growth:.0f}% in latest reported year")
     if r.get("last_round_debt", 0) == 1:
