@@ -27,6 +27,9 @@ CASES = [
     ("MakeMyTrip acquires quick ride platform", "MakeMyTrip", "not_a_deal", None, None, None),
     # financials
     ("Razorpay’s revenue approaches Rs 1,500 Cr in FY22", "Razorpay", "financials", "Razorpay", None, None),
+    ("OfBusiness closes FY21 with 2X jump in revenue and Rs 56 Cr profit", "OfBusiness", "financials", "OfBusiness",
+     None, None),
+    ("Swiggy closes $1.25 Bn round led by SoftBank and Prosus", "Swiggy", "funding", "Swiggy", None, "SoftBank"),
 ]
 
 bad = 0

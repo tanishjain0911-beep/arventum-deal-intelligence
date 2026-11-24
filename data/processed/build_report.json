@@ -1,25 +1,25 @@
 {
-  "built": "2026-11-24T07:37:55",
+  "built": "2026-11-24T07:50:27",
   "tables": {
-    "sources": 7294,
-    "companies": 3909,
+    "sources": 7291,
+    "companies": 3908,
     "investors": 5590,
-    "deals": 5352,
-    "deal_investors": 13814,
-    "deal_sources": 5623,
-    "financials": 1372,
+    "deals": 5348,
+    "deal_investors": 13811,
+    "deal_sources": 5619,
+    "financials": 1373,
     "weekly_totals": 299,
-    "corrections": 151
+    "corrections": 150
   },
-  "deal_records_before_dedupe": 5623,
+  "deal_records_before_dedupe": 5619,
   "duplicate_reports_merged": 271,
   "corrections_by_rule": {
     "two-agent merge: filled gap": 22,
-    "headline-wins": 125,
+    "headline-wins": 124,
     "implausible amount dropped": 4
   },
   "deals_by_type": {
-    "equity": "4555",
+    "equity": "4551",
     "acquisition": "331",
     "debt": "216",
     "secondary": "135",
@@ -30,11 +30,11 @@
     "2022": 816,
     "2023": 700,
     "2024": 1046,
-    "2025": 1361,
-    "2026": 963
+    "2025": 1360,
+    "2026": 960
   },
   "amount_disclosed_pct": 90.8,
-  "with_named_investor_pct": 78.1,
+  "with_named_investor_pct": 78.2,
   "multi_source_deals": 258,
   "top_investors": [
     {
@@ -70,7 +70,7 @@
     {
       "name": "Elevation Capital",
       "type": "Institutional",
-      "n_deals": 96,
+      "n_deals": 95,
       "n_led": 50.0
     },
     {
@@ -82,7 +82,7 @@
     {
       "name": "Z47",
       "type": "Institutional",
-      "n_deals": 84,
+      "n_deals": 83,
       "n_led": 39.0
     },
     {

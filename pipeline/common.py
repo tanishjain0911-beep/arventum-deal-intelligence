@@ -40,7 +40,7 @@ AMT = re.compile(
 # an amount next to these words is not the round size
 NOT_ROUND_BEFORE = re.compile(r"(valuation|valued|valuing|worth|revenue|loss|losses|profit|gmv|arr|turnover|"
                               r"income|sales|fund\s+of|corpus|aum|ebitda|tanks\s+to|drops\s+to|jumps\s+to)"
-                              r"[^$₹\d]{0,25}$", re.I)
+                              r"[^$₹]{0,30}$", re.I)  # digits allowed between ("valuation spikes 70% to $3.4 Bn")
 NOT_ROUND_AFTER = re.compile(r"^\s*(?:mn|million|bn|billion|cr|crore)?\s*(?:for\s+(?:its\s+)?(?:\w+\s+){0,2})?"
                              r"(valuation|revenue|loss|profit|gmv|arr|turnover|fund\b|corpus|aum)", re.I)
 

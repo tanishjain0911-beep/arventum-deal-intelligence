@@ -38,9 +38,29 @@ if ag:
                       yaxis=dict(autorange="reversed"),
                       title=f"Codex vs OpenCode on the same {cc.get('articles_compared', 0)} articles")
     st.plotly_chart(fig, use_container_width=True)
-if me:
-    with st.expander("Free fallback models vs Codex (used when the ChatGPT quota ran out)"):
-        st.dataframe(pd.DataFrame(me).T, use_container_width=True)
+st.markdown("**Every extraction method, with its measured accuracy against Codex** (the reference agent)")
+rows = [{"extractor": "Codex (GPT-5.6, strict schema)", "role": "reference", "company": "—", "amount": "—",
+         "lead investors": "—", "note": "audited manually: 40/40 type, company, investors"}]
+if cc.get("agreement_pct"):
+    a = cc["agreement_pct"]
+    rows.append({"extractor": "OpenCode (GPT-5.6)", "role": "primary", "company": f"{a['company']}%",
+                 "amount": f"{a['amount']}%", "lead investors": f"{a['lead_investors']}%",
+                 "note": f"{cc.get('articles_compared')} articles read by both"})
+for k, label in [("deepseek", "DeepSeek (free)"), ("pickle", "Big Pickle (free)"), ("nemotron", "Nemotron (free)"),
+                 ("mimo", "Mimo (free)")]:
+    if k in me:
+        rows.append({"extractor": label, "role": "fallback", "company": f"{me[k]['company']}%",
+                     "amount": f"{me[k]['amount']}%", "lead investors": f"{me[k]['lead_investors']}%",
+                     "note": f"{me[k]['articles']} articles compared"})
+re_ = ui.load_json("rules_eval.json")
+if re_:
+    rows.append({"extractor": "Rule-based headline parser (no AI)", "role": "last resort", "company":
+                 f"{re_['company_pct']}%", "amount": f"{re_['amount_pct']}%",
+                 "lead investors": f"{re_['lead_precision_pct']}% precision",
+                 "note": f"{re_['deals_compared']} deals compared; funding & financials only"})
+st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
+st.caption("When several extractors read the same article, the merge prefers the more accurate one; lower-priority "
+           "records are re-queued for the AI when it is available.")
 
 st.subheader("2 · Rule-based checks (no AI involved)")
 labels = {"headline_amount": "Amount matches the headline", "stage_size": "Round size plausible for its stage",

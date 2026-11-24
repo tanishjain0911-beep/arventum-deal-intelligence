@@ -26,6 +26,7 @@ CASES = {
     "Antler India raises Rs 500 Cr for maiden fund": None,
     "Rebel Foods raises Rs 150 Cr debt from Alteria and InnoVen": 150e7 / FX / 1e6,
     "Hoola Health raises $5 Mn led by Peak XV's Surge": 5,
+    "Unacademy’s valuation spikes over 70% to $3.44 Bn as it raises $440 Mn led by Temasek": 440,
 }
 
 

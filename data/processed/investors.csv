@@ -4,9 +4,9 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 41,Accel,Institutional,,Venture Capital,United States,1.0,0.98,129,84.0
 43,Venture Catalysts,Institutional,,Angel network / platform,India,0.0,0.96,114,48.0
 24,Blume Ventures,Institutional,,Venture Capital,India,0.0,0.99,110,37.0
-2,Elevation Capital,Institutional,,Venture Capital,India,0.0,0.95,96,50.0
+2,Elevation Capital,Institutional,,Venture Capital,India,0.0,0.95,95,50.0
 202,Lightspeed,Institutional,,Venture Capital,United States,1.0,0.98,86,45.0
-63,Z47,Institutional,,Venture Capital,India,0.0,0.97,84,39.0
+63,Z47,Institutional,,Venture Capital,India,0.0,0.97,83,39.0
 18,Kunal Shah,Individual,,Angel investor (individual),India,0.0,0.99,71,0.0
 872,Info Edge Ventures,Institutional,,Corporate / CVC,India,0.0,0.99,68,37.0
 66,Alteria Capital,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,67,20.0
@@ -52,9 +52,9 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1127,RTP Global,Individual,,Venture Capital,United Kingdom,1.0,0.91,30,18.0
 136,Alpha Wave Global,Individual,,Hedge fund / Crossover / Asset manager,United Arab Emirates,1.0,0.93,29,18.0
 210,Speciale Invest,Individual,,Venture Capital,India,0.0,0.99,29,17.0
-249,Premji Invest,Individual,,Family office,India,0.0,0.99,28,15.0
 469,DSG Consumer Partners,Institutional,,Venture Capital,Singapore,1.0,0.96,28,12.0
 1003,Piper Serica,Individual,,Hedge fund / Crossover / Asset manager,India,0.0,0.94,28,16.0
+249,Premji Invest,Individual,,Family office,India,0.0,0.99,27,14.0
 261,InnoVen Capital,Debt / Bank,,Venture debt / NBFC / Bank,Singapore,1.0,0.97,27,6.0
 284,Avaana Capital,Institutional,,Venture Capital,India,0.0,0.98,27,17.0
 320,Mumbai Angels,Angel network,,Angel network / platform,India,0.0,0.99,27,7.0
@@ -71,7 +71,7 @@ investor_id,name,type,country,ai_type,hq_country,is_foreign,ai_confidence,n_deal
 1260,Arkam Ventures,Institutional,,Venture Capital,India,0.0,0.98,24,12.0
 159,Endiya Partners,Institutional,,Venture Capital,India,0.0,0.99,23,10.0
 676,Ramakant Sharma,Individual,,Angel investor (individual),India,0.0,0.99,23,2.0
-1162,SIDBI,Debt / Bank,,Sovereign / Pension / DFI / Government,India,0.0,0.99,23,10.0
+1162,SIDBI Venture Capital,Debt / Bank,,,,,,23,10.0
 1512,BlackSoil,Debt / Bank,,Venture debt / NBFC / Bank,India,0.0,0.99,23,15.0
 131,A91 Partners,Institutional,,Venture Capital,India,0.0,0.97,22,11.0
 463,Saama Capital,Institutional,,Venture Capital,India,0.0,0.97,22,16.0

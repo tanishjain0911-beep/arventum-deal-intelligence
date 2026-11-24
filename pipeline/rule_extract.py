@@ -30,8 +30,8 @@ NOT_DEAL = re.compile(r"\b(to raise|in talks|set to|plans? to|eyes|likely to|may
                       r"secondary|buyback|block deal|stake sale|sells .* stake)", re.I)
 ACQ = re.compile(r"^(?:exclusive:\s*)?(?P<acq>.+?)\s+(?:acquires|buys|to acquire|picks up majority stake in|"
                  r"takes over)\s+(?P<target>.+?)(?:\s+for\s+.*|\s+in\s+.*deal.*)?$", re.I)
-RAISE = re.compile(r"\b(raises|raised|secures|bags|picks up|nets|gets|receives|mops up|closes|grabs|lands|"
-                   r"scoops up|garners)\b", re.I)
+RAISE = re.compile(r"\b(raises|raised|secures|bags|picks up|nets|gets|receives|mops up|grabs|lands|"
+                   r"scoops up|garners|closes(?=.{0,40}\b(?:round|funding|series|seed)\b))\b", re.I)  # "closes FY21..." is not a raise
 LEADS = re.compile(r"^(?:exclusive:\s*)?(?P<lead>.+?)\s+(?:leads|co-leads)\s+.*?\b(?:round|funding)\s+in\s+"
                    r"(?:[a-z0-9\- ]*?\s)?(?P<company>[A-Z][\w.&'’\- ]+)$")
 LED_BY = re.compile(r"\b(?:led by|from|backed by)\s+(?P<inv>.+?)(?:,? (?:and|with) (?:others|participation.*)|"
