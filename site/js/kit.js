@@ -59,6 +59,7 @@ export function exhibit({ n, title, sub, body, source, cls = "c12", id }) {
 // cols: [{key,label,n:bool,fmt:fn(row)->html,sort:fn(row)->value}]
 export function table(el, rows, cols, { sortKey, desc = true, onClick, selected, max = 400, empty = "No rows match." } = {}) {
   let sk = sortKey, sd = desc;
+  let all = false; const cap = () => (all || innerWidth >= 780) ? max : Math.min(max, 12);
   function render() {
     const col = cols.find(c => c.key === sk);
     const sorted = col ? [...rows].sort((a, b) => {
@@ -66,12 +67,14 @@ export function table(el, rows, cols, { sortKey, desc = true, onClick, selected,
       if (va == null) return 1; if (vb == null) return -1;
       return (va < vb ? -1 : va > vb ? 1 : 0) * (sd ? -1 : 1);
     }) : rows;
-    const head = cols.map(c => `<th class="${c.n ? "n " : ""}sortable" data-k="${c.key}">${esc(c.label)}<span class="arrow">${c.key === sk ? (sd ? "↓" : "↑") : ""}</span></th>`).join("");
-    const body = sorted.slice(0, max).map((r, i) => `<tr class="${onClick ? "click" : ""} ${selected && selected(r) ? "sel" : ""}" data-i="${rows.indexOf(r)}">${cols.map(c =>
-      `<td class="${c.n ? "n" : ""} ${c.muted ? "muted" : ""}">${c.fmt ? c.fmt(r) : esc(r[c.key] ?? "—")}</td>`).join("")}</tr>`).join("");
-    el.innerHTML = rows.length ? `<div class="tablewrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`
+    const head = cols.map(c => `<th class="${c.n ? "n " : ""}${c.wide ? "wide-only " : ""}sortable" data-k="${c.key}">${esc(c.label)}<span class="arrow">${c.key === sk ? (sd ? "↓" : "↑") : ""}</span></th>`).join("");
+    const shown = cap(); const body = sorted.slice(0, shown).map((r, i) => `<tr class="${onClick ? "click" : ""} ${selected && selected(r) ? "sel" : ""}" data-i="${rows.indexOf(r)}">${cols.map(c =>
+      `<td class="${c.n ? "n" : ""} ${c.muted ? "muted" : ""} ${c.wide ? "wide-only" : ""}">${c.fmt ? c.fmt(r) : esc(r[c.key] ?? "—")}</td>`).join("")}</tr>`).join("");
+    const more = sorted.length > shown ? `<button type="button" class="btn ghost more">Show all ${Math.min(sorted.length, max)}</button>` : "";
+    el.innerHTML = rows.length ? `<div class="tablewrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>${more}`
       : `<div class="empty">${empty}</div>`;
     el.querySelectorAll("th.sortable").forEach(th => th.onclick = () => { if (sk === th.dataset.k) sd = !sd; else { sk = th.dataset.k; sd = true; } render(); });
+    const mb = el.querySelector(".more"); if (mb) mb.onclick = () => { all = true; render(); };
     if (onClick) el.querySelectorAll("tbody tr").forEach(tr => tr.onclick = () => onClick(rows[+tr.dataset.i]));
   }
   render();
@@ -101,6 +104,7 @@ export function barChart(items, { w = 760, height = 260, fmt = v => v, labelEver
 // horizontal bars. items: [{label, v, tip, alt}]
 export function hbarChart(items, { w = 760, fmt = v => v, row = 26, labelW = 190 } = {}) {
   W = w;
+  labelW = Math.min(Math.round(W * 0.55), Math.max(labelW, Math.round(Math.max(0, ...items.map(d => String(d.label).length)) * 6.6) + 14));
   const height = items.length * row + 8, iw = W - labelW - 64;
   const max = Math.max(...items.map(d => d.v), 0) || 1;
   return `<svg class="chart" viewBox="0 0 ${W} ${height}" role="img">${items.map((d, i) => {
@@ -113,11 +117,15 @@ export function hbarChart(items, { w = 760, fmt = v => v, row = 26, labelW = 190
 // ranges (p25..p75 with a median tick). items:[{label, lo, mid, hi, tip}], log scale optional
 export function rangeChart(items, { w = 760, fmt = v => v, log = false, row = 34, labelW = 160, xmax, ticksAt } = {}) {
   W = w;
+  labelW = Math.min(Math.round(W * 0.55), Math.max(labelW, Math.round(Math.max(0, ...items.map(d => String(d.label).length)) * 6.6) + 14));
   const height = items.length * row + 30, iw = W - labelW - 20;
   const hi = xmax || Math.max(...items.map(d => d.hi)) * 1.08;
   const lo0 = log ? Math.min(...items.map(d => d.lo).filter(v => v > 0)) / 1.5 : 0;
   const x = v => labelW + (log ? (Math.log(Math.max(v, lo0)) - Math.log(lo0)) / (Math.log(hi) - Math.log(lo0)) : v / hi) * iw;
-  const tk = ticksAt || (log ? [] : ticks(hi, 5));
+  let tk = ticksAt || (log ? [] : ticks(hi, 5));
+  tk = tk.filter(v => v >= lo0 && v <= hi);
+  // thin interior ticks until each has ~64px, always keeping both ends
+  while (tk.length > 2 && iw / tk.length < 64) tk = tk.filter((_, i) => i === 0 || i === tk.length - 1 || i % 2 === 0);
   return `<svg class="chart" viewBox="0 0 ${W} ${height}" role="img">
     <g class="grid">${tk.filter(t => t >= lo0 && t <= hi).map(t => `<line x1="${x(t)}" x2="${x(t)}" y1="0" y2="${height - 24}"/><text x="${x(t)}" y="${height - 8}" text-anchor="middle">${fmt(t)}</text>`).join("")}</g>
     ${items.map((d, i) => { const y = 4 + i * row;

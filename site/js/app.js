@@ -12,6 +12,10 @@ const SECTIONS = [
   ["method", "Method", "Sources, checks, accuracy"],
 ];
 const $main = document.getElementById("main");
+// chart width in px for an exhibit spanning `span` of 12 columns, so SVG text renders at its CSS size
+const colW = span => { const narrow = innerWidth < 1100, mw = $main.clientWidth - (narrow ? 40 : 96);
+  return Math.round(Math.max(280, (mw + 24) * (narrow ? 12 : span) / 12 - 24 - 50)); };
+const lw = (span, want) => Math.min(want, Math.round(colW(span) * 0.4));
 const state = { market: { sector: "focus", months: 12 }, radar: { sector: "focus", stage: "any", min: 1, sel: null },
   inv: { sector: "FinTech & Payments", stage: "series-a", amount: 10, lead: true, foreign: false, sel: null },
   buy: { sector: "FinTech & Payments" }, val: { sector: "SaaS", rev: 150, growth: 50, margin: 10, gross: null, scope: "Both" },
@@ -45,8 +49,8 @@ async function viewSummary() {
     <div class="controls"><a class="btn" href="#/radar">Open the Origination Radar</a><a class="btn ghost" href="#/company">Look up a company</a></div></div>
   <div class="grid">
     ${exhibit({ n: "1.1", title: "Capital raised by Indian tech companies, per quarter", cls: "c8",
-      body: `<p class="lede">${int(s.tables.deals)} deals since ${new Date(s.first).getFullYear()}, <em>each traced to the article it came from.</em></p>${barChart(items, { fmt: v => usd(v, 0), height: 300 })}`,
-      source: sourceLine(`${int(s.tables.sources)} public articles (Entrackr, Inc42), extracted by AI agents and checked by rules; equity and venture debt rounds. Latest quarter may be incomplete.`) })}
+      body: `<p class="lede">${int(s.tables.deals)} deals since ${new Date(s.first).getFullYear()}, each traced to the article it came from.</p>${barChart(items, { w: colW(8), fmt: v => usd(v, 0), height: 300 })}`,
+      source: `<b>Source:</b> ${int(s.tables.sources)} public articles (Entrackr, Inc42), extracted by AI agents and checked by rules; equity and venture-debt rounds. Latest quarter may be incomplete. Every deal links to its article: <a href="#/market">latest deals</a>, any <a href="#/company">company page</a>, or the <a href="#/method">full list</a>.` })}
     ${exhibit({ n: "1.2", title: "Measured, not claimed", sub: "Every model is tested on outcomes it never saw.", cls: "c4",
       body: `<ul class="results-list">
         <li><span class="what">Origination Radar: its top 100 picks that raised within 12 months</span><span class="fig">${pct(r.mean_precision_top100)}</span><span class="vs">vs ${pct(r.mean_precision_top100_heuristic)} for the "raised 18–24 months ago" rule; ${r.mean_lift_top100}× random</span></li>
@@ -55,14 +59,14 @@ async function viewSummary() {
         <li><span class="what">Reported startup capital captured</span><span class="fig">${cov.usd_recall_pct}%</span><span class="vs">${cov.deal_recall_pct}% of deals by count; small undisclosed rounds are the gap</span></li></ul>`,
       source: sourceLine("walk-forward backtests and quality checks in this repository.") })}
     ${exhibit({ n: "1.3", title: "What is in this book", cls: "c12",
-      body: `<table><thead><tr><th>Section</th><th>Question it answers</th><th>Built on</th></tr></thead><tbody>
+      body: `<table><thead><tr><th>Section</th><th>Question it answers</th><th class="wide-only">Built on</th></tr></thead><tbody>
         ${[["2 Market", "What is happening in each sector right now?", "capital, deal counts and round sizes by sector and stage"],
            ["3 Origination", "Which private companies will raise in the next 12 months?", "a logistic model on funding history, backtested over four quarters"],
            ["4 Investors", "Which funds are most likely to back this client?", "each investor's sector, stage and cheque history, recency-weighted"],
            ["5 Buyers", "Who acquires companies like this one?", `${int(s.acquisitions)} acquisitions with named buyers`],
            ["6 Valuation", "What is a reasonable value range?", "listed peers, a cross-validated regression and Indian private rounds"],
            ["7 Company", "What has this company raised, from whom?", `${int(s.companies)} companies, ${int(s.tables.financials)} annual financial records`]]
-          .map(([a, b, c]) => `<tr><td><a href="#/${SECTIONS[+a[0] - 1][0]}">${a}</a></td><td>${b}</td><td class="muted">${c}</td></tr>`).join("")}</tbody></table>` })}
+          .map(([a, b, c]) => `<tr><td><a href="#/${SECTIONS[+a[0] - 1][0]}">${a}</a></td><td>${b}</td><td class="muted wide-only">${c}</td></tr>`).join("")}</tbody></table>` })}
   </div>`;
 }
 
@@ -94,15 +98,17 @@ async function viewMarket() {
   const html = h`<div class="sechead"><div><h1><b>2</b>Market</h1><p>Where capital is going in Indian technology, by sector and stage. Use it to open a pitch with current numbers.</p></div>
     <div class="controls"><label class="f">Sector<select id="m-sector">${sectorOptions(s.all_sectors, st.sector, [["focus", "Arventum's 20 focus sectors"], ["all", "All sectors"]])}</select></label>
     <label class="f">Tables cover<select id="m-months">${[3, 6, 12, 24].map(m => `<option value="${m}" ${m === st.months ? "selected" : ""}>Last ${m} months</option>`).join("")}</select></label></div></div>
-    <dl class="facts"><div><dt>Rounds, last ${st.months} months</dt><dd>${int(recent.length)}</dd></div><div><dt>Capital raised</dt><dd>${usd(recent.reduce((a, d) => a + (d.usd_m || 0), 0))}</dd></div>
-      <div><dt>Median disclosed round</dt><dd>${usd(median(recent.map(d => d.usd_m)))}</dd></div><div><dt>Companies funded</dt><dd>${int(new Set(recent.map(d => d.cid)).size)}</dd></div></dl>
+    <div class="grid" style="margin-bottom:var(--s5)">${exhibit({ n: "2.0", title: `The last ${st.months} months at a glance, ${label}`, cls: "c12",
+      body: `<dl class="facts"><div><dt>Rounds</dt><dd>${int(recent.length)}</dd></div><div><dt>Capital raised</dt><dd>${usd(recent.reduce((a, d) => a + (d.usd_m || 0), 0))}</dd></div>
+      <div><dt>Median disclosed round</dt><dd>${usd(median(recent.map(d => d.usd_m)))}</dd></div><div><dt>Companies funded</dt><dd>${int(new Set(recent.map(d => d.cid)).size)}</dd></div></dl>`,
+      source: sourceLine(`equity and venture-debt rounds dated after ${date(cut.toISOString().slice(0, 10))}; capital and median count disclosed amounts only.`) })}</div>
     <div class="grid">
-      ${exhibit({ n: "2.1", title: `Capital raised per quarter, ${label}`, cls: "c6", body: barChart(capItems, { w: 500, fmt: v => usd(v, 0), height: 230 }), source: sourceLine("equity and venture-debt rounds with disclosed amounts.") })}
-      ${exhibit({ n: "2.2", title: `Rounds per quarter, ${label}`, cls: "c6", body: barChart(cntItems, { w: 500, fmt: v => int(v), height: 230 }), source: sourceLine("all primary rounds, disclosed or not.") })}
-      ${exhibit({ n: "2.3", title: "Where the money went in the last six months", sub: `<span class="legend"><span><i style="background:var(--teal)"></i>Arventum focus sector</span><span><i style="background:#A8B3C4"></i>Other sector</span></span>`, cls: "c7",
-        body: hbarChart(heat, { w: 600, labelW: 160, row: 24, fmt: v => usd(v, 0) }), source: sourceLine("capital in disclosed rounds; hover a bar for the change versus the prior six months.") })}
+      ${exhibit({ n: "2.1", title: `Capital raised per quarter, ${label}`, cls: "c6", body: barChart(capItems, { w: colW(6), fmt: v => usd(v, 0), height: 230 }), source: sourceLine("equity and venture-debt rounds with disclosed amounts.") })}
+      ${exhibit({ n: "2.2", title: `Rounds per quarter, ${label}`, cls: "c6", body: barChart(cntItems, { w: colW(6), fmt: v => int(v), height: 230 }), source: sourceLine("all primary rounds, disclosed or not.") })}
+      ${exhibit({ n: "2.3", title: "Where the money went in the last six months", sub: `<span class="legend"><span><i style="background:var(--teal)"></i>Arventum focus sector</span><span><i style="background:var(--slate)"></i>Other sector</span></span>`, cls: "c7",
+        body: hbarChart(heat, { w: colW(7), labelW: lw(7, 160), row: 24, fmt: v => usd(v, 0) }), source: sourceLine("capital in disclosed rounds; hover a bar for the change versus the prior six months.") })}
       ${exhibit({ n: "2.4", title: "What a round looks like now, by stage", sub: "Middle half of disclosed rounds in the last two years; the dark tick is the median.", cls: "c5",
-        body: bench.length ? rangeChart(bench, { log: true, fmt: v => usd(v, 0), ticksAt: [0.1, 1, 10, 100], labelW: 96, w: 420, row: 30 }) : `<div class="empty">Too few disclosed rounds.</div>`,
+        body: bench.length ? rangeChart(bench, { log: true, fmt: v => usd(v, 0), ticksAt: [0.1, 1, 10, 100], labelW: 96, w: colW(5), row: 30 }) : `<div class="empty">Too few disclosed rounds.</div>`,
         source: sourceLine("stage as reported in the source article.") })}
       ${exhibit({ n: "2.5", title: "Most active institutional investors", cls: "c5", body: `<div id="m-inv"></div>`, source: sourceLine(`rounds in the last ${st.months} months; angels excluded.`) })}
       ${exhibit({ n: "2.6", title: "Latest deals", cls: "c7", body: `<div id="m-deals"></div>`, source: sourceLine("each row links to its article.") })}
@@ -114,14 +120,14 @@ async function viewMarket() {
     const invs = (await load("investors")).profiles; const kind = Object.fromEntries(invs.map(p => [p.name, p]));
     const rows = Object.entries(counts).filter(([n]) => kind[n] && kind[n].type !== "Individual").map(([n, c]) => ({ name: n, rounds: c.n, led: c.led, hq: kind[n]?.hq || "" }))
       .sort((a, b) => b.rounds - a.rounds).slice(0, 25);
-    table(document.getElementById("m-inv"), rows, [{ key: "name", label: "Investor" }, { key: "rounds", label: "Rounds", n: true }, { key: "led", label: "Led", n: true }, { key: "hq", label: "HQ", muted: true }], { sortKey: "rounds" });
+    table(document.getElementById("m-inv"), rows, [{ key: "name", label: "Investor" }, { key: "rounds", label: "Rounds", n: true }, { key: "led", label: "Led", n: true }, { key: "hq", label: "HQ", muted: true, wide: true }], { sortKey: "rounds" });
     const latest = ds.filter(d => pick(d) && d.type !== "public_market").slice(0, 60);
     table(document.getElementById("m-deals"), latest, [
       { key: "date", label: "Date", fmt: r => date(r.date), sort: r => r.date },
       { key: "company", label: "Company", fmt: r => `<a href="#/company/${r.cid}">${esc(r.company)}</a>` },
-      { key: "stage", label: "Stage", fmt: r => stageLabel(r.type === "acquisition" ? "acquisition" : r.stage) },
+      { key: "stage", label: "Stage", wide: true, fmt: r => stageLabel(r.type === "acquisition" ? "acquisition" : r.stage) },
       { key: "usd_m", label: "Amount", n: true, fmt: r => usd(r.usd_m) },
-      { key: "leads", label: "Led by / buyer", fmt: r => esc(r.acquirer || r.leads.join(", ")) },
+      { key: "leads", label: "Led by / buyer", wide: true, fmt: r => esc(r.acquirer || r.leads.join(", ")) },
       { key: "url", label: "", fmt: r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">Article</a>` : "" }], { sortKey: "date" });
   } };
 }
@@ -145,7 +151,7 @@ async function viewRadar() {
           <p class="note">Averaged over ${folds.length} quarters. For each test date the model saw only snapshots whose outcome was known before it, then we checked who actually raised. The top of the list is ${r.mean_lift_top100}× better than random; ranking across the whole list is moderate.</p>`,
         source: sourceLine("walk-forward backtest; logistic regression chosen over gradient-boosted trees on the same test.") })}
       ${exhibit({ n: "3.2", title: "Share that actually raised, by score decile", sub: last ? `Test date ${date(last.test_cutoff)}. D1 holds the highest scores.` : "", cls: "c7",
-        body: decItems.length ? barChart(decItems, { w: 560, fmt: v => `${Math.round(v)}%`, height: 230 }) : "", source: sourceLine("one test quarter shown; all four in the Method section.") })}
+        body: decItems.length ? barChart(decItems, { w: colW(7), fmt: v => `${Math.round(v)}%`, height: 230 }) : "", source: sourceLine("one test quarter shown; all four in the Method section.") })}
       ${exhibit({ n: "3.3", title: "Companies most likely to raise next", cls: "c12",
         body: `<div class="controls" style="margin-bottom:12px"><label class="f">Sector<select id="r-sector">${sectorOptions(s.all_sectors.filter(x => x !== "Other"), st.sector, [["focus", "Arventum's 20 focus sectors"], ["all", "All sectors"]])}</select></label>
           <label class="f">Last round<select id="r-stage"><option value="any">Any stage</option>${STAGES.concat(["debt", "undisclosed"]).map(x => `<option value="${x}" ${x === st.stage ? "selected" : ""}>${stageLabel(x)}</option>`).join("")}</select></label>
@@ -168,12 +174,12 @@ async function viewRadar() {
     };
     const tbl = table(document.getElementById("r-table"), rows, [
       { key: "company", label: "Company", fmt: c => `<b>${esc(c.company)}</b>` },
-      { key: "sector", label: "Sector", muted: true },
-      { key: "stage", label: "Last round", fmt: c => stageLabel(c.stage) },
+      { key: "sector", label: "Sector", muted: true, wide: true },
+      { key: "stage", label: "Last round", wide: true, fmt: c => stageLabel(c.stage) },
       { key: "last", label: "When", fmt: c => month(c.last), sort: c => c.last },
-      { key: "months", label: "Months since", n: true, fmt: c => Math.round(c.months) },
+      { key: "months", label: "Months since", n: true, wide: true, fmt: c => Math.round(c.months) },
       { key: "last_usd_m", label: "Size", n: true, fmt: c => usd(c.last_usd_m) },
-      { key: "rounds", label: "Rounds tracked", n: true },
+      { key: "rounds", label: "Rounds tracked", n: true, wide: true },
       { key: "p", label: "Likelihood", fmt: c => `<div class="bar"><i style="width:${Math.round(c.p * 100)}px"></i><span>${pct(c.p)}</span></div>`, sort: c => c.p }],
       { sortKey: "p", onClick: showDetail, selected: c => c.cid === st.sel, max: 100 });
   } };
@@ -225,7 +231,7 @@ async function viewInvestors() {
         source: sourceLine("blend of sector fit, stage fit, cheque size, recent activity and lead appetite; weights tuned on an earlier period. Small samples are shrunk toward the market average.") })}
       ${exhibit({ n: "4.2", title: "Why this investor", cls: "c5", body: `<div id="i-detail"></div>`, source: sourceLine("recent deals in which this investor participated.") })}
       ${exhibit({ n: "4.3", title: "Does it work? Tested on real rounds", cls: "c12",
-        body: `<table><thead><tr><th>A real investor in the round appeared in…</th><th class="n">This ranking</th><th class="n">"Most active investors" list</th></tr></thead><tbody>
+        body: `<table><thead><tr><th>Real backer in…</th><th class="n">This model</th><th class="n">Most active</th></tr></thead><tbody>
           ${["10", "20", "50"].map(k => `<tr><td>the top ${k}</td><td class="n"><b>${pct(m.model_hit_rate?.[k])}</b></td><td class="n">${pct(m.baseline_hit_rate?.[k])}</td></tr>`).join("")}</tbody></table>
           <p class="note">${m.test_deals} rounds since ${date(m.period_start)}, each ranked using only data from before that round.</p>`,
         source: sourceLine("out-of-sample backtest; weights chosen on the preceding six months.") })}
@@ -241,15 +247,15 @@ async function viewInvestors() {
       st.sel = p.id; tbl.render();
       document.getElementById("i-detail").innerHTML = `<h3 style="font-family:var(--serif);margin:0 0 4px">${esc(p.name)}</h3>
         <p class="note" style="margin:0 0 12px">${esc(p.ai_type || p.type)}${p.hq ? " · " + esc(p.hq) : ""} · ${p.recent} deals in 18 months · typical round ${usd(p.med)} · leads ${pct(p.lead)} of its deals</p>
-        <table><thead><tr><th>Date</th><th>Company</th><th>Stage</th><th class="n">Round</th></tr></thead><tbody>
-        ${[...p.ex].sort((a, b) => (b[2] === st.sector) - (a[2] === st.sector) || b[0].localeCompare(a[0])).slice(0, 10).map(e => `<tr${e[2] === st.sector ? ' class="sel"' : ""}><td class="muted">${month(e[0])}</td><td>${esc(e[1])}${e[5] ? ' <span class="tag teal">led</span>' : ""}</td><td>${stageLabel(e[3])}</td><td class="n">${usd(e[4])}</td></tr>`).join("")}</tbody></table>
+        <table><thead><tr><th>Date</th><th>Company</th><th class="wide-only">Stage</th><th class="n">Round</th></tr></thead><tbody>
+        ${[...p.ex].sort((a, b) => (b[2] === st.sector) - (a[2] === st.sector) || b[0].localeCompare(a[0])).slice(0, 10).map(e => `<tr${e[2] === st.sector ? ' class="sel"' : ""}><td class="muted">${month(e[0])}</td><td>${esc(e[1])}${e[5] ? ' <span class="tag teal">led</span>' : ""}</td><td class="wide-only">${stageLabel(e[3])}</td><td class="n">${usd(e[4])}</td></tr>`).join("")}</tbody></table>
         <p class="note">Highlighted rows are in the client's sector.</p>`;
     };
     const tbl = table(document.getElementById("i-table"), res, [
       { key: "name", label: "Investor", fmt: p => `<b>${esc(p.name)}</b>` },
             { key: "match", label: "Match", fmt: p => `<div class="bar"><i style="width:${p.match}px"></i><span>${p.match}</span></div>`, sort: p => p.match },
-      { key: "inSector", label: "In sector", n: true }, { key: "recent", label: "Deals, 18m", n: true },
-      { key: "med", label: "Typical round", n: true, fmt: p => usd(p.med) }],
+      { key: "inSector", label: "In sector", n: true, wide: true }, { key: "recent", label: "Deals, 18m", n: true },
+      { key: "med", label: "Typical round", n: true, wide: true, fmt: p => usd(p.med) }],
       { sortKey: "match", onClick: detail, selected: p => p.id === st.sel, empty: "No investors match these filters." });
     const first = res.find(p => p.id === st.sel); if (first) detail(first);
   } };
@@ -266,7 +272,7 @@ async function viewBuyers() {
     <div class="grid">
       ${exhibit({ n: "5.1", title: `Most likely buyers for a ${st.sector} company`, cls: "c8", body: `<div id="b-table"></div>`,
         source: sourceLine("acquisitions with a named buyer; serial and recent acquirers rank higher.") })}
-      ${exhibit({ n: "5.2", title: "Acquisitions by target sector", cls: "c4", body: hbarChart(topSec, { w: 380, labelW: 170, row: 26, fmt: v => int(v) }),
+      ${exhibit({ n: "5.2", title: "Acquisitions by target sector", cls: "c4", body: hbarChart(topSec, { w: colW(4), labelW: lw(4, 170), row: 26, fmt: v => int(v) }),
         source: sourceLine(`${bs.disclosed_value_pct}% of these deals disclose a price.`) })}
       ${exhibit({ n: "5.3", title: "Latest acquisitions", cls: "c12", body: `<div id="b-recent"></div>`, source: sourceLine("each row links to its article.") })}
     </div>`;
@@ -276,11 +282,11 @@ async function viewBuyers() {
     table(document.getElementById("b-table"), rows, [
       { key: "acquirer", label: "Acquirer", fmt: r => `<b>${esc(r.acquirer)}</b>` },
       { key: "match_pct", label: "Match", fmt: r => `<div class="bar"><i style="width:${r.match_pct}px"></i><span>${r.match_pct}</span></div>` },
-      { key: "in_sector", label: "In sector", n: true }, { key: "acquisitions_total", label: "Total buys", n: true },
-      { key: "last_24m", label: "Last 24 months", n: true }, { key: "targets", label: "Recent targets", muted: true }], { sortKey: "match_pct" });
+      { key: "in_sector", label: "In sector", n: true }, { key: "acquisitions_total", label: "Total buys", n: true, wide: true },
+      { key: "last_24m", label: "Last 24 months", n: true, wide: true }, { key: "targets", label: "Recent targets", muted: true, wide: true }], { sortKey: "match_pct" });
     table(document.getElementById("b-recent"), b.recent.map(r => ({ date: r[0], target: r[1], sector: r[2], acquirer: r[3], usd: r[4], url: r[5] })), [
-      { key: "date", label: "Date", fmt: r => date(r.date), sort: r => r.date }, { key: "target", label: "Target", fmt: r => `<b>${esc(r.target)}</b>` },
-      { key: "sector", label: "Sector", muted: true }, { key: "acquirer", label: "Acquirer" }, { key: "usd", label: "Price", n: true, fmt: r => usd(r.usd) },
+      { key: "date", label: "Date", wide: true, fmt: r => date(r.date), sort: r => r.date }, { key: "target", label: "Target", fmt: r => `<b>${esc(r.target)}</b>` },
+      { key: "sector", label: "Sector", muted: true, wide: true }, { key: "acquirer", label: "Acquirer" }, { key: "usd", label: "Price", n: true, wide: true, fmt: r => usd(r.usd) },
       { key: "url", label: "", fmt: r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">Article</a>` : "" }], { sortKey: "date" });
   } };
 }
@@ -298,7 +304,7 @@ function valueCompany(V, { sector, rev, growth, margin, gross, scope }) {
   const lm = r.intercept + r.growth * cl(growth, -0.5, 2) + r.margin * cl(margin, -1, 0.7) + r.gross * cl(gross, 0, 1) + r.india * india, sd = r.resid_sd * 0.674;
   ranges.push({ label: "Growth- and margin-adjusted", lo: Math.exp(lm - sd) * k, mid: Math.exp(lm) * k, hi: Math.exp(lm + sd) * k, note: `${Math.exp(lm).toFixed(1)}× implied EV/revenue (regression on ${r.n} listed companies, R² ${r.r2.toFixed(2)})` });
   const seen = new Set();
-  let pm = V.private.filter(p => p.ev_revenue > 0.2 && p.ev_revenue < 80 && !seen.has(p.company + p.deal_date) && seen.add(p.company + p.deal_date)); const same = pm.filter(p => p.sector === sector);
+  let pm = V.private.filter(p => p.ev_revenue > 0.2 && p.ev_revenue < 80 && !seen.has(p.company + p.valuation_inr_cr) && seen.add(p.company + p.valuation_inr_cr)); const same = pm.filter(p => p.sector === sector);
   const scopeTxt = same.length >= 4 ? "same sector" : "all sectors"; if (same.length >= 4) pm = same;
   if (pm.length >= 3) { const e = pm.map(p => p.ev_revenue); const q1 = quantile(e, .25), q2 = quantile(e, .5), q3 = quantile(e, .75);
     ranges.push({ label: "Indian private rounds", lo: q1 * rev, mid: q2 * rev, hi: q3 * rev, note: `${q1.toFixed(1)}×–${q3.toFixed(1)}× valuation/revenue, ${pm.length} rounds (${scopeTxt})` }); }
@@ -318,13 +324,14 @@ async function viewValuation() {
       <label class="f">EBITDA margin (%)<input id="v-margin" type="number" step="5" value="${st.margin}"></label>
       <label class="f">Gross margin (%), optional<input id="v-gross" type="number" step="5" placeholder="sector median" value="${st.gross ?? ""}"></label>
       <label class="f">Listed peers<div class="seg" id="v-scope">${["Both", "India", "Global"].map(x => `<button type="button" class="${x === st.scope ? "on" : ""}" data-v="${x}">${x}</button>`).join("")}</div></label></div></div>
-    ${res.blend ? `<dl class="facts"><div><dt>Indicative enterprise value</dt><dd>${inr(res.blend[0])}–${inr(res.blend[2]).replace("₹", "")}<small>≈ ${usd(toUsd(res.blend[0]), 0)}–${usd(toUsd(res.blend[2]), 0)}</small></dd></div>
+    ${res.blend ? `<div class="grid" style="margin-bottom:var(--s5)">${exhibit({ n: "6.0", title: "Indicative value", cls: "c12",
+      body: `<dl class="facts"><div><dt>Indicative enterprise value</dt><dd>${inr(res.blend[0])}–${inr(res.blend[2]).replace("₹", "")}<small>≈ ${usd(toUsd(res.blend[0]), 0)}–${usd(toUsd(res.blend[2]), 0)}</small></dd></div>
       <div><dt>Central estimate</dt><dd>${inr(res.blend[1])}<small>${(res.blend[1] / st.rev).toFixed(1)}× revenue</small></dd></div>
       <div><dt>Listed peers used</dt><dd>${res.peers.length}<small>${st.scope === "Both" ? "India and global" : st.scope}</small></dd></div>
-      <div><dt>Indian private rounds</dt><dd>${res.pm.length}<small>with valuation and revenue</small></dd></div></dl>` : ""}
+      <div><dt>Indian private rounds</dt><dd>${res.pm.length}<small>with valuation and revenue</small></dd></div></dl>`, source: sourceLine(`median of the three methods' low, middle and high values in Exhibit 6.1; ₹ converted at ${V.usd_inr} per US dollar.`) })}</div>` : ""}
     <div class="grid">
       ${exhibit({ n: "6.1", title: "Football field: enterprise value, ₹ crore", sub: "Each bar is one method's range; the dark tick is its midpoint.", cls: "c12",
-        body: rangeChart(res.ranges.map(x => ({ ...x, tip: `${x.label}: ${inr(x.lo)} to ${inr(x.hi)}. ${x.note}` })), { fmt: v => Math.round(v).toLocaleString("en-IN"), labelW: 210, row: 46 })
+        body: rangeChart(res.ranges.map(x => ({ ...x, tip: `${x.label}: ${inr(x.lo)} to ${inr(x.hi)}. ${x.note}` })), { w: colW(12), fmt: v => Math.round(v).toLocaleString("en-IN"), labelW: lw(12, 210), row: 46 })
           + `<ul class="note" style="padding-left:18px">${res.ranges.map(x => `<li><b>${x.label}:</b> ${x.note}</li>`).join("")}${res.notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul>`,
         source: sourceLine(`listed data from Yahoo Finance as of ${V.as_of}; regression specification chosen by leave-one-out cross-validation across six candidates.`) })}
       ${exhibit({ n: "6.2", title: "Listed peers", cls: "c6", body: `<div id="v-peers"></div>`, source: sourceLine("enterprise value over trailing revenue.") })}
@@ -337,8 +344,8 @@ async function viewValuation() {
     document.querySelectorAll("#v-scope button").forEach(b => b.onclick = () => { st.scope = b.dataset.v; route(); });
     table(document.getElementById("v-peers"), res.peers, [{ key: "name", label: "Company", fmt: p => esc(tidy(p.name)) }, { key: "market", label: "Market", muted: true },
       { key: "ev_revenue", label: "EV/revenue", n: true, fmt: p => p.ev_revenue.toFixed(1) + "×" },
-      { key: "revenue_growth", label: "Growth", n: true, fmt: p => pct(p.revenue_growth) }, { key: "gross_margin", label: "Gross margin", n: true, fmt: p => pct(p.gross_margin) }], { sortKey: "ev_revenue" });
-    table(document.getElementById("v-private"), res.pm, [{ key: "company", label: "Company", fmt: p => `<b>${esc(p.company)}</b>` }, { key: "deal_date", label: "Date", fmt: p => month(p.deal_date), sort: p => p.deal_date },
+      { key: "revenue_growth", label: "Growth", n: true, fmt: p => pct(p.revenue_growth) }, { key: "gross_margin", label: "Gross margin", n: true, wide: true, fmt: p => pct(p.gross_margin) }], { sortKey: "ev_revenue" });
+    table(document.getElementById("v-private"), res.pm, [{ key: "company", label: "Company", fmt: p => `<b>${esc(p.company)}</b>` }, { key: "deal_date", label: "Date", wide: true, fmt: p => month(p.deal_date), sort: p => p.deal_date },
       { key: "valuation_inr_cr", label: "Valuation", n: true, fmt: p => inr(p.valuation_inr_cr) }, { key: "ev_revenue", label: "× revenue", n: true, fmt: p => p.ev_revenue.toFixed(1) + "×" },
       { key: "source_url", label: "", fmt: p => p.source_url ? `<a href="${esc(p.source_url)}" target="_blank" rel="noopener">Article</a>` : "" }], { sortKey: "deal_date" });
   } };
@@ -356,16 +363,17 @@ async function viewCompany(cidArg) {
   const backers = {}; cd.forEach(d => { d.leads.forEach(n => { (backers[n] ||= { n: 0, led: 0 }); backers[n].n++; backers[n].led++; }); d.others.forEach(n => { (backers[n] ||= { n: 0, led: 0 }); backers[n].n++; }); });
   const html = h`<div class="sechead"><div><h1><b>7</b>${esc(c[1])}</h1><p>${esc(c[2] || "Unclassified")}${c[3] ? " · " + esc(c[3]) : ""}</p></div>
     <div class="controls"><label class="f">Another company<input id="c-find" type="text" placeholder="Type a name" list="c-list"></label><datalist id="c-list">${C.list.slice(0, 4000).map(x => `<option value="${esc(x[1])}">`).join("")}</datalist></div></div>
-    <dl class="facts"><div><dt>Raised (tracked)</dt><dd>${usd(prim.reduce((a, d) => a + (d.usd_m || 0), 0))}<small>${prim.length} rounds</small></dd></div>
+    <div class="grid" style="margin-bottom:var(--s5)">${exhibit({ n: "7.0", title: "Profile", cls: "c12", body: `<dl class="facts"><div><dt>Raised (tracked)</dt><dd>${usd(prim.reduce((a, d) => a + (d.usd_m || 0), 0))}<small>${prim.length} rounds</small></dd></div>
       <div><dt>Last round</dt><dd>${prim[0] ? month(prim[0].date) : "—"}<small>${prim[0] ? stageLabel(prim[0].stage) : ""}</small></dd></div>
       <div><dt>Latest reported revenue</dt><dd>${fin.length ? inr(fin[fin.length - 1][1]) : "—"}<small>${fin.length ? fin[fin.length - 1][0] : "not reported"}</small></dd></div>
-      <div><dt>Likelihood of a round in 12 months</dt><dd>${p != null ? pct(p) : "—"}<small>${p != null ? '<a href="#/radar">Origination Radar</a>' : "listed or not scored"}</small></dd></div></dl>
+      <div><dt>Likelihood of a round in 12 months</dt><dd>${p != null ? pct(p) : "—"}<small>${p != null ? '<a href="#/radar">Origination Radar</a>' : "listed or not scored"}</small></dd></div></dl>`,
+      source: sourceLine("rounds and revenue from the deal history and financial records below; likelihood from the Origination Radar.") })}</div>
     ${radarRow ? `<div class="callout" style="margin-bottom:24px"><b>Why the Radar ranks it:</b> ${radarRow.why.map(esc).join("; ")}.</div>` : ""}
     <div class="grid">
       ${exhibit({ n: "7.1", title: "Deal history", cls: "c8", body: `<div id="c-deals"></div>`, source: sourceLine("each row links to its article.") })}
       ${exhibit({ n: "7.2", title: "Backers", cls: "c4", body: `<div id="c-backers"></div>`, source: sourceLine("named investors across tracked rounds.") })}
       ${fin.length ? exhibit({ n: "7.3", title: "Reported revenue, ₹ crore", cls: "c12",
-        body: barChart(fin.map(f => ({ x: f[0], v: f[1] || 0, tip: `${f[0]}: revenue ${inr(f[1])}${f[2] != null ? ", profit " + inr(f[2]) : ""}` })), { fmt: v => Math.round(v).toLocaleString("en-IN"), height: 200 }),
+        body: barChart(fin.map(f => ({ x: f[0], v: f[1] || 0, tip: `${f[0]}: revenue ${inr(f[1])}${f[2] != null ? ", profit " + inr(f[2]) : ""}` })), { w: colW(12), fmt: v => Math.round(v).toLocaleString("en-IN"), height: 200 }),
         source: sourceLine("full fiscal years only (April to March), as reported in public filings coverage.") }) : ""}
     </div>`;
   return { html, after: () => {
@@ -373,7 +381,7 @@ async function viewCompany(cidArg) {
     f.onchange = () => { const hit = C.list.find(x => x[1].toLowerCase() === f.value.trim().toLowerCase()); if (hit) location.hash = `#/company/${hit[0]}`; };
     table(document.getElementById("c-deals"), cd, [{ key: "date", label: "Date", fmt: r => date(r.date), sort: r => r.date },
       { key: "type", label: "Type", fmt: r => stageLabel(r.type === "equity" || r.type === "debt" ? r.stage : r.type) },
-      { key: "usd_m", label: "Amount", n: true, fmt: r => usd(r.usd_m) }, { key: "leads", label: "Led by / buyer", fmt: r => esc(r.acquirer || r.leads.join(", ") || "—") },
+      { key: "usd_m", label: "Amount", n: true, fmt: r => usd(r.usd_m) }, { key: "leads", label: "Led by / buyer", wide: true, fmt: r => esc(r.acquirer || r.leads.join(", ") || "—") },
       { key: "url", label: "", fmt: r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">Article</a>` : "" }], { sortKey: "date", empty: "No deals on record." });
     table(document.getElementById("c-backers"), Object.entries(backers).map(([n, v]) => ({ name: n, ...v })), [{ key: "name", label: "Investor" },
       { key: "n", label: "Rounds", n: true }, { key: "led", label: "Led", n: true }], { sortKey: "n", empty: "No named investors." });
@@ -401,17 +409,17 @@ async function viewMethod() {
         <li><b>Reconcile.</b> Rules check amounts against the headline, drop partial fiscal years and public-market raises, merge spelling variants and de-duplicate across sources. Every change is logged (${int(Object.values(s.corrections || {}).reduce((a, b) => a + b, 0))} so far).</li>
         <li><b>Measure.</b> Agent agreement, rule checks, coverage against published weekly totals, a manual audit and model backtests.</li></ol>`,
         source: sourceLine("pipeline code and engineering log in the repository.") })}
-      ${exhibit({ n: "8.2", title: "Two independent AI agents, same articles", sub: "Share of articles where Codex and OpenCode agree.", cls: "c6", body: hbarChart(agree, { w: 500, fmt: x => `${x}%`, labelW: 130, row: 30 }),
+      ${exhibit({ n: "8.2", title: "Two independent AI agents, same articles", sub: "Share of articles where Codex and OpenCode agree.", cls: "c6", body: hbarChart(agree, { w: colW(6), fmt: x => `${x}%`, labelW: 130, row: 30 }),
         source: sourceLine(`${s.crosscheck_n} articles extracted independently by both agents.`) })}
-      ${exhibit({ n: "8.3", title: "Every extractor, measured against Codex", cls: "c7", body: `<table><thead><tr><th>Extractor</th><th class="n">Company</th><th class="n">Amount</th><th class="n">Lead investors</th><th>Sample</th></tr></thead><tbody>
-          ${extractors.map(e => `<tr><td>${e[0]}</td><td class="n">${e[1] ?? "—"}%</td><td class="n">${e[2] ?? "—"}%</td><td class="n">${e[3] ?? "—"}%</td><td class="muted">${e[4]}</td></tr>`).join("")}</tbody></table>
+      ${exhibit({ n: "8.3", title: "Every extractor, measured against Codex", cls: "c7", body: `<table><thead><tr><th>Extractor</th><th class="n">Company</th><th class="n">Amount</th><th class="n">Leads</th><th class="wide-only">Sample</th></tr></thead><tbody>
+          ${extractors.map(e => `<tr><td>${e[0]}</td><td class="n">${e[1] ?? "—"}%</td><td class="n">${e[2] ?? "—"}%</td><td class="n">${e[3] ?? "—"}%</td><td class="muted wide-only">${e[4]}</td></tr>`).join("")}</tbody></table>
           <p class="note">When several extractors read one article, the more accurate one wins. Records from fallbacks are re-queued for the primary agents.</p>`,
         source: sourceLine("agreement with the reference agent on identical articles.") })}
       ${exhibit({ n: "8.4", title: "Rule checks, no AI involved", cls: "c5", body: `<ul class="results-list">${Object.entries(v).map(([k, x]) => `<li><span class="what">${labels[k] || k}</span><span class="fig">${x.pass_rate}%</span><span class="vs">${int(x.passed)} of ${int(x.checked)} records</span></li>`).join("")}</ul>`,
         source: sourceLine("deterministic validators over every extracted record.") })}
-      ${weeks.length ? exhibit({ n: "8.5", title: "Capital per month: published weekly totals and what the book captured", sub: `<span class="legend"><span><i style="background:#A86412"></i>Published weekly total</span><span><i style="background:var(--teal)"></i>Captured in the book</span></span>`, cls: "c12",
-        body: lineChart([{ name: "published", color: "#A86412", values: weeks.map(w => ({ x: month(w.week_end), v: w.reported_usd_m })) },
-          { name: "captured", color: "var(--teal)", values: weeks.map(w => ({ x: month(w.week_end), v: w.our_usd_m })) }], { fmt: x => usd(x, 1), height: 240, labelEvery: 6 }),
+      ${weeks.length ? exhibit({ n: "8.5", title: "Capital per month: published weekly totals and what the book captured", sub: `<span class="legend"><span><i style="background:var(--amber)"></i>Published weekly total</span><span><i style="background:var(--teal)"></i>Captured in the book</span></span>`, cls: "c12",
+        body: lineChart([{ name: "published", color: "var(--amber)", values: weeks.map(w => ({ x: month(w.week_end), v: w.reported_usd_m })) },
+          { name: "captured", color: "var(--teal)", values: weeks.map(w => ({ x: month(w.week_end), v: w.our_usd_m })) }], { w: colW(12), fmt: x => usd(x, 1), height: 240, labelEvery: innerWidth < 780 ? 12 : 6 }),
         source: sourceLine(`Entrackr weekly round-ups parsed by rules, summed by month; last 36 months shown. Overall ${cov.usd_recall_pct}% of reported capital and ${cov.deal_recall_pct}% of reported deals captured, over ${cov.weeks_compared} weeks; small undisclosed rounds are the gap.`) }) : ""}
       ${exhibit({ n: "8.6", title: "Independent manual audit", cls: "c12", body: `<p class="prose">A random sample of 40 records was graded field by field against the source articles by a reviewer that was not one of the extraction agents: deal type 40 of 40, company 40 of 40, investors 40 of 40, amount 39 of 40, revenue 9 of 9. The weakest field, profit and loss (6 of 9), led to a pipeline fix.</p>`,
         source: sourceLine("docs/MANUAL_AUDIT.md in the repository.") })}
@@ -462,4 +470,5 @@ async function route() {
   } catch (e) { console.error(e); $main.innerHTML = `<div class="empty">This section could not load: ${esc(e.message)}</div>`; }
 }
 window.addEventListener("hashchange", route);
+let rz, lastW = innerWidth; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (Math.abs(innerWidth - lastW) > 40) { lastW = innerWidth; route(); } }, 200); });
 renderFoot(); initSearch(); route();
