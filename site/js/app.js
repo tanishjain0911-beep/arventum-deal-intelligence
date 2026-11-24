@@ -12,6 +12,7 @@ const SECTIONS = [
   ["method", "Method", "Sources, checks, accuracy"],
 ];
 const $main = document.getElementById("main");
+const slug = n => String(n).toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 // chart width in px for an exhibit spanning `span` of 12 columns, so SVG text renders at its CSS size
 const colW = span => { const narrow = innerWidth < 1100, mw = $main.clientWidth - (narrow ? 40 : 96);
   return Math.round(Math.max(280, (mw + 24) * (narrow ? 12 : span) / 12 - 24 - 50)); };
@@ -124,7 +125,7 @@ async function viewMarket() {
     const latest = ds.filter(d => pick(d) && d.type !== "public_market" && d.type !== "ipo").slice(0, 60);
     table(document.getElementById("m-deals"), latest, [
       { key: "date", label: "Date", fmt: r => date(r.date), sort: r => r.date },
-      { key: "company", label: "Company", fmt: r => `<a href="#/company/${r.cid}">${esc(r.company)}</a>` },
+      { key: "company", label: "Company", fmt: r => `<a href="#/company/${slug(r.company)}">${esc(r.company)}</a>` },
       { key: "stage", label: "Stage", wide: true, fmt: r => stageLabel(r.type === "acquisition" ? "acquisition" : r.stage) },
       { key: "usd_m", label: "Amount", n: true, fmt: r => usd(r.usd_m) },
       { key: "leads", label: "Led by / buyer", wide: true, fmt: r => esc(r.acquirer || r.leads.join(", ")) },
@@ -170,7 +171,7 @@ async function viewRadar() {
       const ds = (await deals()).filter(d => d.cid === c.cid);
       document.getElementById("r-detail").innerHTML = `<div class="detail"><h3>${esc(c.company)}: ${pct(c.p)} likelihood of a round in 12 months</h3>
         <ul>${c.why.map(w => `<li>${esc(w)}</li>`).join("")}</ul>
-        <p class="note">${ds.length} deals on record. <a href="#/company/${c.cid}">Open the full company page</a></p></div>`;
+        <p class="note">${ds.length} deals on record. <a href="#/company/${slug(c.company)}">Open the full company page</a></p></div>`;
     };
     const tbl = table(document.getElementById("r-table"), rows, [
       { key: "company", label: "Company", fmt: c => `<b>${esc(c.company)}</b>` },
@@ -355,7 +356,9 @@ async function viewValuation() {
 async function viewCompany(cidArg) {
   const [C, ds, rd] = await Promise.all([load("companies"), deals(), load("radar")]);
   const byId = Object.fromEntries(C.list.map(c => [c[0], c]));
-  let cid = cidArg ? +cidArg : state.company || rd.top[0]?.cid;
+  // links use the company name (stable across data rebuilds); numeric ids are still accepted
+  const bySlug = cidArg && !/^\d+$/.test(cidArg) ? C.list.find(x => slug(x[1]) === decodeURIComponent(cidArg)) : null;
+  let cid = bySlug ? bySlug[0] : cidArg ? +cidArg : state.company || rd.top[0]?.cid;
   state.company = cid;
   const c = byId[cid] || C.list[0]; cid = c[0];
   const cd = ds.filter(d => d.cid === cid), prim = cd.filter(d => d.type === "equity" || d.type === "debt");
@@ -378,7 +381,7 @@ async function viewCompany(cidArg) {
     </div>`;
   return { html, after: () => {
     const f = document.getElementById("c-find");
-    f.onchange = () => { const hit = C.list.find(x => x[1].toLowerCase() === f.value.trim().toLowerCase()); if (hit) location.hash = `#/company/${hit[0]}`; };
+    f.onchange = () => { const hit = C.list.find(x => x[1].toLowerCase() === f.value.trim().toLowerCase()); if (hit) location.hash = `#/company/${slug(hit[1])}`; };
     table(document.getElementById("c-deals"), cd, [{ key: "date", label: "Date", fmt: r => date(r.date), sort: r => r.date },
       { key: "type", label: "Type", fmt: r => stageLabel(["equity", "debt", "ipo"].includes(r.type) ? r.stage : r.type) },
       { key: "usd_m", label: "Amount", n: true, fmt: r => usd(r.usd_m) }, { key: "leads", label: "Led by / buyer", wide: true, fmt: r => esc(r.acquirer || r.leads.join(", ") || "—") },
@@ -435,7 +438,7 @@ async function viewMethod() {
 // ---------- search ----------
 async function initSearch() {
   const [C, inv] = await Promise.all([load("companies"), load("investors")]);
-  const items = [...C.list.map(c => ({ t: "Company", name: c[1], sub: c[2], go: `#/company/${c[0]}` })),
+  const items = [...C.list.map(c => ({ t: "Company", name: c[1], sub: c[2], go: `#/company/${slug(c[1])}` })),
     ...inv.profiles.map(p => ({ t: "Investor", name: p.name, sub: p.hq || p.type, inv: p }))];
   const q = document.getElementById("q"), box = document.getElementById("results"); let hits = [], on = 0;
   const show = () => { box.innerHTML = hits.map((x, i) => `<button class="${i === on ? "on" : ""}" data-i="${i}"><span>${esc(x.name)}</span><small>${x.t} · ${esc(x.sub || "")}</small></button>`).join(""); box.classList.toggle("open", hits.length > 0);

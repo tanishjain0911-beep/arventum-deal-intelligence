@@ -1,7 +1,7 @@
 // Shared toolkit: data, formatting, tables, hand-built SVG charts.
 const cache = {};
 export async function load(name) {
-  if (!cache[name]) cache[name] = fetch(`data/${name}.json`).then(r => r.json());
+  if (!cache[name]) cache[name] = fetch(`data/${name}.json`, { cache: "no-cache" }).then(r => r.json());
   return cache[name];
 }
 export async function deals() {
