@@ -141,11 +141,20 @@ def investor_type(name: str) -> str:
     return "Institutional"
 
 
+def squash_key(name: str, generic=COMPANY_SUFFIX) -> str:
+    """Company key that ignores spacing, possessives and accents: 'Money View' = 'Moneyview', "Byju's" = 'Byju',
+    'RENÉE' = 'RENEE'."""
+    import unicodedata
+    n = re.sub(r"['’]s\b", "", name)  # possessive first: ascii-folding would delete the curly apostrophe
+    n = unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode()
+    return re.sub(r"\s+", "", match_key(n, generic))
+
+
 class Resolver:
     """Groups spelling variants of one entity under a canonical name."""
 
-    def __init__(self, manual=None, generic=GENERIC, threshold=93):
-        self.manual, self.generic, self.threshold = manual or {}, generic, threshold
+    def __init__(self, manual=None, generic=GENERIC, threshold=93, squash=False):
+        self.manual, self.generic, self.threshold, self.squash = manual or {}, generic, threshold, squash
         self.groups, self.alias_to_key, self.by_prefix = {}, {}, defaultdict(list)
 
     def add(self, raw: str) -> str:
@@ -153,7 +162,7 @@ class Resolver:
         nk = norm_key(raw)
         if nk in self.manual:
             raw = self.manual[nk]
-        mk = match_key(raw, self.generic)
+        mk = squash_key(raw, self.generic) if self.squash else match_key(raw, self.generic)
         if mk not in self.groups:
             for other in self.by_prefix[mk[:3]]:
                 if fuzz.ratio(mk, other) >= self.threshold:
@@ -216,7 +225,7 @@ def main():
     recs = load_records(arts, corrections)
     print(f"articles: {len(arts)}, records: {len(recs)}  types: {dict(Counter(r['record_type'] for r in recs))}")
 
-    companies = Resolver(generic=COMPANY_SUFFIX, threshold=95)
+    companies = Resolver(generic=COMPANY_SUFFIX, threshold=95, squash=True)
     investors = Resolver(MANUAL_ALIASES)
     deal_rows, fin_rows = [], []
     for r in recs:

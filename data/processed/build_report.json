@@ -1,8 +1,8 @@
 {
-  "built": "2026-11-24T08:22:06",
+  "built": "2026-11-24T08:24:59",
   "tables": {
     "sources": 7161,
-    "companies": 3898,
+    "companies": 3887,
     "investors": 5587,
     "deals": 5348,
     "deal_investors": 13823,
