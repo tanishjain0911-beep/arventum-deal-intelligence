@@ -41,4 +41,7 @@ Real-world data is messy. Each entry below was **detected by a check built into 
 
 | 29 | Company Lookup showed Zetwerk's revenue "falling 71%" to ₹4,600 Cr in FY27 | FY27 hadn't ended: the figure was **half-year revenue** stored as annual. 338 such records existed (quarterly results, 9-month figures, guidance) and could distort revenue growth in the Radar and the Price Finder | A financial record is kept only if its fiscal year had ended (31 March) before the article was published and the headline doesn't mention quarter/H1/9M results; every drop is logged. Found through the new Company Lookup page |
 
+| 30 | Captain Fresh appeared as the *target* of its own acquisitions | In 8 of 331 acquisitions (2.4%) the AI recorded the buyer as both target and acquirer | Self-acquisitions are dropped and logged rather than guessed; QA script `analysis/check_acquisitions.py` now reports 0 |
+| 31 | One company's funding history split across two records (Moneyview / Money View, Byju / Byju's, RENÉE / RENEE, TheMathCompany / The Math Company) | Company keys were sensitive to spacing, possessives, accents and a fused "The" | Company keys ignore all four (11 duplicate groups → 0, `analysis/company_dupes.py`); regression tests added |
+
 **Takeaway:** every fix is enforced by a check that runs on each rebuild (`python pipeline/run_all.py`): validation, the coverage audit, two-agent agreement, and regression tests.

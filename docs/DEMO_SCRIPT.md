@@ -37,7 +37,7 @@ The story to tell: **"Your website says Arventum is AI-native. I built what that
 
 ## 7 · How it was built (45 s)
 - Diagram: "Claude Code was the architect. It orchestrated Codex and OpenCode from the terminal, and when the ChatGPT quota ran out overnight it benchmarked eight free models and used only the ones that scored about 93%."
-- Engineering log: "Real data is messy. Here are 28 problems the pipeline caught and how each was fixed."
+- Engineering log: "Real data is messy. Here are 31 problems the pipeline caught and how each was fixed."
 
 ## Close (30 s)
 - "With your CRM and the founders' 700+ relationships plugged in, the Matchmaker can weight warm relationships, and a network view could suggest warm introductions. That's the next step if I join."
